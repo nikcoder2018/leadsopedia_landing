@@ -327,7 +327,7 @@ BUTTONS
 }
 
 .btn-primary {
-    background: linear-gradient(to right, #c9576a, #e2595f);
+    background: linear-gradient(to right, #2f5be7, #007bff);
     color: #fff;
 }
 
@@ -336,7 +336,7 @@ BUTTONS
 .btn-primary:visited {
     -webkit-transform: translate(1px, -1px);
     transform: translate(1px, -1px);
-    background: linear-gradient(to left, #c9576a, #e2595f);
+    background: linear-gradient(to left, #2f5be7, #007bff);
     color: #fff;
 }
 

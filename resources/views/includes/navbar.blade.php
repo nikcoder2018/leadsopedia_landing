@@ -30,18 +30,18 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{route('searches')}}">Recent Searches</a>
+            <a class="nav-link" href="{{route('pricing')}}">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{route('faq')}}">FAQs</a>
+            <a class="nav-link" href="#">Our Data</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{route('aboutus')}}">About us</a>
           </li>
         </ul>
         <div class="custom-menu__right">
-          <a href="#" class="btn btn-default">Login</a>
-          <a href="{{route('pricing')}}" class="btn btn-primary btn-pills">Choose a plan</a>
+          <a href="{{env('APP_FRONT_URL').'/login'}}" class="btn btn-default">Login</a>
+          <a href="{{env('APP_FRONT_URL').'/register'}}" class="btn btn-primary btn-pills">Signup</a>
         </div>
       </div>
     </div>

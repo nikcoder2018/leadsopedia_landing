@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Subscription;
+use App\Setting;
 class PagesController extends Controller
 {
     public function index(){
@@ -15,7 +16,12 @@ class PagesController extends Controller
     }
     
     public function pricing(){
-        return view('contents.pricing');
+        $data['subscription_plans'] = Subscription::with('priviledges')->get();
+        $data['settings'] = (object) array(
+            'currency_symbol' => Setting::GetValue('currency_symbol')
+        );
+        #return response()->json($data);
+        return view('contents.pricing', $data);
     }
 
     public function searches(){

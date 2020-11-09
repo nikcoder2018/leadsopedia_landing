@@ -27,7 +27,7 @@
               </div>
             </div>
             <div class="hero-cta-group">
-                <a href="#" class="btn btn-secondary">Get started</a>
+                <a href="{{env('APP_FRONT_URL').'/register'}}" class="btn btn-secondary">Get started</a>
             </div>
             <div class="hero-trusted-by">
                 <h5>TRUSTED BY</h5>
@@ -50,8 +50,8 @@
       <div class="row">
         <div class="col-md-8 mx-auto">
           <header class="section-header pt-50 text-center">
-            <h2 class="section-title">Leadsopedia is a Book of leads that you can Used to connect and Search a Right Contact.</h2>
-            <p class="lead">Our Leadsopedia Platform start creating a geat stragtegy and effective lead generations experience to give your ideal prospect.</p>
+            <h2>Leadsopedia is a Book of leads that you can Used to connect and Search a Right Contact.</h2>
+            <p class="lead">Our Leadsopedia Platform start creating a great stragtegy and effective lead generations experience to give your ideal prospect.</p>
             {{-- <a href="https://www.youtube.com/watch?v=_zjQ0_v8JtY"
                class="btn btn-has-icon icon-on__left text-uppercase btn-link--secondary js-video-modal-trigger">
             <span class="u-icon u-icon__sm u-icon__circle u-icon__outline">

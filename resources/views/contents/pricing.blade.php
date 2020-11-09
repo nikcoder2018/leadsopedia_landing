@@ -8,183 +8,50 @@
         <p class="section-subtitle">Everything is included, no hidden fees, no nonsense</p>
       </header>
       <div class="pricing-type-switch">
-        <div class="row">
-            <div class="col-md-2"></div>
+        <div class="row justify-content-center">
+          @if(count($subscription_plans) > 0)
+            @foreach($subscription_plans as $plan)
             <div class="col-md-4">
-                <div class="pricing-single">
-                    <div class="pricing-header">
-                    <h4 class="pricing-title">Monthly</h4>
-                    <p>Just trying out?</p>
-                    <div class="pricing-price">
-                        <div class="pricing-value">
-                        40
-                        <sup class="pricing-currency">$</sup>
-                        </div>
-                        <small>Per active user/monthly</small>
-                        <small class="text-warning">Save 8% on annually</small>
-                    </div>
-                    </div>
-                    <ul class="pricing-list">
-                        <li class="pricing-list__item" data-toggle="tooltip" data-replacement="right"
-                            title="">
-                            30 Daily Searches
-                        </li>
-                        <li class="pricing-list__item" data-toggle="tooltip" data-replacement="right"
-                            title="">
-                            Up to 30,000 Leads/Day
-                        </li>
-                        <li class="pricing-list__item" data-toggle="tooltip" data-replacement="right"
-                            title="">
-                            Leads Contact Data
-                        </li>
-                    </ul>
-                    <div class="pricing-footer">
-                        <a href="#" class="btn btn-primary">Select</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="pricing-single">
+              <div class="pricing-single">
                   <div class="pricing-header">
-                    <h4 class="pricing-title">Yearly</h4>
-                    <p>Needs lots of data?</p>
-                    <div class="pricing-price">
+                  <h4 class="pricing-title">{{$plan->title}}</h4>
+                  <p>{{$plan->description}}</p>
+                  <div class="pricing-price">
                       <div class="pricing-value">
-                        240
-                        <sup class="pricing-currency">$</sup>
+                      {{$plan->price}}
+                      <sup class="pricing-currency">{{$settings->currency_symbol}}</sup>
                       </div>
-                      <small>Per active user/yearly</small>
-                    </div>
+                      <small>Per active user/
+                        @if($plan->months== 1)monthly @endif
+                        @if($plan->months > 1 && $plan->months < 12)months @endif
+                        @if($plan->months== 12)yearly @endif
+                        @if($plan->months > 12){{($plan->months/12)}} years @endif
+                      </small>
+                      {{-- <small class="text-warning">Save 8% on annually</small> --}}
                   </div>
+                  </div>
+                  @if(count($plan->priviledges) > 0)
                   <ul class="pricing-list">
-                    <li class="pricing-list__item" data-toggle="tooltip" data-replacement="right"
-                        title="">
-                        50 Daily Searches
-                    </li>
-                    <li class="pricing-list__item" data-toggle="tooltip" data-replacement="right"
-                        title="">
-                        Up to 50,000 Leads/Day
-                    </li>
-                    <li class="pricing-list__item" data-toggle="tooltip" data-replacement="right"
-                        title="">
-                        Lead Contact Data
-                    </li>
-                    <li class="pricing-list__item" data-toggle="tooltip" data-replacement="right"
-                        title="">
-                        Extended Lead Data
-                    </li>
-                    <li class="pricing-list__item" data-toggle="tooltip" data-replacement="right"
-                        title="">
-                        Bulk Search & API
-                    </li>
+                    @foreach($plan->priviledges as $priviledge)
+                      <li class="pricing-list__item" data-toggle="tooltip" data-replacement="right"
+                          title="" @if(!$priviledge->enabled) style="text-decoration:line-through;" @endif>
+                          {{$priviledge->description}}
+                      </li>
+                    @endforeach
                   </ul>
+                  @endif
                   <div class="pricing-footer">
-                    <a href="#" class="btn btn-primary">Select</a>
+                      <a href="#" class="btn btn-primary">Select</a>
                   </div>
-                </div>
+              </div>
             </div>
-            <div class="col-md-2"></div>
+            @endforeach
+          @endif
         </div>
       </div>
     </div>
   </section>
-  <!-- ========================= testimonialS WITH SLIDER ========================= -->
-  <section id="testimonials" class="section-spacer bg-blue testimonial-section">
-    <div class="container">
-      <header class="text-center section-header">
-        <span class="text-light">Words of mouth</span>
-        <h2 class="section-title">What our customer are saying</h2>
-      </header>
-      <div class="row flex-column-reverse flex-lg-row-reverse align-items-sm-center">
-        <div class="col-md-1">
-          <ul class="dots testimonial-slider__indicators">
-            <li class="owl-dot"></li>
-            <li class="owl-dot"></li>
-            <li class="owl-dot"></li>
-          </ul>
-        </div>
-        <div class="col-md-11">
-          <div class="owl-carousel testimonial-slider">
-            <blockquote class="testimonial-item">
-              <div class="row align-items-center flex-column-reverse flex-md-row justify-content-sm-center">
-                <div class="col-12 col-md-4">
-                  <div class="testimonial-item__thumb">
-                    <div class="testimonial-item__image">
-                      <img src="images/demo/clients/client-3.jpg" alt="Image">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-8">
-                  <div class="testimonial-content">
-                    <div class="testimonial-item__context">
-                      <img src="images/demo/slack-logo-light.svg" class="logo-sm" alt="">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationt.</p>
-                    </div>
-                    <div class="testimonial-meta">
-                      <h5>Jenny Sello</h5>
-                      <a href="#" class="d-block text-light">@Freelance Artist</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </blockquote>
-            <blockquote class="testimonial-item">
-              <div class="row align-items-center flex-column-reverse flex-md-row justify-content-sm-center">
-                <div class="col-12 col-md-4">
-                  <div class="testimonial-item__thumb">
-                    <div class="testimonial-item__image">
-                      <img src="images/demo/clients/client-2.jpg" alt="Image">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-8">
-                  <div class="testimonial-content">
-                    <div class="testimonial-item__context">
-                      <img src="images/demo/client-logos/logo-5-light.svg" class="logo-sm" alt="">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationt.</p>
-                    </div>
-                    <div class="testimonial-meta">
-                      <h5>Jenny Sello</h5>
-                      <a href="#" class="d-block text-light">@Freelance Artist</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </blockquote>
-            <blockquote class="testimonial-item">
-              <div class="row align-items-center flex-column-reverse flex-md-row justify-content-sm-center">
-                <div class="col-12 col-md-4">
-                  <div class="testimonial-item__thumb">
-                    <div class="testimonial-item__image">
-                      <img src="images/demo/clients/client-1.jpg" alt="Image">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-8">
-                  <div class="testimonial-content">
-                    <div class="testimonial-item__context">
-                      <img src="images/demo/client-logos/logo-7-light.svg" class="logo-sm" alt="">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationt.</p>
-                    </div>
-                    <div class="testimonial-meta">
-                      <h5>Jenny Sello</h5>
-                      <a href="#" class="d-block text-light">@Freelance Artist</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
   <!--=========================FAQs ========================= -->
   <section id="faqs" class="section-spacer section-faq">
     <div class="container">
