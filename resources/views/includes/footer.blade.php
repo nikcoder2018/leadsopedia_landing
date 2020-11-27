@@ -1,4 +1,4 @@
-<footer class="section-spacer footer-section">
+<footer class="section-spacer footer-section shadow border">
     <div class="container">
         <div class="row flex-column-reverse flex-sm-row flex-lg-row">
             <div class="col-md-4 col-12">
