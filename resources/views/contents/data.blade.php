@@ -19,9 +19,9 @@
                         vel nulla vitae nemo aspernatur? Minus, autem laboriosam asperiores alias vel obcaecati inventore
                         dicta sequi id saepe!
                     </p>
-                    <h1 class="text-white">
+                    <h4 class="text-white mt-5">
                         Efficiency
-                    </h1>
+                    </h4>
                     <div style="padding-right: 60%;">
                         <hr class="bg-info" />
                     </div>
