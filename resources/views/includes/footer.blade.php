@@ -100,7 +100,7 @@
                                     <a href="#">Build B2B list</a>
                                 </li>
                                 <li>
-                                    <a href="#">Real time Email Varefications</a>
+                                    <a href="#">Real time Email Verifications</a>
                                 </li>
                                 <li>
                                     <a href="#">Email marketing</a>
