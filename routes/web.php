@@ -19,4 +19,5 @@ Route::get('/pricing', 'PagesController@pricing')->name('pricing');
 Route::get('/searches', 'PagesController@searches')->name('searches');
 Route::get('/faq', 'PagesController@faq')->name('faq');
 Route::get('/aboutus', 'PagesController@about')->name('aboutus');
-Route::get('/terms-and-conditions', 'PagesController@termsAndConditions')->name('terms-and-conditions');
+Route::get('/terms-and-conditions', 'PagesController@terms')->name('terms-and-conditions');
+Route::get('/privacy-policy', 'PagesController@privacy')->name('privacy-policy');

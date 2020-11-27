@@ -43,8 +43,13 @@ class PagesController extends Controller
         return view('contents.about');
     }
 
-    public function termsAndConditions()
+    public function terms()
     {
         return view('contents.terms');
+    }
+
+    public function privacy()
+    {
+        return view('contents.privacy');
     }
 }
