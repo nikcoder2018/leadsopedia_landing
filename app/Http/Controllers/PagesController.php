@@ -52,4 +52,9 @@ class PagesController extends Controller
     {
         return view('contents.privacy');
     }
+
+    public function data()
+    {
+        return view('contents.data');
+    }
 }
