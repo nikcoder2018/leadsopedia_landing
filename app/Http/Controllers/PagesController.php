@@ -5,17 +5,21 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Subscription;
 use App\Setting;
+
 class PagesController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view('contents.home');
     }
 
-    public function products($name){
+    public function products($name)
+    {
         return view('contents.products');
     }
-    
-    public function pricing(){
+
+    public function pricing()
+    {
         $data['subscription_plans'] = Subscription::with('priviledges')->get();
         $data['settings'] = (object) array(
             'currency_symbol' => Setting::GetValue('currency_symbol')
@@ -24,15 +28,23 @@ class PagesController extends Controller
         return view('contents.pricing', $data);
     }
 
-    public function searches(){
+    public function searches()
+    {
         return view('contents.search');
     }
 
-    public function faq(){
+    public function faq()
+    {
         return view('contents.faq');
     }
 
-    public function about(){
+    public function about()
+    {
         return view('contents.about');
+    }
+
+    public function termsAndConditions()
+    {
+        return view('contents.terms');
     }
 }
