@@ -25,7 +25,6 @@
 - FOOTER
 ----------------------------------------------------------------*/
 
-
 /*----------------------------------------------------------------
 
 [PREDEFINE]
@@ -34,13 +33,15 @@ Author URI: http://themeforest.net/user/fourtyfive
 
 ---------------------------------------------------------------- */
 
-
 /*
 ==========================
 GLOBAL SHARED STYLES
 ==========================
 */
 
+.overflow-hidden {
+    overflow: hidden;
+}
 
 /* FONTS IMPORTS */
 
@@ -66,7 +67,7 @@ body {
     color: #637282;
     overflow-x: hidden;
     font-weight: normal;
-    letter-spacing: -.3px;
+    letter-spacing: -0.3px;
 }
 
 .has-sticky-header {
@@ -75,7 +76,7 @@ body {
 
 a {
     line-height: 1;
-    color: #2F5BE7;
+    color: #2f5be7;
 }
 
 button,
@@ -89,7 +90,6 @@ button:focus,
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
-
 
 /* TYPOGRAPHY */
 
@@ -105,7 +105,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    color: #1B2733;
+    color: #1b2733;
     font-family: "Rubik", sans-serif;
     font-weight: 600;
 }
@@ -130,14 +130,13 @@ p {
 }
 
 .text-warning {
-    color: #FD7D44 !important;
+    color: #fd7d44 !important;
 }
 
 .content {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 
 /*
 ==========================
@@ -179,7 +178,6 @@ LAYOUTS
     font-size: 12px;
 }
 
-
 /*
 ====================
 LISTS
@@ -210,7 +208,7 @@ LISTS
 }
 
 .list-circle li:before {
-    content: '';
+    content: "";
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -221,7 +219,6 @@ LISTS
     margin-right: 20px;
     vertical-align: middle;
 }
-
 
 /*
 ====================
@@ -261,7 +258,7 @@ PRELOADER
 }
 
 #loading .ripple1 {
-    background-color: #C9576A;
+    background-color: #c9576a;
 }
 
 #loading .ripple2 {
@@ -279,7 +276,7 @@ PRELOADER
 #loading .ripple4 {
     -webkit-animation-delay: -750ms;
     animation-delay: -750ms;
-    background-color: #2F5BE7;
+    background-color: #2f5be7;
 }
 
 @-webkit-keyframes ripple {
@@ -296,7 +293,6 @@ PRELOADER
     }
 }
 
-
 /*
 ============================
 BUTTONS
@@ -306,9 +302,9 @@ BUTTONS
 .btn {
     padding: 8px 20px;
     border: 0;
-    color: #1B2733;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    color: #1b2733;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     line-height: 24px;
     font-weight: 500;
     border-radius: 2px;
@@ -323,7 +319,7 @@ BUTTONS
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:visited {
-    color: #1B2733;
+    color: #1b2733;
 }
 
 .btn-primary {
@@ -362,8 +358,8 @@ BUTTONS
     margin-left: 10px;
     display: inline-block;
     vertical-align: middle;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn-link:hover {
@@ -375,11 +371,11 @@ BUTTONS
 }
 
 .btn-link--primary {
-    color: #2FE7B1;
+    color: #2fe7b1;
 }
 
 .btn-link--secondary {
-    color: #2F5BE7;
+    color: #2f5be7;
 }
 
 .btn-lg {
@@ -410,7 +406,6 @@ BUTTONS
     margin-right: 10px;
 }
 
-
 /* pill button */
 
 .btn-pills {
@@ -421,7 +416,6 @@ BUTTONS
     background: #fff;
     color: #637282 !important;
 }
-
 
 /*
 ============================
@@ -469,13 +463,12 @@ SOCIAL BUTTONS
 }
 
 .social-btn:active {
-    background: #1669F2;
+    background: #1669f2;
 }
 
 .social-google-btn {
     background-color: #4285f4;
 }
-
 
 /*
 ============================
@@ -499,7 +492,7 @@ FORMS AND INPUTS
 
 .form-input__pills {
     border-radius: 50px !important;
-    border: 1px solid #F9F9F9;
+    border: 1px solid #f9f9f9;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
@@ -507,9 +500,9 @@ FORMS AND INPUTS
 .input-group .form-control {
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
-    border-top-color: #1B2733;
-    border-bottom-color: #1B2733;
-    border-left-color: #1B2733;
+    border-top-color: #1b2733;
+    border-bottom-color: #1b2733;
+    border-left-color: #1b2733;
     border-right-color: transparent;
     margin: 0;
     height: 100%;
@@ -525,15 +518,14 @@ FORMS AND INPUTS
 }
 
 .input-group .btn-primary:hover {
-    -webkit-box-shadow: 5px 5px 0 0 #2F5BE7;
-    box-shadow: 5px 5px 0 0 #2F5BE7;
+    -webkit-box-shadow: 5px 5px 0 0 #2f5be7;
+    box-shadow: 5px 5px 0 0 #2f5be7;
 }
 
 .input-group .btn-secondary:hover {
-    -webkit-box-shadow: 5px 5px 0 0 #2FE7B1;
-    box-shadow: 5px 5px 0 0 #2FE7B1;
+    -webkit-box-shadow: 5px 5px 0 0 #2fe7b1;
+    box-shadow: 5px 5px 0 0 #2fe7b1;
 }
-
 
 /* 
 ====================
@@ -542,7 +534,7 @@ TOOLTIP OVERRIDES
 */
 
 .tooltip-inner {
-    background: #2F5BE7;
+    background: #2f5be7;
     -webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
     max-width: 300px;
@@ -552,28 +544,26 @@ TOOLTIP OVERRIDES
     color: #ffffff;
 }
 
-.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before,
+.tooltip.bs-tooltip-auto[x-placement^="top"] .arrow::before,
 .tooltip.bs-tooltip-top .arrow::before,
-.tooltip.bs-tooltip-auto[x-placement^=right] .arrow::before,
+.tooltip.bs-tooltip-auto[x-placement^="right"] .arrow::before,
 .tooltip.bs-tooltip-top .arrow::before,
-.tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.tooltip.bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
 .tooltip.bs-tooltip-top .arrow::before,
-.tooltip.bs-tooltip-auto[x-placement^=left] .arrow::before,
+.tooltip.bs-tooltip-auto[x-placement^="left"] .arrow::before,
 .tooltip.bs-tooltip-top .arrow::before {
     margin-left: -3px;
     content: "";
     border-width: 5px 5px 0;
-    border-top-color: #2F5BE7 !important;
+    border-top-color: #2f5be7 !important;
     opacity: 1;
 }
-
 
 /*
 ============================
 CARDS
 ============================
 */
-
 
 /*
 Feature Lists
@@ -608,7 +598,6 @@ Feature Lists
     margin-bottom: 10px;
 }
 
-
 /*
 CONTENT CARDS
 */
@@ -616,7 +605,6 @@ CONTENT CARDS
 .content-card__body {
     padding: 10px;
 }
-
 
 /*
 ==========================
@@ -634,7 +622,7 @@ MODALS
 }
 
 .mfp-close {
-    background: #2FE7B1 !important;
+    background: #2fe7b1 !important;
     display: inline-block !important;
     width: 48px !important;
     height: 48px !important;
@@ -645,20 +633,20 @@ MODALS
     right: -48px !important;
     top: 0 !important;
     font-size: 48px;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     outline: 0 !important;
 }
 
 .mfp-close:hover {
     background-color: #15b586 !important;
-    -webkit-box-shadow: 5px -5px #2FE7B1;
-    box-shadow: 5px -5px #2FE7B1;
+    -webkit-box-shadow: 5px -5px #2fe7b1;
+    box-shadow: 5px -5px #2fe7b1;
 }
 
 .mfp-close:active,
 .mfp-close:focus {
-    color: #1B2733 !important;
+    color: #1b2733 !important;
 }
 
 .form-group {
@@ -676,7 +664,6 @@ MODALS
     margin: 15px auto;
 }
 
-
 /*
 ============================
 CALL TO ACTION CARDS
@@ -693,13 +680,13 @@ CALL TO ACTION CARDS
 }
 
 .callout:before {
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     background: rgba(27, 39, 51, 0.1);
     z-index: -1;
-    opacity: .8;
+    opacity: 0.8;
     top: 0;
     left: 0;
     right: 0;
@@ -719,7 +706,6 @@ CALL TO ACTION CARDS
     padding-right: 2;
 }
 
-
 /*
 ==========================
 NAVIGATION BAR
@@ -727,8 +713,8 @@ NAVIGATION BAR
 */
 
 .custom-menu {
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .custom-menu .nav-item .nav-link {
@@ -738,7 +724,7 @@ NAVIGATION BAR
 }
 
 .custom-menu .nav-item .nav-link:hover {
-    color: #1B2733;
+    color: #1b2733;
 }
 
 .custom-menu__light {
@@ -746,7 +732,7 @@ NAVIGATION BAR
 }
 
 .custom-menu__light .nav-link {
-    color: #1B2733;
+    color: #1b2733;
 }
 
 .custom-menu__light .navbar-toggler {
@@ -769,7 +755,6 @@ NAVIGATION BAR
     transform: translate(-50%, -50%);
     position: absolute;
 }
-
 
 /* Change the hamburger menu's background color here */
 
@@ -797,8 +782,8 @@ NAVIGATION BAR
     display: block;
     position: absolute;
     left: 0;
-    -webkit-transition: all .25s ease-in-out;
-    transition: all .25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 .menu-icon__bar:nth-child(2) {
@@ -863,7 +848,6 @@ NAVIGATION BAR
     padding-right: 0;
 }
 
-
 /*
 ==========================
 Hero
@@ -897,7 +881,7 @@ Hero
 
 .hero-title span {
     display: block;
-    color: #1B2733;
+    color: #1b2733;
 }
 
 .hero-form .form-control {
@@ -954,7 +938,6 @@ Hero
     height: 100%;
 }
 
-
 /*
 ============================
 SCREENS SHOTS
@@ -976,7 +959,7 @@ SCREENS SHOTS
 }
 
 .section-screens__inner .section-header .u-icon__outline {
-    border-color: #2F5BE7;
+    border-color: #2f5be7;
 }
 
 .screen-slider {
@@ -1006,7 +989,6 @@ SCREENS SHOTS
     border: 0;
     border-radius: 5px;
 }
-
 
 /*
 ============================
@@ -1045,7 +1027,6 @@ Slider
     border-radius: 5px;
 }
 
-
 /*
 ============================
 FEATURES SECTIONS
@@ -1066,7 +1047,7 @@ FEATURES SECTIONS
 }
 
 .feature-list-wrapper .btn-link {
-    color: #2F5BE7;
+    color: #2f5be7;
     text-transform: capitalize;
     font-weight: bold;
 }
@@ -1078,7 +1059,6 @@ FEATURES SECTIONS
 .feature-list-image {
     max-width: 90%;
 }
-
 
 /*
 ============================
@@ -1101,8 +1081,8 @@ PRICING TABLE
 
 .pricing-type-switch .nav-link.active {
     background: transparent;
-    color: #1B2733;
-    border-bottom-color: #2FE7B1;
+    color: #1b2733;
+    border-bottom-color: #2fe7b1;
 }
 
 .pricing-single {
@@ -1124,12 +1104,12 @@ PRICING TABLE
     display: block;
     margin-bottom: 20px;
     font-size: 22px;
-    color: #1B2733;
+    color: #1b2733;
 }
 
 .pricing-price {
     margin-bottom: 20px;
-    color: #1B2733;
+    color: #1b2733;
 }
 
 .pricing-price small {
@@ -1168,7 +1148,7 @@ PRICING TABLE
 }
 
 .pricing-list__item:before {
-    content: '';
+    content: "";
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -1217,18 +1197,18 @@ PRICING TABLE
     position: absolute;
     bottom: 20px;
     right: 20px;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .testimonial-item .btn-light .u-icon {
-    background: #2FE7B1;
+    background: #2fe7b1;
     margin-left: 10px;
 }
 
 .testimonial-item .btn-light:hover {
-    -webkit-box-shadow: -5px 5px #2FE7B1;
-    box-shadow: -5px 5px #2FE7B1;
+    -webkit-box-shadow: -5px 5px #2fe7b1;
+    box-shadow: -5px 5px #2fe7b1;
     -webkit-transform: translate(1px, -1px);
     transform: translate(1px, -1px);
 }
@@ -1259,7 +1239,6 @@ PRICING TABLE
     margin-right: auto;
 }
 
-
 /*
 ============================
 FAQs
@@ -1274,7 +1253,6 @@ FAQs
 .section-faq .card-title {
     margin-bottom: 15px;
 }
-
 
 /*
 ============================
@@ -1312,7 +1290,7 @@ FOOTER
 }
 
 .footer-widget .social-list__inline li a {
-    color: #1B2733;
+    color: #1b2733;
     font-size: 24px;
 }
 
@@ -1332,7 +1310,6 @@ FOOTER
     display: -ms-inline-flexbox;
     display: inline-flex;
 }
-
 
 /*----------------------------------------------------------------
 [COLOR CODES]
@@ -1371,7 +1348,6 @@ dark: #343a40;
 
 ----------------------------------------------------------------*/
 
-
 /*
 ====================================================
 
@@ -1381,7 +1357,7 @@ BACKGROUND COLORS AND SHAPES COLORS
 */
 
 .bg-blue {
-    background: #2F5BE7 !important;
+    background: #2f5be7 !important;
 }
 
 .bg-blue h1,
@@ -1406,17 +1382,17 @@ BACKGROUND COLORS AND SHAPES COLORS
 
 .bg-dimped__primary {
     background-color: rgba(47, 231, 177, 0.2);
-    color: #2FE7B1;
+    color: #2fe7b1;
 }
 
 .bg-dimped__secondary {
     background-color: rgba(47, 91, 231, 0.2);
-    color: #2F5BE7;
+    color: #2f5be7;
 }
 
 .bg-dimped__primary-type {
     background-color: rgba(27, 39, 51, 0.2);
-    color: #1B2733;
+    color: #1b2733;
 }
 
 .bg-dimped__secondary-type {
@@ -1431,12 +1407,12 @@ BACKGROUND COLORS AND SHAPES COLORS
 
 .bg-dimped__grey-100 {
     background-color: rgba(250, 250, 250, 0.2);
-    color: #FAFAFA;
+    color: #fafafa;
 }
 
 .bg-dimped__warning {
     background-color: rgba(253, 125, 68, 0.2);
-    color: #FD7D44;
+    color: #fd7d44;
 }
 
 .bg-dimped__danger {
@@ -1525,15 +1501,15 @@ BACKGROUND COLORS AND SHAPES COLORS
 }
 
 .bg-primary {
-    background: #2FE7B1 !important;
+    background: #2fe7b1 !important;
 }
 
 .bg-secondary {
-    background: #2F5BE7 !important;
+    background: #2f5be7 !important;
 }
 
 .bg-primary-type {
-    background: #1B2733 !important;
+    background: #1b2733 !important;
 }
 
 .bg-secondary-type {
@@ -1545,11 +1521,11 @@ BACKGROUND COLORS AND SHAPES COLORS
 }
 
 .bg-grey-100 {
-    background: #FAFAFA !important;
+    background: #fafafa !important;
 }
 
 .bg-warning {
-    background: #FD7D44 !important;
+    background: #fd7d44 !important;
 }
 
 .bg-danger {
@@ -1621,15 +1597,15 @@ BACKGROUND COLORS AND SHAPES COLORS
 }
 
 .text-primary {
-    color: #2FE7B1 !important;
+    color: #2fe7b1 !important;
 }
 
 .text-secondary {
-    color: #2F5BE7 !important;
+    color: #2f5be7 !important;
 }
 
 .text-primary-type {
-    color: #1B2733 !important;
+    color: #1b2733 !important;
 }
 
 .text-secondary-type {
@@ -1641,11 +1617,11 @@ BACKGROUND COLORS AND SHAPES COLORS
 }
 
 .text-grey-100 {
-    color: #FAFAFA !important;
+    color: #fafafa !important;
 }
 
 .text-warning {
-    color: #FD7D44 !important;
+    color: #fd7d44 !important;
 }
 
 .text-danger {
@@ -1736,7 +1712,6 @@ BACKGROUND COLORS AND SHAPES COLORS
     color: #fff;
 }
 
-
 /*
 ==========================
 ICONS AND SHAPES
@@ -1793,7 +1768,6 @@ ICONS AND SHAPES
     border: 1px solid transparent;
 }
 
-
 /*
 ============================
 SPACING UTILITES CLASSES
@@ -1803,7 +1777,6 @@ please checkout the bootstrap utilities classes at getbootstrap.com
 ----------------
 ============================
 */
-
 
 /*
 MARGIN TOPS
@@ -1853,7 +1826,6 @@ MARGIN TOPS
     margin-top: 100px !important;
 }
 
-
 /*
 MARGIN BOTTOMS
 */
@@ -1902,7 +1874,6 @@ MARGIN BOTTOMS
     margin-bottom: 100px !important;
 }
 
-
 /*
 PADDING BOTTOM
 */
@@ -1950,7 +1921,6 @@ PADDING BOTTOM
 .pb-100 {
     padding-bottom: 100px !important;
 }
-
 
 /*
 PADDING TOPS
@@ -2011,7 +1981,6 @@ PADDING TOPS
 .hidden {
     display: none;
 }
-
 
 /*
 ==========================

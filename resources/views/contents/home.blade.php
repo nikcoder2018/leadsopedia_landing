@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-12 col-sm-5 ml-auto">
                     <div class="hero-figure">
-                        <img src="images/demo/hero-1.svg" class="img-fluid w-100" alt="">
+                        <img src="{{ asset('images/graphics/roi-logo.jpg') }}" class=" img-fluid w-100" alt="">
                     </div>
                 </div>
             </div>
@@ -141,9 +141,9 @@
                         <div class="feature-card__body">
                             <h4 class="feature-title">B2B Prospector</h4>
                             <p>
-                                Leadsopedia give a best qaulity access to over 44 millions business contacts worldwide, into
-                                local to global businesses, from search by 45+ creteria( including job title name, industry
-                                and locations) from our high qaulity leads.
+                                Leadsopedia give a best quality access to over 44 millions business contacts worldwide, into
+                                local to global businesses, from search by 45+ criterias (including job titles, industries
+                                and locations) from our high quality leads.
                             </p>
                             <a href="#" class="btn btn-link btn-link--secondary">Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
@@ -238,7 +238,8 @@
                         <div class="feature-card__body">
                             <h4 class="feature-title">Conscripting Funnel</h4>
                             <p>
-                                Building your process was increasing your Success and Credibility that helps your Growth.
+                                Building your process is increasing your Success and Credibility that helps your Growth.
+                                We help in making your experience better.
                             </p>
 
                             <a href="#" class="btn btn-link btn-link--secondary">Learn more
@@ -248,6 +249,49 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        {{-- <div style="background-color: #0C73F9;" class="my-5 py-5 shadow">
+            <div class="container text-white">
+                <h1 class="text-white">
+                    Mission
+                </h1>
+                <hr class="my-4 bg-white" />
+
+                <p style="text-indent: 1rem;" class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste distinctio molestias vero quo, dolorem
+                    nostrum similique repellat voluptas unde eius quos qui ducimus doloribus eveniet autem voluptate
+                    architecto provident eligendi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste distinctio molestias vero quo, dolorem
+                    nostrum similique repellat voluptas unde eius quos qui ducimus doloribus eveniet autem voluptate
+                    architecto provident eligendi.
+                </p>
+            </div>
+        </div>
+
+        <div class="container py-5 my-5">
+            <h1>
+                Vision
+            </h1>
+            <hr class="my-4" />
+            <p style="text-indent: 1rem;" class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consequatur ad adipisci ullam, consequuntur
+                libero tenetur ut ducimus cumque perferendis cum rem eos natus obcaecati a expedita aut pariatur maiores!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consequatur ad adipisci ullam, consequuntur
+                libero tenetur ut ducimus cumque perferendis cum rem eos natus obcaecati a expedita aut pariatur maiores!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consequatur ad adipisci ullam, consequuntur
+                libero tenetur ut ducimus cumque perferendis cum rem eos natus obcaecati a expedita aut pariatur maiores!
+            </p>
+        </div>
+
+        <hr class="mb-5" /> --}}
+
+        <div class="container py-5 text-center my-5">
+            <h1>Want to know more?</h1>
+            <p class="lead">Send us a message and we will take care of things for you.</p>
+            <a href="#" class="btn btn-sm btn-primary">
+                Sign Up Now
+            </a>
         </div>
     </section>
 @endsection
