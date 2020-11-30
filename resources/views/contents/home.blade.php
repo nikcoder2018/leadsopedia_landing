@@ -308,7 +308,7 @@
             </div>
         </div>
 
-        <div class="container-fluid px-5">
+        <div class="container px-5">
             <div class="card-group">
                 <div class="card py-5 px-3 text-center m-2 shadow" style="border: none; border-radius: 12px;">
                     <img src="{{ asset('images/quote.svg') }}" alt="" class="img-fluid mb-4">
@@ -319,7 +319,7 @@
                     </p>
                     <div class="px-5 mb-4">
                         <img src="{{ asset('images/demo/clients/client-1.jpg') }}" alt=""
-                            class="rounded-circle shadow img-fluid" height="">
+                            class="rounded-circle shadow img-fluid">
                     </div>
                     <h5>Sarah Gosiengfield</h5>
                     <p class="m-0 p-0">Growth Marketer,</p>
@@ -334,7 +334,7 @@
                     </p>
                     <div class="px-5 mb-4">
                         <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt=""
-                            class="rounded-circle shadow img-fluid" height="">
+                            class="rounded-circle shadow img-fluid">
                     </div>
                     <h5>Carl Everson</h5>
                     <p class="m-0 p-0">Lead Generation,</p>
@@ -348,11 +348,25 @@
                     </p>
                     <div class="px-5 mb-4">
                         <img src="{{ asset('images/demo/clients/client-3.jpg') }}" alt=""
-                            class="rounded-circle shadow img-fluid" height="">
+                            class="rounded-circle shadow img-fluid">
                     </div>
                     <h5>Kate Wilkins</h5>
                     <p class="m-0 p-0">Head of Operations,</p>
                     <p class="m-0 p-0">Horizon Dusk</p>
+                </div>
+                <div class="card py-5 px-3 text-center m-2 shadow" style="border: none; border-radius: 12px;">
+                    <img src="{{ asset('images/quote.svg') }}" alt="" class="img-fluid mb-4">
+                    <p class="card-text">
+                        Easy to use platform, Great Value for money. I can affordably prospect, many tools out there
+                        that offer a similar service are very expensive.
+                    </p>
+                    <div class="px-5 mb-4">
+                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt=""
+                            class="rounded-circle shadow img-fluid">
+                    </div>
+                    <h5>Matthew Ford</h5>
+                    <p class="m-0 p-0">Team Manager,</p>
+                    <p class="m-0 p-0">Zendesk</p>
                 </div>
             </div>
             <div class="row">
@@ -385,7 +399,7 @@
             </div>
         </div>
 
-        <div class="container-fluid py-5 mb-5">
+        <div class="container py-5 mb-5">
             <div class="card-group">
                 <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
                     <div class="d-flex">
