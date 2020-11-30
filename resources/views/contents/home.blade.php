@@ -11,6 +11,12 @@
             color: #a1a1a1;
         }
 
+        .underlined {
+            border-bottom: 13px solid #7f9de9;
+            display: inline-block;
+            line-height: .3;
+        }
+
     </style>
 @endsection
 @section('content')
@@ -282,16 +288,221 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consequatur ad adipisci ullam, consequuntur
                 libero tenetur ut ducimus cumque perferendis cum rem eos natus obcaecati a expedita aut pariatur maiores!
             </p>
+        </div> --}}
+
+        <hr class="my-5" />
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2 text-center">
+                    <img src="{{ asset('images/5-stars.png') }}" height="55" alt="" class="mb-3">
+                    <h1 class="pb-1" style="line-height: 3rem;">
+                        Rated <span class="underlined">5 out of 5 stars</span>
+                        by our customers!
+                    </h1>
+                    <p class="lead px-5">
+                        Companies and Individuals from across the globe have had fantastic
+                        experiences using Leadsopedia. Here's what they have to say.
+                    </p>
+                </div>
+            </div>
         </div>
 
-        <hr class="mb-5" /> --}}
+        <div class="container-fluid px-5">
+            <div class="card-group">
+                <div class="card py-5 px-3 text-center m-2 shadow" style="border: none; border-radius: 12px;">
+                    <img src="{{ asset('images/quote.svg') }}" alt="" class="img-fluid mb-4">
+                    <p class="card-text">
+                        It has fulfilled everything that it has advertised and so much more. Highly recommended for
+                        people
+                        who use email as a channel for acquisition.
+                    </p>
+                    <div class="px-5 mb-4">
+                        <img src="{{ asset('images/demo/clients/client-1.jpg') }}" alt=""
+                            class="rounded-circle shadow img-fluid" height="">
+                    </div>
+                    <h5>Sarah Gosiengfield</h5>
+                    <p class="m-0 p-0">Growth Marketer,</p>
+                    <p class="m-0 p-0">Vapor</p>
+                </div>
+                <div class="card py-5 px-3 text-center m-2 shadow" style="border: none; border-radius: 12px;">
+                    <img src="{{ asset('images/quote.svg') }}" alt="" class="img-fluid mb-4">
+                    <p class="card-text">
+                        A good alternative to Zoom Info without annual engagement. Leadsopedia is really easy to use and
+                        is
+                        really efficient. It was easy for me to find my target persona.
+                    </p>
+                    <div class="px-5 mb-4">
+                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt=""
+                            class="rounded-circle shadow img-fluid" height="">
+                    </div>
+                    <h5>Carl Everson</h5>
+                    <p class="m-0 p-0">Lead Generation,</p>
+                    <p class="m-0 p-0">Silicon Inc</p>
+                </div>
+                <div class="card py-5 px-3 text-center m-2 shadow" style="border: none; border-radius: 12px;">
+                    <img src="{{ asset('images/quote.svg') }}" alt="" class="img-fluid mb-4">
+                    <p class="card-text">
+                        Easy to use platform, Great Value for money. I can affordably prospect, many tools out there
+                        that offer a similar service are very expensive.
+                    </p>
+                    <div class="px-5 mb-4">
+                        <img src="{{ asset('images/demo/clients/client-3.jpg') }}" alt=""
+                            class="rounded-circle shadow img-fluid" height="">
+                    </div>
+                    <h5>Kate Wilkins</h5>
+                    <p class="m-0 p-0">Head of Operations,</p>
+                    <p class="m-0 p-0">Horizon Dusk</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <a href="#" class="btn btn-lg btn-primary">
+                        Sign Up
+                    </a>
+                    <a href="#" class="btn btn-lg btn-outline-primary">
+                        More Reviews
+                    </a>
+                </div>
+            </div>
+        </div>
 
-        <div class="container py-5 text-center my-5">
-            <h1>Want to know more?</h1>
-            <p class="lead">Send us a message and we will take care of things for you.</p>
-            <a href="#" class="btn btn-sm btn-primary">
-                Sign Up Now
-            </a>
+        <hr class="my-4" />
+
+        <div class="container py-5 mt-5 text-center">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">
+                    <h1 class="pb-1" style="line-height: 3rem;">
+                        A Sales Intelligence Tool that <span class="underlined">Works for You</span>
+                    </h1>
+                    <p class="lead">
+                        The best-performing teams don’t just work hard, they also work smart.
+                        Regardless of whether you’re in marketing, sales or recruiting,
+                        you can use Leadsopedia to optimize your workflows and generate a steady
+                        stream of prospects, leads and candidates for your company.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5 mb-5">
+            <div class="card-group">
+                <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="d-flex">
+                        <img src="{{ asset('images/horn.svg') }}" alt="" class="img-fluid">
+                    </div>
+                    <h3 class="card-title mt-3">For Marketing Professionals</h4>
+                        <p class="card-text">
+                            Generate high-quality leads, build your pipeline, and create ABM campaigns.
+                        </p>
+                        <div class="d-flex">
+
+                            <a href="#" class="btn btn-link btn-link--secondary">
+                                Learn More
+                                <i class="icon ion-ios-arrow-forward"></i>
+                            </a>
+                        </div>
+                </div>
+                <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="d-flex">
+                        <img src="{{ asset('images/graph.svg') }}" alt="" class="img-fluid">
+                    </div>
+                    <h3 class="card-title mt-3">For Sales Professionals</h3>
+                    <p class="card-text">
+                        Know everything about a prospect before you make a single call.
+                    </p>
+                    <div class="d-flex">
+
+                        <a href="#" class="btn btn-link btn-link--secondary">
+                            Learn More
+                            <i class="icon ion-ios-arrow-forward"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="d-flex">
+                        <img src="{{ asset('images/clipboard.svg') }}" alt="" class="img-fluid">
+                    </div>
+                    <h3 class="card-title mt-3">For Recruiting Professionals</h3>
+                    <p class="card-text">
+                        Source for the best talent, and ensure you have a steady stream of candidates
+                        flowing in.
+                    </p>
+                    <div class="d-flex">
+
+                        <a href="#" class="btn btn-link btn-link--secondary d-inline">
+                            Learn More
+                            <i class="icon ion-ios-arrow-forward"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4" />
+
+        <div class="container-fluid py-5 my-5">
+            <div class="row">
+                <div class="d-none d-md-block col-md-6 text-center">
+                    <img src="{{ asset('images/graphics/email-marketing.jpg') }}" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h1>Leadsopedia API</h1>
+                        <p class="lead">
+                            Need company & contact data to power your
+                            business? Try the powerful Leadsopedia API.
+                        </p>
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary mx-1">
+                                Browse API Docs
+                            </a>
+                            <a href="#" class="btn btn-outline-primary mx-1">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4" />
+
+        <div class="container-fluid text-center py-5 my-5">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">
+                    <h1>You'll be in Good Company</h1>
+                    <p class="lead py-2">
+                        Leadsopedia is the preferred B2B-tool for reputable companies from across the globe.
+                    </p>
+                </div>
+            </div>
+            <img src="{{ asset('images/companies.svg') }}" alt="">
+        </div>
+
+        <hr class="my-4" />
+
+        <div style="background-color: #0C73F9;" class="my-5 py-5 shadow">
+            <div class="container text-white">
+                <div class="row">
+                    <div class="col-12 col-md-5 d-flex">
+                        <div class="align-self-center">
+
+                            <h3 class="text-white">Get Started Today!</h3>
+                            <p class="lead">
+                                Want to experience the magic for yourself? Sign up to start generating leads for your
+                                company!
+                            </p>
+                            <a href="#" class="btn btn-light">
+                                Sign Up
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block col-md-7 text-right">
+                        <img src="{{ asset('images/graphics/search-data-leads.png') }}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 @endsection
