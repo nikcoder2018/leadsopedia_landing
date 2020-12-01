@@ -49,6 +49,31 @@ GLOBAL SHARED STYLES
     line-height: 0.3;
 }
 
+@media (min-width: 568px) {
+    .half-blue {
+        background: linear-gradient(
+            to right,
+            #fff 0%,
+            #fff 50%,
+            #2861eb 50%,
+            #2861eb 50%
+        );
+    }
+
+    .half-blue-reverse {
+        background: linear-gradient(
+            to right,
+            #2861eb 50%,
+            #2861eb 50%,
+            #fff 0%,
+            #fff 50%
+        );
+    }
+}
+
+.blue {
+    background-color: #2861eb;
+}
 /* FONTS IMPORTS */
 
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700");

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
+    <rect width="54" height="54" rx="15.4286" fill="#d4e0ff"></rect>
+    <circle cx="30.5498" cy="16.0115" r="8.14673" fill="#2A5EE9"></circle>
+    <path d="M13.2256 13.0207V40.3739L33.5151 41.2911L35.0114 39.7947V12.0554H26.8699H14.1909L13.2256 13.0207Z"
+        fill="white"></path>
+    <path
+        d="M34.7884 39.6114C34.7884 40.2483 34.2721 40.7646 33.6352 40.7646H14.0156C13.3786 40.7646 12.8623 40.2483 12.8623 39.6114V13.5429C12.8623 12.906 13.3786 12.3896 14.0156 12.3896H27.0498L33.6352 12.3896C34.2721 12.3896 34.7884 12.906 34.7884 13.5429V20.1283V39.6114Z"
+        stroke="#0B2537" stroke-width="1.83066" stroke-linecap="round"></path>
+    <path d="M16.0886 23.6206H31.5629" stroke="#0B2537" stroke-width="1.83066" stroke-linecap="round"></path>
+    <path d="M16.0884 18.0613H31.5627" stroke="#0B2537" stroke-width="1.83066" stroke-linecap="round"></path>
+    <path d="M16.0894 18.0613V34.3828" stroke="#0B2537" stroke-width="1.83066" stroke-linecap="round"></path>
+    <path d="M31.5637 18.0613V34.3828" stroke="#0B2537" stroke-width="1.83066" stroke-linecap="round"></path>
+    <path d="M21.7288 18.0613L21.7288 34.3831" stroke="#0B2537" stroke-width="1.83066" stroke-linecap="round"></path>
+    <path d="M16.0894 28.8235H31.5637" stroke="#0B2537" stroke-width="1.83066" stroke-linecap="round"></path>
+    <path d="M16.0886 34.3828H31.5629" stroke="#0B2537" stroke-width="1.83066" stroke-linecap="round"></path>
+    <circle cx="34.0162" cy="39.0135" r="7.12169" fill="white"></circle>
+    <path
+        d="M36.868 36.0796L33.2138 41.2996C33.1656 41.3689 33.1016 41.4257 33.0271 41.4654C32.9527 41.5051 32.8698 41.5265 32.7854 41.5279C32.701 41.5293 32.6175 41.5106 32.5417 41.4734C32.466 41.4362 32.4002 41.3815 32.3497 41.3139L31.4202 40.0747"
+        stroke="#0B2537" stroke-width="1.43076" stroke-miterlimit="10" stroke-linecap="round"></path>
+    <path
+        d="M34.0165 46.1353C37.9006 46.1353 41.0493 42.9866 41.0493 39.1024C41.0493 35.2183 37.9006 32.0696 34.0165 32.0696C30.1324 32.0696 26.9836 35.2183 26.9836 39.1024C26.9836 42.9866 30.1324 46.1353 34.0165 46.1353Z"
+        stroke="#0B2537" stroke-width="1.558" stroke-miterlimit="10" stroke-linecap="square"></path>
+</svg>

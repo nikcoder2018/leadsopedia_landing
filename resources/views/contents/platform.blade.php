@@ -1,16 +1,5 @@
 @extends('layouts.app')
 
-@section('css')
-    <style>
-        @media(min-width: 568px) {
-            .half-blue {
-                background: linear-gradient(to right, #fff 0%, #fff 50%, #2861EB 50%, #2861EB 50%);
-            }
-        }
-
-    </style>
-@endsection
-
 @section('content')
     <div class="half-blue border-bottom">
         <div class="container pt-5">
@@ -207,7 +196,38 @@
                     </div>
                 </div>
             </div>
+            <div class="col-12">
+                <div class="pt-3 card-group">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                        <img src="{{ asset('images/neuron.svg') }}" alt="" class="img-fluid mb-4">
+                        <h3 class="card-title">Data Enrichment</h3>
+                        <p class="card-text">
+                            Your Success is our Achievements, the better leads that you can use is here. Leadsopedia
+                            enriches
+                            your contact data to make it easy for every sales team to communicate and build connection.
+                        </p>
+                    </div>
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                        <img src="{{ asset('images/gear.svg') }}" alt="" class="img-fluid mb-4">
+                        <h3 class="card-title">Email Verifications</h3>
+                        <p class="card-text">
+                            Our leads generations campaign will increase your prospect, just our leadsopedia email finder
+                            functions allow you to reach high level contact and grow your network.
+                        </p>
+                    </div>
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                        <img src="{{ asset('images/quick-search.svg') }}" alt="" class="img-fluid mb-4">
+                        <h3 class="card-title">Email Finder</h3>
+                        <p class="card-text">
+                            Leadsopedia verifies tens of thousand emails that driving more value data to your business,
+                            using
+                            our email finder tools it will give you access to connect with exact people you are looking for.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 
     <hr class="my-4" />

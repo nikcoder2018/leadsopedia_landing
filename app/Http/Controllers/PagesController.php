@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Subscription;
 use App\Setting;
+use InvalidArgumentException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class PagesController extends Controller
 {
@@ -15,7 +17,11 @@ class PagesController extends Controller
 
     public function products($name)
     {
-        return view('contents.products');
+        try {
+            return view('contents.products.' . $name);
+        } catch (InvalidArgumentException $e) {
+            throw new NotFoundHttpException();
+        }
     }
 
     public function pricing()
