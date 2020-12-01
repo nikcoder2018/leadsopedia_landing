@@ -43,6 +43,12 @@ GLOBAL SHARED STYLES
     overflow: hidden;
 }
 
+.underlined {
+    border-bottom: 13px solid #7f9de9;
+    display: inline-block;
+    line-height: 0.3;
+}
+
 /* FONTS IMPORTS */
 
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700");

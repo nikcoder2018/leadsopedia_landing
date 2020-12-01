@@ -44,7 +44,7 @@
                             <h4 class="footer-widget__title">Menu</h4>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">Platform</a>
+                                    <a href="{{ route('platform') }}">Platform</a>
                                 </li>
                                 <li>
                                     <a href="#testimonial">Marketing</a>

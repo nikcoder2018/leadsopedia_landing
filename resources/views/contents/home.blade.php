@@ -11,12 +11,6 @@
             color: #a1a1a1;
         }
 
-        .underlined {
-            border-bottom: 13px solid #7f9de9;
-            display: inline-block;
-            line-height: .3;
-        }
-
     </style>
 @endsection
 @section('content')

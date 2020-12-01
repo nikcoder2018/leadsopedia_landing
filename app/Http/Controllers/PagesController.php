@@ -57,4 +57,9 @@ class PagesController extends Controller
     {
         return view('contents.data');
     }
+
+    public function platform()
+    {
+        return view('contents.platform');
+    }
 }
