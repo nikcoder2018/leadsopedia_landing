@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79" height="79" viewBox="0 0 79 79" fill="none">
+    <rect width="78.7544" height="78.7544" rx="22.5012" fill="#d4e0ff"></rect>
+    <circle cx="45.8344" cy="22.4808" r="12.5267" fill="#2A5EE9"></circle>
+    <path d="M19.1973 17.8822V59.9415L50.3952 61.3518L52.6961 59.0509V16.3979H40.1772H20.6816L19.1973 17.8822Z"
+        fill="white"></path>
+    <path
+        d="M52.3531 58.769C52.3531 59.7483 51.5592 60.5423 50.5798 60.5423H20.412C19.4326 60.5423 18.6387 59.7483 18.6387 58.769V18.6851C18.6387 17.7057 19.4326 16.9118 20.412 16.9118H40.4539L50.5798 16.9118C51.5592 16.9118 52.3531 17.7057 52.3531 18.6851V28.811V58.769Z"
+        stroke="#0B2537" stroke-width="2.8149" stroke-linecap="round"></path>
+    <path d="M23.5986 34.181H47.3925" stroke="#0B2537" stroke-width="2.8149" stroke-linecap="round"></path>
+    <path d="M23.5986 25.6326H47.3925" stroke="#0B2537" stroke-width="2.8149" stroke-linecap="round"></path>
+    <path d="M23.5996 25.6326V50.7293" stroke="#0B2537" stroke-width="2.8149" stroke-linecap="round"></path>
+    <path d="M47.3936 25.6326V50.7293" stroke="#0B2537" stroke-width="2.8149" stroke-linecap="round"></path>
+    <path d="M32.2705 25.6326L32.2705 50.7298" stroke="#0B2537" stroke-width="2.8149" stroke-linecap="round"></path>
+    <path d="M23.5996 42.181H47.3935" stroke="#0B2537" stroke-width="2.8149" stroke-linecap="round"></path>
+    <path d="M23.5986 50.7293H47.3925" stroke="#0B2537" stroke-width="2.8149" stroke-linecap="round"></path>
+    <circle cx="51.1654" cy="57.8496" r="10.9506" fill="white"></circle>
+    <path
+        d="M55.5501 53.3383L49.9314 61.3647C49.8572 61.4713 49.7588 61.5587 49.6443 61.6197C49.5298 61.6807 49.4024 61.7137 49.2726 61.7158C49.1428 61.718 49.0144 61.6893 48.8979 61.632C48.7814 61.5748 48.6802 61.4907 48.6026 61.3867L47.1733 59.4813"
+        stroke="#0B2537" stroke-width="2.2" stroke-miterlimit="10" stroke-linecap="round"></path>
+    <path
+        d="M51.165 68.8002C57.1374 68.8002 61.979 63.9586 61.979 57.9862C61.979 52.0138 57.1374 47.1722 51.165 47.1722C45.1927 47.1722 40.3511 52.0138 40.3511 57.9862C40.3511 63.9586 45.1927 68.8002 51.165 68.8002Z"
+        stroke="#0B2537" stroke-width="2.39564" stroke-miterlimit="10" stroke-linecap="square"></path>
+</svg>

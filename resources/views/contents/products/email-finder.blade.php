@@ -5,13 +5,13 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <h5 class="badge-primary d-inline px-3 py-2 rounded">
-                    Data Enrichment
+                    Email Finder
                 </h5>
                 <h1 class="mt-2 display-4">
-                    Turn disjointed lists into sales opportunities
+                    Unlock your top prospects’ emails
                 </h1>
                 <p class="lead">
-                    Append 50+ accurate data points to your lists of contacts, companies and emails.
+                    Find the right emails and contacts for key decision-makers at the companies you sell to.
                 </p>
                 <div class="d-flex pb-5 mb-5">
                     <a href="#" class="btn btn-primary btn-lg mx-1">
@@ -32,28 +32,23 @@
 
     <div class="container py-5">
         <div class="row">
-            <div class="col-12 col-md-3 p-2">
+            <div class="col-12 col-md-4 p-2">
                 <div class="d-flex">
-                    <img src="{{ asset('images/enrich-contacts.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Enrich Contacts</h6>
+                    <img src="{{ asset('images/target-small.svg') }}" alt="" class="img-fluid align-self-center ml-auto">
+                    <h6 class="align-self-center ml-2 mr-auto">95% Accuracy Guarantee</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-3 p-2">
+            <div class="col-12 col-md-4 p-2">
                 <div class="d-flex">
-                    <img src="{{ asset('images/enrich-companies.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Enrich Companies</h6>
+                    <img src="{{ asset('images/quick-search-small.svg') }}" alt=""
+                        class="img-fluid align-self-center ml-auto">
+                    <h6 class="align-self-center ml-2 mr-auto">Search By Company Name Or URL</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-3 p-2">
+            <div class="col-12 col-md-4 p-2">
                 <div class="d-flex">
-                    <img src="{{ asset('images/enrich-emails.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Enrich Emails</h6>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 p-2">
-                <div class="d-flex">
-                    <img src="{{ asset('images/pay-verified-data.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Only Pay For Verified Data</h6>
+                    <img src="{{ asset('images/contacts-small.svg') }}" alt="" class="img-fluid align-self-center ml-auto">
+                    <h6 class="align-self-center ml-2 mr-auto">+20M Contacts</h6>
                 </div>
             </div>
         </div>
@@ -63,25 +58,24 @@
 
     <div class="container">
         <div class="row">
-            <div class="d-none d-md-block col-md-6 border-right">
-                <img src="{{ asset('images/graphics/data-enrichment.png') }}" alt="" class="img-fluid">
+            <div class="d-none d-md-block col-md-6 border-right d-flex">
+                <img src="{{ asset('images/graphics/data-enrichment.png') }}" alt="" class="img-fluid align-self-center">
             </div>
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/enrich-contacts.svg') }}" alt="">
-                <h4 class="text-secondary mt-3">Contacts Enrichment</h4>
+                <img src="{{ asset('images/target.svg') }}" alt="">
+                <h4 class="text-secondary mt-3">95% Accuracy</h4>
                 <h1 style="line-height: 3rem;">
-                    Get contact information for your leads
+                    We back up our accuracy with a guarantee
                 </h1>
                 <p class="lead">
-                    Upload a list of names and companies and append key contact data such as email address, phone
-                    number,
-                    social links and more.
+                    Similar tools won’t disclose their accuracy rate because it’s too low or they simply can’t guarantee it.
+                    We say it upfront: 95% data accuracy.
+
                 </p>
                 <div class="d-flex">
                     <ul>
-                        <li>Full name and company URL required</li>
-                        <li>Grab 50+ data fields, including verified emails</li>
-                        <li>95% accuracy guarantee</li>
+                        <li>Real-time verification</li>
+                        <li>No match = no charge</li>
                     </ul>
                 </div>
             </div>
@@ -93,20 +87,18 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/enrich-companies.svg') }}" alt="">
-                <h4 class="text-secondary mt-3">Companies Enrichment</h4>
+                <img src="{{ asset('images/quick-search.svg') }}" alt="">
+                <h4 class="text-secondary mt-3">Lookup</h4>
                 <h1 style="line-height: 3rem;">
-                    Pre-qualify companies with sales intelligence
+                    Find emails by company or URL
                 </h1>
                 <p class="lead">
-                    Upload a list of URLs and get company name, sales volume, number of employees, industry, social
-                    links and more.
+                    Enter a contact name and company name or URL and get your lead’s valid email in seconds.
                 </p>
                 <div class="d-flex">
                     <ul>
-                        <li>Full name and company URL required</li>
-                        <li>Grab 50+ data fields, including phone number</li>
-                        <li>95% accuracy guarantee</li>
+                        <li>Pay only for valid emails</li>
+                        <li>Accept-all and catch-all emails are flagged</li>
                     </ul>
                 </div>
             </div>
@@ -124,19 +116,19 @@
                 <img src="{{ asset('images/graphics/business-consultants.png') }}" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/enrich-emails.svg') }}" alt="">
-                <h4 class="text-secondary mt-3">Email Enrichment</h4>
+                <img src="{{ asset('images/email-check.svg') }}" alt="">
+                <h4 class="text-secondary mt-3">Valid Emails</h4>
                 <h1 style="line-height: 3rem;">
-                    Know your leads on a personal level
+                    Real emails — no guesses
                 </h1>
                 <p class="lead">
-                    Upload a list of emails and unlock your prospects’ name, title, phone number, social links and more.
+                    You don’t want to pay to access guessed emails or guessed email patterns. UpLead only works with known,
+                    verified emails.
                 </p>
                 <div class="d-flex">
                     <ul>
-                        <li>Contact email required</li>
-                        <li>No email match, no charge</li>
-                        <li>95% accuracy guarantee</li>
+                        <li>Instant verification</li>
+                        <li>Phone number and social links included</li>
                     </ul>
                 </div>
             </div>
@@ -148,19 +140,18 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/pay-verified-data.svg') }}" alt="">
-                <h4 class="text-secondary mt-3">Zero-Waste Download</h4>
+                <img src="{{ asset('images/bulk-email-large.svg') }}" alt="">
+                <h4 class="text-secondary mt-3">Bulk Email Lookup</h4>
                 <h1 style="line-height: 3rem;">
-                    Pay only for verified matches
+                    Grab thousands of emails in seconds
                 </h1>
                 <p class="lead">
-                    Our data enrichment engine tells you how many matches we find for your lists before you export them.
-                    You have full control on how many records you want to enrich and download.
+                    Upload a list with names and companies and get emails, phone numbers, social profiles and more, at once.
                 </p>
                 <div class="d-flex">
                     <ul>
-                        <li>Control how you spend your credits</li>
-                        <li>Only pay for verified data</li>
+                        <li>Grab 40+ attributes at once</li>
+                        <li>Export to Excel or CRM</li>
                     </ul>
                 </div>
             </div>
