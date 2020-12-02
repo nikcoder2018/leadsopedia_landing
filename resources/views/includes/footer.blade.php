@@ -100,7 +100,7 @@
                                     <a href="#">Build B2B list</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('products', ['name' => 'email-verification']) }}">Real time Email
+                                    <a href="{{ route('products', 'email-verification') }}">Real time Email
                                         Verifications</a>
                                 </li>
                                 <li>
