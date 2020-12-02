@@ -33,10 +33,10 @@
                         <div class="hero-cta-group">
                             <a href="{{ env('APP_FRONT_URL') . '/register' }}" class="btn btn-secondary">Get Started</a>
                         </div>
-                        <div class="hero-trusted-by">
+                        {{-- <div class="hero-trusted-by">
                             <h5>TRUSTED BY</h5>
                             <img src="{{ asset('images/trusted-by.svg') }}" alt="">
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-12 col-sm-5 ml-auto">
@@ -284,6 +284,7 @@
             </p>
         </div> --}}
 
+        {{--
         <hr class="my-5" />
 
         <div class="container">
@@ -373,7 +374,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <hr class="my-4" />
 
@@ -474,6 +475,7 @@
             </div>
         </div>
 
+        {{--
         <hr class="my-4" />
 
         <div class="container-fluid text-center py-5 my-5">
@@ -486,17 +488,17 @@
                 </div>
             </div>
             <img src="{{ asset('images/companies.svg') }}" alt="">
-        </div>
+        </div> --}}
 
         <hr class="my-4" />
 
-        <div style="background-color: #0C73F9;" class="my-5 py-5 shadow">
+        <div style="background-color: #0C73F9;" class="my-5 py-3 shadow">
             <div class="container text-white">
                 <div class="row">
                     <div class="col-12 col-md-5 d-flex">
                         <div class="align-self-center">
 
-                            <h3 class="text-white">Get Started Today!</h3>
+                            <h4 class="text-white">Get Started Today!</h4>
                             <p class="lead">
                                 Want to experience the magic for yourself? Sign up to start generating leads for your
                                 company!

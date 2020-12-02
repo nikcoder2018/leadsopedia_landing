@@ -119,6 +119,7 @@
             </div>
         </div>
 
+        {{--
         <hr class="my-5" />
 
         <div class="row">
@@ -131,12 +132,12 @@
                     Leadsopedia is the preferred lead generation tool for companies selling across the globe.
                 </p>
             </div>
-        </div>
+        </div> --}}
     </div>
 
-    <div class="d-flex my-5 py-5">
+    {{-- <div class="d-flex my-5 py-5">
         <img src="{{ asset('images/companies.svg') }}" alt="" class="mx-auto">
-    </div>
+    </div> --}}
 
     <div class="blue">
         <div class="container text-center py-5 my-5">

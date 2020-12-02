@@ -163,6 +163,7 @@
         </div>
     </div>
 
+    {{--
     <hr class="my-5" />
 
     <div class="container text-center">
@@ -181,7 +182,7 @@
 
     <div class="d-flex my-5 py-5">
         <img src="{{ asset('images/companies.svg') }}" alt="" class="mx-auto">
-    </div>
+    </div> --}}
 
     <div class="blue">
         <div class="container text-center py-5 my-5">

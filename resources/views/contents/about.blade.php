@@ -168,7 +168,7 @@
         </div>
     </div>
 
-    <div class="container text-center pt-5">
+    {{-- <div class="container text-center pt-5">
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2">
                 <h1 style="line-height: 3rem;">
@@ -184,7 +184,7 @@
 
     <div class="d-flex my-5 py-5">
         <img src="{{ asset('images/companies.svg') }}" alt="" class="mx-auto">
-    </div>
+    </div> --}}
 
     <div class="blue">
         <div class="container text-center py-5 my-5">
