@@ -50,7 +50,7 @@
                                     <a href="#testimonial">Marketing</a>
                                 </li>
                                 <li>
-                                    <a href="#pricing">Our Data</a>
+                                    <a href="{{ route('data') }}">Our Data</a>
                                 </li>
                                 <li>
                                     <a href="#faq">Customers</a>
@@ -100,7 +100,8 @@
                                     <a href="#">Build B2B list</a>
                                 </li>
                                 <li>
-                                    <a href="#">Real time Email Verifications</a>
+                                    <a href="{{ route('products', ['name' => 'email-verification']) }}">Real time Email
+                                        Verifications</a>
                                 </li>
                                 <li>
                                     <a href="#">Email marketing</a>
