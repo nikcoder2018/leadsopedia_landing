@@ -17,9 +17,9 @@
     <!-- ========================= HERO SECTION ========================= -->
     <header id="hero" class="hero">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center overflow-hidden">
                 <div class="col-12 col-sm-6">
-                    <div class="hero-content">
+                    <div class="hero-content" data-aos="zoom-in-right" data-aos-duration="1000">
                         <div class="hero-title__group">
                             <div class="hero-title">
                                 <h2>Creating Success with Effective Prospecting.</h2>
@@ -39,7 +39,7 @@
                         </div> --}}
                     </div>
                 </div>
-                <div class="col-12 col-sm-5 ml-auto">
+                <div class="col-12 col-sm-5 ml-auto" data-aos="zoom-in-left" data-aos-duration="1000">
                     <div class="hero-figure">
                         <img src="{{ asset('images/graphics/roi-logo.jpg') }}" class=" img-fluid w-100" alt="">
                     </div>
@@ -52,10 +52,11 @@
     <section id="overview">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 mx-auto">
+                <div class="col-md-8 mx-auto overflow-hidden">
                     <header class="section-header pt-50 text-center">
-                        <h2>Leadsopedia is a book of leads that you can use to connect and search the right contact.</h2>
-                        <p class="lead">
+                        <h2 data-aos="fade-right" data-aos-duration="1000">Leadsopedia is a book of leads that you can use
+                            to connect and search the right contact.</h2>
+                        <p class="lead" data-aos="fade-left" data-aos-duration="1000">
                             Our Leadsopedia Platform starts by creating a great strategy and effective lead generations
                             experience to give your ideal prospects.
                         </p>
@@ -92,9 +93,9 @@
                 </div>
             </div>
             --}}
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="feature-card">
+            <div class="row overflow-hidden">
+                <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="feature-card hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
                             <i class="icon ion-ios-apps"></i>
                         </div>
@@ -113,8 +114,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
-                    <div class="feature-card">
+                <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="feature-card hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
                             <i class="icon ion-ios-apps"></i>
                         </div>
@@ -133,8 +134,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="feature-card">
+                <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="feature-card hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
                             <i class="icon ion-ios-keypad"></i>
                         </div>
@@ -151,8 +152,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
-                    <div class="feature-card m-0">
+                <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="feature-card hover-zoom m-0">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan">
                             <i class="icon ion-ios-bug"></i>
                         </div>
@@ -173,8 +174,8 @@
 
             </div>
             <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="feature-card">
+                <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="feature-card hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
                             <i class="icon ion-ios-keypad"></i>
                         </div>
@@ -189,8 +190,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
-                    <div class="feature-card m-0">
+                <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="feature-card m-0 hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan">
                             <i class="icon ion-ios-bug"></i>
                         </div>
@@ -211,8 +212,8 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="feature-card">
+                <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="feature-card hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
                             <i class="icon ion-ios-keypad"></i>
                         </div>
@@ -230,8 +231,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
-                    <div class="feature-card">
+                <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="feature-card hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
                             <i class="icon ion-ios-apps"></i>
                         </div>
@@ -378,13 +379,13 @@
 
         <hr class="my-4" />
 
-        <div class="container py-5 mt-5 text-center">
+        <div class="container py-5 mt-5 text-center overflow-hidden">
             <div class="row">
                 <div class="col-12 col-md-8 offset-md-2">
-                    <h1 class="pb-1" style="line-height: 3rem;">
+                    <h1 class="pb-1" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                         A Sales Intelligence Tool that <span class="underlined">Works for You</span>
                     </h1>
-                    <p class="lead">
+                    <p class="lead" data-aos="fade-left" data-aos-duration="1000">
                         The best-performing teams don’t just work hard, they also work smart.
                         Regardless of whether you’re in marketing, sales or recruiting,
                         you can use Leadsopedia to optimize your workflows and generate a steady
@@ -394,30 +395,32 @@
             </div>
         </div>
 
-        <div class="container py-5 mb-5">
+        <div class="container py-5 mb-5 overflow-hidden">
             <div class="card-group">
-                <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
-                    <div class="d-flex">
+                <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up-right"
+                    data-aos-duration="1000">
+                    <div class="d-flex hover-zoom">
                         <img src="{{ asset('images/horn.svg') }}" alt="" class="img-fluid">
                     </div>
-                    <h3 class="card-title mt-3">For Marketing Professionals</h4>
-                        <p class="card-text">
-                            Generate high-quality leads, build your pipeline, and create ABM campaigns.
-                        </p>
-                        <div class="d-flex">
-
-                            <a href="#" class="btn btn-link btn-link--secondary">
-                                Learn More
-                                <i class="icon ion-ios-arrow-forward"></i>
-                            </a>
-                        </div>
-                </div>
-                <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <h3 class="card-title mt-3 hover-zoom">For Marketing Professionals</h3>
+                    <p class="card-text hover-zoom">
+                        Generate high-quality leads, build your pipeline, and create ABM campaigns.
+                    </p>
                     <div class="d-flex">
+
+                        <a href="#" class="btn btn-link btn-link--secondary">
+                            Learn More
+                            <i class="icon ion-ios-arrow-forward"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="d-flex hover-zoom">
                         <img src="{{ asset('images/graph.svg') }}" alt="" class="img-fluid">
                     </div>
-                    <h3 class="card-title mt-3">For Sales Professionals</h3>
-                    <p class="card-text">
+                    <h3 class="card-title mt-3 hover-zoom">For Sales Professionals</h3>
+                    <p class="card-text hover-zoom">
                         Know everything about a prospect before you make a single call.
                     </p>
                     <div class="d-flex">
@@ -428,12 +431,13 @@
                         </a>
                     </div>
                 </div>
-                <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
-                    <div class="d-flex">
+                <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up-left"
+                    data-aos-duration="1000">
+                    <div class="d-flex hover-zoom">
                         <img src="{{ asset('images/clipboard.svg') }}" alt="" class="img-fluid">
                     </div>
-                    <h3 class="card-title mt-3">For Recruiting Professionals</h3>
-                    <p class="card-text">
+                    <h3 class="card-title mt-3 hover-zoom">For Recruiting Professionals</h3>
+                    <p class="card-text hover-zoom">
                         Source for the best talent, and ensure you have a steady stream of candidates
                         flowing in.
                     </p>
@@ -450,19 +454,19 @@
 
         <hr class="my-4" />
 
-        <div class="container-fluid py-5 my-5">
+        <div class="container-fluid py-5 my-5 overflow-hidden">
             <div class="row">
-                <div class="d-none d-md-block col-md-6 text-center">
+                <div class="d-none d-md-block col-md-6 text-center" data-aos="fade-right" data-aos-duration="1000">
                     <img src="{{ asset('images/graphics/email-marketing.jpg') }}" alt="" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-6 d-flex">
                     <div class="align-self-center">
-                        <h1>Leadsopedia API</h1>
-                        <p class="lead">
+                        <h1 data-aos="fade-left" data-aos-duration="1000">Leadsopedia API</h1>
+                        <p class="lead" data-aos="fade-left" data-aos-duration="1000">
                             Need company & contact data to power your
                             business? Try the powerful Leadsopedia API.
                         </p>
-                        <div class="d-flex">
+                        <div class="d-flex" data-aos="fade-up" data-aos-duration="750">
                             <a href="#" class="btn btn-primary mx-1">
                                 Browse API Docs
                             </a>
@@ -493,9 +497,9 @@
         <hr class="my-4" />
 
         <div style="background-color: #0C73F9;" class="my-5 py-3 shadow">
-            <div class="container text-white">
+            <div class="container text-white overflow-hidden">
                 <div class="row">
-                    <div class="col-12 col-md-5 d-flex">
+                    <div class="col-12 col-md-5 d-flex" data-aos="fade-right" data-aos-duration="1000">
                         <div class="align-self-center">
 
                             <h4 class="text-white">Get Started Today!</h4>
@@ -508,7 +512,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="d-none d-md-block col-md-7 text-right">
+                    <div class="d-none d-md-block col-md-7 text-right" data-aos="fade-left" data-aos-duration="1000">
                         <img src="{{ asset('images/graphics/search-data-leads.png') }}" alt="" class="img-fluid">
                     </div>
                 </div>

@@ -31,11 +31,6 @@
     <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
-    <script defer>
-        AOS.init();
-
-    </script>
 
     @yield('css')
 </head>
@@ -64,7 +59,11 @@
     <script src="{{ asset('js/vendors/swiper.min.js') }}"></script>
     <script src="{{ asset('js/vendors/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script defer>
+        $(document).ready(() => AOS.init());
 
+    </script>
     @yield('js')
 </body>
 

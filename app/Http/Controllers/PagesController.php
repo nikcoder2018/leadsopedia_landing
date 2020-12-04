@@ -68,4 +68,9 @@ class PagesController extends Controller
     {
         return view('contents.platform');
     }
+
+    public function contact()
+    {
+        return view('contents.contact');
+    }
 }

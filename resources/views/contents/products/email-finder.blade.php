@@ -1,19 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container pt-5">
+    <div class="container pt-5 overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-6">
-                <h5 class="badge-primary d-inline px-3 py-2 rounded">
-                    Email Finder
-                </h5>
-                <h1 class="mt-2 display-4">
+                <div class="d-flex" data-aos="fade-down" data-aos-duration="1000">
+                    <h5 class="badge-primary d-inline px-3 py-2 rounded">
+                        Email Finder
+                    </h5>
+                </div>
+                <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
                     Unlock your top prospects’ emails
                 </h1>
-                <p class="lead">
+                <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     Find the right emails and contacts for key decision-makers at the companies you sell to.
                 </p>
-                <div class="d-flex pb-5 mb-5">
+                <div class="d-flex pb-5 mb-5" data-aos="fade-up" data-aos-duration="1000">
                     <a href="#" class="btn btn-primary btn-lg mx-1">
                         Sign Up
                     </a>
@@ -22,7 +24,7 @@
                     </a>
                 </div>
             </div>
-            <div class="d-none d-md-block col-md-6 border-left">
+            <div class="d-none d-md-block col-md-6 border-left" data-aos="fade-left" data-aos-duration="1000">
                 <img src="{{ asset('images/graphics/high-sales.png') }}" alt="" class="img-fluid">
             </div>
         </div>
@@ -30,22 +32,22 @@
 
     <hr class="my-5" />
 
-    <div class="container py-5">
+    <div class="container py-5 overflow-hidden">
         <div class="row">
-            <div class="col-12 col-md-4 p-2">
+            <div class="col-12 col-md-4 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/target-small.svg') }}" alt="" class="img-fluid align-self-center ml-auto">
                     <h6 class="align-self-center ml-2 mr-auto">95% Accuracy Guarantee</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-4 p-2">
+            <div class="col-12 col-md-4 p-2" data-aos="fade-up" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/quick-search-small.svg') }}" alt=""
                         class="img-fluid align-self-center ml-auto">
                     <h6 class="align-self-center ml-2 mr-auto">Search By Company Name Or URL</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-4 p-2">
+            <div class="col-12 col-md-4 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/contacts-small.svg') }}" alt="" class="img-fluid align-self-center ml-auto">
                     <h6 class="align-self-center ml-2 mr-auto">+20M Contacts</h6>
@@ -183,21 +185,21 @@
     </div> --}}
 
     <div class="blue">
-        <div class="container text-center py-5 my-5">
+        <div class="container text-center py-5 my-5 overflow-hidden">
             <div class="row">
                 <div class="col-12 col-md-6 offset-md-3">
-                    <h1 class="text-white">Try it today</h1>
-                    <p class="lead text-white">
+                    <h1 class="text-white" data-aos="fade-right" data-aos-duration="1000">Try it today</h1>
+                    <p class="lead text-white" data-aos="fade-left" data-aos-duration="1000">
                         Sign up now and put our 95% data accuracy guarantee to the test. No mandatory demos or yearly
                         contracts.
                     </p>
-                    <div class="d-flex">
+                    <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                         <ul class="text-left mx-auto align-self-center">
                             <li class="text-white">No mandatory demos</li>
                             <li class="text-white">No annual contract</li>
                         </ul>
                     </div>
-                    <a href="#" class="mt-2 btn btn-light btn-lg">
+                    <a href="#" class="mt-2 btn btn-light btn-lg" data-aos="fade-up" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>

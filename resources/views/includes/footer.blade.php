@@ -69,10 +69,10 @@
                             <h4 class="footer-widget__title">About</h4>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">Company</a>
+                                    <a href="{{ route('aboutus') }}">Company</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contact Us</a>
+                                    <a href="{{ route('contact') }}">Contact Us</a>
                                 </li>
                                 <li>
                                     <a href="#">Support</a>

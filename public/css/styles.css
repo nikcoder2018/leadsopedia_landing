@@ -74,6 +74,18 @@ GLOBAL SHARED STYLES
 .blue {
     background-color: #2861eb;
 }
+
+.hover-zoom {
+    position: relative !important;
+    transition: 0.5s ease-in-out;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
 /* FONTS IMPORTS */
 
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700");

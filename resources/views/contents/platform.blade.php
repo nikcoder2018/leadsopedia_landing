@@ -1,35 +1,33 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="half-blue border-bottom">
-        <div class="container pt-5">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <h5 class="badge-primary d-inline px-3 py-2 rounded">
-                        Platform
-                    </h5>
-                    <h1 class="mt-2 display-4">
-                        Get closer to your goals
-                        with Leadsopedia's advanced
-                        product features
-                    </h1>
-                    <p class="lead">
-                        Find new customers with an easy-to-use platform featuring over
-                        20 Million contact profiles, API, data enrichment,
-                        account based marketing and much more.
-                    </p>
-                    <div class="d-flex pb-5 mb-5">
-                        <a href="#" class="btn btn-primary btn-lg mx-1">
-                            Browse Features
-                        </a>
-                        <a href="#" class="btn btn-outline-primary btn-lg mx-1">
-                            Sign Up
-                        </a>
-                    </div>
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h5 class="badge-primary d-inline px-3 py-2 rounded">
+                    Platform
+                </h5>
+                <h1 class="mt-2 display-4">
+                    Get closer to your goals
+                    with Leadsopedia's advanced
+                    product features
+                </h1>
+                <p class="lead">
+                    Find new customers with an easy-to-use platform featuring over
+                    20 Million contact profiles, API, data enrichment,
+                    account based marketing and much more.
+                </p>
+                <div class="d-flex pb-5 mb-5">
+                    <a href="#" class="btn btn-primary btn-lg mx-1">
+                        Browse Features
+                    </a>
+                    <a href="#" class="btn btn-outline-primary btn-lg mx-1">
+                        Sign Up
+                    </a>
                 </div>
-                <div class="d-none d-md-block col-md-6 d-flex">
-                    <img src="{{ asset('images/graphics/info-from-data.png') }}" alt="" class="img-fluid mx-auto">
-                </div>
+            </div>
+            <div class="d-none d-md-block col-md-6 d-flex">
+                <img src="{{ asset('images/graphics/info-from-data.png') }}" alt="" class="img-fluid mx-auto">
             </div>
         </div>
     </div>
@@ -85,33 +83,31 @@
         </div>
     </div>
 
-    <div class="half-blue border my-5 py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <h5 class="text-secondary pb-3">
-                        Prospector
-                    </h5>
-                    <h1 class="my-2" style="line-height: 3rem;">
-                        Find laser-focused contact & company leads easily
-                    </h1>
-                    <p class="lead">
-                        Searching through over 20 million profiles is easy. Simply tailor your search using over 50 filters
-                        to find leads that match your ideal profile. Then access their profile to find their direct contact
-                        information and engage in seconds.
-                    </p>
-                    <div class="d-flex pb-5 mb-5">
-                        <a href="#" class="btn btn-primary btn-lg mx-1">
-                            Sign Up
-                        </a>
-                        <a href="#" class="btn btn-outline-primary btn-lg mx-1">
-                            Learn More
-                        </a>
-                    </div>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h5 class="text-secondary pb-3">
+                    Prospector
+                </h5>
+                <h1 class="my-2" style="line-height: 3rem;">
+                    Find laser-focused contact & company leads easily
+                </h1>
+                <p class="lead">
+                    Searching through over 20 million profiles is easy. Simply tailor your search using over 50 filters
+                    to find leads that match your ideal profile. Then access their profile to find their direct contact
+                    information and engage in seconds.
+                </p>
+                <div class="d-flex pb-5 mb-5">
+                    <a href="#" class="btn btn-primary btn-lg mx-1">
+                        Sign Up
+                    </a>
+                    <a href="#" class="btn btn-outline-primary btn-lg mx-1">
+                        Learn More
+                    </a>
                 </div>
-                <div class="d-none d-md-block col-md-6 d-flex">
-                    <img src="{{ asset('images/graphics/data-enrichment.png') }}" alt="" class="img-fluid mx-auto">
-                </div>
+            </div>
+            <div class="d-none d-md-block col-md-6 d-flex">
+                <img src="{{ asset('images/graphics/data-enrichment.png') }}" alt="" class="img-fluid mx-auto">
             </div>
         </div>
     </div>
@@ -230,6 +226,7 @@
 
     </div>
 
+    {{--
     <hr class="my-4" />
 
     <div class="container my-5 py-5">
@@ -263,7 +260,7 @@
             </div>
         </div>
         <img src="{{ asset('images/companies.svg') }}" alt="">
-    </div>
+    </div> --}}
 
     <hr class="my-4" />
 

@@ -23,3 +23,4 @@ Route::get('/terms-and-conditions', 'PagesController@terms')->name('terms-and-co
 Route::get('/privacy-policy', 'PagesController@privacy')->name('privacy-policy');
 Route::get('/our-data', 'PagesController@data')->name('data');
 Route::get('/platform', 'PagesController@platform')->name('platform');
+Route::get('/contact-us', 'PagesController@contact')->name('contact');
