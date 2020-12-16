@@ -83,4 +83,9 @@ class PagesController extends Controller
     {
         return view('contents.customers');
     }
+
+    public function b2b()
+    {
+        return view('contents.b2b');
+    }
 }

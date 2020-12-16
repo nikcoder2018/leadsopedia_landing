@@ -1,32 +1,34 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container pt-5">
+    <div class="container pt-5 overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-6">
-                <h5 class="badge-primary d-inline px-3 py-2 rounded">
-                    Platform
-                </h5>
-                <h1 class="mt-2 display-4">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <h5 class="badge-primary d-inline px-3 py-2 rounded">
+                        Platform
+                    </h5>
+                </div>
+                <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
                     Get closer to your goals
                     with Leadsopedia's advanced
                     product features
                 </h1>
-                <p class="lead">
+                <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     Find new customers with an easy-to-use platform featuring over
                     20 Million contact profiles, API, data enrichment,
                     account based marketing and much more.
                 </p>
                 <div class="d-flex pb-5 mb-5">
-                    <a href="#" class="btn btn-primary btn-lg mx-1">
+                    <a href="#" class="btn btn-primary btn-lg mx-1" data-aos="fade-right" data-aos-duration="1000">
                         Browse Features
                     </a>
-                    <a href="#" class="btn btn-outline-primary btn-lg mx-1">
+                    <a href="#" class="btn btn-outline-primary btn-lg mx-1" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up
                     </a>
                 </div>
             </div>
-            <div class="d-none d-md-block col-md-6 d-flex">
+            <div class="d-none d-md-block col-md-6 d-flex" data-aos="fade-left" data-aos-duration="1000">
                 <img src="{{ asset('images/graphics/info-from-data.png') }}" alt="" class="img-fluid mx-auto">
             </div>
         </div>
@@ -35,21 +37,23 @@
     <div class="container my-5 py-5">
         <div class="row">
             <div class="col-12 col-md-6 offset-md-3">
-                <h1 class="mt-5 text-center" style="line-height: 3rem;">
+                <h1 class="mt-5 text-center" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     <span class="underlined">Why does Leadsopedia</span>
                     stand out from the rest?
                 </h1>
             </div>
             <div class="col-12 col-md-8 offset-md-2">
                 <div class="pt-3 card-group">
-                    <div class="card py-5 px-4 text-center m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 text-center m-2 shadow" data-aos="fade-right" data-aos-duration="1000"
+                        style="border: none; border-radius: 12px;">
                         <img src="{{ asset('images/ease.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">1. Ease of Use</h3>
                         <p class="card-text">
                             Simply select the criteria to fit your needs and find qualified prospects in a few clicks
                         </p>
                     </div>
-                    <div class="card py-5 px-4 text-center m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 text-center m-2 shadow" data-aos="fade-left" data-aos-duration="1000"
+                        style="border: none; border-radius: 12px;">
                         <img src="{{ asset('images/ribbon.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">2. High Quality Data</h3>
                         <p class="card-text">
@@ -59,14 +63,16 @@
                     </div>
                 </div>
                 <div class="pt-3 card-group">
-                    <div class="card py-5 px-4 text-center m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 text-center m-2 shadow" data-aos="fade-right" data-aos-duration="1000"
+                        style="border: none; border-radius: 12px;">
                         <img src="{{ asset('images/clock.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">3. Realtime Verification</h3>
                         <p class="card-text">
                             Verify every email in real-time to make sure your leads get your emails.
                         </p>
                     </div>
-                    <div class="card py-5 px-4 text-center m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 text-center m-2 shadow" data-aos="fade-left" data-aos-duration="1000"
+                        style="border: none; border-radius: 12px;">
                         <img src="{{ asset('images/data-coverage.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">4. Data Coverage</h3>
                         <p class="card-text">
@@ -75,7 +81,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 text-center pt-4">
+            <div class="col-12 text-center pt-4" data-aos="fade-up" data-aos-duration="1000">
                 <a href="#" class="btn btn-primary btn-lg">
                     Sign Up
                 </a>
@@ -83,47 +89,49 @@
         </div>
     </div>
 
-    <div class="container py-5">
+    <div class="container py-5 overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-6">
-                <h5 class="text-secondary pb-3">
+                <h5 class="text-secondary pb-3" data-aos="fade-right" data-aos-duration="1000">
                     Prospector
                 </h5>
-                <h1 class="my-2" style="line-height: 3rem;">
+                <h1 class="my-2" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     Find laser-focused contact & company leads easily
                 </h1>
-                <p class="lead">
+                <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     Searching through over 20 million profiles is easy. Simply tailor your search using over 50 filters
                     to find leads that match your ideal profile. Then access their profile to find their direct contact
                     information and engage in seconds.
                 </p>
                 <div class="d-flex pb-5 mb-5">
-                    <a href="#" class="btn btn-primary btn-lg mx-1">
+                    <a href="#" class="btn btn-primary btn-lg mx-1" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up
                     </a>
-                    <a href="#" class="btn btn-outline-primary btn-lg mx-1">
+                    <a href="#" class="btn btn-outline-primary btn-lg mx-1" data-aos="fade-right" data-aos-duration="1000">
                         Learn More
                     </a>
                 </div>
             </div>
-            <div class="d-none d-md-block col-md-6 d-flex">
+            <div class="d-none d-md-block col-md-6 d-flex" data-aos="fade-left" data-aos-duration="1000">
                 <img src="{{ asset('images/graphics/data-enrichment.png') }}" alt="" class="img-fluid mx-auto">
             </div>
         </div>
     </div>
 
-    <div class="container py-5 text-center">
+    <div class="container py-5 text-center overflow-hidden">
         <div class="row">
             <div class="col-12">
                 <div class="pt-3 card-group">
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-right"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/profile.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">Rich Profiles</h3>
                         <p class="card-text">
                             You and your team can easily picture your leads through detailed profiles.
                         </p>
                     </div>
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/contacts.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">Over 20MM Contacts</h3>
                         <p class="card-text">
@@ -131,7 +139,8 @@
                             need.
                         </p>
                     </div>
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-left"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/filter.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">Advanced Filters</h3>
                         <p class="card-text">
@@ -142,21 +151,24 @@
             </div>
             <div class="col-12">
                 <div class="pt-3 card-group">
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-right"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/gear.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">Technographics</h3>
                         <p class="card-text">
                             Generate qualified leads according to the type of technology they use.
                         </p>
                     </div>
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/target.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">Account Based Marketing</h3>
                         <p class="card-text">
                             Start your process by identifying the accounts you want to target.
                         </p>
                     </div>
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-left"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/clock.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">Realtime Verification</h3>
                         <p class="card-text">
@@ -167,14 +179,16 @@
             </div>
             <div class="col-12">
                 <div class="pt-3 card-group">
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-right"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/neuron.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">CRM Integration</h3>
                         <p class="card-text">
                             Seamlessly integrate with platforms like Salesforce, HubSpot, Zoho, Pipedrive, and many more.
                         </p>
                     </div>
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/file-download.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">Bulk Downloads</h3>
                         <p class="card-text">
@@ -182,7 +196,8 @@
                             share with your teams.
                         </p>
                     </div>
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-left"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/quick-search.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">Quick Search</h3>
                         <p class="card-text">
@@ -194,7 +209,8 @@
             </div>
             <div class="col-12">
                 <div class="pt-3 card-group">
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-right"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/neuron.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">Data Enrichment</h3>
                         <p class="card-text">
@@ -203,7 +219,8 @@
                             your contact data to make it easy for every sales team to communicate and build connection.
                         </p>
                     </div>
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/gear.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">Email Verifications</h3>
                         <p class="card-text">
@@ -211,7 +228,8 @@
                             functions allow you to reach high level contact and grow your network.
                         </p>
                     </div>
-                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;">
+                    <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-left"
+                        data-aos-duration="1000">
                         <img src="{{ asset('images/quick-search.svg') }}" alt="" class="img-fluid mb-4">
                         <h3 class="card-title">Email Finder</h3>
                         <p class="card-text">
@@ -270,17 +288,17 @@
                 <div class="col-12 col-md-5 d-flex">
                     <div class="align-self-center">
 
-                        <h3 class="text-white">Get Started Today!</h3>
-                        <p class="lead">
+                        <h3 class="text-white" data-aos="fade-right" data-aos-duration="1000">Get Started Today!</h3>
+                        <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                             Want to experience the magic for yourself? Sign up to start generating leads for your
                             company!
                         </p>
-                        <a href="#" class="btn btn-light">
+                        <a href="#" class="btn btn-light" data-aos="fade-right" data-aos-duration="1000">
                             Sign Up
                         </a>
                     </div>
                 </div>
-                <div class="d-none d-md-block col-md-7 text-right">
+                <div class="d-none d-md-block col-md-7 text-right" data-aos="fade-left" data-aos-duration="1000">
                     <img src="{{ asset('images/graphics/search-data-leads.png') }}" alt="" class="img-fluid">
                 </div>
             </div>

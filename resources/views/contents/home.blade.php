@@ -403,7 +403,7 @@
                     <h1 class="pb-1" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                         Integrations
                     </h1>
-                    <p class="lead" data-aos="fade-left" data-aos-duration="1000">
+                    <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                         Leadsopedia integrates with all the tools you love and use, to allow you to work smarter and faster.
                     </p>
                     <a href="#" class="btn btn-primary" data-aos="fade-right" data-aos-duration="1000">
@@ -413,9 +413,8 @@
                         Browse Integrations
                     </a>
                 </div>
-                <div class="d-none d-md-block col-md-6 d-flex">
-                    {{-- Logos are to be photoshopped --}}
-                    <img src="{{ asset('images/graphics/email-marketing.jpg') }}" alt="" class="img-fluid">
+                <div class="d-none d-md-block col-md-6 d-flex" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="{{ asset('images/companies/group.svg') }}" alt="" class="img-fluid">
                 </div>
             </div>
         </div>

@@ -94,10 +94,10 @@
                             <h4 class="footer-widget__title">Features</h4>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">B2B Accounts Marketing</a>
+                                    <a href="{{ route('marketing') }}">B2B Accounts Marketing</a>
                                 </li>
                                 <li>
-                                    <a href="#">Build B2B list</a>
+                                    <a href="{{ route('b2b') }}">Build B2B list</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('products', 'email-verification') }}">Real time Email
@@ -107,7 +107,7 @@
                                     <a href="#">Email marketing</a>
                                 </li>
                                 <li>
-                                    <a href="#">Data Enrichment</a>
+                                    <a href="{{ route('products', 'data-enrichment') }}">Data Enrichment</a>
                                 </li>
                                 <li>
                                     <a href="#">Bulk search</a>
