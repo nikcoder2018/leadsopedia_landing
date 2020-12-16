@@ -395,6 +395,33 @@
             </div>
         </div>
 
+        <hr class="my-4" />
+
+        <div class="container py-5 mt-5 overflow-hidden">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h1 class="pb-1" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                        Integrations
+                    </h1>
+                    <p class="lead" data-aos="fade-left" data-aos-duration="1000">
+                        Leadsopedia integrates with all the tools you love and use, to allow you to work smarter and faster.
+                    </p>
+                    <a href="#" class="btn btn-primary" data-aos="fade-right" data-aos-duration="1000">
+                        Sign Up
+                    </a>
+                    <a href="#" class="btn btn-outline-primary" data-aos="fade-left" data-aos-duration="1000">
+                        Browse Integrations
+                    </a>
+                </div>
+                <div class="d-none d-md-block col-md-6 d-flex">
+                    {{-- Logos are to be photoshopped --}}
+                    <img src="{{ asset('images/graphics/email-marketing.jpg') }}" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4" />
+
         <div class="container py-5 mb-5 overflow-hidden">
             <div class="card-group">
                 <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up-right"

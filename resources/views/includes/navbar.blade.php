@@ -40,8 +40,10 @@
                 </li>
             </ul>
             <div class="custom-menu__right">
-                <a href="{{ env('APP_FRONT_URL') . '/login' }}" class="btn btn-default">Login</a>
-                <a href="{{ env('APP_FRONT_URL') . '/register' }}" class="btn btn-primary btn-pills">Signup</a>
+                <a href="{{ env('APP_AUTH_URL', 'https://app.leadsopedia.com') . '/login' }}"
+                    class="btn btn-default">Login</a>
+                <a href="{{ env('APP_AUTH_URL', 'https://app.leadsopedia.com') . '/register' }}"
+                    class="btn btn-primary btn-pills">Signup</a>
             </div>
         </div>
     </div>

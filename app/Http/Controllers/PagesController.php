@@ -73,4 +73,14 @@ class PagesController extends Controller
     {
         return view('contents.contact');
     }
+
+    public function marketing()
+    {
+        return view('contents.marketing');
+    }
+
+    public function customers()
+    {
+        return view('contents.customers');
+    }
 }

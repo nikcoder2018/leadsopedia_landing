@@ -47,13 +47,13 @@
                                     <a href="{{ route('platform') }}">Platform</a>
                                 </li>
                                 <li>
-                                    <a href="#testimonial">Marketing</a>
+                                    <a href="{{ route('marketing') }}">Marketing</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('data') }}">Our Data</a>
                                 </li>
                                 <li>
-                                    <a href="#faq">Customers</a>
+                                    <a href="{{ route('customers') }}">Customers</a>
                                 </li>
                                 <li>
                                     <a href="#faq">Sign in</a>

@@ -71,6 +71,10 @@ GLOBAL SHARED STYLES
     }
 }
 
+.line-height-3 {
+    line-height: 3rem;
+}
+
 .blue {
     background-color: #2861eb;
 }
