@@ -9,10 +9,9 @@
                         Platform
                     </h5>
                 </div>
-                <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
-                    Get closer to your goals
-                    with Leadsopedia's advanced
-                    product features
+                <h1 class="mt-2 line-height-3" data-aos="fade-right" data-aos-duration="1000">
+                    Our data assessment includes predictive search results to make sure you don’t miss out on every
+                    opportunity.
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     Find new customers with an easy-to-use platform featuring over

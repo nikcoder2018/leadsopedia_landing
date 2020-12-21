@@ -13,22 +13,23 @@
                     <div class="feature-list-wrapper">
                         <div class="content-header" data-aos="fade-left" data-aos-duration="1000">
                             <h2 class="content-title">About us</h2>
-                            <p>Leadsopedia is leads generating website and B2B business leads for both Local and Global
-                                business that can provide leads for every business that can turn prospect to be a clients.
+                            <p>
+                                Leadsopedia is the number one leads generating platform for local and global business owners
+                                and salespeople. We build bridges between businesses and clients. We create once in a
+                                lifetime opportunity for our clients through our reliable database and excellent customer
+                                support.
                             </p>
                         </div>
                         <ul class="list list-unstyled list-circle" data-aos="fade-left" data-aos-duration="1000">
+
                             <li>
-                                <span>Fully responsive</span>
+                                <span>24/7 Customer Support</span>
                             </li>
                             <li>
-                                <span>24/7 Supports</span>
+                                <span>Intelligent Predictive API</span>
                             </li>
                             <li>
-                                <span>Single API</span>
-                            </li>
-                            <li>
-                                <span>Weekly Reports</span>
+                                <span>Real-time Verified Database</span>
                             </li>
                         </ul>
                         <a href="#" class="btn btn-link btn-link--secondary" data-aos="fade-up" data-aos-duration="1000">
@@ -45,7 +46,7 @@
         <div class="text-center mb-5">
             <h1 data-aos="fade-right" data-aos-duration="1000">Who We Are</h1>
             <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                We are a distributed and agile team of experienced and cheerful people from countries around the world.
+                We are a group of IT and database experts and innovators committed to excellent customer service.
             </p>
         </div>
         <div class="card-group">
@@ -53,7 +54,8 @@
                 style="border: none; border-radius: 12px;">
                 <div class="card-body">
                     <div class="px-4">
-                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt=""
+                            class="img-fluid rounded-circle shadow border">
                     </div>
                     <h4 class="text-secondary pt-4">
                         John Doe
@@ -68,7 +70,8 @@
                 style="border: none; border-radius: 12px;">
                 <div class="card-body">
                     <div class="px-4">
-                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt=""
+                            class="img-fluid rounded-circle shadow border">
                     </div>
                     <h4 class="text-secondary pt-4">
                         John Doe
@@ -83,7 +86,8 @@
                 style="border: none; border-radius: 12px;">
                 <div class="card-body">
                     <div class="px-4">
-                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt="" class="img-fluid rounded-circle">
+                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt=""
+                            class="img-fluid rounded-circle shadow border">
                     </div>
                     <h4 class="text-secondary pt-4">
                         John Doe
@@ -103,20 +107,20 @@
                 <h1 data-aos="fade-left" data-aos-duration="1000">Leadsopedia Company Values</h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     Our values are at the core of our culture, and they can be summed up by the acronym
-                    <span class="text-secondary">CIAN</span>.
+                    <span class="text-secondary">TECI</span>.
                 </p>
             </div>
             <div class="col-12 col-md-6 p-2">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <img src="{{ asset('images/customer-driven.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
-                        <h5>Customer Driven</h5>
+                        <h5>Teamwork</h5>
                         <div class="text-secondary">
                             Helpful | Honest | Caring
                         </div>
                         <p>
-                            Leadsopedia is in the business of growing your business. Our main priority is listening to our
-                            customers, understanding their needs, and fulfilling them to the fullest extent possible.
+                            In Leadsopedia, we believe that one person’s weakness can be another person’s strength. We
+                            understand how our team’s different expertise can contribute to our platform’s success.
                         </p>
                     </div>
                 </div>
@@ -125,13 +129,13 @@
                 <div class="d-flex">
                     <img src="{{ asset('images/light-bulb.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
-                        <h5>Improving Always</h5>
+                        <h5>Excellence</h5>
                         <div class="text-secondary">
                             Studious | Innovative | Curious
                         </div>
                         <p>
-                            We never stop learning. It’s the only way we can keep improving our product, customer relations,
-                            as well as the individual skills of everyone on our team.
+                            Excellence is one of the core strengths of Leadsopedia. We don’t settle for less and we make
+                            sure that we do our 100% in everything we do.
                         </p>
                     </div>
                 </div>
@@ -140,14 +144,13 @@
                 <div class="d-flex">
                     <img src="{{ asset('images/medal.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
-                        <h5>Ambitious</h5>
+                        <h5>Commitment</h5>
                         <div class="text-secondary">
                             Determined | Enthusiastic | Enterprising
                         </div>
                         <p>
-                            We’re ambitious by nature, and we’ve set out to achieve big goals with Leadsopedia. Our primary
-                            aim
-                            is to build a sustainable company that will stand the test of time..
+                            A successful platform such as Leadsopedia took a lot of time and effort to put together. Our
+                            team believes a commitment to our work will lead us the way to project completion.
                         </p>
                     </div>
                 </div>
@@ -156,14 +159,14 @@
                 <div class="d-flex">
                     <img src="{{ asset('images/electric.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
-                        <h5>Nimble</h5>
+                        <h5>Innovation</h5>
                         <div class="text-secondary">
                             Efficient | Driven | Resourceful
                         </div>
                         <p>
-                            We love small teams. Small, distributed teams are quick and nimble. Small teams make everything
-                            simpler and eliminate all the bureaucracy and need for management approval which allows us to
-                            get more things done quicker.
+                            We listen to each of our team members for feedback and ideas to improve our platform. We believe
+                            that there is always room for improvement. We work together to come up with the best solutions
+                            and approaches.
                         </p>
                     </div>
                 </div>
@@ -189,14 +192,29 @@
         <img src="{{ asset('images/companies.svg') }}" alt="" class="mx-auto">
     </div> --}}
 
-    <div class="blue">
+    <div class="container text-center pt-5 overflow-hidden my-5 py-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 data-aos="fade-left" data-aos-duration="1000">
+                    Support
+                </h1>
+                <p class="lead" data-aos="fade-left" data-aos-duration="1000">
+                    If you need help with our platform, contact our world-class customer service team.
+                </p>
+                <a href="{{ route('contact') }}" class="mt-2 btn btn-primary" data-aos="fade-left" data-aos-duration="1000">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="blue overflow-hidden">
         <div class="container text-center py-5 my-5">
             <div class="row">
                 <div class="col-12 col-md-6 offset-md-3">
-                    <h1 class="text-white" data-aos="fade-left" data-aos-duration="1000">Try it today</h1>
+                    <h1 class="text-white" data-aos="fade-left" data-aos-duration="1000">Try Leadsopedia today!</h1>
                     <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
-                        Sign up now and put our 95% data accuracy guarantee to the test. No mandatory demos or yearly
-                        contracts.
+                        Sign up now and get exclusive access to our database with guaranteed 95% accuracy!
                     </p>
                     <div class="d-flex">
                         <ul class="text-left mx-auto align-self-center">
