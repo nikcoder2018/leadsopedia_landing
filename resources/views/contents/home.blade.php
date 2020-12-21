@@ -112,7 +112,7 @@
             --}}
             <div class="row overflow-hidden">
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card hover-zoom">
+                    <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
                             <i class="icon ion-ios-apps"></i>
                         </div>
@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card hover-zoom">
+                    <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
                             <i class="icon ion-ios-apps"></i>
                         </div>
@@ -158,7 +158,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card hover-zoom">
+                    <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
                             <i class="icon ion-ios-keypad"></i>
                         </div>
@@ -176,7 +176,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card hover-zoom">
+                    <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan">
                             <i class="icon ion-ios-bug"></i>
                         </div>
@@ -199,7 +199,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card hover-zoom">
+                    <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
                             <i class="icon ion-ios-keypad"></i>
                         </div>
@@ -218,7 +218,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card m-0 hover-zoom">
+                    <div class="feature-card shadow m-0 hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan">
                             <i class="icon ion-ios-bug"></i>
                         </div>
@@ -242,7 +242,7 @@
 
             <div class="row">
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card hover-zoom">
+                    <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
                             <i class="icon ion-ios-keypad"></i>
                         </div>
@@ -262,7 +262,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card hover-zoom">
+                    <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
                             <i class="icon ion-ios-apps"></i>
                         </div>

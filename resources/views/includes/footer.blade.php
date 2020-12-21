@@ -100,11 +100,11 @@
                                     <a href="{{ route('b2b') }}">Build B2B list</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('products', 'email-verification') }}">Real time Email
+                                    <a href="{{ route('products', 'email-verification') }}">Realtime Email
                                         Verifications</a>
                                 </li>
                                 <li>
-                                    <a href="#">Email marketing</a>
+                                    <a href="#">Email Marketing</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('products', 'data-enrichment') }}">Data Enrichment</a>
