@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg fixed-top custom-menu custom-menu__light">
-    <div class="container">
+    <div class="container-fluid p-3">
         <a class="navbar-brand" href="{{ route('home') }}">
             <img src="{{ asset('images/logo-default.png') }}" alt="Image" class="logo-md">
         </a>
@@ -14,8 +14,8 @@
             </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-lg-auto">
-                <li class="nav-item dropdown">
+            <ul class="navbar-nav mx-lg-auto pr-2">
+                <li class="nav-item mx-xl-4 dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Products
@@ -29,21 +29,21 @@
                         <a class="dropdown-item" href="{{ route('products', 'api') }}">API</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-xl-4">
                     <a class="nav-link" href="{{ route('pricing') }}">Pricing</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-xl-4">
                     <a class="nav-link" href="{{ route('data') }}">Our Data</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('aboutus') }}">About us</a>
+                <li class="nav-item mx-xl-4">
+                    <a class="nav-link" href="{{ route('aboutus') }}">About Us</a>
                 </li>
             </ul>
-            <div class="custom-menu__right">
+            <div class="custom-menu__right d-flex">
                 <a href="{{ env('APP_AUTH_URL', 'https://app.leadsopedia.com') . '/login' }}"
-                    class="btn btn-default">Login</a>
+                    class="btn btn-default mx-auto align-self-center">Login</a>
                 <a href="{{ env('APP_AUTH_URL', 'https://app.leadsopedia.com') . '/register' }}"
-                    class="btn btn-primary btn-pills">Signup</a>
+                    class="btn btn-primary mx-auto align-self-center btn-pills">Sign Up</a>
             </div>
         </div>
     </div>

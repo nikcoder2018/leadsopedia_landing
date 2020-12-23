@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="d-none d-md-block col-md-6 border-left" data-aos="fade-left" data-aos-duration="1000">
-                <img src="{{ asset('images/graphics/high-sales.png') }}" alt="" class="img-fluid">
+                <img src="{{ asset('images/graphics/designing.png') }}" alt="" class="img-fluid">
             </div>
         </div>
     </div>
@@ -66,7 +66,7 @@
     <div class="container overflow-hidden">
         <div class="row">
             <div class="d-none d-md-block col-md-6 border-right" data-aos="fade-right" data-aos-duration="1000">
-                <img src="{{ asset('images/graphics/data-enrichment.png') }}" alt="" class="img-fluid">
+                <img src="{{ asset('images/graphics/innovation.png') }}" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-6 p-5">
                 <img src="{{ asset('images/enrich-contacts.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="d-none d-md-block col-md-6 p-5 border-left" data-aos="fade-left" data-aos-duration="1000">
-                <img src="{{ asset('images/graphics/business-info.png') }}" alt="" class="img-fluid">
+                <img src="{{ asset('images/graphics/searching.png') }}" alt="" class="img-fluid rounded">
             </div>
         </div>
     </div>
@@ -124,7 +124,7 @@
         <div class="row">
             <div class="d-none d-md-block col-md-6 p-5 border-right text-center" data-aos="fade-right"
                 data-aos-duration="1000">
-                <img src="{{ asset('images/graphics/business-consultants.png') }}" alt="" class="img-fluid">
+                <img src="{{ asset('images/graphics/building.png') }}" alt="" class="img-fluid rounded">
             </div>
             <div class="col-12 col-md-6 p-5">
                 <img src="{{ asset('images/enrich-emails.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
