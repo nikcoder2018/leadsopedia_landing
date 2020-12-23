@@ -12,10 +12,10 @@
 @section('content')
     <div class="container-fluid pt-5 overflow-hidden">
         <div class="row">
-            <div class="col-12 text-center mt-5" data-aos="fade-right" data-aos-duration="1000">
-                <h1 class="line-height-3">
+            <div class="col-12 col-md-8 offset-md-2 mt-5" data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="line-height-3">
                     What Is Account-Based Marketing? Focus Your Sales On Specific, High-Value Accounts
-                </h1>
+                </h2>
             </div>
             <div class="col-12 col-md-8 offset-md-2">
                 <p class="lead my-5" data-aos="fade-right" data-aos-duration="1000">

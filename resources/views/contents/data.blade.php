@@ -34,62 +34,27 @@
                 <div class="col-sm-12 col-md-6">
                     <div class="container">
                         <div class="row">
-                            <div class="col-6 p-3" data-aos="fade-left" data-aos-duration="1000">
-                                <div class="card shadow-sm">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Lorem</h3>
-                                        <p class="card-text">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla molestiae vero
-                                            sit earum et debitis minima.
-                                        </p>
-                                        <a href="#" class="btn btn-sm btn-primary">
-                                            Avail
-                                        </a>
+                            @foreach ($plans as $plan)
+                                <div class="col-6 p-3" data-aos="fade-left" data-aos-duration="1000">
+                                    <div class="card shadow-sm">
+                                        <div class="card-body">
+                                            <h3 class="card-title">{{ $plan->title }}</h3>
+                                            <p class="card-text">
+                                                {{ $plan->description }}
+                                            </p>
+                                            <p class="card-text">
+                                                {{ $plan->price }}
+                                                <sup>
+                                                    {{ $settings->currency_symbol }}
+                                                </sup>
+                                            </p>
+                                            <a href="{{ route('pricing') }}" class="btn btn-sm btn-primary">
+                                                Avail
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-6 p-3" data-aos="fade-left" data-aos-duration="1000">
-                                <div class="card shadow-sm">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Lorem</h3>
-                                        <p class="card-text">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla molestiae vero
-                                            sit earum et debitis minima.
-                                        </p>
-                                        <a href="#" class="btn btn-sm btn-primary">
-                                            Avail
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 p-3" data-aos="fade-left" data-aos-duration="1000">
-                                <div class="card shadow-sm">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Lorem</h3>
-                                        <p class="card-text">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla molestiae vero
-                                            sit earum et debitis minima.
-                                        </p>
-                                        <a href="#" class="btn btn-sm btn-primary">
-                                            Avail
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 p-3" data-aos="fade-left" data-aos-duration="1000">
-                                <div class="card shadow-sm">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Lorem</h3>
-                                        <p class="card-text">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla molestiae vero
-                                            sit earum et debitis minima.
-                                        </p>
-                                        <a href="#" class="btn btn-sm btn-primary">
-                                            Avail
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>

@@ -6,13 +6,13 @@
             <div class="row align-items-center">
                 <div class="col-sm-6" data-aos="fade-right" data-aos-duration="1000">
                     <div class="feature-list-image">
-                        <img src="images/demo/about.svg" class="img-fluid" alt="Image">
+                        <img src="images/graphics/designing.png" class="img-fluid" alt="Image">
                     </div>
                 </div>
                 <div class="col-sm-5 ml-auto">
                     <div class="feature-list-wrapper">
                         <div class="content-header" data-aos="fade-left" data-aos-duration="1000">
-                            <h2 class="content-title">About us</h2>
+                            <h2 class="content-title">About Us</h2>
                             <p>
                                 Leadsopedia is the number one leads generating platform for local and global business owners
                                 and salespeople. We build bridges between businesses and clients. We create once in a
@@ -53,26 +53,23 @@
             <div data-aos="fade-right" data-aos-duration="1000" class="card m-2 p-4 shadow text-center"
                 style="border: none; border-radius: 12px;">
                 <div class="card-body">
-                    <div class="px-4">
-                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt=""
-                            class="img-fluid rounded-circle shadow border">
-                    </div>
                     <h4 class="text-secondary pt-4">
                         John Doe
                     </h4>
                     <p class="m-0">Silicon Valley</p>
                     <p class="lead m-0">
                         CEO
+                    </p>
+                    <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi et architecto expedita suscipit sunt
+                        magni velit inventore ea, labore id voluptatum quidem vero exercitationem molestias. Id assumenda
+                        recusandae ullam ab.
                     </p>
                 </div>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" class="card m-2 p-4 shadow text-center"
                 style="border: none; border-radius: 12px;">
                 <div class="card-body">
-                    <div class="px-4">
-                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt=""
-                            class="img-fluid rounded-circle shadow border">
-                    </div>
                     <h4 class="text-secondary pt-4">
                         John Doe
                     </h4>
@@ -80,21 +77,27 @@
                     <p class="lead m-0">
                         CEO
                     </p>
+                    <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi et architecto expedita suscipit sunt
+                        magni velit inventore ea, labore id voluptatum quidem vero exercitationem molestias. Id assumenda
+                        recusandae ullam ab.
+                    </p>
                 </div>
             </div>
             <div data-aos="fade-left" data-aos-duration="1000" class="card m-2 p-4 shadow text-center"
                 style="border: none; border-radius: 12px;">
                 <div class="card-body">
-                    <div class="px-4">
-                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt=""
-                            class="img-fluid rounded-circle shadow border">
-                    </div>
                     <h4 class="text-secondary pt-4">
                         John Doe
                     </h4>
                     <p class="m-0">Silicon Valley</p>
                     <p class="lead m-0">
                         CEO
+                    </p>
+                    <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi et architecto expedita suscipit sunt
+                        magni velit inventore ea, labore id voluptatum quidem vero exercitationem molestias. Id assumenda
+                        recusandae ullam ab.
                     </p>
                 </div>
             </div>

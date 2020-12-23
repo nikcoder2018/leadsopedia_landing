@@ -61,7 +61,11 @@ class PagesController extends Controller
 
     public function data()
     {
-        return view('contents.data');
+        $data['plans'] = Subscription::with('priviledges')->get();
+        $data['settings'] = (object) array(
+            'currency_symbol' => Setting::GetValue('currency_symbol')
+        );
+        return view('contents.data', $data);
     }
 
     public function platform()
