@@ -92,4 +92,14 @@ class PagesController extends Controller
     {
         return view('contents.b2b');
     }
+
+    public function email()
+    {
+        return view('contents.email');
+    }
+
+    public function bulk()
+    {
+        return view('contents.bulk');
+    }
 }
