@@ -104,9 +104,9 @@
                                         Verification
                                     </a>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <a href="{{ route('email') }}">Email Marketing</a>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <a href="{{ route('products', 'data-enrichment') }}">Data Enrichment</a>
                                 </li>
