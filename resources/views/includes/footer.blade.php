@@ -78,7 +78,7 @@
                                     <a href="#">Support</a>
                                 </li>
                                 <li>
-                                    <a href="#">API Docs</a>
+                                    <a href="{{ route('api') }}">API Docs</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('terms-and-conditions') }}">Terms & Conditions</a>

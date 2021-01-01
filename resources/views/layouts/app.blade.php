@@ -32,6 +32,10 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- Themes can be changed at https://highlightjs.org/static/demo -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/monokai-sublime.min.css">
+
     @yield('css')
 </head>
 
@@ -65,8 +69,15 @@
     <script src="{{ asset('js/vendors/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+
+    </script>
     <script defer>
-        $(document).ready(() => AOS.init());
+        $(document).ready(() => {
+            AOS.init();
+        });
 
     </script>
     @yield('js')
