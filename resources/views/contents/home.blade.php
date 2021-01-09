@@ -559,7 +559,7 @@
                             so you can maximize our platform.
                         </p>
                         <div class="d-flex" data-aos="fade-up" data-aos-duration="750">
-                            <a href="#" class="btn btn-primary mx-1">
+                            <a href="{{ route('api') }}" class="btn btn-primary mx-1">
                                 Browse API Docs
                             </a>
                             <a href="#" class="btn btn-outline-primary mx-1">
