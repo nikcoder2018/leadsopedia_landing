@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg fixed-top custom-menu custom-menu__light">
-    <div class="container-fluid p-3">
+    <div class="container-fluid px-3">
         <a class="navbar-brand bg-white px-3 rounded py-1" href="{{ route('home') }}">
             <img src="{{ asset('images/logo-new-full.svg') }}" alt="Image" class="logo-md" style="max-height: 40px;">
         </a>
