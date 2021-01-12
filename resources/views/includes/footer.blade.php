@@ -3,7 +3,7 @@
         <div class="row flex-column-reverse flex-sm-row flex-lg-row">
             <div class="col-md-4 col-12">
                 <div class="footer-widget first-of-footer-widget">
-                    <img src="{{ asset('images/logo-default.png') }}" class="mb-10" alt="Image">
+                    <img src="{{ asset('images/logo-new-full.svg') }}" class="mb-10" style="max-height: 40px;" alt="Image">
 
                     <p>Copyright &copy; {{ date('Y') }} Leadsopedia. All Rights Reserved.</p>
                     <a href="#" class="d-block mb-10">1-203-345-8989</a>
@@ -78,7 +78,7 @@
                                     <a href="#">Support</a>
                                 </li>
                                 <li>
-                                    <a href="#">API Docs</a>
+                                    <a href="{{ route('api') }}">API Docs</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('terms-and-conditions') }}">Terms & Conditions</a>
