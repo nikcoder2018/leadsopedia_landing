@@ -166,12 +166,192 @@
                     <code class="text-warning">GET</code> Account Activity
                 </h6>
                 <a href="https://api.leadsopedia.com/v1/account/activity">https://api.leadsopedia.com/v1/account/activity</a>
+                <p>
+                    <code>
+                        <span class="text-warning">GET</span> /account/activity
+                    </code>
+                    return activities of your leadsopedia account.
+                </p><h6>Response Data Type</h6>
+                <ul>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                activities
+                            </span>
+                            <code>array</code>
+                            - array of activities
+                        </p>    
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                total
+                            </span>
+                            <code>int</code>
+                            - total activities count
+                        </p>    
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                page
+                            </span>
+                            <code>int</code>
+                            - current page
+                        </p>    
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                limit
+                            </span>
+                            <code>int</code>
+                            - page size. Default value is <code>100</code>
+                        </p>    
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                pagesCount
+                            </span>
+                            <code>int</code>
+                            - total number of pages with current limit
+                        </p>    
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                next
+                            </span>
+                            <code>int</code>
+                            - link to next page with current limit
+                        </p>    
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                previous
+                            </span>
+                            <code>int</code>
+                            - link to previous page with current limit
+                        </p>    
+                    </li>
+                </ul>
             </li>
             <li class="list-group-item">
                 <h6>
                     <code class="text-warning">GET</code> Account History
                 </h6>
                 <a href="https://api.leadsopedia.com/v1/account/history">https://api.leadsopedia.com/v1/account/history</a>
+                <p>
+                    <code>
+                        <span class="text-warning">GET</span> /account/history
+                    </code>
+                    return search history of your leadsopedia account.
+                </p><h6>Response Data Type</h6>
+                <ul>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                history
+                            </span>
+                            <code>array</code>
+                            - array of history
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <span class="class font-weight-bold">
+                                        id
+                                    </span>
+                                    <code>ObjectID</code>
+                                    - id of search history
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="class font-weight-bold">
+                                        type
+                                    </span>
+                                    <code>string</code>
+                                    - search type (contacts, company, email)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="class font-weight-bold">
+                                        lead_count
+                                    </span>
+                                    <code>int</code>
+                                    - total leads found from search
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="class font-weight-bold">
+                                        date_added
+                                    </span>
+                                    <code>datetime</code>
+                                    - when search was added
+                                </p>
+                            </li>
+                        </ul>   
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                total
+                            </span>
+                            <code>int</code>
+                            - total history count
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                page
+                            </span>
+                            <code>int</code>
+                            - current page
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                limit
+                            </span>
+                            <code>int</code>
+                            - page size. Default value is <code>100</code>
+                        </p>    
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                pagesCount
+                            </span>
+                            <code>int</code>
+                            - total number of pages with current limit
+                        </p>    
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                next
+                            </span>
+                            <code>int</code>
+                            - link to next page with current limit
+                        </p>    
+                    </li>
+                    <li>
+                        <p>
+                            <span class="font-weight-bold">
+                                previous
+                            </span>
+                            <code>int</code>
+                            - link to previous page with current limit
+                        </p>    
+                    </li>
+                </ul>
             </li>
         </ul>
     </div>
