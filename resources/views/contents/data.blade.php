@@ -27,7 +27,7 @@
                         match for you. Our detailed statistics and research systems help improve the platform’s search
                         accuracy.
                     </p>
-                    <a class="btn btn-warning" href="#" data-aos="fade-right" data-aos-duration="1000">
+                    <a class="btn btn-warning" href="https://app.leadsopedia.com/register" data-aos="fade-right" data-aos-duration="1000">
                         Get Started
                     </a>
                 </div>
@@ -188,7 +188,7 @@
                         Wherever you are in the world and whatever industry you’re in, opportunities are endless with
                         Leadsopedia!
                     </p>
-                    <a href="#" class="mt-2 btn btn-light btn-lg" data-aos="fade-right" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>
