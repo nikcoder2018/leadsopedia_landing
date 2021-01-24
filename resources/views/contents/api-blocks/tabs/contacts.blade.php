@@ -228,7 +228,7 @@
                 <h6>
                     <code class="text-warning">GET</code> Contacts (By ID)
                 </h6>
-                <a href="https://api.leadsopedia.com/v1/contacts">https://api.leadsopedia.com/v1/contacts?list_id={list_id}&email={contact_id}</a>
+                <a href="https://api.leadsopedia.com/v1/contacts">https://api.leadsopedia.com/v1/contacts?list_id={list_id}&id={contact_id}</a>
                 <p>
                     <code>
                         <span class="text-warning">GET</span> /contacts/{list_id}?id={contact_id}
@@ -416,6 +416,17 @@
         </ul>
     </div>
     <div class="col-12 col-md-6" style="background-color: #23241F;">
-    
+        <div class="dropdown">
+            <button class="btn btn-light mt-2 dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                JavaScript
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item custom-tab-button" href="#contacts-javascript">JavaScript</a>
+            </div>
+        </div>
+        <div class="custom-tab-item" id="contacts-javascript">
+            <pre class="m-0"><code class="javascript">@include('contents.api-blocks.codes.contacts-javascript')</code></pre>
+        </div>
     </div>
 </div>
