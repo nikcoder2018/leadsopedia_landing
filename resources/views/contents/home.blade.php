@@ -20,6 +20,21 @@
             height: 100%;
         }
 
+        .feature-card__body {
+            position: relative;
+        }
+
+        .learn-more-link {
+            position: absolute;
+            bottom: 0.25rem;
+            left: 0;
+        }
+
+        .feature-paragraph {
+            justify-content: center;
+            text-align: justify;
+        }
+
     </style>
 @endsection
 @section('content')
@@ -118,17 +133,17 @@
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">Data Enrichment</h4>
-                            <p>
+                            <p class="feature-paragraph">
                                 Our Clients’ success is also our success. This is why we make sure that resources are
                                 optimized and we provide quality data to increase conversion rates. We filter out the noise
                                 to give Clients an edge over their competitors.
                             </p>
-                            <p>
+                            <!-- <p>
                                 Our in-house specialists are equipped with digital marketing skills to help you build the
                                 perfect sales strategy and cultivate the right advertising process. Our Clients increase
                                 their ROI by building the right data and the right connections.
-                            </p>
-                            <a href="{{ route('products', ['name' => 'data-enrichments']) }}" class="btn btn-link btn-link--secondary">
+                            </p> -->
+                            <a href="{{ route('products', ['name' => 'data-enrichments']) }}" class="btn btn-link btn-link--secondary learn-more-link">
                                 Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -142,13 +157,13 @@
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">Realtime Verified Data</h4>
-                            <p>
+                            <p class="feature-paragraph">
                                 We go beyond the ordinary and actively regulate and update our listings so you get new leads
                                 every day. Our top-notch database management efforts are designed to ensure successful
                                 connections every time. We curate the right resources for you so you are always one step
                                 ahead
                             </p>
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">
                                 Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -164,12 +179,12 @@
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">B2B Prospector</h4>
-                            <p>
+                            <p class="feature-paragraph">
                                 Leadsopedia generates millions of prospects in both local and global industries. With our
                                 enhanced and calibrated platform, endless possibilities are at the tip of your fingertips.
                                 We guarantee that your business will stand out from the rest.
                             </p>
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">Learn more
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
                         </div>
@@ -182,14 +197,14 @@
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">Email Verifications</h4>
-                            <p>
+                            <p class="feature-paragraph">
                                 We are confident that the data we give you are 100% verified and are tailor-fit to your
                                 needs. We make sure that the data sets you receive from us are real and updated every day.
                                 There’s no need to collect e-mail addresses elsewhere because you’ve got everything that
                                 you’ll need here in Leadsopedia.
                             </p>
 
-                            <a href="{{ route('products', ['name' => 'email-verification']) }}" class="btn btn-link btn-link--secondary">
+                            <a href="{{ route('products', ['name' => 'email-verification']) }}" class="btn btn-link btn-link--secondary learn-more-link">
                                 Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -205,13 +220,13 @@
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">B2B Sales Funnel</h4>
-                            <p>
+                            <p class="feature-paragraph">
                                 Effective digital engagement is our top priority. We structure the lead data for you so you
                                 can quickly decide with conviction. We believe that with less effort, you can create better
                                 results through our platform. Our tried and tested leads generation services can leverage
                                 your company’s sales and marketing without sacrificing quality and efficiency.
                             </p>
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">Learn more
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
                         </div>
@@ -224,14 +239,14 @@
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">B2B Marketing funnel</h4>
-                            <p>
+                            <p class="feature-paragraph">
                                 Leadsopedia is the right avenue for the right business deals, successful partnerships, and
                                 impactful sales funnel. We match multiple industries to collaborate and create the future
                                 together. We believe that successful marketing campaigns are crucial for a new business. Let
                                 Leadsopedia turn your dream into a reality.
                             </p>
 
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">
                                 Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -248,13 +263,13 @@
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">Email Finder</h4>
-                            <p>
+                            <p class="feature-paragraph">
                                 Save precious time and discover our platform’s untapped potential. The emails we provide you
                                 are verified across both local and global industries. Connect to experts, build the perfect
                                 team, and expand your business exponentially. You are guaranteed to convert leads to
                                 customers with us.
                             </p>
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">
                                 Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -268,13 +283,13 @@
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">Conscripting Funnel</h4>
-                            <p>
+                            <p class="feature-paragraph">
                                 Our system thoroughly sifts through billions of data to meet your needs. Our world-class
                                 service gives your business an edge over whatever industry you’re in. Leadsopedia makes sure
                                 that your business will stand out among the rest.
                             </p>
 
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">Learn more
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
                         </div>
@@ -412,7 +427,7 @@
 
         <div class="container py-5 mt-5 text-center overflow-hidden">
             <div class="row">
-                <div class="col-12 col-md-8 offset-md-2">
+                <div class="col-12 col-md-10 offset-md-1">
                     <h1 class="pb-1" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                         In <span class="underlined">Leadsopedia</span>, you get the <span class="underlined">world-class
                             tools</span> and <span class="underlined">service</span> fit for a
@@ -462,12 +477,12 @@
                             <img src="{{ asset('images/horn.svg') }}" alt="" class="img-fluid">
                         </div>
                         <h3 class="card-title mt-3 hover-zoom">For Marketing Professionals</h3>
-                        <p class="card-text hover-zoom">
+                        <p class="card-text hover-zoom feature-paragraph">
                             Generating quality leads is important for successful marketing campaigns. Leadsopedia gives you
                             an
                             avenue to pull-off the perfect sales pitch to the right customers.
                         </p>
-                        <p class="card-text hover-zoom">
+                        <p class="card-text hover-zoom feature-paragraph">
                             Our dedicated team filters out the noise so you can focus on more important things. We know the
                             struggle of getting quality leads so we devised a strategy for marketers to reach the right
                             customers.
@@ -489,12 +504,12 @@
                             <img src="{{ asset('images/graph.svg') }}" alt="" class="img-fluid">
                         </div>
                         <h3 class="card-title mt-3 hover-zoom">For Sales Professionals</h3>
-                        <p class="card-text hover-zoom">
+                        <p class="card-text hover-zoom feature-paragraph">
                             You don’t have to cold-call through every single phone number and get rejected every time. We
                             give
                             you the confidence that Leadsopedia’s system will help you save money, time, and effort.
                         </p>
-                        <p class="card-text hover-zoom">
+                        <p class="card-text hover-zoom feature-paragraph">
                             Our analytics engine generates contactable customer data and our intelligent database management
                             are
                             designed to decrease your efforts while increasing your ROI.
@@ -516,10 +531,10 @@
                             <img src="{{ asset('images/clipboard.svg') }}" alt="" class="img-fluid">
                         </div>
                         <h3 class="card-title mt-3 hover-zoom">For Recruiting Professionals</h3>
-                        <p class="card-text hover-zoom">
+                        <p class="card-text hover-zoom feature-paragraph">
                             Our reliable and accurate data sets will lead you to build the right team.
                         </p>
-                        <p class="card-text hover-zoom">
+                        <p class="card-text hover-zoom feature-paragraph">
                             We’ve collected and verified data from across industries, all around the world so you can
                             remotely
                             contact the right person for the job. Just enter the right filters or parameters on our
