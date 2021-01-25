@@ -102,4 +102,9 @@ class PagesController extends Controller
     {
         return view('contents.bulk');
     }
+
+    public function api()
+    {
+        return view('contents.api');
+    }
 }

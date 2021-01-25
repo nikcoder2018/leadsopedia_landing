@@ -14,10 +14,10 @@
                     Other tools average 50% accuracy. Leadsopedia guarantees 95% precision, or you get your credits back.
                 </p>
                 <div class="d-flex" data-aos="fade-up" data-aos-duration="1000">
-                    <a href="#" class="btn btn-primary btn-lg mr-1 ml-auto">
+                    <a href="https://app.leadsopedia.com/register" class="btn btn-primary btn-lg mr-1 ml-auto">
                         Sign Up
                     </a>
-                    <a href="#" class="btn btn-outline-primary btn-lg ml-1 mr-auto">
+                    <a href="{{ route('aboutus') }}" class="btn btn-outline-primary btn-lg ml-1 mr-auto">
                         Learn More
                     </a>
                 </div>
@@ -157,7 +157,7 @@
                             <li class="text-white">No annual contract</li>
                         </ul>
                     </div>
-                    <a href="#" class="mt-2 btn btn-light btn-lg" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-up" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>

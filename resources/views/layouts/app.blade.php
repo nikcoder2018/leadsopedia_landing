@@ -28,9 +28,13 @@
     <!-- RESPONSIVE -->
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
-    <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('images/logo-new-solo.svg') }}" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Themes can be changed at https://highlightjs.org/static/demo -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/monokai-sublime.min.css">
 
     @yield('css')
 </head>
@@ -39,11 +43,16 @@
 
     <!--=========================PRELOADER========================= -->
     <div id="loading">
+        <div style="height: 100vh; width: 100%;" class="d-flex flex-column align-items-center justify-content-center">
+            <img src="{{ asset('images/logo-new-full.svg') }}" alt="" style="max-height: 60px;">
+        </div>
+    </div>
+    {{-- <div id="loading">
         <div class="ripple ripple1"></div>
         <div class="ripple ripple2"></div>
         <div class="ripple ripple3"></div>
         <div class="ripple ripple4"></div>
-    </div>
+    </div> --}}
     <!--END PRELOADER-->
 
     @include('includes.navbar')
@@ -60,8 +69,15 @@
     <script src="{{ asset('js/vendors/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+
+    </script>
     <script defer>
-        $(document).ready(() => AOS.init());
+        $(document).ready(() => {
+            AOS.init();
+        });
 
     </script>
     @yield('js')

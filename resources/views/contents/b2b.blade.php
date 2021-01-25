@@ -180,7 +180,7 @@
                             <li class="text-white">No annual contract</li>
                         </ul>
                     </div>
-                    <a href="#" class="mt-2 btn btn-light btn-lg" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-up" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>

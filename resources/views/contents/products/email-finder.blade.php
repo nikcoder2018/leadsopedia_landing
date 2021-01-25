@@ -16,10 +16,10 @@
                     Find the right emails and contacts for key decision-makers at the companies you sell to.
                 </p>
                 <div class="d-flex pb-5 mb-5" data-aos="fade-up" data-aos-duration="1000">
-                    <a href="#" class="btn btn-primary btn-lg mx-1">
+                    <a href="https://app.leadsopedia.com/register" class="btn btn-primary btn-lg mx-1">
                         Sign Up
                     </a>
-                    <a href="#" class="btn btn-outline-primary btn-lg mx-1">
+                    <a href="{{ route('aboutus') }}" class="btn btn-outline-primary btn-lg mx-1">
                         Learn More
                     </a>
                 </div>
@@ -202,7 +202,7 @@
                             <li class="text-white">No annual contract</li>
                         </ul>
                     </div>
-                    <a href="#" class="mt-2 btn btn-light btn-lg" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-up" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>

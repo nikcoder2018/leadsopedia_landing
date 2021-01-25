@@ -128,7 +128,7 @@
                                 perfect sales strategy and cultivate the right advertising process. Our Clients increase
                                 their ROI by building the right data and the right connections.
                             </p>
-                            <a href="#" class="btn btn-link btn-link--secondary">
+                            <a href="{{ route('products', ['name' => 'data-enrichments']) }}" class="btn btn-link btn-link--secondary">
                                 Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -148,7 +148,7 @@
                                 connections every time. We curate the right resources for you so you are always one step
                                 ahead
                             </p>
-                            <a href="#" class="btn btn-link btn-link--secondary">
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">
                                 Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -169,7 +169,7 @@
                                 enhanced and calibrated platform, endless possibilities are at the tip of your fingertips.
                                 We guarantee that your business will stand out from the rest.
                             </p>
-                            <a href="#" class="btn btn-link btn-link--secondary">Learn more
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
                         </div>
@@ -189,7 +189,7 @@
                                 you’ll need here in Leadsopedia.
                             </p>
 
-                            <a href="#" class="btn btn-link btn-link--secondary">
+                            <a href="{{ route('products', ['name' => 'email-verification']) }}" class="btn btn-link btn-link--secondary">
                                 Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -211,7 +211,7 @@
                                 results through our platform. Our tried and tested leads generation services can leverage
                                 your company’s sales and marketing without sacrificing quality and efficiency.
                             </p>
-                            <a href="#" class="btn btn-link btn-link--secondary">Learn more
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
                         </div>
@@ -231,7 +231,7 @@
                                 Leadsopedia turn your dream into a reality.
                             </p>
 
-                            <a href="#" class="btn btn-link btn-link--secondary">
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">
                                 Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -254,7 +254,7 @@
                                 team, and expand your business exponentially. You are guaranteed to convert leads to
                                 customers with us.
                             </p>
-                            <a href="#" class="btn btn-link btn-link--secondary">
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">
                                 Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -274,7 +274,7 @@
                                 that your business will stand out among the rest.
                             </p>
 
-                            <a href="#" class="btn btn-link btn-link--secondary">Learn more
+                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary">Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
                         </div>
@@ -438,10 +438,10 @@
                     <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                         Leadsopedia integrates with all the tools you love and use, to allow you to work smarter and faster.
                     </p>
-                    <a href="#" class="btn btn-primary" data-aos="fade-right" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/login" class="btn btn-primary" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up
                     </a>
-                    <a href="#" class="btn btn-outline-primary" data-aos="fade-left" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/integrations" class="btn btn-outline-primary" data-aos="fade-left" data-aos-duration="1000">
                         Browse Integrations
                     </a>
                 </div>
@@ -502,7 +502,7 @@
                     </div>
                     <div class="card-footer">
                         <div class="d-flex">
-                            <a href="#" class="btn btn-link btn-link--secondary">
+                            <a href="https://app.leadsopedia.com/login" class="btn btn-link btn-link--secondary">
                                 Learn More
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -529,7 +529,7 @@
                     </div>
                     <div class="card-footer">
                         <div class="d-flex">
-                            <a href="#" class="btn btn-link btn-link--secondary d-inline">
+                            <a href="https://app.leadsopedia.com/login" class="btn btn-link btn-link--secondary d-inline">
                                 Learn More
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -559,10 +559,10 @@
                             so you can maximize our platform.
                         </p>
                         <div class="d-flex" data-aos="fade-up" data-aos-duration="750">
-                            <a href="#" class="btn btn-primary mx-1">
+                            <a href="{{ route('api') }}" class="btn btn-primary mx-1">
                                 Browse API Docs
                             </a>
-                            <a href="#" class="btn btn-outline-primary mx-1">
+                            <a href="https://app.leadsopedia.com/login" class="btn btn-outline-primary mx-1">
                                 Learn More
                             </a>
                         </div>
@@ -598,7 +598,7 @@
                             <p class="lead">
                                 Don’t miss this chance to get exclusive deals and discounts when you sign up now!
                             </p>
-                            <a href="#" class="btn btn-light">
+                            <a href="https://app.leadsopedia.com/register" class="btn btn-light">
                                 Sign Up
                             </a>
                         </div>

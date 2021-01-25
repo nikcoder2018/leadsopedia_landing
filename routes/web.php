@@ -29,3 +29,4 @@ Route::get('/customers', 'PagesController@customers')->name('customers');
 Route::get('/b2b', 'PagesController@b2b')->name('b2b');
 Route::get('/bulk-search', 'PagesController@bulk')->name('bulk');
 Route::get('/email-marketing', 'PagesController@email')->name('email');
+Route::get('/api-docs', 'PagesController@api')->name('api');
