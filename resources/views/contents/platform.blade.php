@@ -132,7 +132,7 @@
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
                         data-aos-duration="1000">
                         <img src="{{ asset('images/contacts.svg') }}" alt="" class="img-fluid mb-4">
-                        <h3 class="card-title">Over 20MM Contacts</h3>
+                        <h3 class="card-title">Over 20M Contacts</h3>
                         <p class="card-text">
                             With over 20 million contacts in 200+ countries worldwide, you’ll easily find the leads you
                             need.

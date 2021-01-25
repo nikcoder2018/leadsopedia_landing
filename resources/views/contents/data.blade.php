@@ -64,23 +64,23 @@
 
     <div class="container pt-5 mt-5 overflow-hidden">
         <div class="row">
-            <div class="col-12 col-md-6 offset-md-3 text-center" data-aos="fade-right" data-aos-duration="1000">
-                <h1>
+            <div class="col-12 col-md-10 offset-md-1 text-center" data-aos="fade-right" data-aos-duration="1000">
+                <h1 class="mb-4">
                     Get access to our best-selling platform now!
                 </h1>
-                <ul>
-                    <li>
-                        <p class="lead">
-                            Over 20 Million B2b Contact Lists
+                <ul style="list-style-type: none;" class="p-0 m-0">
+                    <li class="m-0 p-0">
+                        <p class="lead mb-0">
+                            Over 20 Million B2B Contact Lists
                         </p>
                     </li>
-                    <li>
-                        <p class="lead">
+                    <li class="m-0 p-0">
+                        <p class="lead mb-0">
                             More than +20M Global Company Profiles
                         </p>
                     </li>
-                    <li>
-                        <p class="lead">
+                    <li class="m-0 p-0">
+                        <p class="lead mb-0">
                             95% Guaranteed Accuracy
                         </p>
                     </li>
@@ -101,7 +101,7 @@
                     <div class="card p-4 m-4 shadow text-center" data-aos="fade-up" data-aos-duration="1000"
                         style="border: none; border-radius: 12px;">
                         <h1 class="card-title">
-                            +45M
+                            +20M
                         </h1>
                         <p class="card-text">
                             Global Company

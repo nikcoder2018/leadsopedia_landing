@@ -6,7 +6,7 @@
             <div class="col-12 col-md-6">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <h5 class="badge-primary d-inline px-3 py-2 rounded">
-                        Realtime Email Verification
+                        Email Verification
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
@@ -43,7 +43,7 @@
             <div class="col-12 col-md-4 p-2" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/pay-verified-data.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Only Pay For Verified Data</h6>
+                    <h6 class="align-self-center ml-2">Only Verified Data</h6>
                 </div>
             </div>
             <div class="col-12 col-md-4 p-2" data-aos="fade-left" data-aos-duration="1000">
@@ -186,22 +186,18 @@
         <img src="{{ asset('images/companies.svg') }}" alt="" class="mx-auto">
     </div> --}}
 
-    <div class="blue">
-        <div class="container text-center py-5 my-5 overflow-hidden">
+    <div class="blue overflow-hidden">
+        <div class="container text-center py-5 my-5">
             <div class="row">
-                <div class="col-12 col-md-6 offset-md-3">
-                    <h1 class="text-white" data-aos="fade-right" data-aos-duration="1000">Try it today</h1>
-                    <p class="lead text-white" data-aos="fade-left" data-aos-duration="1000">
-                        Sign up now and put our 95% data accuracy guarantee to the test. No mandatory demos or yearly
-                        contracts.
+                <div class="col-12">
+                    <h1 class="text-white" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                        Experience the world-class service from Leadsopedia!
+                    </h1>
+                    <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
+                        Wherever you are in the world and whatever industry you’re in, opportunities are endless with
+                        Leadsopedia!
                     </p>
-                    <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                        <ul class="text-left mx-auto align-self-center">
-                            <li class="text-white">No mandatory demos</li>
-                            <li class="text-white">No annual contract</li>
-                        </ul>
-                    </div>
-                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>

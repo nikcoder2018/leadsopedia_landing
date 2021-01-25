@@ -13,7 +13,7 @@
                     Turn disjointed lists into sales opportunities
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    Append 50+ accurate data points to your lists of contacts, companies and emails.
+                    Append advanced accurate data points to your lists of contacts, companies and emails.
                 </p>
                 <div class="d-flex pb-5 mb-5" data-aos="fade-up" data-aos-duration="1000">
                     <a href="https://app.leadsopedia.com/register" class="btn btn-primary btn-lg mx-1">
@@ -55,7 +55,7 @@
             <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/pay-verified-data.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Only Pay For Verified Data</h6>
+                    <h6 class="align-self-center ml-2">Only Verified Data</h6>
                 </div>
             </div>
         </div>
@@ -155,7 +155,7 @@
                     data-aos-duration="1000">
                 <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Zero-Waste Download</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                    Pay only for verified matches
+                    Only verified matches
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     Our data enrichment engine tells you how many matches we find for your lists before you export them.
@@ -195,22 +195,18 @@
         <img src="{{ asset('images/companies.svg') }}" alt="" class="mx-auto">
     </div> --}}
 
-    <div class="blue">
-        <div class="container text-center py-5 my-5 overflow-hidden">
+    <div class="blue overflow-hidden">
+        <div class="container text-center py-5 my-5">
             <div class="row">
-                <div class="col-12 col-md-6 offset-md-3">
-                    <h1 class="text-white" data-aos="fade-right" data-aos-duration="1000">Try it today</h1>
-                    <p class="lead text-white" data-aos="fade-left" data-aos-duration="1000">
-                        Sign up now and put our 95% data accuracy guarantee to the test. No mandatory demos or yearly
-                        contracts.
+                <div class="col-12">
+                    <h1 class="text-white" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                        Experience the world-class service from Leadsopedia!
+                    </h1>
+                    <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
+                        Wherever you are in the world and whatever industry you’re in, opportunities are endless with
+                        Leadsopedia!
                     </p>
-                    <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                        <ul class="text-left mx-auto align-self-center">
-                            <li class="text-white">No mandatory demos</li>
-                            <li class="text-white">No annual contract</li>
-                        </ul>
-                    </div>
-                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>
