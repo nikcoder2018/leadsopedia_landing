@@ -32,7 +32,7 @@
                                 <span>Real-time Verified Database</span>
                             </li>
                         </ul>
-                        <a href="#" class="btn btn-link btn-link--secondary" data-aos="fade-up" data-aos-duration="1000">
+                        <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary" data-aos="fade-up" data-aos-duration="1000">
                             Explore our products
                             <i class="icon ion-ios-arrow-round-forward"></i>
                         </a>
@@ -225,7 +225,7 @@
                             <li class="text-white" data-aos="fade-right" data-aos-duration="1000">No annual contract</li>
                         </ul>
                     </div>
-                    <a href="#" class="mt-2 btn btn-light btn-lg" data-aos="fade-left" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-left" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>

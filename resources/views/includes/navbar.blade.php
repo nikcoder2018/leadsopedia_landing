@@ -26,7 +26,7 @@
                         <a class="dropdown-item" href="{{ route('products', 'email-verification') }}">Email
                             Verification</a>
                         <a class="dropdown-item" href="{{ route('products', 'email-finder') }}">Email Finder</a>
-                        <a class="dropdown-item" href="{{ route('products', 'api') }}">API</a>
+                        <a class="dropdown-item" href="{{ route('api') }}">API</a>
                     </div>
                 </li>
                 <li class="nav-item mx-xl-4">

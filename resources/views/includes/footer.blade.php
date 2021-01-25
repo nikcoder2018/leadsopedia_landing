@@ -56,10 +56,10 @@
                                     <a href="{{ route('customers') }}">Customers</a>
                                 </li>
                                 <li>
-                                    <a href="#faq">Sign in</a>
+                                    <a href="https://app.leadsopedia.com/login">Sign In</a>
                                 </li>
                                 <li>
-                                    <a href="#faq">Sign Up</a>
+                                    <a href="https://app.leadsopedia.com/register">Sign Up</a>
                                 </li>
                             </ul>
                         </div>
@@ -75,7 +75,7 @@
                                     <a href="{{ route('contact') }}">Contact Us</a>
                                 </li>
                                 <li>
-                                    <a href="#">Support</a>
+                                    <a href="mailto:support@leadsopedia.com">Support</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('api') }}">API Docs</a>

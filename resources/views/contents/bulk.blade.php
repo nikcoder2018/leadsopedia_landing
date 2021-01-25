@@ -168,7 +168,7 @@
                         Wherever you are in the world and whatever industry you’re in, opportunities are endless with
                         Leadsopedia!
                     </p>
-                    <a href="#" class="mt-2 btn btn-light btn-lg" data-aos="fade-right" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>

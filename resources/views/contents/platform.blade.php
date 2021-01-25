@@ -292,7 +292,7 @@
                             Want to experience the magic for yourself? Sign up to start generating leads for your
                             company!
                         </p>
-                        <a href="#" class="btn btn-light" data-aos="fade-right" data-aos-duration="1000">
+                        <a href="https://app.leadsopedia.com/register" class="btn btn-light" data-aos="fade-right" data-aos-duration="1000">
                             Sign Up
                         </a>
                     </div>
