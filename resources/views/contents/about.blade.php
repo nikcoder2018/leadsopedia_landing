@@ -42,68 +42,6 @@
         </div>
     </section>
 
-    <div class="my-5 container">
-        <div class="text-center mb-5">
-            <h1 data-aos="fade-right" data-aos-duration="1000">Who We Are</h1>
-            <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                We are a group of IT and database experts and innovators committed to excellent customer service.
-            </p>
-        </div>
-        <div class="card-group">
-            <div data-aos="fade-right" data-aos-duration="1000" class="card m-2 p-4 shadow text-center"
-                style="border: none; border-radius: 12px;">
-                <div class="card-body">
-                    <h4 class="text-secondary pt-4">
-                        John Doe
-                    </h4>
-                    <p class="m-0">Silicon Valley</p>
-                    <p class="lead m-0">
-                        CEO
-                    </p>
-                    <p class="card-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi et architecto expedita suscipit sunt
-                        magni velit inventore ea, labore id voluptatum quidem vero exercitationem molestias. Id assumenda
-                        recusandae ullam ab.
-                    </p>
-                </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="card m-2 p-4 shadow text-center"
-                style="border: none; border-radius: 12px;">
-                <div class="card-body">
-                    <h4 class="text-secondary pt-4">
-                        John Doe
-                    </h4>
-                    <p class="m-0">Silicon Valley</p>
-                    <p class="lead m-0">
-                        CEO
-                    </p>
-                    <p class="card-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi et architecto expedita suscipit sunt
-                        magni velit inventore ea, labore id voluptatum quidem vero exercitationem molestias. Id assumenda
-                        recusandae ullam ab.
-                    </p>
-                </div>
-            </div>
-            <div data-aos="fade-left" data-aos-duration="1000" class="card m-2 p-4 shadow text-center"
-                style="border: none; border-radius: 12px;">
-                <div class="card-body">
-                    <h4 class="text-secondary pt-4">
-                        John Doe
-                    </h4>
-                    <p class="m-0">Silicon Valley</p>
-                    <p class="lead m-0">
-                        CEO
-                    </p>
-                    <p class="card-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi et architecto expedita suscipit sunt
-                        magni velit inventore ea, labore id voluptatum quidem vero exercitationem molestias. Id assumenda
-                        recusandae ullam ab.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2 text-center">
@@ -214,18 +152,15 @@
     <div class="blue overflow-hidden">
         <div class="container text-center py-5 my-5">
             <div class="row">
-                <div class="col-12 col-md-6 offset-md-3">
-                    <h1 class="text-white" data-aos="fade-left" data-aos-duration="1000">Try Leadsopedia today!</h1>
+                <div class="col-12">
+                    <h1 class="text-white" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                        Experience the world-class service from Leadsopedia!
+                    </h1>
                     <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
-                        Sign up now and get exclusive access to our database with guaranteed 95% accuracy!
+                        Wherever you are in the world and whatever industry you’re in, opportunities are endless with
+                        Leadsopedia!
                     </p>
-                    <div class="d-flex">
-                        <ul class="text-left mx-auto align-self-center">
-                            <li class="text-white" data-aos="fade-right" data-aos-duration="1000">No mandatory demos</li>
-                            <li class="text-white" data-aos="fade-right" data-aos-duration="1000">No annual contract</li>
-                        </ul>
-                    </div>
-                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-left" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>

@@ -10,10 +10,10 @@
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
-                    Unlock your top prospects’ emails
+                    Target the right prospects and launch effective marketing strategies
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    Find the right emails and contacts for key decision-makers at the companies you sell to.
+                    Our team optimizes the platform’s email database so prospectors can efficiently scan through millions of data.
                 </p>
                 <div class="d-flex pb-5 mb-5" data-aos="fade-up" data-aos-duration="1000">
                     <a href="https://app.leadsopedia.com/register" class="btn btn-primary btn-lg mx-1">
@@ -68,12 +68,10 @@
                 <img src="{{ asset('images/target.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
                 <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">95% Accuracy</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
-                    We back up our accuracy with a guarantee
+                    Save more time with accurate data
                 </h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                    Similar tools won’t disclose their accuracy rate because it’s too low or they simply can’t guarantee it.
-                    We say it upfront: 95% data accuracy.
-
+                    You don’t need to go through all of the data lists just to check if this data is accurate for your search. Simply tell us your requirements, and we’ll give you accurate downloadable data.
                 </p>
                 <div class="d-flex">
                     <ul>
@@ -91,16 +89,16 @@
         <div class="row">
             <div class="col-12 col-md-6 p-5">
                 <img src="{{ asset('images/quick-search.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
-                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Lookup</h4>
+                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Advanced Lookup Technology</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                    Find emails by company or URL
+                    Experience our advanced search features
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    Enter a contact name and company name or URL and get your lead’s valid email in seconds.
+                    No matter how broad or specific your search is, we’ll give you the numbers in just a few seconds
                 </p>
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <ul>
-                        <li data-aos="fade-right" data-aos-duration="1000">Pay only for valid emails</li>
+                        <li data-aos="fade-right" data-aos-duration="1000">Only valid emails</li>
                         <li data-aos="fade-right" data-aos-duration="1000">Accept-all and catch-all emails are flagged</li>
                     </ul>
                 </div>
@@ -124,11 +122,10 @@
                 <img src="{{ asset('images/email-check.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
                 <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Valid Emails</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
-                    Real emails — no guesses
+                    We provide valid emails for your next successful marketing campaign
                 </h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                    You don’t want to pay to access guessed emails or guessed email patterns. UpLead only works with known,
-                    verified emails.
+                    Whether you’re a business owner, human resource agent, or a marketing manager, we know that you need the right emails to reach your target
                 </p>
                 <div class="d-flex" data-aos="fade-left" data-aos-duration="1000">
                     <ul>
@@ -148,10 +145,10 @@
                 <img src="{{ asset('images/bulk-email-large.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
                 <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Bulk Email Lookup</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                    Grab thousands of emails in seconds
+                    Easy export on bulk emails on our platform
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    Upload a list with names and companies and get emails, phone numbers, social profiles and more, at once.
+                    We let you export Leadsopedia’s generated data on our platform, fast and easy!
                 </p>
                 <div class="d-flex">
                     <ul>
@@ -187,22 +184,18 @@
         <img src="{{ asset('images/companies.svg') }}" alt="" class="mx-auto">
     </div> --}}
 
-    <div class="blue">
-        <div class="container text-center py-5 my-5 overflow-hidden">
+    <div class="blue overflow-hidden">
+        <div class="container text-center py-5 my-5">
             <div class="row">
-                <div class="col-12 col-md-6 offset-md-3">
-                    <h1 class="text-white" data-aos="fade-right" data-aos-duration="1000">Try it today</h1>
-                    <p class="lead text-white" data-aos="fade-left" data-aos-duration="1000">
-                        Sign up now and put our 95% data accuracy guarantee to the test. No mandatory demos or yearly
-                        contracts.
+                <div class="col-12">
+                    <h1 class="text-white" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                        Experience the world-class service from Leadsopedia!
+                    </h1>
+                    <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
+                        Wherever you are in the world and whatever industry you’re in, opportunities are endless with
+                        Leadsopedia!
                     </p>
-                    <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                        <ul class="text-left mx-auto align-self-center">
-                            <li class="text-white">No mandatory demos</li>
-                            <li class="text-white">No annual contract</li>
-                        </ul>
-                    </div>
-                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>

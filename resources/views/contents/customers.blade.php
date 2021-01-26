@@ -23,8 +23,7 @@
                                 Lean start-ups and small companies
                             </h4>
                             <p class="card-text">
-                                appreciate our no-string-attached policy (no contracts), and the fact that you can use our
-                                product for as long as it’s required, and cancel when you don’t need it.
+                                Start-up Companies build the right foundation in Leadsopedia by helping them reach out to their first customers.
                             </p>
                         </div>
                     </div>
@@ -37,10 +36,8 @@
                                 Medium-sized, mature businesses
                             </h4>
                             <p class="card-text">
-                                like us for the price-to-quality ratio that Leadsopedia provides. You get a lot of bang for
-                                your
-                                buck, with a vast database of prospect data to build lists with, and use in any
-                                sophisticated sales, marketing, or hiring campaign.</p>
+                                Medium-sized companies expand their reach through Leadsopedia by using our advanced search technology and world-class data enrichment processes.
+                            </p>
                         </div>
                     </div>
                     <div class="card m-2 border rounded p-3 shadow" data-aos="fade-left" data-aos-duration="1000">
@@ -52,10 +49,7 @@
                                 Industry-leading enterprises
                             </h4>
                             <p class="card-text">
-                                benefit from how easy it is to integrate Leadsopedia with the software that they already
-                                use,
-                                instant availability of data, reliable API access, the technological superiority of our
-                                product, as well as the pristine quality of our data.
+                                Leading and Established Enterprises attract more customers and increase their revenue through Leadsopedia by gathering data on their existing and potential customers.
                             </p>
                         </div>
                     </div>
@@ -73,22 +67,18 @@
         </div>
     </div>
 
-    <div class="blue">
-        <div class="container text-center py-5 my-5 overflow-hidden">
+    <div class="blue overflow-hidden">
+        <div class="container text-center py-5 my-5">
             <div class="row">
-                <div class="col-12 col-md-6 offset-md-3">
-                    <h1 class="text-white" data-aos="fade-right" data-aos-duration="1000">Try it today</h1>
-                    <p class="lead text-white" data-aos="fade-left" data-aos-duration="1000">
-                        Sign up now and put our 95% data accuracy guarantee to the test. No mandatory demos or yearly
-                        contracts.
+                <div class="col-12">
+                    <h1 class="text-white" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                        Experience the world-class service from Leadsopedia!
+                    </h1>
+                    <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
+                        Wherever you are in the world and whatever industry you’re in, opportunities are endless with
+                        Leadsopedia!
                     </p>
-                    <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                        <ul class="text-left mx-auto align-self-center">
-                            <li class="text-white">No mandatory demos</li>
-                            <li class="text-white">No annual contract</li>
-                        </ul>
-                    </div>
-                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/register" class="mt-2 btn btn-light btn-lg" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up Now
                     </a>
                 </div>
