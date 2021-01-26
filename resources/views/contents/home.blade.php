@@ -155,13 +155,13 @@
                                         optimized and we provide quality data to increase conversion rates. We filter out the noise
                                         to give Clients an edge over their competitors.
                                     </span>
+                                    <span class="d-none">
+                                        Our in-house specialists are equipped with digital marketing skills to help you build the
+                                        perfect sales strategy and cultivate the right advertising process. Our Clients increase
+                                        their ROI by building the right data and the right connections.
+                                    </span>
                                 </a>
                             </p>
-                            <!-- <p>
-                                Our in-house specialists are equipped with digital marketing skills to help you build the
-                                perfect sales strategy and cultivate the right advertising process. Our Clients increase
-                                their ROI by building the right data and the right connections.
-                            </p> -->
                             <a href="{{ route('products', ['name' => 'data-enrichments']) }}" class="btn btn-link btn-link--secondary learn-more-link">
                                 Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
@@ -693,8 +693,11 @@
         $(document).ready(() => {
             $('.show-more').on('click', function(e) {
                 e.preventDefault();
-                const content = $(this).children('span').text();
-                $(this).parent().text(content);
+                const contents = [];
+                $(this).children('span').each(function() {
+                    contents.push(`<p>${$(this).text()}</p>`);
+                });
+                $(this).parent().html(contents.join(''));
             });
         })
     </script>
