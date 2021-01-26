@@ -35,6 +35,19 @@
             text-align: justify;
         }
 
+        .show-more {
+            font-size: .85rem;
+        }
+
+        .show-more:before {
+            content: '...';
+            color: #73808F;
+        }
+
+        .show-more:hover {
+            text-decoration: none;
+        }
+
     </style>
 @endsection
 @section('content')
@@ -131,12 +144,18 @@
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
                             <i class="icon ion-ios-apps"></i>
                         </div>
-                        <div class="feature-card__body">
+                        <div class="feature-card__body w-100">
                             <h4 class="feature-title">Data Enrichment</h4>
                             <p class="feature-paragraph">
                                 Our Clients’ success is also our success. This is why we make sure that resources are
-                                optimized and we provide quality data to increase conversion rates. We filter out the noise
-                                to give Clients an edge over their competitors.
+                                optimized and we provide<a href="" class="d-inline show-more">
+                                    Show More >>
+                                    <span class="d-none">
+                                        Our Clients’ success is also our success. This is why we make sure that resources are
+                                        optimized and we provide quality data to increase conversion rates. We filter out the noise
+                                        to give Clients an edge over their competitors.
+                                    </span>
+                                </a>
                             </p>
                             <!-- <p>
                                 Our in-house specialists are equipped with digital marketing skills to help you build the
@@ -159,9 +178,15 @@
                             <h4 class="feature-title">Realtime Verified Data</h4>
                             <p class="feature-paragraph">
                                 We go beyond the ordinary and actively regulate and update our listings so you get new leads
-                                every day. Our top-notch database management efforts are designed to ensure successful
-                                connections every time. We curate the right resources for you so you are always one step
-                                ahead
+                                every day. Our<a href="" class="d-inline show-more">
+                                    Show More >>
+                                    <span class="d-none">
+                                        We go beyond the ordinary and actively regulate and update our listings so you get new leads
+                                        every day. Our top-notch database management efforts are designed to ensure successful
+                                        connections every time. We curate the right resources for you so you are always one step
+                                        ahead
+                                    </span>
+                                </a>
                             </p>
                             <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">
                                 Learn more
@@ -181,8 +206,14 @@
                             <h4 class="feature-title">B2B Prospector</h4>
                             <p class="feature-paragraph">
                                 Leadsopedia generates millions of prospects in both local and global industries. With our
-                                enhanced and calibrated platform, endless possibilities are at the tip of your fingertips.
-                                We guarantee that your business will stand out from the rest.
+                                enhanced and calibrated<a href="" class="d-inline show-more">
+                                    Show More >>
+                                    <span class="d-none">
+                                        Leadsopedia generates millions of prospects in both local and global industries. With our
+                                        enhanced and calibrated platform, endless possibilities are at the tip of your fingertips.
+                                        We guarantee that your business will stand out from the rest.
+                                    </span>
+                                </a>
                             </p>
                             <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
@@ -199,9 +230,15 @@
                             <h4 class="feature-title">Email Verifications</h4>
                             <p class="feature-paragraph">
                                 We are confident that the data we give you are 100% verified and are tailor-fit to your
-                                needs. We make sure that the data sets you receive from us are real and updated every day.
-                                There’s no need to collect e-mail addresses elsewhere because you’ve got everything that
-                                you’ll need here in Leadsopedia.
+                                needs. We make sure that the data<a href="" class="d-inline show-more">
+                                    Show More >>
+                                    <span class="d-none">
+                                        We are confident that the data we give you are 100% verified and are tailor-fit to your
+                                        needs. We make sure that the data sets you receive from us are real and updated every day.
+                                        There’s no need to collect e-mail addresses elsewhere because you’ve got everything that
+                                        you’ll need here in Leadsopedia.
+                                    </span>
+                                </a>
                             </p>
 
                             <a href="{{ route('products', ['name' => 'email-verification']) }}" class="btn btn-link btn-link--secondary learn-more-link">
@@ -222,9 +259,15 @@
                             <h4 class="feature-title">B2B Sales Funnel</h4>
                             <p class="feature-paragraph">
                                 Effective digital engagement is our top priority. We structure the lead data for you so you
-                                can quickly decide with conviction. We believe that with less effort, you can create better
-                                results through our platform. Our tried and tested leads generation services can leverage
-                                your company’s sales and marketing without sacrificing quality and efficiency.
+                                can quickly decide with conviction. We believe<a href="" class="d-inline show-more">
+                                    Show More >>
+                                    <span class="d-none">
+                                        Effective digital engagement is our top priority. We structure the lead data for you so you
+                                        can quickly decide with conviction. We believe that with less effort, you can create better
+                                        results through our platform. Our tried and tested leads generation services can leverage
+                                        your company’s sales and marketing without sacrificing quality and efficiency.
+                                    </span>
+                                </a>
                             </p>
                             <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">Learn more
                                 <i class="icon ion-ios-arrow-forward"></i>
@@ -241,9 +284,15 @@
                             <h4 class="feature-title">B2B Marketing funnel</h4>
                             <p class="feature-paragraph">
                                 Leadsopedia is the right avenue for the right business deals, successful partnerships, and
-                                impactful sales funnel. We match multiple industries to collaborate and create the future
-                                together. We believe that successful marketing campaigns are crucial for a new business. Let
-                                Leadsopedia turn your dream into a reality.
+                                impactful sales funnel. We match<a href="" class="d-inline show-more">
+                                    Show More >>
+                                    <span class="d-none">
+                                        Leadsopedia is the right avenue for the right business deals, successful partnerships, and
+                                        impactful sales funnel. We match multiple industries to collaborate and create the future
+                                        together. We believe that successful marketing campaigns are crucial for a new business. Let
+                                        Leadsopedia turn your dream into a reality.
+                                    </span>
+                                </a>
                             </p>
 
                             <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">
@@ -265,9 +314,15 @@
                             <h4 class="feature-title">Email Finder</h4>
                             <p class="feature-paragraph">
                                 Save precious time and discover our platform’s untapped potential. The emails we provide you
-                                are verified across both local and global industries. Connect to experts, build the perfect
-                                team, and expand your business exponentially. You are guaranteed to convert leads to
-                                customers with us.
+                                are verified across<a href="" class="d-inline show-more">
+                                    Show More >>
+                                    <span class="d-none">
+                                        Save precious time and discover our platform’s untapped potential. The emails we provide you
+                                        are verified across both local and global industries. Connect to experts, build the perfect
+                                        team, and expand your business exponentially. You are guaranteed to convert leads to
+                                        customers with us.
+                                    </span>
+                                </a>
                             </p>
                             <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">
                                 Learn more
@@ -285,8 +340,14 @@
                             <h4 class="feature-title">Conscripting Funnel</h4>
                             <p class="feature-paragraph">
                                 Our system thoroughly sifts through billions of data to meet your needs. Our world-class
-                                service gives your business an edge over whatever industry you’re in. Leadsopedia makes sure
-                                that your business will stand out among the rest.
+                                service gives your business an edge<a href="" class="d-inline show-more">
+                                    Show More >>
+                                    <span class="d-none">
+                                        Our system thoroughly sifts through billions of data to meet your needs. Our world-class
+                                        service gives your business an edge over whatever industry you’re in. Leadsopedia makes sure
+                                        that your business will stand out among the rest.
+                                    </span>
+                                </a>
                             </p>
 
                             <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">Learn more
@@ -625,4 +686,16 @@
             </div>
         </div>
     </section>
+@endsection
+
+@section('js')
+    <script defer>
+        $(document).ready(() => {
+            $('.show-more').on('click', function(e) {
+                e.preventDefault();
+                const content = $(this).children('span').text();
+                $(this).parent().text(content);
+            });
+        })
+    </script>
 @endsection
