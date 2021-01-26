@@ -24,16 +24,6 @@
                                 <i class="icon ion-logo-linkedin"></i>
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon ion-logo-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon ion-logo-youtube"></i>
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>
