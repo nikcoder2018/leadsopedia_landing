@@ -9,6 +9,12 @@
                 </h1>
             </div>
             <div class="col-12">
+                <p class="lead my-5" data-aos="fade-left" data-aos-duration="1000">
+                    Leadsopedia builds bridges between you and your opportunities. We make sure that you’ll be connected with the best businesses in the industry. Turn analytics to action and data to results by choosing Leadsopedia to handle your account marketing needs.
+                </p>
+                <p class="lead my-5" data-aos="fade-left" data-aos-duration="1000">
+                    Our platform offers over 20 million reliable and updated data. Our predictive data analytics help our clients get access to real-time verified information.
+                </p>
                 <p class="lead my-5" data-aos="fade-right" data-aos-duration="1000">
                     B2B list building, in a nutshell, involves creating a list of contacts whom you can reach out to and
                     nurture as leads. If you’re wondering what the differences between B2B prospecting lists, B2B prospect

@@ -16,6 +16,12 @@
                 <h2 class="line-height-3">
                     What Is Account-Based Marketing? Focus Your Sales On Specific, High-Value Accounts
                 </h2>
+                <h6 class="lead">
+                    If you want your business and your service to be searchable on our platform, contact us today so you can sit back, relax, and let opportunity come knocking at your doors. Contact our 24/7 customer support team to inquire now!
+                </h6>
+                <h6 class="lead">
+                    Don’t miss this chance to connect and to collaborate with local and global business owners and marketers!
+                </h6>
             </div>
             <div class="col-12 col-md-8 offset-md-2">
                 <p class="lead my-5" data-aos="fade-right" data-aos-duration="1000">
