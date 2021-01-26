@@ -8,10 +8,10 @@
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2 pt-4">
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                    Search +20 million contacts with 95% data accuracy
+                    Get access to over +20 million contacts with 95% data accuracy
                 </h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                    Other tools average 50% accuracy. Leadsopedia guarantees 95% precision, or you get your credits back.
+                    Sign up now and find the right prospects today!
                 </p>
                 <div class="d-flex" data-aos="fade-up" data-aos-duration="1000">
                     <a href="https://app.leadsopedia.com/register" class="btn btn-primary btn-lg mr-1 ml-auto">
@@ -61,16 +61,14 @@
             </div>
             <div class="col-12 col-sm-6 text-left p-4">
                 <img src="{{ asset('images/target.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
-                <h5 class="text-secondary mt-2" data-aos="fade-left" data-aos-duration="1000">Accuracy Guarantee</h5>
-                <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">Fewer bounces, higher open rate
-                </h1>
+                <h5 class="text-secondary mt-2" data-aos="fade-left" data-aos-duration="1000">95% Data Accuracy</h5>
+                <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">Create opportunities, Build partnerships</h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                    Prospect with the highest accuracy for B2B contacts. If we don’t find the right email for your leads, we
-                    don’t charge you.
+                    Our intelligent search engine and filtering process helps prospectors find the right match.
                 </p>
                 <ul data-aos="fade-left" data-aos-duration="1000">
-                    <li>20M+ Contacts</li>
-                    <li>Coverage in 200+ Countries</li>
+                    <li>Over 20 Million Contacts</li>
+                    <li>Data in 200+ Countries</li>
                     <li>95% Accuracy Guarantee</li>
                 </ul>
             </div>
@@ -83,15 +81,14 @@
                 <img src="{{ asset('images/profile.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
                 <h5 class="text-secondary mt-2" data-aos="fade-right" data-aos-duration="1000">Realtime Prospecting</h5>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                    List building as easy as clicking
+                    Quality data with just one click
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    Click on any search filter and see your list of prospects update in front of your eyes. No waiting
-                    around, no processing — build your lists in real-time.
+                    We want our Clients to seal the next big deal. That’s why in Leadsopedia, we update our data real-time using website traffic.
                 </p>
                 <ul data-aos="fade-right" data-aos-duration="1000">
-                    <li>Leads shown in real-time</li>
-                    <li>Easy to use</li>
+                    <li>Real-time leads</li>
+                    <li>Easy platform navigation</li>
                 </ul>
             </div>
             <div class="d-none d-md-block col-sm-6 p-3 border-left" data-aos="fade-left" data-aos-duration="1000">
@@ -112,8 +109,7 @@
                     Target the right prospects
                 </h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                    Laser focus on your ideal buyer using location, industry, revenue, size and many other filters. Give
-                    your sales and marketing teams the right data to boost sales.
+                    We narrow down our lists based on your selected filters. We make sure the leads we give you are already interested in your business!
                 </p>
                 <ul data-aos="fade-left" data-aos-duration="1000">
                     <li>Advanced search criteria</li>

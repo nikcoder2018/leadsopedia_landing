@@ -23,8 +23,7 @@
                                 Lean start-ups and small companies
                             </h4>
                             <p class="card-text">
-                                appreciate our no-string-attached policy (no contracts), and the fact that you can use our
-                                product for as long as it’s required, and cancel when you don’t need it.
+                                Start-up Companies build the right foundation in Leadsopedia by helping them reach out to their first customers.
                             </p>
                         </div>
                     </div>
@@ -37,10 +36,8 @@
                                 Medium-sized, mature businesses
                             </h4>
                             <p class="card-text">
-                                like us for the price-to-quality ratio that Leadsopedia provides. You get a lot of bang for
-                                your
-                                buck, with a vast database of prospect data to build lists with, and use in any
-                                sophisticated sales, marketing, or hiring campaign.</p>
+                                Medium-sized companies expand their reach through Leadsopedia by using our advanced search technology and world-class data enrichment processes.
+                            </p>
                         </div>
                     </div>
                     <div class="card m-2 border rounded p-3 shadow" data-aos="fade-left" data-aos-duration="1000">
@@ -52,10 +49,7 @@
                                 Industry-leading enterprises
                             </h4>
                             <p class="card-text">
-                                benefit from how easy it is to integrate Leadsopedia with the software that they already
-                                use,
-                                instant availability of data, reliable API access, the technological superiority of our
-                                product, as well as the pristine quality of our data.
+                                Leading and Established Enterprises attract more customers and increase their revenue through Leadsopedia by gathering data on their existing and potential customers.
                             </p>
                         </div>
                     </div>

@@ -10,10 +10,10 @@
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
-                    Turn disjointed lists into sales opportunities
+                    Turn data into sales opportunities!
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    Append advanced accurate data points to your lists of contacts, companies and emails.
+                    Access our data lists to local and global opportunities when you sign up in Leadsopedia.
                 </p>
                 <div class="d-flex pb-5 mb-5" data-aos="fade-up" data-aos-duration="1000">
                     <a href="https://app.leadsopedia.com/register" class="btn btn-primary btn-lg mx-1">
@@ -72,12 +72,10 @@
                 <img src="{{ asset('images/enrich-contacts.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
                 <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Contacts Enrichment</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
-                    Get contact information for your leads
+                    Get updated contacts list of your future customers
                 </h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                    Upload a list of names and companies and append key contact data such as email address, phone
-                    number,
-                    social links and more.
+                    In Leadsopedia, our contacts list gets updated everyday so prospectors can reach out to new customers.
                 </p>
                 <div class="d-flex" data-aos="fade-left" data-aos-duration="1000">
                     <ul>
@@ -98,11 +96,10 @@
                 <img src="{{ asset('images/enrich-companies.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
                 <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Companies Enrichment</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                    Pre-qualify companies with sales intelligence
+                    Seal more deals for your companies
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    Upload a list of URLs and get company name, sales volume, number of employees, industry, social
-                    links and more.
+                    Find the right prospects for your business through our extended data list.
                 </p>
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <ul>
@@ -130,10 +127,10 @@
                 <img src="{{ asset('images/enrich-emails.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
                 <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Email Enrichment</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
-                    Know your leads on a personal level
+                    Updated and quality email lists
                 </h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                    Upload a list of emails and unlock your prospects’ name, title, phone number, social links and more.
+                    Reach the right customers through our platform.
                 </p>
                 <div class="d-flex" data-aos="fade-left" data-aos-duration="1000">
                     <ul>
@@ -158,13 +155,12 @@
                     Only verified matches
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    Our data enrichment engine tells you how many matches we find for your lists before you export them.
-                    You have full control on how many records you want to enrich and download.
+                    You have full control on how many records you’ll download from our database.
                 </p>
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <ul>
                         <li>Control how you spend your credits</li>
-                        <li>Only pay for verified data</li>
+                        <li>Only verified data</li>
                     </ul>
                 </div>
             </div>
