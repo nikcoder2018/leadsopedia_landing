@@ -6,11 +6,11 @@
             <div class="col-12 col-md-6">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <h5 class="badge-primary d-inline px-3 py-2 rounded">
-                        Email Verification
+                     Verified B2B Data
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
-                    Our secret to delivering emails that don’t bounce
+                 Leadsopedia’s verification process is designed for you to reach the right customers
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     The moment you click to get an email, we verify it in real-time to guarantee its accuracy.
@@ -40,19 +40,25 @@
             <div class="col-12 col-md-4 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/target-small.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">95% Accuracy Guarantee</h6>
+                    <h6 class="align-self-center ml-2">Contacts Lists</h6>
                 </div>
             </div>
             <div class="col-12 col-md-4 p-2" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/pay-verified-data.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Only Verified Data</h6>
+                    <h6 class="align-self-center ml-2">Advanced Search Filters</h6>
                 </div>
             </div>
             <div class="col-12 col-md-4 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/bulk-email.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Bulk Email Verification</h6>
+                    <h6 class="align-self-center ml-2">Verified Data</h6>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-2" data-aos="fade-left" data-aos-duration="1000">
+                <div class="d-flex">
+                    <img src="{{ asset('images/bulk-email.svg') }}" alt="" class="img-fluid align-self-center">
+                    <h6 class="align-self-center ml-2">Wide Data Coverage</h6>
                 </div>
             </div>
         </div>
@@ -67,7 +73,7 @@
             </div>
             <div class="col-12 col-md-6 p-5">
                 <img src="{{ asset('images/clock.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
-                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Realtime Verification</h4>
+                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Verified B2B Data</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
                     Our system automatically filters out inaccurate data for you
                 </h1>
@@ -75,10 +81,6 @@
                     You don’t need to worry if your email will bounce back. We verify our data realtime.
                 </p>
                 <div class="d-flex" data-aos="fade-left" data-aos-duration="1000">
-                    <ul>
-                        <li>Real-time verification for every email</li>
-                        <li>95% accuracy guarantee for valid emails</li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -90,7 +92,7 @@
         <div class="row">
             <div class="col-12 col-md-6 p-5">
                 <img src="{{ asset('images/control.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
-                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Controlled Downloads</h4>
+                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Wide Data Download</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     Have full control on your downloads
                 </h1>
@@ -120,7 +122,7 @@
             </div>
             <div class="col-12 col-md-6 p-5">
                 <img src="{{ asset('images/refresh.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
-                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Always Fresh Data</h4>
+                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Updated Data</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
                     Get access to updated data lists every time you log-in
                 </h1>
@@ -143,7 +145,7 @@
         <div class="row">
             <div class="col-12 col-md-6 p-5">
                 <img src="{{ asset('images/file-download.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
-                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Bulk Email Verification</h4>
+                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Validated Contact Lists</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     Our system verifies bulk email lists within seconds
                 </h1>
