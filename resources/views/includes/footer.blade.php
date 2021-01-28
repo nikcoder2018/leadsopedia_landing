@@ -98,7 +98,7 @@
                                     <a href="{{ route('email') }}">Email Marketing</a>
                                 </li> --}}
                                 <li>
-                                    <a href="{{ route('products', 'data-enrichment') }}">Data Enrichment</a>
+                                    <a href="{{ route('products', 'data-enrichments') }}">Data Enrichment</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('bulk') }}">Bulk Search</a>

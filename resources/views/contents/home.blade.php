@@ -48,33 +48,37 @@
             text-decoration: none;
         }
 
+        .text-shadow-white {
+            text-shadow: -3px 3px 10px rgb(211, 211, 211);
+        }
+
     </style>
 @endsection
 @section('content')
     <!-- ========================= HERO SECTION ========================= -->
-    <header id="hero" class="hero">
+    <header id="hero" class="hero bg-blue-diagonal">
         <div class="container">
             <div class="row align-items-center overflow-hidden">
                 <div class="col-12 col-sm-6">
                     <div class="hero-content" data-aos="zoom-in-right" data-aos-duration="1000">
                         <div class="hero-title__group">
-                            <div class="hero-title">
-                                <h2>Grow your business with the right connections.</h2>
+                            <div class="hero-title shadow-hover shadow-white-interval">
+                                <h1 class="text-white" style="line-height: 3rem;">Grow your business with the right connections.</h1>
                             </div>
                             <div class="Hero--Subtitle">
-                                <p class="lead">
+                                <p class="lead text-white">
                                     Leadsopedia helps you find marketing deals, sales funnels, and prospects fit for all
                                     industries.
                                 <p>
                             </div>
                             <b>
-                                <i>
+                                <i class="text-white">
                                     Your journey to success begins here.
                                 </i>
                             </b>
                         </div>
                         <div class="hero-cta-group">
-                            <a href="{{ route('pricing') }}" class="btn btn-secondary">Get Started</a>
+                            <a href="{{ route('pricing') }}" class="btn btn-light">Get Started</a>
                         </div>
                         {{-- <div class="hero-trusted-by">
                             <h5>TRUSTED BY</h5>
@@ -82,10 +86,8 @@
                         </div> --}}
                     </div>
                 </div>
-                <div class="col-12 col-sm-5 ml-auto" data-aos="zoom-in-left" data-aos-duration="1000">
-                    <div class="hero-figure">
-                        <img src="{{ asset('images/graphics/roi-logo.jpg') }}" class=" img-fluid w-100" alt="">
-                    </div>
+                <div class="col-12 col-sm-6 d-none d-md-block" data-aos="zoom-in-left" data-aos-duration="1000">
+                    <img src="{{ asset('images/graphics/intro.png') }}" class=" img-fluid w-100" alt="">
                 </div>
             </div>
         </div>
@@ -115,6 +117,8 @@
                     </header>
                 </div>
             </div>
+        </div>
+        <div class="container">
             {{--
             <div class="section-screens__inner">
                 <div class="swiper-container screen-slider">
@@ -138,7 +142,7 @@
                 </div>
             </div>
             --}}
-            <div class="row overflow-hidden">
+            <div class="row overflow-hidden mt-5">
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
@@ -172,7 +176,7 @@
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
-                            <i class="icon ion-ios-apps"></i>
+                            <i class="icon ion-ios-construct"></i>
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">Realtime Verified Data</h4>
@@ -200,7 +204,7 @@
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
-                            <i class="icon ion-ios-keypad"></i>
+                            <i class="icon ion-ios-analytics"></i>
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">B2B Prospector</h4>
@@ -224,7 +228,7 @@
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan">
-                            <i class="icon ion-ios-bug"></i>
+                            <i class="icon ion-ios-document"></i>
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">Email Verifications</h4>
@@ -253,7 +257,7 @@
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
-                            <i class="icon ion-ios-keypad"></i>
+                            <i class="icon ion-ios-funnel"></i>
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">B2B Sales Funnel</h4>
@@ -278,7 +282,7 @@
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="feature-card shadow m-0 hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan">
-                            <i class="icon ion-ios-bug"></i>
+                            <i class="icon ion-ios-download"></i>
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">B2B Marketing funnel</h4>
@@ -308,7 +312,7 @@
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
-                            <i class="icon ion-ios-keypad"></i>
+                            <i class="icon ion-ios-mail"></i>
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">Email Finder</h4>
@@ -334,7 +338,7 @@
                 <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="feature-card shadow hover-zoom">
                         <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
-                            <i class="icon ion-ios-apps"></i>
+                            <i class="icon ion-ios-flash"></i>
                         </div>
                         <div class="feature-card__body">
                             <h4 class="feature-title">Conscripting Funnel</h4>
@@ -484,7 +488,7 @@
             </div>
         </div> --}}
 
-        <hr class="my-4" />
+        <div class="my-4"></div>
 
         <div class="container py-5 mt-5 text-center overflow-hidden">
             <div class="row">
@@ -503,31 +507,31 @@
             </div>
         </div>
 
-        <hr class="my-4" />
+        <div class="my-4"></div>
 
-        <div class="container py-5 mt-5 overflow-hidden">
+        <div class="container-fluid py-5 mt-5 overflow-hidden">
             <div class="row">
-                <div class="col-12 col-md-6">
-                    <h1 class="pb-1" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                <div class="col-12 col-md-6 bg-primary p-5">
+                    <h1 class="pb-1 text-white" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                         Integrations
                     </h1>
-                    <p class="lead" data-aos="fade-right" data-aos-duration="1000">
+                    <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
                         Leadsopedia integrates with all the tools you love and use, to allow you to work smarter and faster.
                     </p>
-                    <a href="https://app.leadsopedia.com/login" class="btn btn-primary" data-aos="fade-right" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/login" class="btn btn-light" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up
                     </a>
-                    <a href="https://app.leadsopedia.com/integrations" class="btn btn-outline-primary" data-aos="fade-left" data-aos-duration="1000">
+                    <a href="https://app.leadsopedia.com/integrations" class="btn btn-primary" data-aos="fade-left" data-aos-duration="1000">
                         Browse Integrations
                     </a>
                 </div>
-                <div class="d-none d-md-block col-md-6 d-flex" data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ asset('images/companies/group.svg') }}" alt="" class="img-fluid">
+                <div class="d-none d-md-block col-md-6 d-flex border">
+                    <img src="{{ asset('images/companies/group.svg') }}" alt="" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
                 </div>
             </div>
         </div>
 
-        <hr class="my-4" />
+        <div class="my-4"></div>
 
         <div class="container py-5 mb-5 overflow-hidden">
             <div class="card-group">
@@ -615,7 +619,49 @@
             </div>
         </div>
 
-        <hr class="my-4" />
+        <div class="my-5 py-3"></div>
+
+        <div class="bg-primary py-5 my-5 overflow-hidden">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                        <h1 class="text-white mb-2" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                            We can be the best tool that is fit for your
+                            needs and requirements.
+                        </h1>
+                        <p class="lead text-white" data-aos="fade-left" data-aos-duration="1000">
+                            We have a variety of features and tools that can help you 
+                            improve your business and find more leads with the right prospects.
+                        </p>
+                        <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
+                            You can contact us on most platforms to help get you started!
+                        </p>
+                        <a href="https://app.leadsopedia.com/register" class="btn btn-light mb-3"  data-aos="fade-left" data-aos-duration="1000">
+                            Get Started
+                        </a>
+                        <ul class="d-flex flex-row m-0 p-0" style="list-style-type: none;"  data-aos="fade-up" data-aos-duration="1000">
+                            <li class="mr-1 ml-auto">
+                                <a href="#" class="text-white">
+                                    <i class="icon ion-logo-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="mx-1">
+                                <a href="#" class="text-white">
+                                    <i class="icon ion-logo-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="ml-1 mr-auto">
+                                <a href="#" class="text-white">
+                                    <i class="icon ion-logo-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-4"></div>
 
         <div class="container-fluid py-5 my-5 overflow-hidden">
             <div class="row">
@@ -662,7 +708,7 @@
             <img src="{{ asset('images/companies.svg') }}" alt="">
         </div> --}}
 
-        <hr class="my-4" />
+        <div class="my-4"></div>
 
         <div style="background-color: #0C73F9;" class="my-5 py-3 shadow">
             <div class="container text-white overflow-hidden">
@@ -699,6 +745,13 @@
                 });
                 $(this).parent().html(contents.join(''));
             });
+
+            setTimeout(() => {
+                $('.shadow-white-interval').addClass('text-shadow-white');
+                setTimeout(() => {
+                    $('.shadow-white-interval').removeClass('text-shadow-white');
+                }, 2000);
+            }, 1500);
         })
     </script>
 @endsection

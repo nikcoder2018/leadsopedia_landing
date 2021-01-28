@@ -29,12 +29,46 @@
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
     <link rel="shortcut icon" href="{{ asset('images/logo-new-solo.svg') }}" />
-
+    <script src="https://kit.fontawesome.com/f99f1d9afb.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Themes can be changed at https://highlightjs.org/static/demo -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/monokai-sublime.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/monokai-sublime.min.css">
+
+    <style>
+        .btn {
+            border-radius: 2rem;
+        }
+
+        .gradient-white-to-blue {
+            background: linear-gradient(to right, #8551ff, #2A5EE9);
+            color: white;
+        }
+
+        .shadow-hover {
+            transition: 0.3s linear;
+        }
+
+        .shadow-hover:hover {
+            text-shadow: -3px 3px 10px rgb(211, 211, 211);
+        }
+
+        .font-weight-700 {
+            font-weight: 600;
+        } 
+
+        .bg-blue-diagonal {
+            background-image: url(/images/bgs/blue-diagonal.png);
+            background-repeat: no-repeat;
+        }    
+
+        @media(min-width: 768px) {
+            .bg-blue-diagonal {
+                background-size: 100%;
+                background-position: center;
+            }
+        }
+    </style>
 
     @yield('css')
 </head>
