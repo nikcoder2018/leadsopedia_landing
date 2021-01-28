@@ -42,7 +42,7 @@
         </div>
     </section>
 
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2 text-center">
                 <h1 data-aos="fade-left" data-aos-duration="1000">Leadsopedia Company Values</h1>

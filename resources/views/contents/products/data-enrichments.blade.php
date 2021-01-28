@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                    <h5 class="badge-primary d-inline px-3 py-2 rounded">
+                    <h5 class="gradient-white-to-blue d-inline px-3 py-2 rounded">
                         Data Enrichment
                     </h5>
                 </div>
