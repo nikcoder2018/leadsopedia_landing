@@ -34,13 +34,10 @@
                             <h4 class="footer-widget__title">Menu</h4>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="{{ route('platform') }}">Platform</a>
+                                    <a href="{{ route('platform') }}">Services</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('marketing') }}">Marketing</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('data') }}">Our Data</a>
+                                    <a href="{{ route('data') }}">Data Source</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('customers') }}">Customers</a>
