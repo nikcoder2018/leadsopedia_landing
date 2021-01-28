@@ -145,7 +145,7 @@
                             <i class="icon ion-ios-apps"></i>
                         </div>
                         <div class="feature-card__body w-100">
-                            <h4 class="feature-title">Data Enrichment</h4>
+                            <h4 class="feature-title">Refined Data</h4>
                             <p class="feature-paragraph">
                                 Our Clients’ success is also our success. This is why we make sure that resources are
                                 optimized and we provide<a href="" class="d-inline show-more">
@@ -175,7 +175,7 @@
                             <i class="icon ion-ios-apps"></i>
                         </div>
                         <div class="feature-card__body">
-                            <h4 class="feature-title">Realtime Verified Data</h4>
+                            <h4 class="feature-title">Validated Data</h4>
                             <p class="feature-paragraph">
                                 We go beyond the ordinary and actively regulate and update our listings so you get new leads
                                 every day. Our<a href="" class="d-inline show-more">
@@ -203,7 +203,7 @@
                             <i class="icon ion-ios-keypad"></i>
                         </div>
                         <div class="feature-card__body">
-                            <h4 class="feature-title">B2B Prospector</h4>
+                            <h4 class="feature-title">B2B Data Lists</h4>
                             <p class="feature-paragraph">
                                 Leadsopedia generates millions of prospects in both local and global industries. With our
                                 enhanced and calibrated<a href="" class="d-inline show-more">
@@ -227,7 +227,7 @@
                             <i class="icon ion-ios-bug"></i>
                         </div>
                         <div class="feature-card__body">
-                            <h4 class="feature-title">Email Verifications</h4>
+                            <h4 class="feature-title">Verified Email Lists</h4>
                             <p class="feature-paragraph">
                                 We are confident that the data we give you are 100% verified and are tailor-fit to your
                                 needs. We make sure that the data<a href="" class="d-inline show-more">
@@ -256,7 +256,7 @@
                             <i class="icon ion-ios-keypad"></i>
                         </div>
                         <div class="feature-card__body">
-                            <h4 class="feature-title">B2B Sales Funnel</h4>
+                            <h4 class="feature-title">B2B Sales</h4>
                             <p class="feature-paragraph">
                                 Effective digital engagement is our top priority. We structure the lead data for you so you
                                 can quickly decide with conviction. We believe<a href="" class="d-inline show-more">
@@ -281,7 +281,7 @@
                             <i class="icon ion-ios-bug"></i>
                         </div>
                         <div class="feature-card__body">
-                            <h4 class="feature-title">B2B Marketing funnel</h4>
+                            <h4 class="feature-title">B2B Marketing</h4>
                             <p class="feature-paragraph">
                                 Leadsopedia is the right avenue for the right business deals, successful partnerships, and
                                 impactful sales funnel. We match<a href="" class="d-inline show-more">
@@ -311,7 +311,7 @@
                             <i class="icon ion-ios-keypad"></i>
                         </div>
                         <div class="feature-card__body">
-                            <h4 class="feature-title">Email Finder</h4>
+                            <h4 class="feature-title">Email Locator</h4>
                             <p class="feature-paragraph">
                                 Save precious time and discover our platform’s untapped potential. The emails we provide you
                                 are verified across<a href="" class="d-inline show-more">
@@ -337,7 +337,7 @@
                             <i class="icon ion-ios-apps"></i>
                         </div>
                         <div class="feature-card__body">
-                            <h4 class="feature-title">Conscripting Funnel</h4>
+                            <h4 class="feature-title">Advanced Search Filters</h4>
                             <p class="feature-paragraph">
                                 Our system thoroughly sifts through billions of data to meet your needs. Our world-class
                                 service gives your business an edge<a href="" class="d-inline show-more">
