@@ -16,7 +16,7 @@
                         checking and maintenance. Our data release is subject to a privacy agreement by both parties.
                     </p>
                     <h4 class="text-white mt-5" data-aos="fade-right" data-aos-duration="1000">
-                        Efficiency
+                     Data Accuracy
                     </h4>
                     <div style="padding-right: 60%;">
                         <hr class="bg-info" />
@@ -66,85 +66,29 @@
         <div class="row">
             <div class="col-12 col-md-10 offset-md-1 text-center" data-aos="fade-right" data-aos-duration="1000">
                 <h1 class="mb-4">
-                    Get access to our best-selling platform now!
+                 Try our world-class service today!
                 </h1>
                 <ul style="list-style-type: none;" class="p-0 m-0">
                     <li class="m-0 p-0">
                         <p class="lead mb-0">
-                            Over 20 Million B2B Contact Lists
+                         Over 20 Million B2B Contact Lists
                         </p>
                     </li>
                     <li class="m-0 p-0">
                         <p class="lead mb-0">
-                            More than +20M Global Company Profiles
+                         More than 20 Million B2B Data
                         </p>
                     </li>
                     <li class="m-0 p-0">
                         <p class="lead mb-0">
-                            95% Guaranteed Accuracy
+                         Guaranteed High Accuracy
                         </p>
                     </li>
                 </ul>
             </div>
-            <div class="col-12">
-                <div class="card-group pb-5 my-5">
-                    <div class="card p-4 m-4 shadow text-center" data-aos="fade-right" data-aos-duration="1000"
-                        style="border: none; border-radius: 12px;">
-                        <h1 class="card-title">
-                            +20M
-                        </h1>
-                        <p class="card-text">
-                            B2B Contacts with
-                            Email Addresses
-                        </p>
-                    </div>
-                    <div class="card p-4 m-4 shadow text-center" data-aos="fade-up" data-aos-duration="1000"
-                        style="border: none; border-radius: 12px;">
-                        <h1 class="card-title">
-                            +20M
-                        </h1>
-                        <p class="card-text">
-                            Global Company
-                            Profiles
-                        </p>
-                    </div>
-                    <div class="card p-4 m-4 shadow text-center" data-aos="fade-left" data-aos-duration="1000"
-                        style="border: none; border-radius: 12px;">
-                        <h1 class="card-title">
-                            95%
-                        </h1>
-                        <p class="card-text">
-                            Accuracy
-                            Guarantee
-                        </p>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 
-    <div class="container pt-5 mt-5 overflow-hidden">
-        <div class="row">
-            <div class="col-12 col-md-8 offset-md-2 text-center mb-5" data-aos="fade-right" data-aos-duration="1000">
-                <h1>
-                    Real-time Email Verification
-                </h1>
-            </div>
-            <div class="col-12 col-md-6 p-4 d-flex">
-                <p class="align-self-center" data-aos="fade-right" data-aos-duration="1000">
-                    We’re fully committed to providing you with high quality data, and we go to great lengths to ensure that
-                    the information you get from Leadsopedia is accurate and up-to-date. On top of our rigorous data
-                    collection
-                    and verification process, we also have in place a real-time email verification feature that acts as a
-                    final gatekeeper of sorts. In a nutshell, when you choose to unlock a lead’s contact information on
-                    Leadsopedia, our platform will verify your lead’s email address on the spot, before releasing the
-                    information
-                    to you. The same goes for bulk downloads – before you download your selected leads’ information,
-                    Leadsopedia
-                    also performs real-time email verification.
-
-                </p>
-            </div>
             <div class="d-none d-md-block col-md-6 p-4" data-aos="fade-left" data-aos-duration="1000">
                 <img src="{{ asset('images/graphics/good-sale-leads.png') }}" alt="" class="img-fluid rounded">
             </div>
