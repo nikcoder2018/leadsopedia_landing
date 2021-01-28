@@ -34,13 +34,10 @@
                             <h4 class="footer-widget__title">Menu</h4>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="{{ route('platform') }}">Platform</a>
+                                    <a href="{{ route('platform') }}">Services</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('marketing') }}">Marketing</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('data') }}">Our Data</a>
+                                    <a href="{{ route('data') }}">Data Source</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('customers') }}">Customers</a>
@@ -81,7 +78,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="footer-widget">
-                            <h4 class="footer-widget__title">Features</h4>
+                            <h4 class="footer-widget__title">Our Services</h4>
                             <ul class="list-unstyled">
                                 {{-- <li>
                                     <a href="{{ route('marketing') }}">B2B Accounts Marketing</a>
