@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                    <h5 class="badge-primary d-inline px-3 py-2 rounded">
+                    <h5 class="gradient-white-to-blue d-inline px-3 py-2 rounded">
                      Verified B2B Data
                     </h5>
                 </div>
@@ -37,25 +37,25 @@
 
     <div class="container py-5 overflow-hidden">
         <div class="row">
-            <div class="col-12 col-md-4 p-2" data-aos="fade-right" data-aos-duration="1000">
+            <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/target-small.svg') }}" alt="" class="img-fluid align-self-center">
                     <h6 class="align-self-center ml-2">Contacts Lists</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-4 p-2" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/pay-verified-data.svg') }}" alt="" class="img-fluid align-self-center">
                     <h6 class="align-self-center ml-2">Advanced Search Filters</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-4 p-2" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/bulk-email.svg') }}" alt="" class="img-fluid align-self-center">
                     <h6 class="align-self-center ml-2">Verified Data</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-4 p-2" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/bulk-email.svg') }}" alt="" class="img-fluid align-self-center">
                     <h6 class="align-self-center ml-2">Wide Data Coverage</h6>
