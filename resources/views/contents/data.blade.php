@@ -88,10 +88,8 @@
             </div>
         </div>
     </div>
-
-            <div class="d-none d-md-block col-md-6 p-4" data-aos="fade-left" data-aos-duration="1000">
-                <img src="{{ asset('images/graphics/good-sale-leads.png') }}" alt="" class="img-fluid rounded">
-            </div>
+     <div class="container pt-5 mt-5 overflow-hidden">	
+        <div class="row">
             <div class="d-none d-md-block col-md-6 p-4" data-aos="fade-right" data-aos-duration="1000">
                 <img src="{{ asset('images/graphics/team-sales.jpg') }}" alt="" class="img-fluid rounded">
             </div>

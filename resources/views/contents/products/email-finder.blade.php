@@ -5,13 +5,8 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="d-flex" data-aos="fade-down" data-aos-duration="1000">
-<<<<<<< HEAD
-                    <h5 class="gradient-white-to-blue d-inline px-3 py-2 rounded">
-                        Email Finder
-=======
                     <h5 class="badge-primary d-inline px-3 py-2 rounded">
                      B2B Email Lists
->>>>>>> fa4199c4cdae16514c6c2bdc3b3af6241dc2475a
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
@@ -37,28 +32,28 @@
 
     <hr class="my-5" />
 
-    <div class="container py-5 overflow-hidden">
+    <div class="container-fluid py-5 overflow-hidden">
         <div class="row">
-            <div class="col-12 col-md-4 p-2" data-aos="fade-right" data-aos-duration="1000">
+            <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/target-small.svg') }}" alt="" class="img-fluid align-self-center ml-auto">
                     <h6 class="align-self-center ml-2 mr-auto">Contacts Lists</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-4 p-2" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/quick-search-small.svg') }}" alt=""
                         class="img-fluid align-self-center ml-auto">
                     <h6 class="align-self-center ml-2 mr-auto">Advanced Search Filters</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-4 p-2" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/contacts-small.svg') }}" alt="" class="img-fluid align-self-center ml-auto">
                     <h6 class="align-self-center ml-2 mr-auto">Verified Data</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-4 p-2" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/contacts-small.svg') }}" alt="" class="img-fluid align-self-center ml-auto">
                     <h6 class="align-self-center ml-2 mr-auto">Wide Data Coverage</h6>
