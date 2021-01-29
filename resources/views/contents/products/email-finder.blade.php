@@ -5,13 +5,8 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="d-flex" data-aos="fade-down" data-aos-duration="1000">
-<<<<<<< HEAD
-                    <h5 class="gradient-white-to-blue d-inline px-3 py-2 rounded">
-                        Email Finder
-=======
                     <h5 class="badge-primary d-inline px-3 py-2 rounded">
                      B2B Email Lists
->>>>>>> fa4199c4cdae16514c6c2bdc3b3af6241dc2475a
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
