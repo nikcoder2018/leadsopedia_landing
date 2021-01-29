@@ -18,22 +18,21 @@
                 <li class="nav-item mx-xl-4 dropdown">
                     <a class="nav-link dropdown-toggle shadow-hover" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Products
+                        Our Services
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item shadow-hover" href="{{ route('products', 'prospector') }}">Prospector</a>
-                        <a class="dropdown-item shadow-hover" href="{{ route('products', 'data-enrichments') }}">Data Enrichments</a>
-                        <a class="dropdown-item shadow-hover" href="{{ route('products', 'email-verification') }}">Email
-                            Verification</a>
-                        <a class="dropdown-item shadow-hover" href="{{ route('products', 'email-finder') }}">Email Finder</a>
-                        <a class="dropdown-item shadow-hover" href="{{ route('api') }}">API</a>
+                        <a class="dropdown-item" href="{{ route('products', 'prospector') }}">B2B Leads</a>
+                        <a class="dropdown-item" href="{{ route('products', 'data-enrichments') }}">Refined Data</a>
+                        <a class="dropdown-item" href="{{ route('products', 'email-verification') }}"> Verified B2B Data</a>
+                        <a class="dropdown-item" href="{{ route('products', 'email-finder') }}">B2B Email Lists</a>
+                        <a class="dropdown-item" href="{{ route('api') }}">API</a>
                     </div>
                 </li>
                 <li class="nav-item mx-xl-4">
-                    <a class="nav-link shadow-hover" href="{{ route('pricing') }}">Pricing</a>
+                    <a class="nav-link" href="{{ route('pricing') }}">Pricing Plans</a>
                 </li>
                 <li class="nav-item mx-xl-4">
-                    <a class="nav-link shadow-hover" href="{{ route('data') }}">Our Data</a>
+                    <a class="nav-link" href="{{ route('data') }}">Data Source</a>
                 </li>
                 <li class="nav-item mx-xl-4">
                     <a class="nav-link shadow-hover" href="{{ route('aboutus') }}">About Us</a>

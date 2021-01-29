@@ -53,7 +53,7 @@
                   </ul>
                   @endif
                   <div class="pricing-footer">
-                      <a href="#" class="btn btn-primary">Select</a>
+                      <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
                   </div>
               </div>
             </div>

@@ -6,7 +6,7 @@
             <div class="col-12 col-md-6">
                 <div data-aos="fade-right" data-aos-duration="1000">
                     <h5 class="badge-primary d-inline px-3 py-2 rounded">
-                        Platform
+                        Services
                     </h5>
                 </div>
                 <h1 class="mt-2 line-height-3" data-aos="fade-right" data-aos-duration="1000">
@@ -22,7 +22,7 @@
                     <a href="#" class="btn btn-primary btn-lg mx-1" data-aos="fade-right" data-aos-duration="1000">
                         Browse Features
                     </a>
-                    <a href="#" class="btn btn-outline-primary btn-lg mx-1" data-aos="fade-right" data-aos-duration="1000">
+                    <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-outline-primary btn-lg mx-1" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up
                     </a>
                 </div>
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="col-12 text-center pt-4" data-aos="fade-up" data-aos-duration="1000">
-                <a href="#" class="btn btn-primary btn-lg">
+                <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary btn-lg">
                     Sign Up
                 </a>
             </div>
@@ -103,7 +103,7 @@
                     information and engage in seconds.
                 </p>
                 <div class="d-flex pb-5 mb-5">
-                    <a href="#" class="btn btn-primary btn-lg mx-1" data-aos="fade-right" data-aos-duration="1000">
+                    <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary btn-lg mx-1" data-aos="fade-right" data-aos-duration="1000">
                         Sign Up
                     </a>
                     <a href="#" class="btn btn-outline-primary btn-lg mx-1" data-aos="fade-right" data-aos-duration="1000">

@@ -10,7 +10,7 @@
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
-                    Turn data into sales opportunities!
+                Use Our Data to Grow Your Business!
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     Access our data lists to local and global opportunities when you sign up in Leadsopedia.
@@ -37,25 +37,25 @@
             <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/enrich-contacts.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Enrich Contacts</h6>
+                    <h6 class="align-self-center ml-2">Contact Lists</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/enrich-companies.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Enrich Companies</h6>
+                    <h6 class="align-self-center ml-2">Advanced Search Filters</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/enrich-emails.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Enrich Emails</h6>
+                    <h6 class="align-self-center ml-2">Verified Data</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/pay-verified-data.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Only Verified Data</h6>
+                    <h6 class="align-self-center ml-2">Wide Data Coverage</h6>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
             </div>
             <div class="col-12 col-md-6 p-5">
                 <img src="{{ asset('images/enrich-contacts.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
-                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Contacts Enrichment</h4>
+                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Contacts Lists</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
                     Get updated contacts list of your future customers
                 </h1>
@@ -78,11 +78,6 @@
                     In Leadsopedia, our contacts list gets updated everyday so prospectors can reach out to new customers.
                 </p>
                 <div class="d-flex" data-aos="fade-left" data-aos-duration="1000">
-                    <ul>
-                        <li>Full name and company URL required</li>
-                        <li>Grab 50+ data fields, including verified emails</li>
-                        <li>95% accuracy guarantee</li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -94,7 +89,7 @@
         <div class="row">
             <div class="col-12 col-md-6 p-5">
                 <img src="{{ asset('images/enrich-companies.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
-                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Companies Enrichment</h4>
+                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Companies Lists</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     Seal more deals for your companies
                 </h1>
@@ -102,11 +97,6 @@
                     Find the right prospects for your business through our extended data list.
                 </p>
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                    <ul>
-                        <li>Full name and company URL required</li>
-                        <li>Grab 50+ data fields, including phone number</li>
-                        <li>95% accuracy guarantee</li>
-                    </ul>
                 </div>
             </div>
             <div class="d-none d-md-block col-md-6 p-5 border-left" data-aos="fade-left" data-aos-duration="1000">
@@ -125,7 +115,7 @@
             </div>
             <div class="col-12 col-md-6 p-5">
                 <img src="{{ asset('images/enrich-emails.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
-                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Email Enrichment</h4>
+                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Email Lists</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
                     Updated and quality email lists
                 </h1>
@@ -133,11 +123,6 @@
                     Reach the right customers through our platform.
                 </p>
                 <div class="d-flex" data-aos="fade-left" data-aos-duration="1000">
-                    <ul>
-                        <li>Contact email required</li>
-                        <li>No email match, no charge</li>
-                        <li>95% accuracy guarantee</li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -150,12 +135,12 @@
             <div class="col-12 col-md-6 p-5">
                 <img src="{{ asset('images/pay-verified-data.svg') }}" alt="" data-aos="fade-right"
                     data-aos-duration="1000">
-                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Zero-Waste Download</h4>
+                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Verified Data</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                    Only verified matches
+                Valid data downloads
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    You have full control on how many records you’ll download from our database.
+                For the lowest subscription plans, you get to download contact lists from our wide database.
                 </p>
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <ul>
