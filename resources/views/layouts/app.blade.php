@@ -95,6 +95,9 @@
 
     @include('includes.footer')
 
+    <div id="chat-app-container"></div>
+    <script src="{{ mix('js/apps/index.js') }}"></script>
+    
     <script src="{{ asset('js/vendors/jquery.min.js') }}"></script>
     <script src="{{ asset('js/vendors/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('js/vendors/jquery.magnific-popup.min.js') }}"></script>

@@ -32,8 +32,8 @@
                                 <span>Real-time Verified Database</span>
                             </li>
                         </ul>
-                        <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary" data-aos="fade-up" data-aos-duration="1000">
-                            Explore our products
+                        <a href="#" class="btn btn-link btn-link--secondary" data-aos="fade-up" data-aos-duration="1000">
+                            Our Company Profile
                             <i class="icon ion-ios-arrow-round-forward"></i>
                         </a>
                     </div>

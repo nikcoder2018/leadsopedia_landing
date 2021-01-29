@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-12 col-md-6 pt-4">
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                    Get access to over +20 million contacts with 95% data accuracy
+                Get access to over +30 million contacts with guaranteed data accuracy
                 </h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
                     Sign up now and find the right prospects today!
@@ -33,7 +33,7 @@
             <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/contracts-and-companies.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Contracts & Companies</h6>
+                    <h6 class="align-self-center ml-2">Contact Lists</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-right" data-aos-duration="1000">
@@ -45,13 +45,13 @@
             <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/clock-small.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Realtime Verification</h6>
+                    <h6 class="align-self-center ml-2">Verified Data</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <img src="{{ asset('images/world-small.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Worldwide Coverage</h6>
+                    <h6 class="align-self-center ml-2">Global Coverage</h6>
                 </div>
             </div>
         </div>
@@ -64,16 +64,11 @@
             </div>
             <div class="col-12 col-sm-6 text-left p-4">
                 <img src="{{ asset('images/target.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
-                <h5 class="text-secondary mt-2" data-aos="fade-left" data-aos-duration="1000">95% Data Accuracy</h5>
+                <h5 class="text-secondary mt-2" data-aos="fade-left" data-aos-duration="1000">High Percentage Data Accuracy</h5>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">Create opportunities, Build partnerships</h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
                     Our intelligent search engine and filtering process helps prospectors find the right match.
                 </p>
-                <ul data-aos="fade-left" data-aos-duration="1000">
-                    <li>Over 20 Million Contacts</li>
-                    <li>Data in 200+ Countries</li>
-                    <li>95% Accuracy Guarantee</li>
-                </ul>
             </div>
         </div>
 
@@ -82,17 +77,13 @@
         <div class="row">
             <div class="col-12 col-sm-6 text-left p-4">
                 <img src="{{ asset('images/profile.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
-                <h5 class="text-secondary mt-2" data-aos="fade-right" data-aos-duration="1000">Realtime Prospecting</h5>
+                <h5 class="text-secondary mt-2" data-aos="fade-right" data-aos-duration="1000">Updated and Verified Data</h5>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     Quality data with just one click
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     We want our Clients to seal the next big deal. That’s why in Leadsopedia, we update our data real-time using website traffic.
                 </p>
-                <ul data-aos="fade-right" data-aos-duration="1000">
-                    <li>Real-time leads</li>
-                    <li>Easy platform navigation</li>
-                </ul>
             </div>
             <div class="d-none d-md-block col-sm-6 p-3 border-left" data-aos="fade-left" data-aos-duration="1000">
                 <img src="{{ asset('images/graphics/ai-support.jpg') }}" alt="" class="img-fluid">
@@ -107,17 +98,13 @@
             </div>
             <div class="col-12 col-sm-6 text-left p-4">
                 <img src="{{ asset('images/quick-search.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
-                <h5 class="text-secondary mt-2" data-aos="fade-left" data-aos-duration="1000">Advanced Search</h5>
+                <h5 class="text-secondary mt-2" data-aos="fade-left" data-aos-duration="1000">Multiple Search Filters</h5>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
-                    Target the right prospects
+                Get accurate data through our search filters
                 </h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
                     We narrow down our lists based on your selected filters. We make sure the leads we give you are already interested in your business!
                 </p>
-                <ul data-aos="fade-left" data-aos-duration="1000">
-                    <li>Advanced search criteria</li>
-                    <li>Data for contacts and companies</li>
-                </ul>
             </div>
         </div>
 

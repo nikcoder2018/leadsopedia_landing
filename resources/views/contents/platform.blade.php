@@ -6,7 +6,7 @@
             <div class="col-12 col-md-6">
                 <div data-aos="fade-right" data-aos-duration="1000">
                     <h5 class="badge-primary d-inline px-3 py-2 rounded">
-                        Platform
+                        Services
                     </h5>
                 </div>
                 <h1 class="mt-2 line-height-3" data-aos="fade-right" data-aos-duration="1000">
