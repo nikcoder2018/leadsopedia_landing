@@ -20,8 +20,20 @@
                                 support.
                             </p>
                         </div>
-                        <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary" data-aos="fade-up" data-aos-duration="1000">
-                            Explore our products
+                        <ul class="list list-unstyled list-circle" data-aos="fade-left" data-aos-duration="1000">
+
+                            <li>
+                                <span>24/7 Customer Support</span>
+                            </li>
+                            <li>
+                                <span>Intelligent Predictive API</span>
+                            </li>
+                            <li>
+                                <span>Real-time Verified Database</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-link btn-link--secondary" data-aos="fade-up" data-aos-duration="1000">
+                            Our Company Profile
                             <i class="icon ion-ios-arrow-round-forward"></i>
                         </a>
                     </div>
@@ -30,7 +42,7 @@
         </div>
     </section>
 
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2 text-center">
                 <h1 data-aos="fade-left" data-aos-duration="1000">Leadsopedia Company Values</h1>

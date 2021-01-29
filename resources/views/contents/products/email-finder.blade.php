@@ -5,8 +5,13 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="d-flex" data-aos="fade-down" data-aos-duration="1000">
+<<<<<<< HEAD
+                    <h5 class="gradient-white-to-blue d-inline px-3 py-2 rounded">
+                        Email Finder
+=======
                     <h5 class="badge-primary d-inline px-3 py-2 rounded">
                      B2B Email Lists
+>>>>>>> fa4199c4cdae16514c6c2bdc3b3af6241dc2475a
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
@@ -25,7 +30,7 @@
                 </div>
             </div>
             <div class="d-none d-md-block col-md-6 border-left" data-aos="fade-left" data-aos-duration="1000">
-                <img src="{{ asset('images/graphics/high-sales.png') }}" alt="" class="img-fluid">
+                <img src="{{ asset('images/graphics/boost-sale.png') }}" alt="" class="img-fluid">
             </div>
         </div>
     </div>
@@ -67,7 +72,7 @@
     <div class="container">
         <div class="row">
             <div class="d-none d-md-block col-md-6 border-right d-flex">
-                <img src="{{ asset('images/graphics/data-enrichment.png') }}" alt="" class="img-fluid align-self-center"
+                <img src="{{ asset('images/graphics/good-sale-leads.png') }}" alt="" class="img-fluid align-self-center"
                     data-aos="fade-right" data-aos-duration="1000">
             </div>
             <div class="col-12 col-md-6 p-5">
@@ -113,7 +118,7 @@
     <div class="container">
         <div class="row">
             <div class="d-none d-md-block col-md-6 p-5 border-right text-center">
-                <img src="{{ asset('images/graphics/business-consultants.png') }}" alt="" class="img-fluid"
+                <img src="{{ asset('images/graphics/team-sales.jpg') }}" alt="" class="img-fluid"
                     data-aos="fade-right" data-aos-duration="1000">
             </div>
             <div class="col-12 col-md-6 p-5">

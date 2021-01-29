@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container text-center py-5 overflow-hidden">
+    <div class="container py-5 overflow-hidden">
         <div class="d-flex" data-aos="fade-down" data-aos-duration="1000">
-            <h4 class="px-3 py-2 badge-primary d-inline rounded mx-auto">Prospector</h4>
+            <h4 class="px-3 py-2 gradient-white-to-blue d-inline rounded">Prospector</h4>
         </div>
         <div class="row">
-            <div class="col-12 col-md-8 offset-md-2 pt-4">
+            <div class="col-12 col-md-6 pt-4">
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                 Get access to over +30 million contacts with guaranteed data accuracy
                 </h1>
@@ -14,13 +14,16 @@
                     Sign up now and find the right prospects today!
                 </p>
                 <div class="d-flex" data-aos="fade-up" data-aos-duration="1000">
-                    <a href="https://app.leadsopedia.com/register" class="btn btn-primary btn-lg mr-1 ml-auto">
+                    <a href="https://app.leadsopedia.com/register" class="btn btn-primary btn-lg mx-1">
                         Sign Up
                     </a>
-                    <a href="{{ route('aboutus') }}" class="btn btn-outline-primary btn-lg ml-1 mr-auto">
+                    <a href="{{ route('aboutus') }}" class="btn btn-outline-primary btn-lg mx-1">
                         Learn More
                     </a>
                 </div>
+            </div>
+            <div class="d-none d-md-block col-md-6 border-left" data-aos="fade-left" data-aos-duration="1000">
+                <img src="{{ asset('images/graphics/searching.png') }}" alt="" class="img-fluid">
             </div>
         </div>
 

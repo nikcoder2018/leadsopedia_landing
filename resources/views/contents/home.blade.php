@@ -48,33 +48,37 @@
             text-decoration: none;
         }
 
+        .text-shadow-white {
+            text-shadow: -3px 3px 10px rgb(211, 211, 211);
+        }
+
     </style>
 @endsection
 @section('content')
     <!-- ========================= HERO SECTION ========================= -->
-    <header id="hero" class="hero">
+    <header id="hero" class="hero bg-blue-diagonal">
         <div class="container">
             <div class="row align-items-center overflow-hidden">
                 <div class="col-12 col-sm-6">
                     <div class="hero-content" data-aos="zoom-in-right" data-aos-duration="1000">
                         <div class="hero-title__group">
-                            <div class="hero-title">
-                                <h2>Grow your business with the right connections.</h2>
+                            <div class="hero-title shadow-hover shadow-white-interval">
+                                <h1 class="text-white" style="line-height: 3rem;">Grow your business with the right connections.</h1>
                             </div>
                             <div class="Hero--Subtitle">
-                                <p class="lead">
+                                <p class="lead text-white">
                                     Leadsopedia helps you find marketing deals, sales funnels, and prospects fit for all
                                     industries.
                                 <p>
                             </div>
                             <b>
-                                <i>
+                                <i class="text-white">
                                     Your journey to success begins here.
                                 </i>
                             </b>
                         </div>
                         <div class="hero-cta-group">
-                            <a href="{{ route('pricing') }}" class="btn btn-secondary">Get Started</a>
+                            <a href="{{ route('pricing') }}" class="btn btn-light">Get Started</a>
                         </div>
                         {{-- <div class="hero-trusted-by">
                             <h5>TRUSTED BY</h5>
@@ -82,10 +86,8 @@
                         </div> --}}
                     </div>
                 </div>
-                <div class="col-12 col-sm-5 ml-auto" data-aos="zoom-in-left" data-aos-duration="1000">
-                    <div class="hero-figure">
-                        <img src="{{ asset('images/graphics/roi-logo.jpg') }}" class=" img-fluid w-100" alt="">
-                    </div>
+                <div class="col-12 col-sm-6 d-none d-md-block" data-aos="zoom-in-left" data-aos-duration="1000">
+                    <img src="{{ asset('images/graphics/intro.png') }}" class=" img-fluid w-100" alt="">
                 </div>
             </div>
         </div>
@@ -115,6 +117,8 @@
                     </header>
                 </div>
             </div>
+        </div>
+        <div class="container">
             {{--
             <div class="section-screens__inner">
                 <div class="swiper-container screen-slider">
@@ -138,222 +142,189 @@
                 </div>
             </div>
             --}}
-            <div class="row overflow-hidden">
-                <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card shadow hover-zoom">
-                        <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
-                            <i class="icon ion-ios-apps"></i>
+            <div class="card-group mt-5">
+                <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple mx-auto">
+                                <i class="icon ion-ios-apps"></i>
+                            </div>
                         </div>
-                        <div class="feature-card__body w-100">
-                            <h4 class="feature-title">Refined Data</h4>
-                            <p class="feature-paragraph">
-                                Our Clients’ success is also our success. This is why we make sure that resources are
-                                optimized and we provide<a href="" class="d-inline show-more">
-                                    Show More >>
-                                    <span class="d-none">
-                                        Our Clients’ success is also our success. This is why we make sure that resources are
-                                        optimized and we provide quality data to increase conversion rates. We filter out the noise
-                                        to give Clients an edge over their competitors.
-                                    </span>
-                                    <span class="d-none">
-                                        Our in-house specialists are equipped with digital marketing skills to help you build the
-                                        perfect sales strategy and cultivate the right advertising process. Our Clients increase
-                                        their ROI by building the right data and the right connections.
-                                    </span>
-                                </a>
-                            </p>
-                            <a href="{{ route('products', ['name' => 'data-enrichments']) }}" class="btn btn-link btn-link--secondary learn-more-link">
-                                Learn more
-                                <i class="icon ion-ios-arrow-forward"></i>
+                        <h4 class="card-title text-center">Data Enrichment</h4>
+                        <p class="card-text text-center">
+                            Our Clients’ success is also our success. This is why we make sure that resources are
+                            optimized and we provide<a href="" class="d-inline show-more">
+                                Show More >>
+                                <span class="d-none">
+                                    Our Clients’ success is also our success. This is why we make sure that resources are
+                                    optimized and we provide quality data to increase conversion rates. We filter out the noise
+                                    to give Clients an edge over their competitors.
+                                </span>
+                                <span class="d-none">
+                                    Our in-house specialists are equipped with digital marketing skills to help you build the
+                                    perfect sales strategy and cultivate the right advertising process. Our Clients increase
+                                    their ROI by building the right data and the right connections.
+                                </span>
                             </a>
-                        </div>
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card shadow hover-zoom">
-                        <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
-                            <i class="icon ion-ios-apps"></i>
+                <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple mx-auto">
+                                <i class="icon ion-ios-construct"></i>
+                            </div>
                         </div>
-                        <div class="feature-card__body">
-                            <h4 class="feature-title">Validated Data</h4>
-                            <p class="feature-paragraph">
-                                We go beyond the ordinary and actively regulate and update our listings so you get new leads
-                                every day. Our<a href="" class="d-inline show-more">
-                                    Show More >>
-                                    <span class="d-none">
-                                        We go beyond the ordinary and actively regulate and update our listings so you get new leads
-                                        every day. Our top-notch database management efforts are designed to ensure successful
-                                        connections every time. We curate the right resources for you so you are always one step
-                                        ahead
-                                    </span>
-                                </a>
-                            </p>
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">
-                                Learn more
-                                <i class="icon ion-ios-arrow-forward"></i>
+                        <h4 class="card-title text-center">Realtime Verified Data</h4>
+                        <p class="card-text text-center">
+                            We go beyond the ordinary and actively regulate and update our listings so you get new leads
+                            every day. Our<a href="" class="d-inline show-more">
+                                Show More >>
+                                <span class="d-none">
+                                    We go beyond the ordinary and actively regulate and update our listings so you get new leads
+                                    every day. Our top-notch database management efforts are designed to ensure successful
+                                    connections every time. We curate the right resources for you so you are always one step
+                                    ahead
+                                </span>
                             </a>
-                        </div>
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card shadow hover-zoom">
-                        <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
-                            <i class="icon ion-ios-keypad"></i>
+            <div class="card-group">
+                <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary mx-auto">
+                                <i class="icon ion-ios-analytics"></i>
+                            </div>
                         </div>
-                        <div class="feature-card__body">
-                            <h4 class="feature-title">B2B Data Lists</h4>
-                            <p class="feature-paragraph">
-                                Leadsopedia generates millions of prospects in both local and global industries. With our
-                                enhanced and calibrated<a href="" class="d-inline show-more">
-                                    Show More >>
-                                    <span class="d-none">
-                                        Leadsopedia generates millions of prospects in both local and global industries. With our
-                                        enhanced and calibrated platform, endless possibilities are at the tip of your fingertips.
-                                        We guarantee that your business will stand out from the rest.
-                                    </span>
-                                </a>
-                            </p>
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">Learn more
-                                <i class="icon ion-ios-arrow-forward"></i>
+                        <h4 class="card-title text-center">B2B Prospector</h4>
+                        <p class="card-text text-center">
+                            Leadsopedia generates millions of prospects in both local and global industries. With our
+                            enhanced<a href="" class="d-inline show-more">
+                                Show More >>
+                                <span class="d-none">
+                                    Leadsopedia generates millions of prospects in both local and global industries. With our
+                                    enhanced and calibrated platform, endless possibilities are at the tip of your fingertips.
+                                    We guarantee that your business will stand out from the rest.
+                                </span>
                             </a>
-                        </div>
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card shadow hover-zoom">
-                        <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan">
-                            <i class="icon ion-ios-bug"></i>
+                <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan mx-auto">
+                                <i class="icon ion-ios-document"></i>
+                            </div>
                         </div>
-                        <div class="feature-card__body">
-                            <h4 class="feature-title">Verified Email Lists</h4>
-                            <p class="feature-paragraph">
-                                We are confident that the data we give you are 100% verified and are tailor-fit to your
-                                needs. We make sure that the data<a href="" class="d-inline show-more">
-                                    Show More >>
-                                    <span class="d-none">
-                                        We are confident that the data we give you are 100% verified and are tailor-fit to your
-                                        needs. We make sure that the data sets you receive from us are real and updated every day.
-                                        There’s no need to collect e-mail addresses elsewhere because you’ve got everything that
-                                        you’ll need here in Leadsopedia.
-                                    </span>
-                                </a>
-                            </p>
-
-                            <a href="{{ route('products', ['name' => 'email-verification']) }}" class="btn btn-link btn-link--secondary learn-more-link">
-                                Learn more
-                                <i class="icon ion-ios-arrow-forward"></i>
+                        <h4 class="card-title text-center">Email Verifications</h4>
+                        <p class="card-text text-center">
+                            We are confident that the data we give you are 100% verified and are tailor-fit to your
+                            needs. We make sure<a href="" class="d-inline show-more">
+                                Show More >>
+                                <span class="d-none">
+                                    We are confident that the data we give you are 100% verified and are tailor-fit to your
+                                    needs. We make sure that the data sets you receive from us are real and updated every day.
+                                    There’s no need to collect e-mail addresses elsewhere because you’ve got everything that
+                                    you’ll need here in Leadsopedia.
+                                </span>
                             </a>
-                        </div>
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card shadow hover-zoom">
-                        <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
-                            <i class="icon ion-ios-keypad"></i>
+            <div class="card-group">
+                <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary mx-auto">
+                                <i class="icon ion-ios-funnel"></i>
+                            </div>
                         </div>
-                        <div class="feature-card__body">
-                            <h4 class="feature-title">B2B Sales</h4>
-                            <p class="feature-paragraph">
-                                Effective digital engagement is our top priority. We structure the lead data for you so you
-                                can quickly decide with conviction. We believe<a href="" class="d-inline show-more">
-                                    Show More >>
-                                    <span class="d-none">
-                                        Effective digital engagement is our top priority. We structure the lead data for you so you
-                                        can quickly decide with conviction. We believe that with less effort, you can create better
-                                        results through our platform. Our tried and tested leads generation services can leverage
-                                        your company’s sales and marketing without sacrificing quality and efficiency.
-                                    </span>
-                                </a>
-                            </p>
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">Learn more
-                                <i class="icon ion-ios-arrow-forward"></i>
+                        <h4 class="card-title text-center">B2B Sales Funnel</h4>
+                        <p class="card-text text-center">
+                            Effective digital engagement is our top priority. We structure the lead data for you so you
+                            can quickly decide with conviction. We believe<a href="" class="d-inline show-more">
+                                Show More >>
+                                <span class="d-none">
+                                    Effective digital engagement is our top priority. We structure the lead data for you so you
+                                    can quickly decide with conviction. We believe that with less effort, you can create better
+                                    results through our platform. Our tried and tested leads generation services can leverage
+                                    your company’s sales and marketing without sacrificing quality and efficiency.
+                                </span>
                             </a>
-                        </div>
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card shadow m-0 hover-zoom">
-                        <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan">
-                            <i class="icon ion-ios-bug"></i>
+                <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan mx-auto">
+                                <i class="icon ion-ios-download"></i>
+                            </div>
                         </div>
-                        <div class="feature-card__body">
-                            <h4 class="feature-title">B2B Marketing</h4>
-                            <p class="feature-paragraph">
-                                Leadsopedia is the right avenue for the right business deals, successful partnerships, and
-                                impactful sales funnel. We match<a href="" class="d-inline show-more">
-                                    Show More >>
-                                    <span class="d-none">
-                                        Leadsopedia is the right avenue for the right business deals, successful partnerships, and
-                                        impactful sales funnel. We match multiple industries to collaborate and create the future
-                                        together. We believe that successful marketing campaigns are crucial for a new business. Let
-                                        Leadsopedia turn your dream into a reality.
-                                    </span>
-                                </a>
-                            </p>
-
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">
-                                Learn more
-                                <i class="icon ion-ios-arrow-forward"></i>
+                        <h4 class="card-title text-center">B2B Marketing funnel</h4>
+                        <p class="card-text text-center">
+                            Leadsopedia is the right avenue for the right business deals, successful partnerships, and
+                            impactful sales funnel. We match<a href="" class="d-inline show-more">
+                                Show More >>
+                                <span class="d-none">
+                                    Leadsopedia is the right avenue for the right business deals, successful partnerships, and
+                                    impactful sales funnel. We match multiple industries to collaborate and create the future
+                                    together. We believe that successful marketing campaigns are crucial for a new business. Let
+                                    Leadsopedia turn your dream into a reality.
+                                </span>
                             </a>
-                        </div>
+                        </p>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card shadow hover-zoom">
-                        <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary">
-                            <i class="icon ion-ios-keypad"></i>
+            <div class="card-group">
+                <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary mx-auto">
+                                <i class="icon ion-ios-mail"></i>
+                            </div>
                         </div>
-                        <div class="feature-card__body">
-                            <h4 class="feature-title">Email Locator</h4>
-                            <p class="feature-paragraph">
-                                Save precious time and discover our platform’s untapped potential. The emails we provide you
-                                are verified across<a href="" class="d-inline show-more">
-                                    Show More >>
-                                    <span class="d-none">
-                                        Save precious time and discover our platform’s untapped potential. The emails we provide you
-                                        are verified across both local and global industries. Connect to experts, build the perfect
-                                        team, and expand your business exponentially. You are guaranteed to convert leads to
-                                        customers with us.
-                                    </span>
-                                </a>
-                            </p>
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">
-                                Learn more
-                                <i class="icon ion-ios-arrow-forward"></i>
+                        <h4 class="card-title text-center">Email Finder</h4>
+                        <p class="card-text text-center">
+                            Save precious time and discover our platform’s untapped potential. The emails we provide you
+                            are verified across both<a href="" class="d-inline show-more">
+                                Show More >>
+                                <span class="d-none">
+                                    Save precious time and discover our platform’s untapped potential. The emails we provide you
+                                    are verified across both local and global industries. Connect to experts, build the perfect
+                                    team, and expand your business exponentially. You are guaranteed to convert leads to
+                                    customers with us.
+                                </span>
                             </a>
-                        </div>
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 p-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="feature-card shadow hover-zoom">
-                        <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple">
-                            <i class="icon ion-ios-apps"></i>
+                <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple mx-auto">
+                                <i class="icon ion-ios-flash"></i>
+                            </div>
                         </div>
-                        <div class="feature-card__body">
-                            <h4 class="feature-title">Advanced Search Filters</h4>
-                            <p class="feature-paragraph">
-                                Our system thoroughly sifts through billions of data to meet your needs. Our world-class
-                                service gives your business an edge<a href="" class="d-inline show-more">
-                                    Show More >>
-                                    <span class="d-none">
-                                        Our system thoroughly sifts through billions of data to meet your needs. Our world-class
-                                        service gives your business an edge over whatever industry you’re in. Leadsopedia makes sure
-                                        that your business will stand out among the rest.
-                                    </span>
-                                </a>
-                            </p>
-
-                            <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary learn-more-link">Learn more
-                                <i class="icon ion-ios-arrow-forward"></i>
+                        <h4 class="card-title text-center">Conscripting Funnel</h4>
+                        <p class="card-text text-center">
+                            Our system thoroughly sifts through billions of data to meet your needs. Our world-class
+                            service gives your business an edge<a href="" class="d-inline show-more">
+                                Show More >>
+                                <span class="d-none">
+                                    Our system thoroughly sifts through billions of data to meet your needs. Our world-class
+                                    service gives your business an edge over whatever industry you’re in. Leadsopedia makes sure
+                                    that your business will stand out among the rest.
+                                </span>
                             </a>
-                        </div>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -484,7 +455,7 @@
             </div>
         </div> --}}
 
-        <hr class="my-4" />
+        <div class="my-4"></div>
 
         <div class="container py-5 mt-5 text-center overflow-hidden">
             <div class="row">
@@ -503,31 +474,97 @@
             </div>
         </div>
 
-        <hr class="my-4" />
+        <div class="my-4"></div>
 
-        <div class="container py-5 mt-5 overflow-hidden">
+        <div class="container py-5 mt-5 text-center overflow-hidden">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-10 offset-md-1">
                     <h1 class="pb-1" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                        Integrations
+                        Our Services
                     </h1>
-                    <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                        Leadsopedia integrates with all the tools you love and use, to allow you to work smarter and faster.
+                    <p class="lead" data-aos="fade-left" data-aos-duration="1000">
+                        We always make sure to provide you with bleeding-edge technology
+                        so that you can make the most out of our service!
                     </p>
-                    <a href="https://app.leadsopedia.com/login" class="btn btn-primary" data-aos="fade-right" data-aos-duration="1000">
-                        Sign Up
-                    </a>
-                    <a href="https://app.leadsopedia.com/integrations" class="btn btn-outline-primary" data-aos="fade-left" data-aos-duration="1000">
-                        Browse Integrations
-                    </a>
                 </div>
-                <div class="d-none d-md-block col-md-6 d-flex" data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ asset('images/companies/group.svg') }}" alt="" class="img-fluid">
+            </div>
+            <div class="card-group">
+                <div class="card m-3 border-0 shadow" style="border-radius: 1rem;">
+                    <div class="card-body">
+                        <div class="d-flex flex-column">
+                            <div class="mx-auto mb-3 mt-2 p-2 rounded-circle border align-items-center d-flex" style="height: 60px; width: 60px;">
+                                <i class="fas fa-bolt fa-2x mx-auto text-primary"></i>
+                            </div>
+                            <h6 class="card-title mx-auto">Title</h6>
+                            <p class="card-tex mx-autot">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Totam error nulla quia illo minus officiis modi ducimus labore! 
+                                Iusto corrupti illo esse exercitationem delectus fuga perspiciatis 
+                                saepe omnis voluptatibus amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-3 border-0 shadow" style="border-radius: 1rem;">
+                    <div class="card-body">
+                        <div class="d-flex flex-column">
+                            <div class="mx-auto mb-3 mt-2 p-2 rounded-circle border align-items-center d-flex" style="height: 60px; width: 60px;">
+                                <i class="fas fa-certificate fa-2x mx-auto text-primary"></i>
+                            </div>
+                            <h6 class="card-title mx-auto">Title</h6>
+                            <p class="card-tex mx-autot">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Totam error nulla quia illo minus officiis modi ducimus labore! 
+                                Iusto corrupti illo esse exercitationem delectus fuga perspiciatis 
+                                saepe omnis voluptatibus amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-3 border-0 shadow" style="border-radius: 1rem;">
+                    <div class="card-body">
+                        <div class="d-flex flex-column">
+                            <div class="mx-auto mb-3 mt-2 p-2 rounded-circle border align-items-center d-flex" style="height: 60px; width: 60px;">
+                                <i class="fas fa-dna fa-2x mx-auto text-primary"></i>
+                            </div>
+                            <h6 class="card-title mx-auto">Title</h6>
+                            <p class="card-tex mx-autot">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Totam error nulla quia illo minus officiis modi ducimus labore! 
+                                Iusto corrupti illo esse exercitationem delectus fuga perspiciatis 
+                                saepe omnis voluptatibus amet.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <hr class="my-4" />
+        <div class="my-4"></div>
+
+        <div class="container-fluid py-5 mt-5 overflow-hidden">
+            <div class="row">
+                <div class="col-12 col-md-6 bg-primary p-5">
+                    <h1 class="pb-1 text-white" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                        Integrations
+                    </h1>
+                    <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
+                        Leadsopedia integrates with all the tools you love and use, to allow you to work smarter and faster.
+                    </p>
+                    <a href="https://app.leadsopedia.com/login" class="btn btn-light" data-aos="fade-right" data-aos-duration="1000">
+                        Sign Up
+                    </a>
+                    <a href="https://app.leadsopedia.com/integrations" class="btn btn-primary" data-aos="fade-left" data-aos-duration="1000">
+                        Browse Integrations
+                    </a>
+                </div>
+                <div class="d-none d-md-block col-md-6 d-flex border">
+                    <img src="{{ asset('images/companies/group.svg') }}" alt="" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
+                </div>
+            </div>
+        </div>
+
+        <div class="my-4"></div>
 
         <div class="container py-5 mb-5 overflow-hidden">
             <div class="card-group">
@@ -615,7 +652,49 @@
             </div>
         </div>
 
-        <hr class="my-4" />
+        <div class="my-5 py-3"></div>
+
+        <div class="bg-primary py-5 my-5 overflow-hidden">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                        <h1 class="text-white mb-2" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                            We can be the best tool that is fit for your
+                            needs and requirements.
+                        </h1>
+                        <p class="lead text-white" data-aos="fade-left" data-aos-duration="1000">
+                            We have a variety of features and tools that can help you 
+                            improve your business and find more leads with the right prospects.
+                        </p>
+                        <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
+                            You can contact us on most platforms to help get you started!
+                        </p>
+                        <a href="https://app.leadsopedia.com/register" class="btn btn-light mb-3"  data-aos="fade-left" data-aos-duration="1000">
+                            Get Started
+                        </a>
+                        <ul class="d-flex flex-row m-0 p-0" style="list-style-type: none;"  data-aos="fade-up" data-aos-duration="1000">
+                            <li class="mr-1 ml-auto">
+                                <a href="#" class="text-white">
+                                    <i class="icon ion-logo-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="mx-1">
+                                <a href="#" class="text-white">
+                                    <i class="icon ion-logo-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="ml-1 mr-auto">
+                                <a href="#" class="text-white">
+                                    <i class="icon ion-logo-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-4"></div>
 
         <div class="container-fluid py-5 my-5 overflow-hidden">
             <div class="row">
@@ -662,7 +741,7 @@
             <img src="{{ asset('images/companies.svg') }}" alt="">
         </div> --}}
 
-        <hr class="my-4" />
+        <div class="my-4"></div>
 
         <div style="background-color: #0C73F9;" class="my-5 py-3 shadow">
             <div class="container text-white overflow-hidden">
@@ -699,6 +778,13 @@
                 });
                 $(this).parent().html(contents.join(''));
             });
+
+            setTimeout(() => {
+                $('.shadow-white-interval').addClass('text-shadow-white');
+                setTimeout(() => {
+                    $('.shadow-white-interval').removeClass('text-shadow-white');
+                }, 2000);
+            }, 1500);
         })
     </script>
 @endsection

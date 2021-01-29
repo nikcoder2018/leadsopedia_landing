@@ -5,18 +5,27 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
+<<<<<<< HEAD
+                    <h5 class="gradient-white-to-blue d-inline px-3 py-2 rounded">
+                        Email Verification
+                    </h5>
+                </div>
+                <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
+                    Verifying emails for guaranteed accuracy
+=======
                     <h5 class="badge-primary d-inline px-3 py-2 rounded">
                      Verified B2B Data
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
                  Leadsopedia’s verification process is designed for you to reach the right customers
+>>>>>>> fa4199c4cdae16514c6c2bdc3b3af6241dc2475a
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    The moment you click to get an email, we verify it in real-time to guarantee its accuracy.
+                    We are confident that the data we give you are 100% verified and are tailor-fit to your needs.
                 </p>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    Leadsopedia’s IT system updates verified emails and contact numbers in real-time. Our infographics are designed to be in an easy-to-understand format and we eliminate unnecessary information so you can focus on what matters.
+                    We make sure that the data sets you receive from us are real and updated every day. There’s no need to collect email addresses elsewhere because you’ve got everything that you’ll need here in Leadsopedia.
                 </p>
                 <div class="d-flex pb-5 mb-5" data-aos="fade-up" data-aos-duration="1000">
                     <a href="https://app.leadsopedia.com/register" class="btn btn-primary btn-lg mx-1">

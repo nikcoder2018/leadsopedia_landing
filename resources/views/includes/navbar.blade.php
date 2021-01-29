@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg fixed-top custom-menu custom-menu__light">
+<nav class="navbar navbar-expand-lg fixed-top custom-menu custom-menu__light font-weight-700">
     <div class="container-fluid px-3">
         <a class="navbar-brand bg-white px-3 rounded py-1" href="{{ route('home') }}">
             <img src="{{ asset('images/logo-new-full.svg') }}" alt="Image" class="logo-md" style="max-height: 40px;">
@@ -16,7 +16,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-lg-auto pr-2">
                 <li class="nav-item mx-xl-4 dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle shadow-hover" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Our Services
                     </a>
@@ -35,14 +35,14 @@
                     <a class="nav-link" href="{{ route('data') }}">Data Source</a>
                 </li>
                 <li class="nav-item mx-xl-4">
-                    <a class="nav-link" href="{{ route('aboutus') }}">About Us</a>
+                    <a class="nav-link shadow-hover" href="{{ route('aboutus') }}">About Us</a>
                 </li>
             </ul>
             <div class="custom-menu__right d-flex">
                 <a href="{{ env('APP_AUTH_URL', 'https://app.leadsopedia.com') . '/login' }}"
-                    class="btn btn-default mx-auto align-self-center">Login</a>
+                    class="btn btn-default mx-auto align-self-center shadow-hover">Login</a>
                 <a href="{{ env('APP_AUTH_URL', 'https://app.leadsopedia.com') . '/register' }}"
-                    class="btn btn-primary mx-auto align-self-center btn-pills">Sign Up</a>
+                    class="btn btn-primary mx-auto align-self-center btn-pills shadow-hover">Sign Up</a>
             </div>
         </div>
     </div>
