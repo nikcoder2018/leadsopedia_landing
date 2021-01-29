@@ -476,6 +476,72 @@
 
         <div class="my-4"></div>
 
+        <div class="container py-5 mt-5 text-center overflow-hidden">
+            <div class="row">
+                <div class="col-12 col-md-10 offset-md-1">
+                    <h1 class="pb-1" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                        Our Services
+                    </h1>
+                    <p class="lead" data-aos="fade-left" data-aos-duration="1000">
+                        We always make sure to provide you with bleeding-edge technology
+                        so that you can make the most out of our service!
+                    </p>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card m-3 border-0 shadow" style="border-radius: 1rem;">
+                    <div class="card-body">
+                        <div class="d-flex flex-column">
+                            <div class="mx-auto mb-3 mt-2 p-2 rounded-circle border align-items-center d-flex" style="height: 60px; width: 60px;">
+                                <i class="fas fa-bolt fa-2x mx-auto text-primary"></i>
+                            </div>
+                            <h6 class="card-title mx-auto">Title</h6>
+                            <p class="card-tex mx-autot">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Totam error nulla quia illo minus officiis modi ducimus labore! 
+                                Iusto corrupti illo esse exercitationem delectus fuga perspiciatis 
+                                saepe omnis voluptatibus amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-3 border-0 shadow" style="border-radius: 1rem;">
+                    <div class="card-body">
+                        <div class="d-flex flex-column">
+                            <div class="mx-auto mb-3 mt-2 p-2 rounded-circle border align-items-center d-flex" style="height: 60px; width: 60px;">
+                                <i class="fas fa-certificate fa-2x mx-auto text-primary"></i>
+                            </div>
+                            <h6 class="card-title mx-auto">Title</h6>
+                            <p class="card-tex mx-autot">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Totam error nulla quia illo minus officiis modi ducimus labore! 
+                                Iusto corrupti illo esse exercitationem delectus fuga perspiciatis 
+                                saepe omnis voluptatibus amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-3 border-0 shadow" style="border-radius: 1rem;">
+                    <div class="card-body">
+                        <div class="d-flex flex-column">
+                            <div class="mx-auto mb-3 mt-2 p-2 rounded-circle border align-items-center d-flex" style="height: 60px; width: 60px;">
+                                <i class="fas fa-dna fa-2x mx-auto text-primary"></i>
+                            </div>
+                            <h6 class="card-title mx-auto">Title</h6>
+                            <p class="card-tex mx-autot">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Totam error nulla quia illo minus officiis modi ducimus labore! 
+                                Iusto corrupti illo esse exercitationem delectus fuga perspiciatis 
+                                saepe omnis voluptatibus amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-4"></div>
+
         <div class="container-fluid py-5 mt-5 overflow-hidden">
             <div class="row">
                 <div class="col-12 col-md-6 bg-primary p-5">
