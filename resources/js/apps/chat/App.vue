@@ -1,5 +1,5 @@
 <template>
-    <div id="chat-app">
+    <div id="chat-app" class="d-none">
         <div
             id="toggle"
             class="main shadow border slideable"
@@ -32,37 +32,85 @@
                     </div>
                 </div>
                 <div class="pane-body">
-                    <div class="p-3 message">
-                        <div class="rounded px-4 py-2 child me">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Soluta similique nam,
-                                repudiandae saepe odit laudantium cum aliquid
-                                quaerat vitae quam in accusamus velit est
-                                laborum odio rerum hic aliquam non?
-                            </p>
+                    <div class="p-3" v-if="echo === null">
+                        <div class="rounded px-4 py-2 you">
+                            <form @submit.prevent="createConversation()">
+                                <div class="form-group">
+                                    <label for="name">Name (optional):</label>
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        class="form-control form-control-sm"
+                                        placeholder="John Doe"
+                                        v-model="name"
+                                        :disabled="processing"
+                                        :class="{ disabled: processing }"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email (optional):</label>
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        class="form-control form-control-sm"
+                                        placeholder="email@example.com"
+                                        v-model="email"
+                                        :disabled="processing"
+                                        :class="{ disabled: processing }"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <button
+                                        type="submit"
+                                        class="btn btn-primary btn-sm"
+                                        :disabled="processing"
+                                        :class="{ disabled: processing }"
+                                    >
+                                        {{
+                                            processing
+                                                ? "Please Wait..."
+                                                : "Submit"
+                                        }}
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                    <div class="p-3 message">
-                        <div class="rounded px-4 py-2 child you">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Soluta similique nam,
-                                repudiandae saepe odit laudantium cum aliquid
-                                quaerat vitae quam in accusamus velit est
-                                laborum odio rerum hic aliquam non?
-                            </p>
+                    <template v-if="echo !== null">
+                        <div
+                            class="px-3 py-1 message"
+                            v-for="(chat, index) in chats"
+                            :key="index"
+                        >
+                            <div
+                                class="rounded px-2 py-1 child"
+                                :class="{
+                                    me: chat.admin_id === null,
+                                    you: chat.admin_id !== null
+                                }"
+                            >
+                                <p class="mb-0">
+                                    {{ chat.message }}
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </template>
                 </div>
-                <div class="pane-footer">
+                <div class="pane-footer" v-if="echo !== null">
                     <form class="d-flex">
                         <input
                             type="text"
                             class="form-control form-control-sm m-1"
                             style="width: 80%;"
+                            v-model="message"
+                            @keyup.enter.prevent="sendChat()"
                         />
-                        <button class="btn btn-info btn-primary m-1">
+                        <button
+                            class="btn btn-info btn-primary m-1"
+                            @click.prevent="sendChat()"
+                        >
                             <i class="fas fa-paper-plane"></i>
                         </button>
                     </form>
@@ -73,16 +121,151 @@
 </template>
 
 <script>
+import Echo from "laravel-echo";
+import axios from "axios";
+import toastr from "toastr";
+import "toastr/toastr.scss";
+import Pusher from "pusher-js";
+
+axios.defaults.headers.common["Accept"] = "application/json";
+
 export default {
     data() {
         return {
             isHovering: false,
-            showPane: false
+            showPane: false,
+            echo: null,
+            conversation: null,
+            name: "",
+            email: "",
+            processing: false,
+            message: "",
+            chats: [{ message: "Welcome!", admin_id: -1 }],
+            sending: false
         };
     },
     methods: {
+        async refreshChats() {
+            const adminURL = process.env.MIX_ADMIN_URL;
+            const id = this.conversation.id;
+            const token = this.conversation.token;
+            try {
+                const { data } = await axios.get(
+                    `${adminURL}/api/conversations/${id}/chats`,
+                    {
+                        headers: {
+                            "x-conversation-token": token
+                        }
+                    }
+                );
+                const defaultChat = this.chats[0];
+                this.chats = [defaultChat, ...data];
+                this.scrollToBottom();
+            } catch (error) {
+                console.log(error);
+            }
+        },
+        async sendChat() {
+            if (this.sending) {
+                return;
+            }
+            this.sending = true;
+            const message = this.message;
+            this.message = "";
+            const adminURL = process.env.MIX_ADMIN_URL;
+            const id = this.conversation.id;
+            const token = this.conversation.token;
+            try {
+                this.chats.push({
+                    message,
+                    admin_id: null
+                });
+                await axios.post(
+                    `${adminURL}/api/conversations/${id}/chats`,
+                    {
+                        message
+                    },
+                    {
+                        headers: {
+                            "x-conversation-token": token
+                        }
+                    }
+                );
+            } catch (error) {
+                console.log(error);
+            } finally {
+                this.sending = false;
+                this.scrollToBottom();
+            }
+        },
+        async createConversation() {
+            this.processing = true;
+            const adminURL = process.env.MIX_ADMIN_URL;
+            const { name, email } = this;
+            try {
+                const { data } = await axios.post(
+                    `${adminURL}/api/conversations`,
+                    {
+                        name,
+                        email
+                    }
+                );
+                this.conversation = data;
+                this.registerEcho(data.token);
+                this.refreshChats();
+            } catch (error) {
+                console.log(error);
+                toastr.error(
+                    "Unable to establish connection. Please try again later."
+                );
+            } finally {
+                this.processing = false;
+            }
+        },
         togglePane() {
             this.showPane = !this.showPane;
+        },
+        registerEcho(token) {
+            const echo = new Echo({
+                broadcaster: "pusher",
+                key: process.env.MIX_PUSHER_APP_KEY,
+                cluster: process.env.MIX_PUSHER_APP_CLUSTER,
+                forceTLS: true,
+                authEndpoint: process.env.MIX_ADMIN_AUTH_URL
+            });
+
+            this.echo = echo;
+
+            this.echo.connector.pusher.config.auth.headers[
+                "x-conversation-token"
+            ] = token;
+
+            this.echo.connector.pusher.config.auth.headers["Accept"] =
+                "application/json";
+
+            if (this.conversation.name !== null) {
+                const chat = this.chats[0];
+                chat.message = `Welcome, ${this.conversation.name}.`;
+                this.chats.splice(0, 1, chat);
+            }
+
+            echo.channel(`conversations.${this.conversation.id}`).listen(
+                "ChatSent",
+                event => {
+                    this.chats.push(event.chat);
+                    this.scrollToBottom();
+                }
+            );
+        },
+        scrollToBottom() {
+            const paneBody = document.querySelector(".pane-body");
+            paneBody.scrollTop = paneBody.scrollHeight;
+            setTimeout(() => {
+                paneBody.scrollTop = paneBody.scrollHeight;
+            }, 500);
+            setTimeout(() => {
+                paneBody.scrollTop = paneBody.scrollHeight;
+            }, 1000);
         }
     }
 };
