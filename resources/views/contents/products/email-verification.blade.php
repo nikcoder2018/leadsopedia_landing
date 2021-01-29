@@ -5,21 +5,12 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-<<<<<<< HEAD
-                    <h5 class="gradient-white-to-blue d-inline px-3 py-2 rounded">
-                        Email Verification
-                    </h5>
-                </div>
-                <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
-                    Verifying emails for guaranteed accuracy
-=======
                     <h5 class="badge-primary d-inline px-3 py-2 rounded">
                      Verified B2B Data
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
                  Leadsopedia’s verification process is designed for you to reach the right customers
->>>>>>> fa4199c4cdae16514c6c2bdc3b3af6241dc2475a
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     We are confident that the data we give you are 100% verified and are tailor-fit to your needs.
