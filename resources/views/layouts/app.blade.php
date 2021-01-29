@@ -95,7 +95,7 @@
 
     @include('includes.footer')
 
-    <div id="chat-app-container"></div>
+    <div id="chat-app-container" class="d-none"></div>
     <script src="{{ mix('js/apps/index.js') }}"></script>
     
     <script src="{{ asset('js/vendors/jquery.min.js') }}"></script>
