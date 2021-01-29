@@ -51,12 +51,12 @@ class PagesController extends Controller
 
     public function terms()
     {
-        return view('contents.terms');
+        return view('contents.terms-new');
     }
 
     public function privacy()
     {
-        return view('contents.privacy');
+        return view('contents.privacy-new');
     }
 
     public function data()
