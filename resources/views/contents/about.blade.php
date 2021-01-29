@@ -20,18 +20,6 @@
                                 support.
                             </p>
                         </div>
-                        <ul class="list list-unstyled list-circle" data-aos="fade-left" data-aos-duration="1000">
-
-                            <li>
-                                <span>24/7 Customer Support</span>
-                            </li>
-                            <li>
-                                <span>Intelligent Predictive API</span>
-                            </li>
-                            <li>
-                                <span>Real-time Verified Database</span>
-                            </li>
-                        </ul>
                         <a href="{{ route('products', ['name' => 'prospector']) }}" class="btn btn-link btn-link--secondary" data-aos="fade-up" data-aos-duration="1000">
                             Explore our products
                             <i class="icon ion-ios-arrow-round-forward"></i>
