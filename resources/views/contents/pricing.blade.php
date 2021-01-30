@@ -191,7 +191,7 @@
                                 Do you have an API?
                             </h5>
                             <p>
-                                Yes, we have an API. <a href="#">Click here</a> for our API Docs.
+                                Yes, we have an API. <a href="{{ route('api') }}">Click here</a> for our API Docs.
                             </p>
                         </div>
 					</div>

@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-8 col-sm-10">
                 <div class="row">
-                    <div class="col-md-4 col-6">
+                    <div class="col-md-3 col-6">
                         <div class="footer-widget">
                             <h4 class="footer-widget__title">Menu</h4>
                             <ul class="list-unstyled">
@@ -51,7 +51,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-6">
+                    <div class="col-md-3 col-6">
                         <div class="footer-widget">
                             <h4 class="footer-widget__title">About</h4>
                             <ul class="list-unstyled">
@@ -67,16 +67,32 @@
                                 <li>
                                     <a href="{{ route('api') }}">API Docs</a>
                                 </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer-widget">
+                            <h4 class="footer-widget__title">Policies</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="{{ route('disclaimer') }}">Disclaimer</a>
+                                </li>
                                 <li>
                                     <a href="{{ route('terms-and-conditions') }}">Terms & Conditions</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('privacy-policy') }}">Privacy Policy</a>
                                 </li>
+                                <li>
+                                    <a href="{{ route('cookies') }}">Cookie Policy</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('refund') }}">Refund Policy</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="footer-widget">
                             <h4 class="footer-widget__title">Our Services</h4>
                             <ul class="list-unstyled">

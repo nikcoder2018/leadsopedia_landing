@@ -75,7 +75,7 @@
             We automatically collect certain information when you visit, use, or navigate the Site. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser, and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Site and other technical information.  If you access our site with your mobile device, we may automatically collect device information (such as your mobile device ID, model, and manufacturer), operating system, version information, and IP address. This information is primarily needed to maintain the security and operation of our Site, and for our internal analytics and reporting purposes.
         </p>
         <p>
-            Like many businesses, we also collect information through cookies and similar technologies. You can find out more about this in our <a href="#cookies">Cookie Policy</a>.
+            Like many businesses, we also collect information through cookies and similar technologies. You can find out more about this in our <a href="{{ route('cookies') }}">Cookie Policy</a>.
         </p>
         <h2>
             Information collected from other Sources
@@ -154,7 +154,7 @@
         <h1 class="my-3 large">
             4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
         </h1>
-        <p>We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our <a href="#cookies">Cookie Policy.</a></p>
+        <p>We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our <a href="{{ route('cookies') }}">Cookie Policy.</a></p>
         <h1 class="my-3 large">
             5. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
         </h1>
