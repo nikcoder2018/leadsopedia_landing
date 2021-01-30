@@ -107,4 +107,19 @@ class PagesController extends Controller
     {
         return view('contents.api');
     }
+
+    public function cookies()
+    {
+        return view('contents.cookies');
+    }
+
+    public function refund()
+    {
+        return view('contents.refund-and-cancellation');
+    }
+
+    public function disclaimer()
+    {
+        return view('contents.disclaimer');
+    }
 }

@@ -30,3 +30,6 @@ Route::get('/b2b', 'PagesController@b2b')->name('b2b');
 Route::get('/bulk-search', 'PagesController@bulk')->name('bulk');
 Route::get('/email-marketing', 'PagesController@email')->name('email');
 Route::get('/api-docs', 'PagesController@api')->name('api');
+Route::get('/cookie-policy', 'PagesController@cookies')->name('cookies');
+Route::get('/refund-and-cancellation-policy', 'PagesController@refund')->name('refund');
+Route::get('/disclaimer', 'PagesController@disclaimer')->name('disclaimer');
