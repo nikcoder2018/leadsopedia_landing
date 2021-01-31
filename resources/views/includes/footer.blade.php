@@ -1,6 +1,6 @@
 <footer class="section-spacer footer-section shadow border">
-    <div class="container">
-        <div class="row flex-column-reverse flex-sm-row flex-lg-row">
+    <div class="container-fluid">
+        <div class="row flex-column-reverse flex-sm-row flex-lg-row px-md-3">
             <div class="col-md-4 col-12">
                 <div class="footer-widget first-of-footer-widget">
                     <img src="{{ asset('images/logo-new-full.svg') }}" class="mb-10" style="max-height: 40px;" alt="Image">
@@ -92,7 +92,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <div class="footer-widget">
                             <h4 class="footer-widget__title">Our Services</h4>
                             <ul class="list-unstyled">
