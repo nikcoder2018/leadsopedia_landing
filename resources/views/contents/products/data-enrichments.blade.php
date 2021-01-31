@@ -36,25 +36,33 @@
         <div class="row">
             <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/enrich-contacts.svg') }}" alt="" class="img-fluid align-self-center">
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-address-book align-self-center mx-auto"></i>
+                    </div>
                     <h6 class="align-self-center ml-2">Contact Lists</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/enrich-companies.svg') }}" alt="" class="img-fluid align-self-center">
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-briefcase align-self-center mx-auto"></i>
+                    </div>
                     <h6 class="align-self-center ml-2">Advanced Search Filters</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/enrich-emails.svg') }}" alt="" class="img-fluid align-self-center">
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-mail-bulk align-self-center mx-auto"></i>
+                    </div>
                     <h6 class="align-self-center ml-2">Verified Data</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/pay-verified-data.svg') }}" alt="" class="img-fluid align-self-center">
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-id-card-alt align-self-center mx-auto"></i>
+                    </div>
                     <h6 class="align-self-center ml-2">Wide Data Coverage</h6>
                 </div>
             </div>
@@ -69,7 +77,9 @@
                 <img src="{{ asset('images/graphics/innovation.png') }}" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/enrich-contacts.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-left" data-aos-duration="1000">
+                    <i class="fas fa-address-book align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Contacts Lists</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
                     Get updated contacts list of your future customers
@@ -88,7 +98,9 @@
     <div class="container overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/enrich-companies.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-right" data-aos-duration="1000">
+                    <i class="fas fa-briefcase align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Companies Lists</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     Seal more deals for your companies
@@ -114,7 +126,9 @@
                 <img src="{{ asset('images/graphics/building.png') }}" alt="" class="img-fluid rounded">
             </div>
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/enrich-emails.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
+                 <div class="align-self-center custom-icon d-flex" data-aos="fade-left" data-aos-duration="1000">
+                    <i class="fas fa-mail-bulk align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Email Lists</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
                     Updated and quality email lists
@@ -133,8 +147,9 @@
     <div class="container overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/pay-verified-data.svg') }}" alt="" data-aos="fade-right"
-                    data-aos-duration="1000">
+                 <div class="align-self-center custom-icon d-flex" data-aos="fade-right" data-aos-duration="1000">
+                    <i class="fas fa-id-card-alt align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Verified Data</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                 Valid data downloads

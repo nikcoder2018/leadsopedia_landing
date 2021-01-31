@@ -24,7 +24,7 @@
           @if(count($subscription_plans) > 0)
             @foreach($subscription_plans as $plan)
             <div class="col-md-4">
-              <div class="pricing-single">
+              <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
                   <div class="pricing-header">
                   <h4 class="pricing-title">{{$plan->title}}</h4>
                   <p>{{$plan->description}}</p>
@@ -43,9 +43,9 @@
                   </div>
                   </div>
                   @if(count($plan->priviledges) > 0)
-                  <ul class="pricing-list">
+                  <ul class="m-0 p-0" style="list-style-type: none;">
                     @foreach($plan->priviledges as $priviledge)
-                      <li class="pricing-list__item" data-toggle="tooltip" data-replacement="right"
+                      <li class="" data-toggle="tooltip" data-replacement="right"
                           title="" @if(!$priviledge->enabled) style="text-decoration:line-through;" @endif>
                           {{$priviledge->description}}
                       </li>
@@ -191,7 +191,7 @@
                                 Do you have an API?
                             </h5>
                             <p>
-                                Yes, we have an API. <a href="#">Click here</a> for our API Docs.
+                                Yes, we have an API. <a href="{{ route('api') }}">Click here</a> for our API Docs.
                             </p>
                         </div>
 					</div>

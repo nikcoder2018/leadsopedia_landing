@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('css')
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+@endsection
+
 @section('content')
     <section class="section-spacer bg-very__gray overflow-hidden">
         <div class="container">
@@ -12,7 +16,8 @@
                 <div class="col-sm-5 ml-auto">
                     <div class="feature-list-wrapper">
                         <div class="content-header" data-aos="fade-left" data-aos-duration="1000">
-                            <h2 class="content-title">About Us</h2>
+                            <h1 class="content-title">About Us</h1>
+                            <i class="font-weight-bold">Professional. Expertise. Commitment</i>
                             <p>
                                 Leadsopedia is the number one leads generating platform for local and global business owners
                                 and salespeople. We build bridges between businesses and clients. We create once in a
@@ -32,17 +37,44 @@
                                 <span>Real-time Verified Database</span>
                             </li>
                         </ul>
-                        <a href="#" class="btn btn-link btn-link--secondary" data-aos="fade-up" data-aos-duration="1000">
-                            Our Company Profile
-                            <i class="icon ion-ios-arrow-round-forward"></i>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="container mt-5">
+    <div class="container my-5 overflow-hidden">
+        <div class="row">
+            <div class="col-12 col-md-6 d-none d-md-block" data-aos="fade-right" data-aos-duration="1000">
+                <img src="{{ asset('images/bgs/company.png') }}" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-6" data-aos="fade-left" data-aos-duration="1000">
+                <h1>Company Profile</h1>
+                <p>
+                    Established in 2018, Leadsopedia Company is a leads generating platform with
+                    affordable lead data solutions to individuals and local and international
+                    businesses.
+                </p>
+            </div>
+            <div class="col-12">
+                <div class="my-5"></div>
+            </div>
+            <div class="col-12 col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                <h1 style="line-height: 3rem;">Let's work together and start your business to success</h1>
+                <h6>Mailing Address</h6>
+                <p>Suite 9, Bicycle News, London, SW4 6FE, United Kingdom</p>
+                <h6>Phone Number</h6>
+                <p>+44 20 7097 8642</p>
+                <h6>Email Address</h6>
+                <p>info@leadsopedia.com</p>
+            </div>
+            <div class="col-12 col-md-6 d-none d-md-block" data-aos="fade-left" data-aos-duration="1000">
+                <img src="{{ asset('images/bgs/handshake.jpg') }}" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2 text-center">
                 <h1 data-aos="fade-left" data-aos-duration="1000">Leadsopedia Company Values</h1>
@@ -53,9 +85,11 @@
             </div>
             <div class="col-12 col-md-6 p-2">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                    <img src="{{ asset('images/customer-driven.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
-                        <h5>Teamwork</h5>
+                        <h5>
+                            <i class="fas fa-project-diagram"></i>
+                            Teamwork
+                        </h5>
                         <div class="text-secondary">
                             Helpful | Honest | Caring
                         </div>
@@ -68,9 +102,11 @@
             </div>
             <div class="col-12 col-md-6 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/light-bulb.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
-                        <h5>Excellence</h5>
+                        <h5>
+                            <i class="fas fa-medal"></i>
+                            Excellence
+                        </h5>
                         <div class="text-secondary">
                             Studious | Innovative | Curious
                         </div>
@@ -83,9 +119,11 @@
             </div>
             <div class="col-12 col-md-6 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/medal.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
-                        <h5>Commitment</h5>
+                        <h5>
+                            <i class="fas fa-brain"></i>
+                            Commitment
+                        </h5>
                         <div class="text-secondary">
                             Determined | Enthusiastic | Enterprising
                         </div>
@@ -98,9 +136,11 @@
             </div>
             <div class="col-12 col-md-6 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/electric.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
-                        <h5>Innovation</h5>
+                        <h5>
+                            <i class="fas fa-bolt"></i>
+                            Innovation
+                        </h5>
                         <div class="text-secondary">
                             Efficient | Driven | Resourceful
                         </div>
