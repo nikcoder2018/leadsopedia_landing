@@ -86,7 +86,10 @@
             <div class="col-12 col-md-6 p-2">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <div class="align-self-center">
-                        <h5>Teamwork</h5>
+                        <h5>
+                            <i class="fas fa-project-diagram"></i>
+                            Teamwork
+                        </h5>
                         <div class="text-secondary">
                             Helpful | Honest | Caring
                         </div>
@@ -100,7 +103,10 @@
             <div class="col-12 col-md-6 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <div class="align-self-center">
-                        <h5>Excellence</h5>
+                        <h5>
+                            <i class="fas fa-medal"></i>
+                            Excellence
+                        </h5>
                         <div class="text-secondary">
                             Studious | Innovative | Curious
                         </div>
@@ -114,7 +120,10 @@
             <div class="col-12 col-md-6 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
                     <div class="align-self-center">
-                        <h5>Commitment</h5>
+                        <h5>
+                            <i class="fas fa-brain"></i>
+                            Commitment
+                        </h5>
                         <div class="text-secondary">
                             Determined | Enthusiastic | Enterprising
                         </div>
@@ -128,7 +137,10 @@
             <div class="col-12 col-md-6 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <div class="align-self-center">
-                        <h5>Innovation</h5>
+                        <h5>
+                            <i class="fas fa-bolt"></i>
+                            Innovation
+                        </h5>
                         <div class="text-secondary">
                             Efficient | Driven | Resourceful
                         </div>
