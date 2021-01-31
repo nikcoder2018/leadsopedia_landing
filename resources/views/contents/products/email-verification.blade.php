@@ -10,7 +10,7 @@
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
-                 Leadsopedia’s verification process is designed for you to reach the right customers
+                    Leadsopedia’s verification process is designed for you to reach the right customers
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     We are confident that the data we give you are 100% verified and are tailor-fit to your needs.
@@ -37,27 +37,35 @@
 
     <div class="container py-5 overflow-hidden">
         <div class="row">
-            <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
+            <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/target-small.svg') }}" alt="" class="img-fluid align-self-center">
-                    <h6 class="align-self-center ml-2">Contacts Lists</h6>
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-id-card align-self-center mx-auto"></i>
+                    </div>
+                    <h6 class="align-self-center ml-2">Contact Lists</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
+            <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/pay-verified-data.svg') }}" alt="" class="img-fluid align-self-center">
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-sort align-self-center mx-auto"></i>
+                    </div>
                     <h6 class="align-self-center ml-2">Advanced Search Filters</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/bulk-email.svg') }}" alt="" class="img-fluid align-self-center">
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-clock align-self-center mx-auto"></i>
+                    </div>
                     <h6 class="align-self-center ml-2">Verified Data</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/bulk-email.svg') }}" alt="" class="img-fluid align-self-center">
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-globe-europe align-self-center mx-auto"></i>
+                    </div>
                     <h6 class="align-self-center ml-2">Wide Data Coverage</h6>
                 </div>
             </div>
@@ -72,7 +80,9 @@
                 <img src="{{ asset('images/graphics/data-enrichment.png') }}" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/clock.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-left" data-aos-duration="1000">
+                    <i class="fas fa-address-book align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Verified B2B Data</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
                     Our system automatically filters out inaccurate data for you
@@ -91,7 +101,9 @@
     <div class="container overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/control.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-right" data-aos-duration="1000">
+                    <i class="fas fa-angle-double-down align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Wide Data Download</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     Have full control on your downloads
@@ -121,7 +133,9 @@
                 <img src="{{ asset('images/graphics/business-consultants.png') }}" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/refresh.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-left" data-aos-duration="1000">
+                    <i class="fas fa-sync-alt align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Updated Data</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
                     Get access to updated data lists every time you log-in
@@ -144,7 +158,9 @@
     <div class="container overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/file-download.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-right" data-aos-duration="1000">
+                    <i class="fas fa-file-download align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Validated Contact Lists</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     Our system verifies bulk email lists within seconds

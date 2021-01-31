@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('css')
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+@endsection
+
 @section('content')
     <section class="section-spacer bg-very__gray overflow-hidden">
         <div class="container">
@@ -81,7 +85,6 @@
             </div>
             <div class="col-12 col-md-6 p-2">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                    <img src="{{ asset('images/customer-driven.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
                         <h5>Teamwork</h5>
                         <div class="text-secondary">
@@ -96,7 +99,6 @@
             </div>
             <div class="col-12 col-md-6 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/light-bulb.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
                         <h5>Excellence</h5>
                         <div class="text-secondary">
@@ -111,7 +113,6 @@
             </div>
             <div class="col-12 col-md-6 p-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/medal.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
                         <h5>Commitment</h5>
                         <div class="text-secondary">
@@ -126,7 +127,6 @@
             </div>
             <div class="col-12 col-md-6 p-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/electric.svg') }}" alt="" class="img-fluid mr-2 align-self-center">
                     <div class="align-self-center">
                         <h5>Innovation</h5>
                         <div class="text-secondary">

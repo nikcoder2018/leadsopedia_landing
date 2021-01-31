@@ -68,6 +68,15 @@
                 background-position: center;
             }
         }
+
+        .custom-icon {
+            height: 50px;
+            width: 50px;
+            background-color: #D4E0FF;
+            color: #2A5EE9;
+            border-radius: 1rem;
+            font-size: 1.75rem;
+        }
     </style>
 
     @yield('css')

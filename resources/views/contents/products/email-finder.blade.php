@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="d-flex" data-aos="fade-down" data-aos-duration="1000">
-                    <h5 class="badge-primary d-inline px-3 py-2 rounded">
+                    <h5 class="gradient-white-to-blue d-inline px-3 py-2 rounded">
                      B2B Email Lists
                     </h5>
                 </div>
@@ -32,31 +32,38 @@
 
     <hr class="my-5" />
 
-    <div class="container-fluid py-5 overflow-hidden">
+    <div class="container py-5 overflow-hidden">
         <div class="row">
-            <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
+            <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/target-small.svg') }}" alt="" class="img-fluid align-self-center ml-auto">
-                    <h6 class="align-self-center ml-2 mr-auto">Contacts Lists</h6>
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-id-card align-self-center mx-auto"></i>
+                    </div>
+                    <h6 class="align-self-center ml-2">Contact Lists</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-3 p-2" data-aos="fade-right" data-aos-duration="1000">
+            <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/quick-search-small.svg') }}" alt=""
-                        class="img-fluid align-self-center ml-auto">
-                    <h6 class="align-self-center ml-2 mr-auto">Advanced Search Filters</h6>
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-sort align-self-center mx-auto"></i>
+                    </div>
+                    <h6 class="align-self-center ml-2">Advanced Search Filters</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/contacts-small.svg') }}" alt="" class="img-fluid align-self-center ml-auto">
-                    <h6 class="align-self-center ml-2 mr-auto">Verified Data</h6>
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-clock align-self-center mx-auto"></i>
+                    </div>
+                    <h6 class="align-self-center ml-2">Verified Data</h6>
                 </div>
             </div>
-            <div class="col-12 col-md-3 p-2" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/contacts-small.svg') }}" alt="" class="img-fluid align-self-center ml-auto">
-                    <h6 class="align-self-center ml-2 mr-auto">Wide Data Coverage</h6>
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-globe-europe align-self-center mx-auto"></i>
+                    </div>
+                    <h6 class="align-self-center ml-2">Global Coverage</h6>
                 </div>
             </div>
         </div>
@@ -71,7 +78,9 @@
                     data-aos="fade-right" data-aos-duration="1000">
             </div>
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/target.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-left" data-aos-duration="1000">
+                    <i class="fas fa-bullseye align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Guaranteed Accuracy</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
                     Save more time with accurate data
@@ -90,7 +99,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/quick-search.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-right" data-aos-duration="1000">
+                    <i class="fas fa-search align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Advanced Search Technology</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     Experience our advanced search features
@@ -117,7 +128,9 @@
                     data-aos="fade-right" data-aos-duration="1000">
             </div>
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/email-check.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-left" data-aos-duration="1000">
+                    <i class="fas fa-address-book align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Verified B2B Lists</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
                     We provide valid emails for your next successful marketing campaign
@@ -136,7 +149,9 @@
     <div class="container overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-6 p-5">
-                <img src="{{ asset('images/bulk-email-large.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-right" data-aos-duration="1000">
+                    <i class="fas fa-mail-bulk align-self-center mx-auto"></i>
+                </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Advanced Search Engine</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     Easy export on bulk emails on our platform
