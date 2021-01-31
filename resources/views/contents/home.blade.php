@@ -502,12 +502,14 @@
                     <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
                         Leadsopedia integrates with all the tools you love and use, to allow you to work smarter and faster.
                     </p>
-                    <a href="https://app.leadsopedia.com/login" class="btn btn-light" data-aos="fade-right" data-aos-duration="1000">
-                        Sign Up
-                    </a>
-                    <a href="https://app.leadsopedia.com/integrations" class="btn btn-primary" data-aos="fade-left" data-aos-duration="1000">
-                        Browse Integrations
-                    </a>
+                    <div class="d-flex">
+                        <a href="https://app.leadsopedia.com/login" class="btn btn-light mx-1" data-aos="fade-right" data-aos-duration="1000">
+                            Sign Up
+                        </a>
+                        <a href="https://app.leadsopedia.com/integrations" class="btn btn-primary mx-1" data-aos="fade-left" data-aos-duration="1000">
+                            Browse Integrations
+                        </a>
+                    </div>
                 </div>
                 <div class="d-none d-md-block col-md-6 d-flex border">
                     <img src="{{ asset('images/companies/group.svg') }}" alt="" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
