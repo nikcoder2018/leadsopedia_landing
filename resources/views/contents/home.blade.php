@@ -523,7 +523,9 @@
                     data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex hover-zoom">
-                            <img src="{{ asset('images/horn.svg') }}" alt="" class="img-fluid">
+                            <div class="align-self-center custom-icon d-flex" style="height: 80px; width: 80px;">
+                                <i class="fas fa-bullhorn align-self-center mx-auto"></i>
+                            </div>
                         </div>
                         <h3 class="card-title mt-3 hover-zoom">For Marketing Professionals</h3>
                         <p class="card-text hover-zoom feature-paragraph">
@@ -550,7 +552,9 @@
                     data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex hover-zoom">
-                            <img src="{{ asset('images/graph.svg') }}" alt="" class="img-fluid">
+                            <div class="align-self-center custom-icon d-flex" style="height: 80px; width: 80px;">
+                                <i class="fas fa-signal align-self-center mx-auto"></i>
+                            </div>
                         </div>
                         <h3 class="card-title mt-3 hover-zoom">For Sales Professionals</h3>
                         <p class="card-text hover-zoom feature-paragraph">
@@ -577,7 +581,9 @@
                     data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex hover-zoom">
-                            <img src="{{ asset('images/clipboard.svg') }}" alt="" class="img-fluid">
+                            <div class="align-self-center custom-icon d-flex" style="height: 80px; width: 80px;">
+                                <i class="fas fa-clipboard align-self-center mx-auto"></i>
+                            </div>
                         </div>
                         <h3 class="card-title mt-3 hover-zoom">For Recruiting Professionals</h3>
                         <p class="card-text hover-zoom feature-paragraph">

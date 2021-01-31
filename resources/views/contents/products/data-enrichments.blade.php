@@ -98,7 +98,7 @@
     <div class="container overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-6 p-5">
-                 <div class="align-self-center custom-icon d-flex" data-aos="fade-right" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <i class="fas fa-briefcase align-self-center mx-auto"></i>
                 </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Companies Lists</h4>
