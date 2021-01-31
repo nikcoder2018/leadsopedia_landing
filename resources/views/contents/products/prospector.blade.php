@@ -32,25 +32,33 @@
         <div class="row">
             <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/contracts-and-companies.svg') }}" alt="" class="img-fluid align-self-center">
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-id-card align-self-center mx-auto"></i>
+                    </div>
                     <h6 class="align-self-center ml-2">Contact Lists</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-right" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/filter-small.svg') }}" alt="" class="img-fluid align-self-center">
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-sort align-self-center mx-auto"></i>
+                    </div>
                     <h6 class="align-self-center ml-2">Advanced Search Filters</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/clock-small.svg') }}" alt="" class="img-fluid align-self-center">
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-clock align-self-center mx-auto"></i>
+                    </div>
                     <h6 class="align-self-center ml-2">Verified Data</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
-                    <img src="{{ asset('images/world-small.svg') }}" alt="" class="img-fluid align-self-center">
+                    <div class="align-self-center custom-icon d-flex">
+                        <i class="fas fa-globe-europe align-self-center mx-auto"></i>
+                    </div>
                     <h6 class="align-self-center ml-2">Global Coverage</h6>
                 </div>
             </div>
@@ -63,7 +71,9 @@
                 <img src="{{ asset('images/graphics/roi-logo.jpg') }}" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-sm-6 text-left p-4">
-                <img src="{{ asset('images/target.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-left" data-aos-duration="1000">
+                    <i class="fas fa-bullseye align-self-center mx-auto"></i>
+                </div>
                 <h5 class="text-secondary mt-2" data-aos="fade-left" data-aos-duration="1000">High Percentage Data Accuracy</h5>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">Create opportunities, Build partnerships</h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
@@ -76,7 +86,9 @@
 
         <div class="row">
             <div class="col-12 col-sm-6 text-left p-4">
-                <img src="{{ asset('images/profile.svg') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex"  data-aos="fade-right" data-aos-duration="1000">
+                    <i class="fas fa-users align-self-center mx-auto"></i>
+                </div>
                 <h5 class="text-secondary mt-2" data-aos="fade-right" data-aos-duration="1000">Updated and Verified Data</h5>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                     Quality data with just one click
@@ -97,7 +109,9 @@
                 <img src="{{ asset('images/graphics/team-sales.jpg') }}" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-sm-6 text-left p-4">
-                <img src="{{ asset('images/quick-search.svg') }}" alt="" data-aos="fade-left" data-aos-duration="1000">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-left" data-aos-duration="1000">
+                    <i class="fas fa-search align-self-center mx-auto"></i>
+                </div>
                 <h5 class="text-secondary mt-2" data-aos="fade-left" data-aos-duration="1000">Multiple Search Filters</h5>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
                 Get accurate data through our search filters

@@ -502,12 +502,14 @@
                     <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
                         Leadsopedia integrates with all the tools you love and use, to allow you to work smarter and faster.
                     </p>
-                    <a href="https://app.leadsopedia.com/login" class="btn btn-light" data-aos="fade-right" data-aos-duration="1000">
-                        Sign Up
-                    </a>
-                    <a href="https://app.leadsopedia.com/integrations" class="btn btn-primary" data-aos="fade-left" data-aos-duration="1000">
-                        Browse Integrations
-                    </a>
+                    <div class="d-flex">
+                        <a href="https://app.leadsopedia.com/login" class="btn btn-light mx-1" data-aos="fade-right" data-aos-duration="1000">
+                            Sign Up
+                        </a>
+                        <a href="https://app.leadsopedia.com/integrations" class="btn btn-primary mx-1" data-aos="fade-left" data-aos-duration="1000">
+                            Browse Integrations
+                        </a>
+                    </div>
                 </div>
                 <div class="d-none d-md-block col-md-6 d-flex border">
                     <img src="{{ asset('images/companies/group.svg') }}" alt="" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
@@ -523,7 +525,9 @@
                     data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex hover-zoom">
-                            <img src="{{ asset('images/horn.svg') }}" alt="" class="img-fluid">
+                            <div class="align-self-center custom-icon d-flex" style="height: 80px; width: 80px;">
+                                <i class="fas fa-bullhorn align-self-center mx-auto"></i>
+                            </div>
                         </div>
                         <h3 class="card-title mt-3 hover-zoom">For Marketing Professionals</h3>
                         <p class="card-text hover-zoom feature-paragraph">
@@ -550,7 +554,9 @@
                     data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex hover-zoom">
-                            <img src="{{ asset('images/graph.svg') }}" alt="" class="img-fluid">
+                            <div class="align-self-center custom-icon d-flex" style="height: 80px; width: 80px;">
+                                <i class="fas fa-signal align-self-center mx-auto"></i>
+                            </div>
                         </div>
                         <h3 class="card-title mt-3 hover-zoom">For Sales Professionals</h3>
                         <p class="card-text hover-zoom feature-paragraph">
@@ -577,7 +583,9 @@
                     data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex hover-zoom">
-                            <img src="{{ asset('images/clipboard.svg') }}" alt="" class="img-fluid">
+                            <div class="align-self-center custom-icon d-flex" style="height: 80px; width: 80px;">
+                                <i class="fas fa-clipboard align-self-center mx-auto"></i>
+                            </div>
                         </div>
                         <h3 class="card-title mt-3 hover-zoom">For Recruiting Professionals</h3>
                         <p class="card-text hover-zoom feature-paragraph">
