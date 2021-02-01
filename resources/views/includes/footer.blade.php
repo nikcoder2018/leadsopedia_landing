@@ -100,18 +100,17 @@
                                     <a href="{{ route('marketing') }}">B2B Accounts Marketing</a>
                                 </li> --}}
                                 <li>
-                                    <a href="{{ route('b2b') }}">Build B2B List</a>
+                                    <a href="{{ route('b2b') }}">B2B Leads</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('products', 'email-verification') }}">Realtime Email
-                                        Verification
+                                    <a href="{{ route('products', 'email-verification') }}">Refined Data
                                     </a>
                                 </li>
-                                {{-- <li>
-                                    <a href="{{ route('email') }}">Email Marketing</a>
-                                </li> --}}
                                 <li>
-                                    <a href="{{ route('products', 'data-enrichments') }}">Data Enrichment</a>
+                                    <a href="{{ route('email') }}">Verified Emails</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('products', 'data-enrichments') }}">B2B Email Lists</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('bulk') }}">Bulk Search</a>
