@@ -33,3 +33,5 @@ Route::get('/api-docs', 'PagesController@api')->name('api');
 Route::get('/cookie-policy', 'PagesController@cookies')->name('cookies');
 Route::get('/refund-and-cancellation-policy', 'PagesController@refund')->name('refund');
 Route::get('/disclaimer', 'PagesController@disclaimer')->name('disclaimer');
+
+Route::post('send-message', 'MessageController@saveMessage')->name('message.send');

@@ -19,7 +19,8 @@
             <div class="col-12 col-md-8 offset-md-2">
                 <div class="card">
                     <div class="card-body">
-                        <form class="text-left">
+                        <form class="text-left" id="form-message" action="{{route('message.send')}}" method="POST">
+                            @csrf
                             <div class="form-group">
                                 <label for="name">Your Name</label>
                                 <input type="text" name="name" id="name" placeholder="John Doe" class="form-control">
@@ -35,6 +36,13 @@
                                     placeholder="I would love to hear about..." class="form-control"></textarea>
                             </div>
                             <div class="form-group">
+                                @if(session()->has('message'))
+                                    <div class="alert alert-success">
+                                        {{ session()->get('message') }}
+                                    </div>
+                                @endif
+                            </div>
+                            <div class="form-group">
                                 <button type="submit" class="btn btn-primary w-100">
                                     Send Message
                                 </button>
@@ -46,3 +54,4 @@
         </div>
     </div>
 @endsection
+
