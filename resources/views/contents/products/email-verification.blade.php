@@ -112,10 +112,6 @@
                     You can download all of our generated email lists or you can choose which ones you’ll keep.
                 </p>
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                    <ul>
-                        <li>Accept-all and catch-all emails are flagged</li>
-                        <li>No downloads = no charge</li>
-                    </ul>
                 </div>
             </div>
             <div class="d-none d-md-block col-md-6 p-5 border-left" data-aos="fade-left" data-aos-duration="1000">
@@ -144,10 +140,6 @@
                     We believe that opportunities are born every single minute. We make sure you won’t miss out.
                 </p>
                 <div class="d-flex" data-aos="fade-left" data-aos-duration="1000">
-                    <ul>
-                        <li>Verification happens instantly</li>
-                        <li>Emails are always verified before download</li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -169,11 +161,6 @@
                     You won’t need other tools to verify our data.
                 </p>
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                    <ul>
-                        <li>Pay as you go</li>
-                        <li>Replaces NeverBounce and similar tools</li>
-                        <li>Pay as low as $0.003 per verification</li>
-                    </ul>
                 </div>
             </div>
             <div class="d-none d-md-block col-md-6 p-5 border-left" data-aos="fade-left" data-aos-duration="1000">
