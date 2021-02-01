@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div data-aos="fade-right" data-aos-duration="1000">
-                    <h5 class="badge-primary d-inline px-3 py-2 rounded">
+                    <h5 class="gradient-white-to-blue d-inline px-3 py-2 rounded">
                         Services
                     </h5>
                 </div>
@@ -43,17 +43,19 @@
             </div>
             <div class="col-12 col-md-8 offset-md-2">
                 <div class="pt-3 card-group">
-                    <div class="card py-5 px-4 text-center m-2 shadow" data-aos="fade-right" data-aos-duration="1000"
-                        style="border: none; border-radius: 12px;">
-                        <img src="{{ asset('images/ease.svg') }}" alt="" class="img-fluid mb-4">
+                    <div class="card py-5 px-4 text-center m-2 shadow" data-aos="fade-right" data-aos-duration="1000" style="border: none; border-radius: 12px;">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-check-double align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">1. Ease of Use</h3>
                         <p class="card-text">
                             Simply select the criteria to fit your needs and find qualified prospects in a few clicks
                         </p>
                     </div>
-                    <div class="card py-5 px-4 text-center m-2 shadow" data-aos="fade-left" data-aos-duration="1000"
-                        style="border: none; border-radius: 12px;">
-                        <img src="{{ asset('images/ribbon.svg') }}" alt="" class="img-fluid mb-4">
+                    <div class="card py-5 px-4 text-center m-2 shadow" data-aos="fade-left" data-aos-duration="1000" style="border: none; border-radius: 12px;">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-ribbon align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">2. High Quality Data</h3>
                         <p class="card-text">
                             Access to high-quality, up-to-date information to spend more time talking to leads and less time
@@ -64,7 +66,9 @@
                 <div class="pt-3 card-group">
                     <div class="card py-5 px-4 text-center m-2 shadow" data-aos="fade-right" data-aos-duration="1000"
                         style="border: none; border-radius: 12px;">
-                        <img src="{{ asset('images/clock.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-clock align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">3. Realtime Verification</h3>
                         <p class="card-text">
                             Verify every email in real-time to make sure your leads get your emails.
@@ -72,7 +76,9 @@
                     </div>
                     <div class="card py-5 px-4 text-center m-2 shadow" data-aos="fade-left" data-aos-duration="1000"
                         style="border: none; border-radius: 12px;">
-                        <img src="{{ asset('images/data-coverage.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-database align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">4. Data Coverage</h3>
                         <p class="card-text">
                             Get Access to 20 million business contacts worldwide in over 200 countries.
@@ -123,7 +129,9 @@
                 <div class="pt-3 card-group">
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-right"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/profile.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-user align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">Rich Profiles</h3>
                         <p class="card-text">
                             You and your team can easily picture your leads through detailed profiles.
@@ -131,7 +139,9 @@
                     </div>
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/contacts.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-users align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">Over 20M Contacts</h3>
                         <p class="card-text">
                             With over 20 million contacts in 200+ countries worldwide, you’ll easily find the leads you
@@ -140,7 +150,9 @@
                     </div>
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-left"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/filter.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-sort align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">Advanced Filters</h3>
                         <p class="card-text">
                             Use over 50 filters including job title, industry, location, management level, revenue and more.
@@ -152,7 +164,9 @@
                 <div class="pt-3 card-group">
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-right"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/gear.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-cog align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">Technographics</h3>
                         <p class="card-text">
                             Generate qualified leads according to the type of technology they use.
@@ -160,7 +174,9 @@
                     </div>
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/target.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-bullseye align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">Account Based Marketing</h3>
                         <p class="card-text">
                             Start your process by identifying the accounts you want to target.
@@ -168,7 +184,9 @@
                     </div>
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-left"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/clock.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-clock align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">Realtime Verification</h3>
                         <p class="card-text">
                             Verify every single email in real-time to guarantee delivery and save time.
@@ -180,7 +198,9 @@
                 <div class="pt-3 card-group">
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-right"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/neuron.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-atom align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">CRM Integration</h3>
                         <p class="card-text">
                             Seamlessly integrate with platforms like Salesforce, HubSpot, Zoho, Pipedrive, and many more.
@@ -188,7 +208,9 @@
                     </div>
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/file-download.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-cloud-download-alt align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">Bulk Downloads</h3>
                         <p class="card-text">
                             Find and download all the information you need in a matter of minutes to access offline and
@@ -197,7 +219,9 @@
                     </div>
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-left"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/quick-search.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-search align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">Quick Search</h3>
                         <p class="card-text">
                             Simply list down the characteristics you’re looking for and let Leadsopedia connect you to the
@@ -210,7 +234,9 @@
                 <div class="pt-3 card-group">
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-right"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/neuron.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-atom align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">Data Enrichment</h3>
                         <p class="card-text">
                             Your Success is our Achievements, the better leads that you can use is here. Leadsopedia
@@ -220,7 +246,9 @@
                     </div>
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/gear.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-mail-bulk align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">Email Verifications</h3>
                         <p class="card-text">
                             Our leads generations campaign will increase your prospect, just our leadsopedia email finder
@@ -229,7 +257,9 @@
                     </div>
                     <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-left"
                         data-aos-duration="1000">
-                        <img src="{{ asset('images/quick-search.svg') }}" alt="" class="img-fluid mb-4">
+                        <div class="align-self-center custom-icon d-flex mb-4">
+                            <i class="fas fa-search align-self-center mx-auto"></i>
+                        </div>
                         <h3 class="card-title">Email Finder</h3>
                         <p class="card-text">
                             Leadsopedia verifies tens of thousand emails that driving more value data to your business,
