@@ -543,10 +543,6 @@
                     </div>
                     <div class="card-footer">
                         <div class="d-flex">
-                            <a href="#" class="btn btn-link btn-link--secondary">
-                                Learn More
-                                <i class="icon ion-ios-arrow-forward"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -572,10 +568,6 @@
                     </div>
                     <div class="card-footer">
                         <div class="d-flex">
-                            <a href="https://app.leadsopedia.com/login" class="btn btn-link btn-link--secondary">
-                                Learn More
-                                <i class="icon ion-ios-arrow-forward"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -601,10 +593,6 @@
                     </div>
                     <div class="card-footer">
                         <div class="d-flex">
-                            <a href="https://app.leadsopedia.com/login" class="btn btn-link btn-link--secondary d-inline">
-                                Learn More
-                                <i class="icon ion-ios-arrow-forward"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -613,7 +601,7 @@
 
         <div class="my-5 py-3"></div>
 
-        <div class="bg-primary py-5 my-5 overflow-hidden">
+       {-- <div class="bg-primary py-5 my-5 overflow-hidden">
             <div class="container my-5">
                 <div class="row">
                     <div class="col-12 col-md-8 offset-md-2 text-center">
@@ -651,7 +639,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}
 
         <div class="my-4"></div>
 
