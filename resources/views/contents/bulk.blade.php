@@ -105,14 +105,14 @@
     <div class="container overflow-hidden pb-5 mb-5">
         <div class="row">
             <div class="col-12 col-md-6">
-                <h1 data-aos="fade-right" data-aos-duration="1000">How does this work?</h1>
+                <h1 data-aos="fade-right" data-aos-duration="1000">How to use the Bulk Search Feature?</h1>
                 <p data-aos="fade-right" data-aos-duration="1000">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In illum voluptates quas id aperiam eos ducimus
-                    assumenda doloribus, nobis ipsam eaque quos debitis maiores. Illo porro error ut. Doloribus, doloremque.
+                Leadsopedia’s Bulk Search feature allows you to fetch a number of leads in an instant. 
+                Just input keywords, addresses, and other details you’d like to search for.
                 </p data-aos="fade-right" data-aos-duration="1000">
                 <p data-aos="fade-right" data-aos-duration="1000">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In illum voluptates quas id aperiam eos ducimus
-                    assumenda doloribus, nobis ipsam eaque quos debitis maiores. Illo porro error ut. Doloribus, doloremque.
+                This advanced feature showcases the amount of data on our platform, no matter how broad or specific your search may be. 
+                We regularly update our contacts list and you can customize the search filters according to your needs.
                 </p>
             </div>
             <div class="text-center col-12 col-md-6 d-none d-md-block" data-aos="fade-left" data-aos-duration="1000">
@@ -125,28 +125,27 @@
                 <img src="{{ asset('images/graphics/designing.png') }}" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-6 pt-5">
-                <h1 data-aos="fade-left" data-aos-duration="1000">What are the limits?</h1>
+                <h1 data-aos="fade-left" data-aos-duration="1000">Are there limitations?</h1>
                 <p data-aos="fade-left" data-aos-duration="1000">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In illum voluptates quas id aperiam eos ducimus
-                    assumenda doloribus, nobis ipsam eaque quos debitis maiores. Illo porro error ut. Doloribus, doloremque.
+                    We will only provide the data that we currently have on our system. 
+                    Accessing and downloading these data are subject to regulations within your main dashboard.
                 </p>
                 <p data-aos="fade-left" data-aos-duration="1000">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In illum voluptates quas id aperiam eos ducimus
-                    assumenda doloribus, nobis ipsam eaque quos debitis maiores. Illo porro error ut. Doloribus, doloremque.
+                    The data you’ll be able to access may be limited to the current countries available. 
+                    Stay tuned as we regularly update our data.
                 </p>
             </div>
             <div class="col-12">
                 <hr class="my-5" />
             </div>
             <div class="col-12 col-md-6">
-                <h1 data-aos="fade-right" data-aos-duration="1000">Is it accurate?</h1>
+                <h1 data-aos="fade-right" data-aos-duration="1000">Will I get accurate results?</h1>
                 <p data-aos="fade-right" data-aos-duration="1000">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In illum voluptates quas id aperiam eos ducimus
-                    assumenda doloribus, nobis ipsam eaque quos debitis maiores. Illo porro error ut. Doloribus, doloremque.
+                Yes, definitely! Our system is designed with advanced search filters so that our customers will get accurate results with each log-in.
                 </p>
                 <p data-aos="fade-right" data-aos-duration="1000">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In illum voluptates quas id aperiam eos ducimus
-                    assumenda doloribus, nobis ipsam eaque quos debitis maiores. Illo porro error ut. Doloribus, doloremque.
+                    It doesn’t matter if you want a broad or specific search. 
+                    In Leadsopedia, we’ll provide the data that you need within seconds. 
                 </p>
             </div>
             <div class="text-center col-12 col-md-6 d-none d-md-block" data-aos="fade-left" data-aos-duration="1000">

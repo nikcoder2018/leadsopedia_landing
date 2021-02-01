@@ -9,8 +9,8 @@
                     <h1 class="text-white" data-aos="fade-right" data-aos-duration="1000">Our Data</h1>
                     <div style="padding-right: 60%;">
                         <hr class="bg-info" />
-                    </div>
-                    <p class="text-white" data-aos="fade-right" data-aos-duration="1000">
+                    </div> 
+                    <p align="justify" class="text-white" data-aos="fade-right" data-aos-duration="1000">
                         Leadsopedia’s secured and safe data sets are maintained by IT experts so you don’t have to worry
                         about unsafe connections and downloads. We optimize the platform’s performance by regular server
                         checking and maintenance. Our data release is subject to a privacy agreement by both parties.
@@ -21,7 +21,7 @@
                     <div style="padding-right: 60%;">
                         <hr class="bg-info" />
                     </div>
-                    <p class="text-white" data-aos="fade-right" data-aos-duration="1000">
+                    <p align="justify" class="text-white" data-aos="fade-right" data-aos-duration="1000">
                         With the right filtering process, our system efficiently generates who your next customer should be.
                         No matter how specific or how broad your preferences are, our platform will surely find the right
                         match for you. Our detailed statistics and research systems help improve the platform’s search
@@ -85,36 +85,6 @@
                         </p>
                     </li>
                 </ul>
-            </div>
-        </div>
-    </div>
-     <div class="container pt-5 mt-5 overflow-hidden">	
-        <div class="row">
-            <div class="d-none d-md-block col-md-6 p-4" data-aos="fade-right" data-aos-duration="1000">
-                <img src="{{ asset('images/graphics/team-sales.jpg') }}" alt="" class="img-fluid rounded">
-            </div>
-            <div class="col-12 col-md-6 p-4 d-flex" data-aos="fade-left" data-aos-duration="1000">
-                <p class="align-self-center">
-                    How, exactly, does this feature work? When you click on the “Unlock” button to get access to a lead’s
-                    information (or use the bulk download feature to get multiple leads’ information), you’ll notice a
-                    loading icon while Leadsopedia verifies the data. There are three possible verification statuses at
-                    Leadsopedia:
-                    Valid, Invalid, or Accept All. If you see a Valid status, this means that the lead’s email server allows
-                    verification, and the email is 97%+ verified at the moment of download or export. Leadsopedia will
-                    display
-                    the email address without any additional prompts.
-                </p>
-            </div>
-            <div class="col-12 col-md-6 p-4 d-flex" data-aos="fade-right" data-aos-duration="1000">
-                <p class="align-self-center">
-                    On the other hand, “Invalid” records cannot be downloaded or exported. We don’t want our customers to
-                    waste their credits on downloading inaccurate or outdated lead information; these are automatically sent
-                    to our manual research team to update.
-
-                </p>
-            </div>
-            <div class="d-none d-md-block col-md-6 p-4" data-aos="fade-left" data-aos-duration="1000">
-                <img src="{{ asset('images/graphics/ai-support.jpg') }}" alt="" class="img-fluid rounded">
             </div>
         </div>
     </div>

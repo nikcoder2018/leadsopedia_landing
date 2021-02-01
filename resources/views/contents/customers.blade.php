@@ -7,10 +7,6 @@
                 <h1 data-aos="fade-right" data-aos-duration="1000">
                     Our great customers
                 </h1>
-                <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                    Over the years, we’ve become a dependable source of quality data for companies of various types, shapes
-                    and sizes. We’ve got something for every company:
-                </p>
             </div>
             <div class="col-12">
                 <div class="card-group mt-3">
@@ -20,7 +16,7 @@
                                 <img src="{{ asset('images/customers/start-up.svg') }}" alt="" class="img-fluid">
                             </div>
                             <h4 class="card-title mt-4 mb-2">
-                                Lean start-ups and small companies
+                                Small Companies
                             </h4>
                             <p class="card-text">
                                 Start-up Companies build the right foundation in Leadsopedia by helping them reach out to their first customers.
@@ -33,7 +29,7 @@
                                 <img src="{{ asset('images/customers/business.svg') }}" alt="" class="img-fluid">
                             </div>
                             <h4 class="card-title mt-4 mb-2">
-                                Medium-sized, mature businesses
+                                Medium Sized Companies
                             </h4>
                             <p class="card-text">
                                 Medium-sized companies expand their reach through Leadsopedia by using our advanced search technology and world-class data enrichment processes.
@@ -46,7 +42,7 @@
                                 <img src="{{ asset('images/customers/enterprise.svg') }}" alt="" class="img-fluid">
                             </div>
                             <h4 class="card-title mt-4 mb-2">
-                                Industry-leading enterprises
+                                Established Companies
                             </h4>
                             <p class="card-text">
                                 Leading and Established Enterprises attract more customers and increase their revenue through Leadsopedia by gathering data on their existing and potential customers.
