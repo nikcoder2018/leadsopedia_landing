@@ -17,8 +17,8 @@
         }
         .custom-control-input:checked ~ .custom-control-label::before {
             color: #FFFFFF;
-            border-color: #7367F0;
-            background-color: #7367F0;
+            border-color: #2A5EE9;
+            background-color: #2A5EE9;
         }
         .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
             background-color: #FFFFFF;
@@ -85,7 +85,7 @@
   <section id="pricing" class="section-spacer pricing-section bg-very__gray">
     <div class="container">
         <header class="section-header text-center">
-            <h2 class="section-title">Pricing</h2>
+            <h2 class="section-title">Pricing Plans</h2>
 
             <div class="d-flex align-items-center justify-content-center mb-5 pb-50">
                 <h6 class="mr-1 mb-0">Monthly</h6>
