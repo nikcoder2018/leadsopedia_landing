@@ -1,13 +1,82 @@
 @extends('layouts.app')
 
 @section('css')
+    <link rel="stylesheet" href="{{asset('css/bootstrap-extended.css')}}">
     <style>
         .card {
             border: none;
             box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
             border-radius: 12px;
         }
-
+        .custom-switch .custom-control-input:not(:checked) ~ .custom-control-label:before {
+            background-color: #545A6A;
+        }
+        .custom-control-input:not(:checked) ~ .custom-control-label:before {
+            background-color: #283046;
+            border-color: #404656;
+        }
+        .custom-control-input:checked ~ .custom-control-label::before {
+            color: #FFFFFF;
+            border-color: #7367F0;
+            background-color: #7367F0;
+        }
+        .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+            background-color: #FFFFFF;
+            -webkit-transform: translateX(2rem);
+            -ms-transform: translateX(2rem);
+            transform: translateX(2rem);
+        }
+        .custom-switch .custom-control-label::before {
+            left: -3.5rem;
+            width: 3rem;
+            pointer-events: all;
+            border-radius: 1rem;
+        }
+        .custom-switch .custom-control-label::after {
+            top: calc(0.225rem + 2px);
+            left: calc(-3.5rem + 2px);
+            width: 1rem;
+            height: 1rem;
+            background-color: #D8D6DE;
+            border-radius: 1rem;
+            -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, background 0s, border-color 0s, -webkit-transform 0.15s ease-in-out;
+            transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, background 0s, border-color 0s, -webkit-transform 0.15s ease-in-out;
+            transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, background 0s, border-color 0s;
+            transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, background 0s, border-color 0s, -webkit-transform 0.15s ease-in-out;
+        }
+        .custom-control-label::after {
+            position: absolute;
+            top: 0.225rem;
+            left: -1.5rem;
+            display: block;
+            width: 1rem;
+            height: 1rem;
+            content: '';
+            background: no-repeat 50% / 50% 50%;
+        }
+        .custom-control-label{
+            display: block !important;
+        }
+        .custom-control-input {
+            position: absolute;
+            left: 0;
+            z-index: -1;
+            width: 1rem;
+            height: 1.225rem;
+            opacity: 0;
+        }
+        .custom-control {
+            position: relative;
+            z-index: 1;
+            display: block;
+            min-height: 1.45rem;
+            padding-left: 1.5rem;
+            -webkit-print-color-adjust: exact;
+            color-adjust: exact;
+        }
+        .custom-switch {
+            padding-left: 3.5rem;
+        }
     </style>
 @endsection
 
@@ -15,52 +84,59 @@
 	<!-- ========================= pricing TABLE ========================= -->
   <section id="pricing" class="section-spacer pricing-section bg-very__gray">
     <div class="container">
-      <header class="section-header text-center">
-        <h2 class="section-title">pricing</h2>
-        <p class="section-subtitle">Everything is included, no hidden fees, no nonsense</p>
-      </header>
-      <div class="pricing-type-switch">
-        <div class="row justify-content-center">
-          @if(count($subscription_plans) > 0)
-            @foreach($subscription_plans as $plan)
-            <div class="col-md-4">
-              <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
-                  <div class="pricing-header">
-                  <h4 class="pricing-title">{{$plan->title}}</h4>
-                  <p>{{$plan->description}}</p>
-                  <div class="pricing-price">
-                      <div class="pricing-value">
-                      {{$plan->price}}
-                      <sup class="pricing-currency">{{$settings->currency_symbol}}</sup>
-                      </div>
-                      <small>Per active user/
-                        @if($plan->months== 1)monthly @endif
-                        @if($plan->months > 1 && $plan->months < 12)months @endif
-                        @if($plan->months== 12)yearly @endif
-                        @if($plan->months > 12){{($plan->months/12)}} years @endif
-                      </small>
-                      {{-- <small class="text-warning">Save 8% on annually</small> --}}
-                  </div>
-                  </div>
-                  @if(count($plan->priviledges) > 0)
-                  <ul class="m-0 p-0" style="list-style-type: none;">
-                    @foreach($plan->priviledges as $priviledge)
-                      <li class="" data-toggle="tooltip" data-replacement="right"
-                          title="" @if(!$priviledge->enabled) style="text-decoration:line-through;" @endif>
-                          {{$priviledge->description}}
-                      </li>
-                    @endforeach
-                  </ul>
-                  @endif
-                  <div class="pricing-footer">
-                      <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
-                  </div>
-              </div>
+        <header class="section-header text-center">
+            <h2 class="section-title">Pricing</h2>
+
+            <div class="d-flex align-items-center justify-content-center mb-5 pb-50">
+                <h6 class="mr-1 mb-0">Monthly</h6>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="priceSwitch" />
+                    <label class="custom-control-label" for="priceSwitch"></label>
+                </div>
+                <h6 class="ml-50 mb-0">Annually</h6>
             </div>
-            @endforeach
-          @endif
+        </header>
+        
+        <div class="pricing-type-switch">
+            <div class="row justify-content-center">
+            @if(count($subscription_plans) > 0)
+                @foreach($subscription_plans as $plan)
+                <div class="col-md-4">
+                <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
+                    <div class="pricing-header">
+                    <h4 class="pricing-title">{{$plan->title}}</h4>
+                    <p>{{$plan->description}}</p>
+                    <div class="pricing-price">
+                        <div class="pricing-value" data-price="{{$plan->price}}"><span>{{$plan->price}}</span><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup></div>
+                        <small class="annual-pricing d-none text-muted" data-annual-price="{{$plan->price_annual}}" data-currency="{{$settings->currency_symbol}}"></small>
+
+                        <small class="active-user">Per active user/
+                            @if($plan->months== 1)monthly @endif
+                            @if($plan->months > 1 && $plan->months < 12)months @endif
+                            @if($plan->months== 12)yearly @endif
+                            @if($plan->months > 12){{($plan->months/12)}} years @endif
+                        </small>
+                        {{-- <small class="text-warning">Save 8% on annually</small> --}}
+                    </div>
+                    </div>
+                    @if(count($plan->priviledges) > 0)
+                    <ul class="m-0 p-0" style="list-style-type: none;">
+                        @foreach($plan->priviledges as $priviledge)
+                        <li class="" data-toggle="tooltip" data-replacement="right">
+                            {{$priviledge->description}}
+                        </li>
+                        @endforeach
+                    </ul>
+                    @endif
+                    <div class="pricing-footer">
+                        <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
+                    </div>
+                </div>
+                </div>
+                @endforeach
+            @endif
+            </div>
         </div>
-      </div>
     </div>
   </section>
 
@@ -204,4 +280,39 @@
             </div>
         </div>
     </section>
+@endsection
+
+@section('js')
+    <script>
+        var priceSwitch = $('#priceSwitch');
+        priceSwitch.on('change', function() {
+          if ($(this).is(':checked')) {
+            ptype = 'annual';
+              $.each($('.annual-pricing'), function(i, item){
+                var data = $(item).data();
+                var value = data.annualPrice;
+                var currency = data.currency;
+                if(value > 0){
+                  var MonthValue = value / 12;
+                  if(MonthValue%2 != 1){
+                    MonthValue = MonthValue.toFixed(2);
+                  }
+                  $(item).parent().find('.active-user').addClass('d-none');
+                  $(item).parent().find('.pricing-value').find('span').html(MonthValue);
+                  $(item).removeClass('d-none').html(currency+' ' + value + ' / year');
+                }
+              });
+          } else {
+            ptype = 'monthly';
+              $.each($('.pricing-value'), function(i, item){
+                var data = $(item).data();
+                console.log($(item));
+                $(item).find('span').html(data.price);
+                $(item).parent().find('.annual-pricing').addClass('d-none');
+                $(item).parent().find('.active-user').removeClass('d-none');
+                
+              });
+          }
+        });
+    </script>
 @endsection

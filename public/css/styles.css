@@ -25,6 +25,7 @@
 - FOOTER
 ----------------------------------------------------------------*/
 
+
 /*----------------------------------------------------------------
 
 [PREDEFINE]
@@ -32,6 +33,7 @@ Author: Fourty Five
 Author URI: http://themeforest.net/user/fourtyfive
 
 ---------------------------------------------------------------- */
+
 
 /*
 ==========================
@@ -49,25 +51,21 @@ GLOBAL SHARED STYLES
     line-height: 0.3;
 }
 
+.theme-text-color {
+    color: #2A5EE9;
+}
+
+.theme-icon-color {
+    background-color: #D4E0FF;
+    color: #2A5EE9;
+}
+
 @media (min-width: 568px) {
     .half-blue {
-        background: linear-gradient(
-            to right,
-            #fff 0%,
-            #fff 50%,
-            #2861eb 50%,
-            #2861eb 50%
-        );
+        background: linear-gradient( to right, #fff 0%, #fff 50%, #2861eb 50%, #2861eb 50%);
     }
-
     .half-blue-reverse {
-        background: linear-gradient(
-            to right,
-            #2861eb 50%,
-            #2861eb 50%,
-            #fff 0%,
-            #fff 50%
-        );
+        background: linear-gradient( to right, #2861eb 50%, #2861eb 50%, #fff 0%, #fff 50%);
     }
 }
 
@@ -90,6 +88,8 @@ GLOBAL SHARED STYLES
     -moz-transform: scale(1.05);
     -o-transform: scale(1.05);
 }
+
+
 /* FONTS IMPORTS */
 
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700");
@@ -138,6 +138,7 @@ button:focus,
     box-shadow: none !important;
 }
 
+
 /* TYPOGRAPHY */
 
 h1,
@@ -185,6 +186,7 @@ p {
     padding-bottom: 100px;
 }
 
+
 /*
 ==========================
 LAYOUTS
@@ -224,6 +226,7 @@ LAYOUTS
 .assistive-text {
     font-size: 12px;
 }
+
 
 /*
 ====================
@@ -266,6 +269,7 @@ LISTS
     margin-right: 20px;
     vertical-align: middle;
 }
+
 
 /*
 ====================
@@ -339,6 +343,7 @@ PRELOADER
         transform: scale(1);
     }
 }
+
 
 /*
 ============================
@@ -453,6 +458,7 @@ BUTTONS
     margin-right: 10px;
 }
 
+
 /* pill button */
 
 .btn-pills {
@@ -463,6 +469,7 @@ BUTTONS
     background: #fff;
     color: #637282 !important;
 }
+
 
 /*
 ============================
@@ -516,6 +523,7 @@ SOCIAL BUTTONS
 .social-google-btn {
     background-color: #4285f4;
 }
+
 
 /*
 ============================
@@ -574,6 +582,7 @@ FORMS AND INPUTS
     box-shadow: 5px 5px 0 0 #2fe7b1;
 }
 
+
 /* 
 ====================
 TOOLTIP OVERRIDES
@@ -606,11 +615,13 @@ TOOLTIP OVERRIDES
     opacity: 1;
 }
 
+
 /*
 ============================
 CARDS
 ============================
 */
+
 
 /*
 Feature Lists
@@ -645,6 +656,7 @@ Feature Lists
     margin-bottom: 10px;
 }
 
+
 /*
 CONTENT CARDS
 */
@@ -652,6 +664,7 @@ CONTENT CARDS
 .content-card__body {
     padding: 10px;
 }
+
 
 /*
 ==========================
@@ -711,6 +724,7 @@ MODALS
     margin: 15px auto;
 }
 
+
 /*
 ============================
 CALL TO ACTION CARDS
@@ -752,6 +766,7 @@ CALL TO ACTION CARDS
 .callout-content {
     padding-right: 2;
 }
+
 
 /*
 ==========================
@@ -802,6 +817,7 @@ NAVIGATION BAR
     transform: translate(-50%, -50%);
     position: absolute;
 }
+
 
 /* Change the hamburger menu's background color here */
 
@@ -895,6 +911,7 @@ NAVIGATION BAR
     padding-right: 0;
 }
 
+
 /*
 ==========================
 Hero
@@ -985,6 +1002,7 @@ Hero
     height: 100%;
 }
 
+
 /*
 ============================
 SCREENS SHOTS
@@ -1037,6 +1055,7 @@ SCREENS SHOTS
     border-radius: 5px;
 }
 
+
 /*
 ============================
 Slider
@@ -1074,6 +1093,7 @@ Slider
     border-radius: 5px;
 }
 
+
 /*
 ============================
 FEATURES SECTIONS
@@ -1106,6 +1126,7 @@ FEATURES SECTIONS
 .feature-list-image {
     max-width: 90%;
 }
+
 
 /*
 ============================
@@ -1286,6 +1307,7 @@ PRICING TABLE
     margin-right: auto;
 }
 
+
 /*
 ============================
 FAQs
@@ -1300,6 +1322,7 @@ FAQs
 .section-faq .card-title {
     margin-bottom: 15px;
 }
+
 
 /*
 ============================
@@ -1358,6 +1381,7 @@ FOOTER
     display: inline-flex;
 }
 
+
 /*----------------------------------------------------------------
 [COLOR CODES]
 
@@ -1394,6 +1418,7 @@ light: #f8f9fa;
 dark: #343a40;
 
 ----------------------------------------------------------------*/
+
 
 /*
 ====================================================
@@ -1759,6 +1784,7 @@ BACKGROUND COLORS AND SHAPES COLORS
     color: #fff;
 }
 
+
 /*
 ==========================
 ICONS AND SHAPES
@@ -1815,6 +1841,7 @@ ICONS AND SHAPES
     border: 1px solid transparent;
 }
 
+
 /*
 ============================
 SPACING UTILITES CLASSES
@@ -1824,6 +1851,7 @@ please checkout the bootstrap utilities classes at getbootstrap.com
 ----------------
 ============================
 */
+
 
 /*
 MARGIN TOPS
@@ -1873,6 +1901,7 @@ MARGIN TOPS
     margin-top: 100px !important;
 }
 
+
 /*
 MARGIN BOTTOMS
 */
@@ -1921,6 +1950,7 @@ MARGIN BOTTOMS
     margin-bottom: 100px !important;
 }
 
+
 /*
 PADDING BOTTOM
 */
@@ -1968,6 +1998,7 @@ PADDING BOTTOM
 .pb-100 {
     padding-bottom: 100px !important;
 }
+
 
 /*
 PADDING TOPS
@@ -2028,6 +2059,7 @@ PADDING TOPS
 .hidden {
     display: none;
 }
+
 
 /*
 ==========================

@@ -3,7 +3,7 @@
 @section('content')
     <div class="container py-5 overflow-hidden">
         <div class="d-flex" data-aos="fade-down" data-aos-duration="1000">
-            <h4 class="px-3 py-2 gradient-white-to-blue d-inline rounded">Prospector</h4>
+            <h4 class="px-3 py-2 gradient-white-to-blue d-inline rounded">B2B Leads</h4>
         </div>
         <div class="row">
             <div class="col-12 col-md-6 pt-4">
@@ -43,7 +43,7 @@
                     <div class="align-self-center custom-icon d-flex">
                         <i class="fas fa-sort align-self-center mx-auto"></i>
                     </div>
-                    <h6 class="align-self-center ml-2">Advanced Search Filters</h6>
+                    <h6 class="align-self-center ml-2">Advanced Search</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-left" data-aos-duration="1000">
@@ -59,7 +59,7 @@
                     <div class="align-self-center custom-icon d-flex">
                         <i class="fas fa-globe-europe align-self-center mx-auto"></i>
                     </div>
-                    <h6 class="align-self-center ml-2">Global Coverage</h6>
+                    <h6 class="align-self-center ml-2">Worldwide Databases</h6>
                 </div>
             </div>
         </div>

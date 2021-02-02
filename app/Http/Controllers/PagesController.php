@@ -15,7 +15,7 @@ class PagesController extends Controller
         return view('contents.home');
     }
 
-    public function products($name)
+    public function services($name)
     {
         try {
             return view('contents.products.' . $name);

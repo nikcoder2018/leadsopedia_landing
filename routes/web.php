@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'PagesController@index')->name('home');
-Route::get('/products/{name}', 'PagesController@products')->name('products');
+Route::get('/services', 'PagesController@platform')->name('platform');
+Route::get('/services/{name}', 'PagesController@services')->name('services');
 Route::get('/pricing', 'PagesController@pricing')->name('pricing');
 Route::get('/searches', 'PagesController@searches')->name('searches');
 Route::get('/faq', 'PagesController@faq')->name('faq');
@@ -22,7 +23,6 @@ Route::get('/aboutus', 'PagesController@about')->name('aboutus');
 Route::get('/terms-and-conditions', 'PagesController@terms')->name('terms-and-conditions');
 Route::get('/privacy-policy', 'PagesController@privacy')->name('privacy-policy');
 Route::get('/our-data', 'PagesController@data')->name('data');
-Route::get('/platform', 'PagesController@platform')->name('platform');
 Route::get('/contact-us', 'PagesController@contact')->name('contact');
 Route::get('/marketing', 'PagesController@marketing')->name('marketing');
 Route::get('/customers', 'PagesController@customers')->name('customers');

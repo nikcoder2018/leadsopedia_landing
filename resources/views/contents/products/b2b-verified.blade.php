@@ -4,16 +4,19 @@
     <div class="container pt-5 overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-6">
-                <div class="d-flex" data-aos="fade-down" data-aos-duration="1000">
+                <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <h5 class="gradient-white-to-blue d-inline px-3 py-2 rounded">
-                     B2B Email Lists
+                     Verified B2B Data
                     </h5>
                 </div>
                 <h1 class="mt-2 display-4" data-aos="fade-right" data-aos-duration="1000">
-                    Target the right prospects and launch effective marketing strategies
+                    Leadsopedia’s verification process is designed for you to reach the right customers
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    Our team optimizes the platform’s email database so prospectors can efficiently scan through millions of data.
+                    We are confident that the data we give you are 100% verified and are tailor-fit to your needs.
+                </p>
+                <p class="lead" data-aos="fade-right" data-aos-duration="1000">
+                    We make sure that the data sets you receive from us are real and updated every day. There’s no need to collect email addresses elsewhere because you’ve got everything that you’ll need here in Leadsopedia.
                 </p>
                 <div class="d-flex pb-5 mb-5" data-aos="fade-up" data-aos-duration="1000">
                     <a href="https://app.leadsopedia.com/register" class="btn btn-primary btn-lg mx-1">
@@ -25,7 +28,7 @@
                 </div>
             </div>
             <div class="d-none d-md-block col-md-6 border-left" data-aos="fade-left" data-aos-duration="1000">
-                <img src="{{ asset('images/graphics/boost-sale.png') }}" alt="" class="img-fluid">
+                <img src="{{ asset('images/graphics/high-sales.png') }}" alt="" class="img-fluid">
             </div>
         </div>
     </div>
@@ -47,7 +50,7 @@
                     <div class="align-self-center custom-icon d-flex">
                         <i class="fas fa-sort align-self-center mx-auto"></i>
                     </div>
-                    <h6 class="align-self-center ml-2">Advanced Search Filters</h6>
+                    <h6 class="align-self-center ml-2">Advanced Search</h6>
                 </div>
             </div>
             <div class="col-12 col-md-3 py-3 px-2" data-aos="fade-left" data-aos-duration="1000">
@@ -63,7 +66,7 @@
                     <div class="align-self-center custom-icon d-flex">
                         <i class="fas fa-globe-europe align-self-center mx-auto"></i>
                     </div>
-                    <h6 class="align-self-center ml-2">Global Coverage</h6>
+                    <h6 class="align-self-center ml-2">Worldwide Databases</h6>
                 </div>
             </div>
         </div>
@@ -71,72 +74,21 @@
 
     <hr class="my-5" />
 
-    <div class="container">
+    <div class="container overflow-hidden">
         <div class="row">
-            <div class="d-none d-md-block col-md-6 border-right d-flex">
-                <img src="{{ asset('images/graphics/good-sale-leads.png') }}" alt="" class="img-fluid align-self-center"
-                    data-aos="fade-right" data-aos-duration="1000">
-            </div>
-            <div class="col-12 col-md-6 p-5">
-                <div class="align-self-center custom-icon d-flex" data-aos="fade-left" data-aos-duration="1000">
-                    <i class="fas fa-bullseye align-self-center mx-auto"></i>
-                </div>
-                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Guaranteed Accuracy</h4>
-                <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
-                    Save more time with accurate data
-                </h1>
-                <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                    You don’t need to go through all of the data lists just to check if this data is accurate for your search. Simply tell us your requirements, and we’ll give you accurate downloadable data.
-                </p>
-                <div class="d-flex">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <hr class="my-5" />
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 p-5">
-                <div class="align-self-center custom-icon d-flex" data-aos="fade-right" data-aos-duration="1000">
-                    <i class="fas fa-search align-self-center mx-auto"></i>
-                </div>
-                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Advanced Search Technology</h4>
-                <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                    Experience our advanced search features
-                </h1>
-                <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    No matter how broad or specific your search is, we’ll give you the numbers in just a few seconds
-                </p>
-                <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
-                </div>
-            </div>
-            <div class="d-none d-md-block col-md-6 p-5 border-left">
-                <img src="{{ asset('images/graphics/business-info.png') }}" alt="" class="img-fluid" data-aos="fade-left"
-                    data-aos-duration="1000">
-            </div>
-        </div>
-    </div>
-
-    <hr class="my-5" />
-
-    <div class="container">
-        <div class="row">
-            <div class="d-none d-md-block col-md-6 p-5 border-right text-center">
-                <img src="{{ asset('images/graphics/team-sales.jpg') }}" alt="" class="img-fluid"
-                    data-aos="fade-right" data-aos-duration="1000">
+            <div class="d-none d-md-block col-md-6 border-right" data-aos="fade-right" data-aos-duration="1000">
+                <img src="{{ asset('images/graphics/data-enrichment.png') }}" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-6 p-5">
                 <div class="align-self-center custom-icon d-flex" data-aos="fade-left" data-aos-duration="1000">
                     <i class="fas fa-address-book align-self-center mx-auto"></i>
                 </div>
-                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Verified B2B Lists</h4>
+                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Verified B2B Data</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
-                    We provide valid emails for your next successful marketing campaign
+                    Our system automatically filters out inaccurate data for you
                 </h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
-                    Whether you’re a business owner, human resource agent, or a marketing manager, we know that you need the right emails to reach your target
+                    You don’t need to worry if your email will bounce back. We verify our data realtime.
                 </p>
                 <div class="d-flex" data-aos="fade-left" data-aos-duration="1000">
                 </div>
@@ -150,16 +102,65 @@
         <div class="row">
             <div class="col-12 col-md-6 p-5">
                 <div class="align-self-center custom-icon d-flex" data-aos="fade-right" data-aos-duration="1000">
-                    <i class="fas fa-mail-bulk align-self-center mx-auto"></i>
+                    <i class="fas fa-angle-double-down align-self-center mx-auto"></i>
                 </div>
-                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Advanced Search Engine</h4>
+                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Wide Data Download</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                    Easy export on bulk emails on our platform
+                    Have full control on your downloads
                 </h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
-                    We let you export Leadsopedia’s generated data on our platform, fast and easy!
+                    You can download all of our generated email lists or you can choose which ones you’ll keep.
                 </p>
-                <div class="d-flex">
+                <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
+                </div>
+            </div>
+            <div class="d-none d-md-block col-md-6 p-5 border-left" data-aos="fade-left" data-aos-duration="1000">
+                <img src="{{ asset('images/graphics/business-info.png') }}" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-5" />
+
+
+    <div class="container overflow-hidden">
+        <div class="row">
+            <div class="d-none d-md-block col-md-6 p-5 border-right" data-aos="fade-right" data-aos-duration="1000">
+                <img src="{{ asset('images/graphics/business-consultants.png') }}" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-6 p-5">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-left" data-aos-duration="1000">
+                    <i class="fas fa-sync-alt align-self-center mx-auto"></i>
+                </div>
+                <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Updated Data</h4>
+                <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
+                    Get access to updated data lists every time you log-in
+                </h1>
+                <p class="lead" data-aos="fade-left" data-aos-duration="1000">
+                    We believe that opportunities are born every single minute. We make sure you won’t miss out.
+                </p>
+                <div class="d-flex" data-aos="fade-left" data-aos-duration="1000">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-5" />
+
+    <div class="container overflow-hidden">
+        <div class="row">
+            <div class="col-12 col-md-6 p-5">
+                <div class="align-self-center custom-icon d-flex" data-aos="fade-right" data-aos-duration="1000">
+                    <i class="fas fa-file-download align-self-center mx-auto"></i>
+                </div>
+                <h4 class="text-secondary mt-3" data-aos="fade-right" data-aos-duration="1000">Validated Contact Lists</h4>
+                <h1 style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                    Our system verifies bulk email lists within seconds
+                </h1>
+                <p class="lead" data-aos="fade-right" data-aos-duration="1000">
+                    You won’t need other tools to verify our data.
+                </p>
+                <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                 </div>
             </div>
             <div class="d-none d-md-block col-md-6 p-5 border-left" data-aos="fade-left" data-aos-duration="1000">

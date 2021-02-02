@@ -21,10 +21,10 @@
                         Our Services
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ route('products', 'prospector') }}">B2B Leads</a>
-                        <a class="dropdown-item" href="{{ route('products', 'data-enrichments') }}">Refined Data</a>
-                        <a class="dropdown-item" href="{{ route('products', 'email-verification') }}"> Verified B2B Data</a>
-                        <a class="dropdown-item" href="{{ route('products', 'email-finder') }}">B2B Email Lists</a>
+                        <a class="dropdown-item" href="{{ route('services', 'b2b-leads') }}">B2B Leads</a>
+                        <a class="dropdown-item" href="{{ route('services', 'refined-data') }}">Refined Data</a>
+                        <a class="dropdown-item" href="{{ route('services', 'b2b-verified') }}"> Verified B2B Data</a>
+                        <a class="dropdown-item" href="{{ route('services', 'b2b-emails') }}">B2B Email Lists</a>
                         <a class="dropdown-item" href="{{ route('api') }}">API</a>
                     </div>
                 </li>

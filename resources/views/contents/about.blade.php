@@ -18,7 +18,7 @@
                         <div class="content-header" data-aos="fade-left" data-aos-duration="1000">
                             <h1 class="content-title">About Us</h1>
                             <i class="font-weight-bold">Professional. Expertise. Commitment</i>
-                            <p>
+                            <p class="text-justify">
                                 Leadsopedia is the number one leads generating platform for local and global business owners
                                 and salespeople. We build bridges between businesses and clients. We create once in a
                                 lifetime opportunity for our clients through our reliable database and excellent customer
@@ -46,51 +46,49 @@
     <div class="container my-5 overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-6 d-none d-md-block" data-aos="fade-right" data-aos-duration="1000">
-                <img src="{{ asset('images/bgs/company.png') }}" alt="" class="img-fluid">
+                <img src="{{ asset('images/graphics/coming_home.png') }}" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-6" data-aos="fade-left" data-aos-duration="1000">
                 <h1>Company Profile</h1>
-                <p>
-                    Established in 2018, Leadsopedia Company is a leads generating platform with
-                    affordable lead data solutions to individuals and local and international
-                    businesses.
+                <p class="text-justify mt-3" style="font-size: 1.1rem; line-height: 30px">
+                    Established in 2021, Leadsopedia.com is a leads generating platform with affordable pricing plans fit for both small and big companies. We cater to international and local clients from different industries. 
                 </p>
             </div>
             <div class="col-12">
                 <div class="my-5"></div>
             </div>
             <div class="col-12 col-md-6" data-aos="fade-right" data-aos-duration="1000">
-                <h1 style="line-height: 3rem;">Let's work together and start your business to success</h1>
+                <h1 style="line-height: 3rem;">Collaborate with us! </h1>
                 <h6>Mailing Address</h6>
-                <p>Suite 9, Bicycle News, London, SW4 6FE, United Kingdom</p>
+                <p>Suite 9, Bicycle Mews, London, SW4 6FE, United Kingdom</p>
                 <h6>Phone Number</h6>
                 <p>+44 20 7097 8642</p>
                 <h6>Email Address</h6>
                 <p>info@leadsopedia.com</p>
             </div>
             <div class="col-12 col-md-6 d-none d-md-block" data-aos="fade-left" data-aos-duration="1000">
-                <img src="{{ asset('images/bgs/handshake.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('images/graphics/business_deal.png') }}" alt="" class="img-fluid">
             </div>
         </div>
     </div>
 
     <div class="container mt-5 overflow-hidden">
         <div class="row">
-            <div class="col-12 col-md-8 offset-md-2 text-center">
-                <h1 data-aos="fade-left" data-aos-duration="1000">Leadsopedia Company Values</h1>
+            <div class="col-12 col-md-10 offset-md-2 text-center">
+                <h1 class="py-1" data-aos="fade-left" data-aos-duration="1000">Leadsopedia Company Values</h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     Our values are at the core of our culture, and they can be summed up by the acronym
                     <span class="text-secondary">TECI</span>.
                 </p>
             </div>
-            <div class="col-12 col-md-6 p-2">
+            <div class="col-12 col-md-6 p-2 pt-3">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <div class="align-self-center">
                         <h5>
-                            <i class="fas fa-project-diagram"></i>
+                            <i class="fas fa-project-diagram text-secondary" style="font-size: 1.5rem"></i>
                             Teamwork
                         </h5>
-                        <div class="text-secondary">
+                        <div class="text-secondary font-weight-bold mb-1">
                             Helpful | Honest | Caring
                         </div>
                         <p>
@@ -100,14 +98,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 p-2" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-12 col-md-6 p-2 pt-3" data-aos="fade-left" data-aos-duration="1000">
                 <div class="d-flex">
                     <div class="align-self-center">
                         <h5>
-                            <i class="fas fa-medal"></i>
+                            <i class="fas fa-medal text-secondary" style="font-size: 1.5rem"></i>
                             Excellence
                         </h5>
-                        <div class="text-secondary">
+                        <div class="text-secondary font-weight-bold mb-1">
                             Studious | Innovative | Curious
                         </div>
                         <p>
@@ -121,10 +119,10 @@
                 <div class="d-flex">
                     <div class="align-self-center">
                         <h5>
-                            <i class="fas fa-brain"></i>
+                            <i class="fas fa-brain text-secondary" style="font-size: 1.5rem"></i>
                             Commitment
                         </h5>
-                        <div class="text-secondary">
+                        <div class="text-secondary font-weight-bold mb-1">
                             Determined | Enthusiastic | Enterprising
                         </div>
                         <p>
@@ -138,10 +136,10 @@
                 <div class="d-flex">
                     <div class="align-self-center">
                         <h5>
-                            <i class="fas fa-bolt"></i>
+                            <i class="fas fa-bolt text-secondary" style="font-size: 1.5rem"></i>
                             Innovation
                         </h5>
-                        <div class="text-secondary">
+                        <div class="text-secondary font-weight-bold mb-1">
                             Efficient | Driven | Resourceful
                         </div>
                         <p>

@@ -1,4 +1,4 @@
-<footer class="section-spacer footer-section shadow border">
+<footer class="footer-section shadow" style="padding-top: 50px;">
     <div class="container-fluid">
         <div class="row flex-column-reverse flex-sm-row flex-lg-row px-md-3">
             <div class="col-md-4 col-12">
@@ -7,7 +7,7 @@
                         <img src="{{ asset('images/logo-new-full.svg') }}" alt="Image" class="logo-md" style="max-height: 42px;">
                     </a>
                     <div style="margin-left: 12px; margin-top: 5px;">
-                    <a href="#" class="d-block mb-10">1-203-345-8989</a>
+                    <a href="#" class="d-block mb-10">+44 20 7097 8642</a>
                     <a href="#">support@leadsopedia.com</a>
                     <ul class="social-list__inline mt-10">
                         <li>
@@ -42,7 +42,7 @@
                                     <a href="{{ route('data') }}">Data Source</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('customers') }}">Customers</a>
+                                    <a href="{{ route('customers') }}">Our Target Customers</a>
                                 </li>
                                 <li>
                                     <a href="https://app.leadsopedia.com/login">Sign In</a>
@@ -102,17 +102,17 @@
                                     <a href="{{ route('marketing') }}">B2B Accounts Marketing</a>
                                 </li> --}}
                                 <li>
-                                    <a href="{{ route('b2b') }}">B2B Leads</a>
+                                    <a href="{{ route('services', 'b2b-leads') }}">B2B Leads</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('products', 'email-verification') }}">Refined Data
+                                    <a href="{{ route('services', 'refined-data') }}">Refined Data
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('email') }}">Verified Emails</a>
+                                    <a href="{{ route('services', 'b2b-verified') }}">Verified B2B Data</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('products', 'data-enrichments') }}">B2B Email Lists</a>
+                                    <a href="{{ route('services', 'b2b-emails') }}">B2B Email Lists</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('bulk') }}">Bulk Search</a>
@@ -125,14 +125,12 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <hr>
-                <div class="footer-content">
-                    <div class="footer-alt text-center mb-5">
-                        <p class="mb-0 text-muted">Copyright Leadsopedia Limited. Registered in England. Number 13145058. Registered Office at Suite 9, 2 Bicycle Mews, London, SW4 6FE, United Kingdom </p>
-                    </div>
-                    <div class="footer-icon mt-4">                                       
-                                            
-                    </div>                              
+                <div class="footer-content container-fluid">
+                    <hr>
+                    <div class="footer mb-4 d-flex justify-content-between">
+                        <p class="mb-0 text-muted">Copyright Leadsopedia Limited. Registered in England. Number 13145058. <br> Registered Office at Suite 9, 2 Bicycle Mews, London, SW4 6FE, United Kingdom </p>
+                        <img src="{{ asset('images/gdpr.png') }}" width="5%">
+                    </div>                            
                 </div>
             </div>
         </div>

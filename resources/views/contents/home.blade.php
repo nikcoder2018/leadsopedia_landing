@@ -52,10 +52,6 @@
             text-shadow: -3px 3px 10px rgb(211, 211, 211);
         }
 
-        .theme-icon-color{
-            background-color: #D4E0FF;
-            color: #2A5EE9;
-        }
     </style>
 @endsection
 @section('content')
@@ -498,11 +494,11 @@
                 <div class="col-12 col-md-6 d-flex">
                     <div class="align-self-center">
                         <h1 data-aos="fade-left" data-aos-duration="1000">Leadsopedia API</h1>
-                        <p class="lead" data-aos="fade-left" data-aos-duration="1000">
+                        <p class="lead text-justify" data-aos="fade-left" data-aos-duration="1000">
                             Build your roadmap to success with our
                             team of professionals, dedicated to giving you a world-class service with just one click.
                         </p>
-                        <p class="lead" data-aos="fade-left" data-aos-duration="1000">
+                        <p class="lead text-justify" data-aos="fade-left" data-aos-duration="1000">
                             We do regular monitoring, assessment, and filtering of data quality so you get quality leads
                             every time you use our platform. Our intelligent API helps you identify the services you’ll need
                             so you can maximize our platform.
@@ -537,7 +533,7 @@
 
         <div class="my-4"></div>
 
-        <div style="background-color: #0C73F9;" class="my-5 py-3 shadow">
+        <div style="background-color: #0C73F9;" class="my-5 pt-3 shadow">
             <div class="container text-white overflow-hidden">
                 <div class="row">
                     <div class="col-12 col-md-5 d-flex" data-aos="fade-right" data-aos-duration="1000">

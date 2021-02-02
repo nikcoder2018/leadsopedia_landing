@@ -52,13 +52,13 @@
                 </div>
             </div>
             <div class="col-12 text-center pt-5 my-5">
+                <h1 class="my-5 line-height-3" data-aos="fade-left" data-aos-duration="1000">
+                    We guarantee that you’ll find the next successful deal here in Leadsopedia!
+                </h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
                     Our customers include business owners from small to large enterprises, prospectors, human resources
                     managers, and salespeople who want to make more connections and win their next sales pitch.
                 </p>
-                <h1 class="my-5 line-height-3" data-aos="fade-left" data-aos-duration="1000">
-                    We guarantee that you’ll find the next successful deal here in Leadsopedia!
-                </h1>
             </div>
         </div>
     </div>

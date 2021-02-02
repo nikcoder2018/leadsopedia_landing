@@ -62,7 +62,7 @@
         </div>
     </div>
 
-    <div class="container pt-5 mt-5 overflow-hidden">
+    <div class="container py-3 my-3 overflow-hidden">
         <div class="row">
             <div class="col-12 col-md-10 offset-md-1 text-center" data-aos="fade-right" data-aos-duration="1000">
                 <h1 class="mb-4">
