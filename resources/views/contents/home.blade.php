@@ -372,7 +372,7 @@
 
         <div class="my-4"></div>
 
-        <div class="container-fluid py-5 mt-5 overflow-hidden">
+        <div class="container-fluid py-5 mt-4 overflow-hidden">
             <div class="row">
                 <div class="col-12 col-md-6 bg-primary p-5">
                     <h1 class="pb-1 text-white" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
@@ -381,7 +381,7 @@
                     <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
                         Work efficiently when you integrate Leadsopedia with your applications
                     </p>
-                    <div class="d-flex">
+                    <div class="d-flex mt-1">
                         <a href="https://app.leadsopedia.com/login" class="btn btn-light mx-1" data-aos="fade-right" data-aos-duration="1000">
                             Sign Up
                         </a>
@@ -390,8 +390,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="d-none d-md-block col-md-6 d-flex border">
-                    <img src="{{ asset('images/companies/group.svg') }}" alt="" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
+                <div class="d-none d-md-block col-md-6 p-5 d-flex text-center border">
+                    <img src="{{ asset('images/companies/group.svg') }}" width="80%" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
                 </div>
             </div>
         </div>
@@ -422,7 +422,7 @@
                     </div>
                     <div class="card-footer">
                         <div class="d-flex">
-                            <a href="#" class="btn btn-link btn-link--secondary">
+                            <a href="{{route('aboutus')}}" class="btn btn-link btn-link-secondary">
                                 Learn More
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -451,7 +451,7 @@
                     </div>
                     <div class="card-footer">
                         <div class="d-flex">
-                            <a href="{{route('aboutus')}}" class="btn btn-link btn-link--secondary">
+                            <a href="{{route('aboutus')}}" class="btn btn-link btn-link-secondary">
                                 Learn More
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -480,7 +480,7 @@
                     </div>
                     <div class="card-footer">
                         <div class="d-flex">
-                            <a href="{{route('aboutus')}}" class="btn btn-link btn-link--secondary d-inline">
+                            <a href="{{route('aboutus')}}" class="btn btn-link btn-link-secondary d-inline">
                                 Learn More
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -511,7 +511,7 @@
                             <a href="{{ route('api') }}" class="btn btn-primary mx-1">
                                 Browse API Docs
                             </a>
-                            <a href="https://app.leadsopedia.com/login" class="btn btn-outline-primary mx-1">
+                            <a href="{{route('aboutus')}}" class="btn btn-outline-primary mx-1">
                                 Learn More
                             </a>
                         </div>
