@@ -3,9 +3,10 @@
         <div class="row flex-column-reverse flex-sm-row flex-lg-row px-md-3">
             <div class="col-md-4 col-12">
                 <div class="footer-widget first-of-footer-widget">
-                    <img src="{{ asset('images/logo-new-full.svg') }}" class="mb-10" style="max-height: 40px;" alt="Image">
-
-                    <p>Copyright &copy; {{ date('Y') }} Leadsopedia. All Rights Reserved.</p>
+                    <a class="navbar-brand bg-white rounded py-2" href="{{ route('home') }}">
+                        <img src="{{ asset('images/logo-new-full.svg') }}" alt="Image" class="logo-md" style="max-height: 42px;">
+                    </a>
+                    <div style="margin-left: 12px; margin-top: 5px;">
                     <a href="#" class="d-block mb-10">1-203-345-8989</a>
                     <a href="#">support@leadsopedia.com</a>
                     <ul class="social-list__inline mt-10">
@@ -25,6 +26,7 @@
                             </a>
                         </li>
                     </ul>
+                    </div>
                 </div>
             </div>
             <div class="col-md-8 col-sm-10">
@@ -118,6 +120,19 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <hr>
+                <div class="footer-content">
+                    <div class="footer-alt text-center mb-5">
+                        <p class="mb-0 text-muted">Copyright Leadsopedia Limited. Registered in England. Number 13145058. Registered Office at Suite 9, 2 Bicycle Mews, London, SW4 6FE, United Kingdom </p>
+                    </div>
+                    <div class="footer-icon mt-4">                                       
+                                            
+                    </div>                              
                 </div>
             </div>
         </div>

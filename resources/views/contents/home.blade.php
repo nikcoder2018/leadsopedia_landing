@@ -52,6 +52,10 @@
             text-shadow: -3px 3px 10px rgb(211, 211, 211);
         }
 
+        .theme-icon-color{
+            background-color: #D4E0FF;
+            color: #2A5EE9;
+        }
     </style>
 @endsection
 @section('content')
@@ -163,11 +167,11 @@
                 <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex mb-2">
-                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple mx-auto">
+                            <div class="u-icon u-icon__circle u-icon__lg theme-icon-color mx-auto">
                                 <i class="icon ion-ios-apps"></i>
                             </div>
                         </div>
-                        <h4 class="card-title text-center">Data Enrichment</h4>
+                        <h4 class="card-title text-center">Refined Data</h4>
                         <p class="card-text text-center">
                             Our Clients’ success is also our success. This is why we make sure that resources are
                             optimized and we provide<a href="" class="d-inline show-more">
@@ -189,11 +193,11 @@
                 <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex mb-2">
-                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple mx-auto">
+                            <div class="u-icon u-icon__circle u-icon__lg theme-icon-color mx-auto">
                                 <i class="icon ion-ios-construct"></i>
                             </div>
                         </div>
-                        <h4 class="card-title text-center">Realtime Verified Data</h4>
+                        <h4 class="card-title text-center">Validated Data</h4>
                         <p class="card-text text-center">
                             We go beyond the ordinary and actively regulate and update our listings so you get new leads
                             every day. Our<a href="" class="d-inline show-more">
@@ -213,11 +217,11 @@
                 <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex mb-2">
-                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary mx-auto">
+                            <div class="u-icon u-icon__circle u-icon__lg theme-icon-color mx-auto">
                                 <i class="icon ion-ios-analytics"></i>
                             </div>
                         </div>
-                        <h4 class="card-title text-center">B2B Prospector</h4>
+                        <h4 class="card-title text-center">B2B Data Lists</h4>
                         <p class="card-text text-center">
                             Leadsopedia generates millions of prospects in both local and global industries. With our
                             enhanced<a href="" class="d-inline show-more">
@@ -234,11 +238,11 @@
                 <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex mb-2">
-                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan mx-auto">
+                            <div class="u-icon u-icon__circle u-icon__lg theme-icon-color mx-auto">
                                 <i class="icon ion-ios-document"></i>
                             </div>
                         </div>
-                        <h4 class="card-title text-center">Email Verifications</h4>
+                        <h4 class="card-title text-center">Verified Email Lists</h4>
                         <p class="card-text text-center">
                             We are confident that the data we give you are 100% verified and are tailor-fit to your
                             needs. We make sure<a href="" class="d-inline show-more">
@@ -258,11 +262,11 @@
                 <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex mb-2">
-                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary mx-auto">
+                            <div class="u-icon u-icon__circle u-icon__lg theme-icon-color mx-auto">
                                 <i class="icon ion-ios-funnel"></i>
                             </div>
                         </div>
-                        <h4 class="card-title text-center">B2B Sales Funnel</h4>
+                        <h4 class="card-title text-center">B2B Sales</h4>
                         <p class="card-text text-center">
                             Effective digital engagement is our top priority. We structure the lead data for you so you
                             can quickly decide with conviction. We believe<a href="" class="d-inline show-more">
@@ -280,11 +284,11 @@
                 <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex mb-2">
-                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__cyan mx-auto">
+                            <div class="u-icon u-icon__circle u-icon__lg theme-icon-color mx-auto">
                                 <i class="icon ion-ios-download"></i>
                             </div>
                         </div>
-                        <h4 class="card-title text-center">B2B Marketing funnel</h4>
+                        <h4 class="card-title text-center">B2B Marketing</h4>
                         <p class="card-text text-center">
                             Leadsopedia is the right avenue for the right business deals, successful partnerships, and
                             impactful sales funnel. We match<a href="" class="d-inline show-more">
@@ -304,11 +308,11 @@
                 <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex mb-2">
-                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__primary mx-auto">
+                            <div class="u-icon u-icon__circle u-icon__lg theme-icon-color mx-auto">
                                 <i class="icon ion-ios-mail"></i>
                             </div>
                         </div>
-                        <h4 class="card-title text-center">Email Finder</h4>
+                        <h4 class="card-title text-center">Email Locator</h4>
                         <p class="card-text text-center">
                             Save precious time and discover our platform’s untapped potential. The emails we provide you
                             are verified across both<a href="" class="d-inline show-more">
@@ -326,11 +330,11 @@
                 <div class="card hover-zoom border-0 shadow p-2 m-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-body">
                         <div class="d-flex mb-2">
-                            <div class="u-icon u-icon__circle u-icon__lg bg-dimped__purple mx-auto">
+                            <div class="u-icon u-icon__circle u-icon__lg theme-icon-color mx-auto">
                                 <i class="icon ion-ios-flash"></i>
                             </div>
                         </div>
-                        <h4 class="card-title text-center">Conscripting Funnel</h4>
+                        <h4 class="card-title text-center">Advance Search Filters</h4>
                         <p class="card-text text-center">
                             Our system thoroughly sifts through billions of data to meet your needs. Our world-class
                             service gives your business an edge<a href="" class="d-inline show-more">
@@ -346,131 +350,6 @@
                 </div>
             </div>
         </div>
-
-        {{-- <div style="background-color: #0C73F9;" class="my-5 py-5 shadow">
-            <div class="container text-white">
-                <h1 class="text-white">
-                    Mission
-                </h1>
-                <hr class="my-4 bg-white" />
-
-                <p style="text-indent: 1rem;" class="lead">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste distinctio molestias vero quo, dolorem
-                    nostrum similique repellat voluptas unde eius quos qui ducimus doloribus eveniet autem voluptate
-                    architecto provident eligendi.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste distinctio molestias vero quo, dolorem
-                    nostrum similique repellat voluptas unde eius quos qui ducimus doloribus eveniet autem voluptate
-                    architecto provident eligendi.
-                </p>
-            </div>
-        </div>
-
-        <div class="container py-5 my-5">
-            <h1>
-                Vision
-            </h1>
-            <hr class="my-4" />
-            <p style="text-indent: 1rem;" class="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consequatur ad adipisci ullam, consequuntur
-                libero tenetur ut ducimus cumque perferendis cum rem eos natus obcaecati a expedita aut pariatur maiores!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consequatur ad adipisci ullam, consequuntur
-                libero tenetur ut ducimus cumque perferendis cum rem eos natus obcaecati a expedita aut pariatur maiores!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consequatur ad adipisci ullam, consequuntur
-                libero tenetur ut ducimus cumque perferendis cum rem eos natus obcaecati a expedita aut pariatur maiores!
-            </p>
-        </div> --}}
-
-        {{--
-        <hr class="my-5" />
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-8 offset-md-2 text-center">
-                    <img src="{{ asset('images/5-stars.png') }}" height="55" alt="" class="mb-3">
-                    <h1 class="pb-1" style="line-height: 3rem;">
-                        Rated <span class="underlined">5 out of 5 stars</span>
-                        by our customers!
-                    </h1>
-                    <p class="lead px-5">
-                        Companies and Individuals from across the globe have had fantastic
-                        experiences using Leadsopedia. Here's what they have to say.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container px-5">
-            <div class="card-group">
-                <div class="card py-5 px-3 text-center m-2 shadow" style="border: none; border-radius: 12px;">
-                    <img src="{{ asset('images/quote.svg') }}" alt="" class="img-fluid mb-4">
-                    <p class="card-text">
-                        It has fulfilled everything that it has advertised and so much more. Highly recommended for
-                        people
-                        who use email as a channel for acquisition.
-                    </p>
-                    <div class="px-5 mb-4">
-                        <img src="{{ asset('images/demo/clients/client-1.jpg') }}" alt=""
-                            class="rounded-circle shadow img-fluid">
-                    </div>
-                    <h5>Sarah Gosiengfield</h5>
-                    <p class="m-0 p-0">Growth Marketer,</p>
-                    <p class="m-0 p-0">Vapor</p>
-                </div>
-                <div class="card py-5 px-3 text-center m-2 shadow" style="border: none; border-radius: 12px;">
-                    <img src="{{ asset('images/quote.svg') }}" alt="" class="img-fluid mb-4">
-                    <p class="card-text">
-                        A good alternative to Zoom Info without annual engagement. Leadsopedia is really easy to use and
-                        is
-                        really efficient. It was easy for me to find my target persona.
-                    </p>
-                    <div class="px-5 mb-4">
-                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt=""
-                            class="rounded-circle shadow img-fluid">
-                    </div>
-                    <h5>Carl Everson</h5>
-                    <p class="m-0 p-0">Lead Generation,</p>
-                    <p class="m-0 p-0">Silicon Inc</p>
-                </div>
-                <div class="card py-5 px-3 text-center m-2 shadow" style="border: none; border-radius: 12px;">
-                    <img src="{{ asset('images/quote.svg') }}" alt="" class="img-fluid mb-4">
-                    <p class="card-text">
-                        Easy to use platform, Great Value for money. I can affordably prospect, many tools out there
-                        that offer a similar service are very expensive.
-                    </p>
-                    <div class="px-5 mb-4">
-                        <img src="{{ asset('images/demo/clients/client-3.jpg') }}" alt=""
-                            class="rounded-circle shadow img-fluid">
-                    </div>
-                    <h5>Kate Wilkins</h5>
-                    <p class="m-0 p-0">Head of Operations,</p>
-                    <p class="m-0 p-0">Horizon Dusk</p>
-                </div>
-                <div class="card py-5 px-3 text-center m-2 shadow" style="border: none; border-radius: 12px;">
-                    <img src="{{ asset('images/quote.svg') }}" alt="" class="img-fluid mb-4">
-                    <p class="card-text">
-                        Easy to use platform, Great Value for money. I can affordably prospect, many tools out there
-                        that offer a similar service are very expensive.
-                    </p>
-                    <div class="px-5 mb-4">
-                        <img src="{{ asset('images/demo/clients/client-2.jpg') }}" alt=""
-                            class="rounded-circle shadow img-fluid">
-                    </div>
-                    <h5>Matthew Ford</h5>
-                    <p class="m-0 p-0">Team Manager,</p>
-                    <p class="m-0 p-0">Zendesk</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center py-5">
-                    <a href="#" class="btn btn-lg btn-primary">
-                        Sign Up
-                    </a>
-                    <a href="#" class="btn btn-lg btn-outline-primary">
-                        More Reviews
-                    </a>
-                </div>
-            </div>
-        </div> --}}
 
         <div class="my-4"></div>
 
@@ -500,7 +379,7 @@
                         Integrations
                     </h1>
                     <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
-                        Leadsopedia integrates with all the tools you love and use, to allow you to work smarter and faster.
+                        Work efficiently when you integrate Leadsopedia with your applications
                     </p>
                     <div class="d-flex">
                         <a href="https://app.leadsopedia.com/login" class="btn btn-light mx-1" data-aos="fade-right" data-aos-duration="1000">
@@ -529,7 +408,7 @@
                                 <i class="fas fa-bullhorn align-self-center mx-auto"></i>
                             </div>
                         </div>
-                        <h3 class="card-title mt-3 hover-zoom">For Marketing Professionals</h3>
+                        <h3 class="card-title mt-3 hover-zoom">Marketing</h3>
                         <p class="card-text hover-zoom feature-paragraph">
                             Generating quality leads is important for successful marketing campaigns. Leadsopedia gives you
                             an
@@ -558,7 +437,7 @@
                                 <i class="fas fa-signal align-self-center mx-auto"></i>
                             </div>
                         </div>
-                        <h3 class="card-title mt-3 hover-zoom">For Sales Professionals</h3>
+                        <h3 class="card-title mt-3 hover-zoom">Sales</h3>
                         <p class="card-text hover-zoom feature-paragraph">
                             You don’t have to cold-call through every single phone number and get rejected every time. We
                             give
@@ -572,7 +451,7 @@
                     </div>
                     <div class="card-footer">
                         <div class="d-flex">
-                            <a href="https://app.leadsopedia.com/login" class="btn btn-link btn-link--secondary">
+                            <a href="{{route('aboutus')}}" class="btn btn-link btn-link--secondary">
                                 Learn More
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -587,7 +466,7 @@
                                 <i class="fas fa-clipboard align-self-center mx-auto"></i>
                             </div>
                         </div>
-                        <h3 class="card-title mt-3 hover-zoom">For Recruiting Professionals</h3>
+                        <h3 class="card-title mt-3 hover-zoom">Recruiting</h3>
                         <p class="card-text hover-zoom feature-paragraph">
                             Our reliable and accurate data sets will lead you to build the right team.
                         </p>
@@ -601,7 +480,7 @@
                     </div>
                     <div class="card-footer">
                         <div class="d-flex">
-                            <a href="https://app.leadsopedia.com/login" class="btn btn-link btn-link--secondary d-inline">
+                            <a href="{{route('aboutus')}}" class="btn btn-link btn-link--secondary d-inline">
                                 Learn More
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
@@ -610,50 +489,6 @@
                 </div>
             </div>
         </div>
-
-        <div class="my-5 py-3"></div>
-
-        <div class="bg-primary py-5 my-5 overflow-hidden">
-            <div class="container my-5">
-                <div class="row">
-                    <div class="col-12 col-md-8 offset-md-2 text-center">
-                        <h1 class="text-white mb-2" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
-                            We can be the best tool that is fit for your
-                            needs and requirements.
-                        </h1>
-                        <p class="lead text-white" data-aos="fade-left" data-aos-duration="1000">
-                            We have a variety of features and tools that can help you 
-                            improve your business and find more leads with the right prospects.
-                        </p>
-                        <p class="lead text-white" data-aos="fade-right" data-aos-duration="1000">
-                            You can contact us on most platforms to help get you started!
-                        </p>
-                        <a href="https://app.leadsopedia.com/register" class="btn btn-light mb-3"  data-aos="fade-left" data-aos-duration="1000">
-                            Get Started
-                        </a>
-                        <ul class="d-flex flex-row m-0 p-0" style="list-style-type: none;"  data-aos="fade-up" data-aos-duration="1000">
-                            <li class="mr-1 ml-auto">
-                                <a href="#" class="text-white">
-                                    <i class="icon ion-logo-facebook"></i>
-                                </a>
-                            </li>
-                            <li class="mx-1">
-                                <a href="#" class="text-white">
-                                    <i class="icon ion-logo-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="ml-1 mr-auto">
-                                <a href="#" class="text-white">
-                                    <i class="icon ion-logo-linkedin"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="my-4"></div>
 
         <div class="container-fluid py-5 my-5 overflow-hidden">
             <div class="row">
