@@ -294,7 +294,7 @@
                 var currency = data.currency;
                 if(value > 0){
                   var MonthValue = value / 12;
-                  if(MonthValue%2 != 1){
+                  if(MonthValue.toFixed(0)%MonthValue.toFixed(2) != 0){
                     MonthValue = MonthValue.toFixed(2);
                   }else{
                     MonthValue = MonthValue.toFixed(0);
