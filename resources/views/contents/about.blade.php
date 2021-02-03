@@ -74,13 +74,15 @@
 
     <div class="container mt-5 overflow-hidden">
         <div class="row">
-            <div class="col-12 col-md-10 offset-md-2 text-center">
+            <div class="col-12 col-md-12 text-center">
                 <h1 class="py-1" data-aos="fade-left" data-aos-duration="1000">Leadsopedia Company Values</h1>
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                     Our values are at the core of our culture, and they can be summed up by the acronym
                     <span class="text-secondary">TECI</span>.
                 </p>
             </div>
+        </div>
+        <div class="row">
             <div class="col-12 col-md-6 p-2 pt-3">
                 <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <div class="align-self-center">
