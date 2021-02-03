@@ -296,6 +296,8 @@
                   var MonthValue = value / 12;
                   if(MonthValue%2 != 1){
                     MonthValue = MonthValue.toFixed(2);
+                  }else{
+                    MonthValue = MonthValue.toFixed(0);
                   }
                   $(item).parent().find('.active-user').addClass('d-none');
                   $(item).parent().find('.pricing-value').find('span').html(MonthValue);
