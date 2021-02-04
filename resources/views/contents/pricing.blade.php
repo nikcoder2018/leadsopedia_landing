@@ -300,8 +300,9 @@
                     MonthValue = MonthValue.toFixed(0);
                   }
                   $(item).parent().find('.active-user').addClass('d-none');
-                  $(item).parent().find('.pricing-value').find('span').html(MonthValue);
-                  $(item).removeClass('d-none').html(currency+' ' + value + ' / year');
+                  $(item).parent().find('.pricing-value').find('span').html(value);
+
+                  $(item).removeClass('d-none').html(currency+' ' + MonthValue + ' / month');
                 }
               });
           } else {
