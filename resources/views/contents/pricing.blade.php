@@ -109,14 +109,8 @@
                     <div class="pricing-price">
                         <div class="pricing-value" data-price="{{$plan->price}}"><span>{{$plan->price}}</span><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup></div>
                         <small class="annual-pricing d-none text-muted" data-annual-price="{{$plan->price_annual}}" data-currency="{{$settings->currency_symbol}}"></small>
-
-                        <small class="active-user">Per active user/
-                            @if($plan->months== 1)monthly @endif
-                            @if($plan->months > 1 && $plan->months < 12)months @endif
-                            @if($plan->months== 12)yearly @endif
-                            @if($plan->months > 12){{($plan->months/12)}} years @endif
-                        </small>
-                        {{-- <small class="text-warning">Save 8% on annually</small> --}}
+                        <h5 class="text-discount text-muted" style="text-decoration:line-through"></h5>
+                        <h6 class="text-save text-warning"></h6>
                     </div>
                     </div>
                     @if(count($plan->priviledges) > 0)
@@ -290,30 +284,30 @@
             ptype = 'annual';
               $.each($('.annual-pricing'), function(i, item){
                 var data = $(item).data();
-                var value = data.annualPrice;
+                var monthlyPrice = $(item).parent().find('.pricing-value').data('price');
+                var annualPrice = data.annualPrice;
                 var currency = data.currency;
-                if(value > 0){
-                  var MonthValue = value / 12;
+                if(annualPrice > 0){
+                  var MonthValue = annualPrice / 12;
+                  var SaveAmount = (monthlyPrice*12)-annualPrice;
                   if(MonthValue.toFixed(0)%MonthValue.toFixed(2) != 0){
                     MonthValue = MonthValue.toFixed(2);
                   }else{
                     MonthValue = MonthValue.toFixed(0);
                   }
-                  $(item).parent().find('.active-user').addClass('d-none');
-                  $(item).parent().find('.pricing-value').find('span').html(value);
-
-                  $(item).removeClass('d-none').html(currency+' ' + MonthValue + ' / month');
+                  $(item).parent().find('.pricing-value').find('span').html(MonthValue);
+                  $(item).parent().find('.text-discount').html(currency+monthlyPrice);
+                  $(item).parent().find('.text-save').html(`Save ${currency}${SaveAmount} for Annual Plan`);
                 }
               });
           } else {
             ptype = 'monthly';
               $.each($('.pricing-value'), function(i, item){
                 var data = $(item).data();
-                console.log($(item));
                 $(item).find('span').html(data.price);
-                $(item).parent().find('.annual-pricing').addClass('d-none');
-                $(item).parent().find('.active-user').removeClass('d-none');
-                
+                $(item).parent().find('.text-discount').html("");
+                $(item).parent().find('.text-save').html("");
+
               });
           }
         });
