@@ -28,7 +28,7 @@
     <!-- RESPONSIVE -->
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
-    <link rel="shortcut icon" href="{{ asset('images/logo-new-solo.svg') }}" />
+    <link rel="shortcut icon" href="{{ asset('images/logo-new-solo.png') }}" />
     <script src="https://kit.fontawesome.com/f99f1d9afb.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
