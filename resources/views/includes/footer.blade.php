@@ -127,9 +127,13 @@
             <div class="col-lg-12">
                 <div class="footer-content container-fluid">
                     <hr>
-                    <div class="footer mb-4 d-flex justify-content-between">
-                        <p class="mb-0 text-muted">Copyright Leadsopedia Limited. Registered in England. Number 13145058. <br> Registered Office at Suite 9, 2 Bicycle Mews, London, SW4 6FE, United Kingdom </p>
-                        <img src="{{ asset('images/gdpr.png') }}" width="5%">
+                    <div class="footer mb-4 row">
+                        <div class="col-12 col-md-11">
+                            <p class="mb-0 text-muted">Copyright Leadsopedia Limited. Registered in England. Number 13145058. <br> Registered Office at Suite 9, 2 Bicycle Mews, London, SW4 6FE, United Kingdom </p>
+                        </div>
+                        <div class="col-12 col-md-1 d-flex">
+                            <img src="{{ asset('images/gdpr.png') }}" class="ml-md-auto" style="max-width: 46px;">
+                        </div>
                     </div>                            
                 </div>
             </div>
