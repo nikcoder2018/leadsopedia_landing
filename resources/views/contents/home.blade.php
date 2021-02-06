@@ -543,7 +543,7 @@
                             <p class="lead">
                                 Don’t miss this chance to get exclusive deals and discounts when you sign up now!
                             </p>
-                            <a href="https://app.leadsopedia.com/register" class="btn btn-light">
+                            <a href="https://app.leadsopedia.com/register" class="btn btn-light mb-3">
                                 Sign Up
                             </a>
                         </div>
