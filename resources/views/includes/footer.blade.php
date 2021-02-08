@@ -1,4 +1,4 @@
-<footer class="footer-section shadow" style="padding-top: 50px; padding-bottom: 60px;">
+<footer class="footer-section shadow" style="padding-top: 50px;">
     <div class="container-fluid">
         <div class="row flex-column-reverse flex-sm-row flex-lg-row px-md-3">
             <div class="col-md-4 col-12">
@@ -40,7 +40,7 @@
                                     <a href="{{ route('data') }}">Data Source</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('customers') }}">Our Target Customers</a>
+                                    <a href="{{ route('customers') }}">Our Customers</a>
                                 </li>
                                 <li>
                                     <a href="https://app.leadsopedia.com/login">Sign In</a>

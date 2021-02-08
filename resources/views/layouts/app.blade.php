@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
+    <title>{{ env('APP_NAME', 'Leadsopedia | Grow your business with the right connections') }}</title>
     <meta charset="UTF-8">
-    <title>{{ env('APP_NAME', 'Leadsopedia - Generates Leads for Local and Global Businesses') }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leadsopedia helps you find marketing deals, sales funnels, and prospects fit for all industries.">
+    <meta name="robots" content="index, follow">
 
     <!-- ========================= ICONS ========================= -->
     <!--IONICONS-->
@@ -78,6 +80,9 @@
             font-size: 1.75rem;
         }
         
+        #chat-bot-launcher-container.chat-bot-avatar-launcher, #chat-bot-launcher-container.chat-bot-launcher-notext {
+            bottom: 95px !important;
+        }
     </style>
 
     @yield('css')

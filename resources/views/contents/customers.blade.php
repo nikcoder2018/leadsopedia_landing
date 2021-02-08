@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2 text-center pt-5">
                 <h1 data-aos="fade-right" data-aos-duration="1000">
-                    Our great customers
+                    Our Target Customers
                 </h1>
             </div>
             <div class="col-12">

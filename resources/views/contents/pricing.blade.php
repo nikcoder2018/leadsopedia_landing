@@ -295,7 +295,7 @@
                   }else{
                     MonthValue = MonthValue.toFixed(0);
                   }
-                  $(item).parent().find('.pricing-value').find('span').html(MonthValue);
+                  $(item).parent().find('.pricing-value').find('span').html(annualPrice);
                   $(item).parent().find('.text-discount').html(currency+monthlyPrice);
                   $(item).parent().find('.text-save').html(`Save ${currency}${SaveAmount} for Annual Plan`);
                 }
