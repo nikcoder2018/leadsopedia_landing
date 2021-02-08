@@ -132,7 +132,7 @@
         });
 
     </script>
-    <script>(function(w, d) { w.CollectId = "601e848e8255d2479d7334da"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+    <script>(function(w, d) { w.CollectId = "6020ba3c8255d2479d733937"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
     @yield('js')
 </body>
 
