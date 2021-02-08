@@ -5,7 +5,9 @@
     <title>{{ env('APP_NAME', 'Leadsopedia | Grow your business with the right connections') }}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Leadsopedia helps you find marketing deals, sales funnels, and prospects fit for all industries.">
+    <meta name="description" content="{{App\Setting::GetValue('meta_tag_description')}}">
+    <meta name="keywords" content="{{App\Setting::GetValue('meta_tag_keywords')}}">
+    <meta name="author" content="{{App\Setting::GetValue('meta_tag_author')}}">
     <meta name="robots" content="index, follow">
 
     <!-- ========================= ICONS ========================= -->
