@@ -148,13 +148,13 @@
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-12 col-md-10 offset-md-1 text-center">
-                        <h1 class="pb-1" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+                        <h1 class="pb-2" style="line-height: 3rem;" data-aos="fade-right" data-aos-duration="1000">
                             Our Services
                         </h1>
-                        <p class="lead" data-aos="fade-left" data-aos-duration="1000">
+                        {{-- <p class="lead" data-aos="fade-left" data-aos-duration="1000">
                             We always make sure to provide you with bleeding-edge technology
                             so that you can make the most out of our service!
-                        </p>
+                        </p> --}}
                     </div>
                 </div>
             </div>

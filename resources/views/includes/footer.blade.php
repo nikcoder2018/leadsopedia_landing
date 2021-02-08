@@ -1,4 +1,4 @@
-<footer class="footer-section shadow" style="padding-top: 50px;">
+<footer class="footer-section shadow" style="padding-top: 50px; padding-bottom: 60px;">
     <div class="container-fluid">
         <div class="row flex-column-reverse flex-sm-row flex-lg-row px-md-3">
             <div class="col-md-4 col-12">
@@ -7,8 +7,6 @@
                         <img src="{{ asset('images/logo-new-full.svg') }}" alt="Image" class="logo-md" style="max-height: 42px;">
                     </a>
                     <div style="margin-left: 12px; margin-top: 5px;">
-                    <a href="#" class="d-block mb-10">+44 20 7097 8642</a>
-                    <a href="#">support@leadsopedia.com</a>
                     <ul class="social-list__inline mt-10">
                         <li>
                             <a href="#">

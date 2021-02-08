@@ -77,6 +77,7 @@
             border-radius: 1rem;
             font-size: 1.75rem;
         }
+        
     </style>
 
     @yield('css')

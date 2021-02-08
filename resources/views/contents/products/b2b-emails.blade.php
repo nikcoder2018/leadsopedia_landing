@@ -133,7 +133,7 @@
                 </div>
                 <h4 class="text-secondary mt-3" data-aos="fade-left" data-aos-duration="1000">Verified B2B Lists</h4>
                 <h1 style="line-height: 3rem;" data-aos="fade-left" data-aos-duration="1000">
-                    We provide valid emails for your next successful marketing campaign
+                    We provide valid <br> emails for your next <br> successful marketing campaign
                 </h1>
                 <p class="lead" data-aos="fade-left" data-aos-duration="1000">
                     Whether you’re a business owner, human resource agent, or a marketing manager, we know that you need the right emails to reach your target

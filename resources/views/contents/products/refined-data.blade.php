@@ -157,12 +157,12 @@
                 <p class="lead" data-aos="fade-right" data-aos-duration="1000">
                 For the lowest subscription plans, you get to download contact lists from our wide database.
                 </p>
-                <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
+                {{-- <div class="d-flex" data-aos="fade-right" data-aos-duration="1000">
                     <ul>
                         <li>Control how you spend your credits</li>
                         <li>Only verified data</li>
                     </ul>
-                </div>
+                </div> --}}
             </div>
             <div class="d-none d-md-block col-md-6 p-5 border-left" data-aos="fade-left" data-aos-duration="1000">
                 <img src="{{ asset('images/graphics/image.png') }}" alt="" class="img-fluid">
