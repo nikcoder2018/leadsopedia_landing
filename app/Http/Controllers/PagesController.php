@@ -59,6 +59,15 @@ class PagesController extends Controller
         return view('contents.privacy-new');
     }
 
+    public function ccpapolicy()
+    {
+        return view('contents.privacy-ccpa');
+    }
+
+    public function dontsell()
+    {
+        return view('contents.dont-sell');
+    }
     public function data()
     {
         $data['plans'] = Subscription::with('priviledges')->get();
@@ -122,4 +131,6 @@ class PagesController extends Controller
     {
         return view('contents.disclaimer');
     }
+
+
 }

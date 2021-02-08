@@ -33,5 +33,7 @@ Route::get('/api-docs', 'PagesController@api')->name('api');
 Route::get('/cookie-policy', 'PagesController@cookies')->name('cookies');
 Route::get('/refund-and-cancellation-policy', 'PagesController@refund')->name('refund');
 Route::get('/disclaimer', 'PagesController@disclaimer')->name('disclaimer');
+Route::get('/ccpa-policy', 'PagesController@ccpapolicy')->name('ccpa-policy');
+Route::get('/dont-sell', 'PagesController@dontsell')->name('dont-sell');
 
 Route::post('send-message', 'MessageController@saveMessage')->name('message.send');
