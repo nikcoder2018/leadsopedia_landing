@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Subscription;
 use App\Setting;
+use App\Country;
 use InvalidArgumentException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
@@ -74,6 +75,39 @@ class PagesController extends Controller
         $data['settings'] = (object) array(
             'currency_symbol' => Setting::GetValue('currency_symbol')
         );
+        $data['countries'] = [
+            ['name' => 'USA', 'code' => 'us'],
+            ['name' => 'UK', 'code' => 'uk'],
+            ['name' => 'AUSTRALIA', 'code' => 'au'],
+            ['name' => 'NEW ZEALAND', 'code' => 'nz'],
+            ['name' => 'CANADA', 'code' => 'ca'],
+            ['name' => 'SINGAPORE', 'code' => 'sg'],
+            ['name' => 'JAPAN', 'code' => 'jp'],
+            ['name' => 'INDIA', 'code' => 'in'],
+            ['name' => 'CHINA', 'code' => 'cn'],
+            ['name' => 'HONG KONG', 'code' => 'hk'],
+            ['name' => 'SOUTH AFRICA', 'code' => 'za'],
+            ['name' => 'UAE', 'code' => 'ae'],
+            ['name' => 'NETHERLANDS', 'code' => 'nl'],
+            ['name' => 'DENMARK', 'code' => 'dk'],
+            ['name' => 'SWITZERLAND', 'code' => 'ch'],
+            ['name' => 'GERMANY', 'code' => 'de'],
+            ['name' => 'POLAND', 'code' => 'pl'],
+            ['name' => 'AUSTRIA', 'code' => 'at'],
+            ['name' => 'ITALY', 'code' => 'it'],
+            ['name' => 'SPAIN', 'code' => 'es'],
+            ['name' => 'RUSSIA', 'code' => 'ru'],
+            ['name' => 'FRANCE', 'code' => 'fr'],
+            ['name' => 'BELARUS', 'code' => 'by'],
+            ['name' => 'UKRAINE', 'code' => 'ua'],
+            ['name' => 'KAZAKHSTAN', 'code' => 'kz'],
+            ['name' => 'UZBEKISTAN', 'code' => 'uz'],
+            ['name' => 'KYRGYZSTAN', 'code' => 'kg'],
+            ['name' => 'TURKEY', 'code' => 'tr'],
+            ['name' => 'THAILAND', 'code' => 'th'],
+            ['name' => 'VIETNAM', 'code' => 'vn'],
+            ['name' => 'ARGENTINA', 'code' => 'ar']
+        ];
         return view('contents.data', $data);
     }
 
