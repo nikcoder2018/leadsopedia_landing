@@ -61,12 +61,12 @@
                 <ul style="list-style-type: none;" class="p-0 m-0">
                     <li class="m-0 p-0">
                         <p class="lead mb-0">
-                         Over 20 Million B2B Contact Lists
+                         Over 30 Million B2B Contact Lists
                         </p>
                     </li>
                     <li class="m-0 p-0">
                         <p class="lead mb-0">
-                         More than 20 Million B2B Data
+                         More than 30 Million B2B Data
                         </p>
                     </li>
                     <li class="m-0 p-0">
