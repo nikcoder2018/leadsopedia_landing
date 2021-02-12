@@ -21,7 +21,10 @@
     <div class="container pb-5 my-5">
         <div class="row">
             <div class="col-md-6">
-                {{-- Put Content Here--}}
+                <h2 class="mb-2">Do not Sell My Information</h2>
+                <p class="text-justify" style="font-size: 1.2rem; line-height: 30px;">
+                    If you are a California resident and don’t want to sell your information online, please fill out this form. Please provide your name, e-mail, and phone number. Please read our Privacy Policy for more information. If you have questions on how we implement the CCPA through our platform, you may email us at support@leadsopedia.com or call at +44 20 7097 8642.
+                </p>
             </div>
             <div class="col-md-6">
                 
