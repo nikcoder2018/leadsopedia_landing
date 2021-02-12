@@ -114,7 +114,7 @@
                     </div>
                     </div>
                     @if(count($plan->priviledges) > 0)
-                    <ul class="m-0 p-0" style="list-style-type: none;">
+                    <ul class="m-0 p-0 feature-list" style="list-style-type: none;">
                         @foreach($plan->priviledges as $priviledge)
                         <li class="" data-toggle="tooltip" data-replacement="right">
                             {{$priviledge->description}}
@@ -300,6 +300,14 @@
                   $(item).parent().find('.text-save').html(`Save ${currency}${SaveAmount} for Annual Plan`);
                 }
               });
+
+              $.each($('.feature-list'),function(i, list){
+                    $.each($(list).find('li'), function(k, li){
+                        if($(li).text().trim() == 'No Contract'){
+                            $(li).text('Annual Contract');
+                        }
+                    });
+              });
           } else {
             ptype = 'monthly';
               $.each($('.pricing-value'), function(i, item){
@@ -308,6 +316,14 @@
                 $(item).parent().find('.text-discount').html("");
                 $(item).parent().find('.text-save').html("");
 
+              });
+
+              $.each($('.feature-list'),function(i, list){
+                    $.each($(list).find('li'), function(k, li){
+                        if($(li).text().trim() == 'Annual Contract'){
+                            $(li).text('No Contract');
+                        }
+                    });
               });
           }
         });
