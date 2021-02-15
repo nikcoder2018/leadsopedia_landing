@@ -40,7 +40,7 @@
                                     <a href="{{ route('data') }}">Data Source</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('customers') }}">Our Customers</a>
+                                    <a href="{{ route('customers') }}">Our Clients</a>
                                 </li>
                                 <li>
                                     <a href="https://app.leadsopedia.com/login">Sign In</a>
@@ -106,8 +106,7 @@
                                     <a href="{{ route('services', 'b2b-leads') }}">B2B Leads</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('services', 'refined-data') }}">Refined Data
-                                    </a>
+                                    <a href="{{ route('services', 'refined-data') }}">Refined Data</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('services', 'b2b-verified') }}">Verified B2B Data</a>
