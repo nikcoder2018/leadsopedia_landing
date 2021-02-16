@@ -9,18 +9,28 @@
                     <div style="margin-left: 12px; margin-top: 5px;">
                     <ul class="social-list__inline mt-10">
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/Leadsopedia">
                                 <i class="icon ion-logo-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="twitter.com/leadsopedia  ">
                                 <i class="icon ion-logo-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/company/leadsopedia-limited">
                                 <i class="icon ion-logo-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.instagram.com/leadsopedia">
+                                <i class="icon ion-logo-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCcftKvQToMcqnTAb86gqqjg">
+                                <i class="icon ion-logo-youtube"></i>
                             </a>
                         </li>
                     </ul>
