@@ -56,6 +56,7 @@
 @endsection
 @section('content')
     <!-- ========================= HERO SECTION ========================= -->
+    <script data-ad-client="ca-pub-4340569493304226" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <header id="hero" class="hero bg-blue-diagonal">
         <div class="container">
             <div class="row align-items-center overflow-hidden">
