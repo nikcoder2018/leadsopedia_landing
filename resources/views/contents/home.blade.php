@@ -416,14 +416,14 @@
                             customers.
                         </p>
                     </div>
-                    <div class="card-footer">
+                    {{-- <div class="card-footer">
                         <div class="d-flex">
                             <a href="{{route('aboutus')}}" class="btn btn-link btn-link-secondary">
                                 Learn More
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
                     data-aos-duration="1000">
@@ -445,14 +445,14 @@
                             designed to decrease your efforts while increasing your ROI.
                         </p>
                     </div>
-                    <div class="card-footer">
+                    {{-- <div class="card-footer">
                         <div class="d-flex">
                             <a href="{{route('aboutus')}}" class="btn btn-link btn-link-secondary">
                                 Learn More
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up-left"
                     data-aos-duration="1000">
@@ -474,14 +474,14 @@
                             and you’ll get automated results.
                         </p>
                     </div>
-                    <div class="card-footer">
+                    {{-- <div class="card-footer">
                         <div class="d-flex">
                             <a href="{{route('aboutus')}}" class="btn btn-link btn-link-secondary d-inline">
                                 Learn More
                                 <i class="icon ion-ios-arrow-forward"></i>
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
