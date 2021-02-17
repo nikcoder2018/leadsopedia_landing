@@ -57,6 +57,15 @@
 @section('content')
     <!-- ========================= HERO SECTION ========================= -->
     <script data-ad-client="ca-pub-4340569493304226" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XL95ZV54FR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XL95ZV54FR');
+</script>
     <header id="hero" class="hero bg-blue-diagonal">
         <div class="container">
             <div class="row align-items-center overflow-hidden">
@@ -416,16 +425,7 @@
                             struggle of getting quality leads so we devised a strategy for marketers to reach the right
                             customers.
                         </p>
-                    </div>
-                    {{-- <div class="card-footer">
-                        <div class="d-flex">
-                            <a href="{{route('aboutus')}}" class="btn btn-link btn-link-secondary">
-                                Learn More
-                                <i class="icon ion-ios-arrow-forward"></i>
-                            </a>
-                        </div>
-                    </div> --}}
-                </div>
+                    </div>                    
                 <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
                     data-aos-duration="1000">
                     <div class="card-body">
@@ -446,15 +446,6 @@
                             designed to decrease your efforts while increasing your ROI.
                         </p>
                     </div>
-                    {{-- <div class="card-footer">
-                        <div class="d-flex">
-                            <a href="{{route('aboutus')}}" class="btn btn-link btn-link-secondary">
-                                Learn More
-                                <i class="icon ion-ios-arrow-forward"></i>
-                            </a>
-                        </div>
-                    </div> --}}
-                </div>
                 <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up-left"
                     data-aos-duration="1000">
                     <div class="card-body">
@@ -475,15 +466,6 @@
                             and you’ll get automated results.
                         </p>
                     </div>
-                    {{-- <div class="card-footer">
-                        <div class="d-flex">
-                            <a href="{{route('aboutus')}}" class="btn btn-link btn-link-secondary d-inline">
-                                Learn More
-                                <i class="icon ion-ios-arrow-forward"></i>
-                            </a>
-                        </div>
-                    </div> --}}
-                </div>
             </div>
         </div>
 
