@@ -425,7 +425,12 @@
                             struggle of getting quality leads so we devised a strategy for marketers to reach the right
                             customers.
                         </p>
-                    </div>                    
+                    </div>
+                    {{-- <div class="card-footer">
+                        <div class="d-flex">
+                        </div>
+                    </div> --}}
+                </div>                    
                 <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up"
                     data-aos-duration="1000">
                     <div class="card-body">
@@ -446,6 +451,11 @@
                             designed to decrease your efforts while increasing your ROI.
                         </p>
                     </div>
+                    {{-- <div class="card-footer">
+                        <div class="d-flex">
+                        </div>
+                    </div> --}}
+                </div>
                 <div class="card py-5 px-4 m-2 shadow" style="border: none; border-radius: 12px;" data-aos="fade-up-left"
                     data-aos-duration="1000">
                     <div class="card-body">
@@ -466,6 +476,11 @@
                             and you’ll get automated results.
                         </p>
                     </div>
+                    {{-- <div class="card-footer">
+                        <div class="d-flex">
+                        </div>
+                    </div> --}}
+                </div>
             </div>
         </div>
 
