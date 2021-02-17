@@ -38,7 +38,9 @@
 
     <!-- Themes can be changed at https://highlightjs.org/static/demo -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/monokai-sublime.min.css">
-
+    <!-- TrustBox script -->
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+    <!-- End TrustBox script -->
     <style>
         .btn {
             border-radius: 2rem;

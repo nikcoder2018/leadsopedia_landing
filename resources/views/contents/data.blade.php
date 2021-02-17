@@ -2,7 +2,7 @@
 @section('css')
     <style>
         .country-list {
-            height: 500px;
+            height: 550px;
             overflow-y: scroll;
         }
     </style>
@@ -46,6 +46,12 @@
                                 {{$country['name']}}
                             </div>
                         @endforeach    
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Please be advised that our databases from different countries are not equally divided. New databases will be added from different countries weekly.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

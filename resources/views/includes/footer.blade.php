@@ -6,8 +6,11 @@
                     <a class="navbar-brand bg-white rounded py-2" href="{{ route('home') }}">
                         <img src="{{ asset('images/logo-new-full.svg') }}" alt="Image" class="logo-md" style="max-height: 42px;">
                     </a>
-                    <div style="margin-left: 12px; margin-top: 5px;">
-                    <ul class="social-list__inline mt-10">
+                    <div style="width:70%; text-align:center; margin-left: 12px; margin-top: 15px;">
+                    <h4 style="font-size: 15px; background-color: #0c73f9;
+                    padding: 10px;
+                    color: white;">Get connected with us on Social Network</h4>
+                    <ul class="social-list__inline mt-10 pt-3">
                         <li>
                             <a href="https://www.facebook.com/Leadsopedia">
                                 <i class="icon ion-logo-facebook"></i>
@@ -138,12 +141,17 @@
                 <div class="footer-content container-fluid">
                     <hr>
                     <div class="footer mb-4 row">
-                        <div class="col-12 col-md-11">
+                        <div class="col-12 col-md-10">
                             <span class="mb-0 text-muted">Copyright Leadsopedia Limited. Registered in England. Number 13145058. Registered Office at Suite 9, 2 Bicycle Mews, London, SW4 6FE, United Kingdom </span>
                             <p class="mb-0 text-muted">&#169 2021 Leadsopedia Limited. All Rights Reserved. </span><a href="{{ route('dont-sell') }}">| Do not sell my info</a></p>
                         </div>
-                        <div class="col-12 col-md-1 d-flex">
+                        <div class="col-12 col-md-2 d-flex">
                             <img src="{{ asset('images/gdpr.png') }}" class="ml-md-auto" style="max-width: 46px;">
+                            <!-- TrustBox widget - Review Collector -->
+                            <div class="trustpilot-widget" data-locale="en-GB" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="60267e25bc79ab0001bb79b2" data-style-height="62px" data-style-width="100%">
+                                <a href="https://uk.trustpilot.com/review/leadsopedia.com" target="_blank" rel="noopener">Trustpilot</a>
+                            </div>
+                            <!-- End TrustBox widget -->
                         </div>
                     </div>                            
                 </div>
