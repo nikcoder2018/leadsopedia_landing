@@ -146,12 +146,13 @@
                             <p class="mb-0 text-muted">&#169 2021 Leadsopedia Limited. All Rights Reserved. </span><a href="{{ route('dont-sell') }}">| Do not sell my info</a></p>
                         </div>
                         <div class="col-12 col-md-2 d-flex">
-                            <img src="{{ asset('images/gdpr.png') }}" class="ml-md-auto" style="max-width: 46px;">
                             <!-- TrustBox widget - Review Collector -->
                             <div class="trustpilot-widget" data-locale="en-GB" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="60267e25bc79ab0001bb79b2" data-style-height="62px" data-style-width="100%">
                                 <a href="https://uk.trustpilot.com/review/leadsopedia.com" target="_blank" rel="noopener">Trustpilot</a>
                             </div>
                             <!-- End TrustBox widget -->
+                            <img src="{{ asset('images/gdpr.png') }}" class="ml-md-auto" style="max-width: 46px;">
+                            
                         </div>
                     </div>                            
                 </div>
