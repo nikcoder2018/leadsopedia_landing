@@ -7,9 +7,6 @@
                         <img src="{{ asset('images/logo-new-full.svg') }}" alt="Image" class="logo-md" style="max-height: 42px;">
                     </a>
                     <div style="width:70%; text-align:center; margin-left: 12px; margin-top: 15px;">
-                    <h4 style="font-size: 15px; background-color: #0c73f9;
-                    padding: 10px;
-                    color: white;">Get connected with us on Social Network</h4>
                     <ul class="social-list__inline mt-10 pt-3">
                         <li>
                             <a href="https://www.facebook.com/Leadsopedia">
