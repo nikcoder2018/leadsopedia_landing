@@ -14,7 +14,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="twitter.com/leadsopedia  ">
+                            <a href="https://twitter.com/leadsopedia">
                                 <i class="icon ion-logo-twitter"></i>
                             </a>
                         </li>
@@ -24,7 +24,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="www.instagram.com/leadsopedia">
+                            <a href="https://www.instagram.com/leadsopedia">
                                 <i class="icon ion-logo-instagram"></i>
                             </a>
                         </li>
