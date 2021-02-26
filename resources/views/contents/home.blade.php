@@ -514,6 +514,14 @@ src="https://www.facebook.com/tr?id=190241726193585&ev=PageView&noscript=1"
             </div>
         </div>
 
+        <div class="container py-5 mt-5 text-center overflow-hidden">
+            <div class="row">
+                <div class="col-12 col-md-10 offset-md-1">
+                <img src="{{ asset('images/graphics/featured.png') }}" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
         <div class="container-fluid py-5 my-5 overflow-hidden">
             <div class="row">
                 <div class="d-none d-md-block col-md-6 text-center" data-aos="fade-right" data-aos-duration="1000">
