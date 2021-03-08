@@ -127,7 +127,7 @@ src="https://www.facebook.com/tr?id=190241726193585&ev=PageView&noscript=1"
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 d-none d-md-block" data-aos="zoom-in-left" data-aos-duration="1000">
-                    <img src="{{ asset('images/graphics/intro.png') }}" class=" img-fluid w-100" alt="">
+                    <img src="{{ asset('images/graphics/intro.png') }}" class=" img-fluid w-100" alt="Leadsopedia - Leads generating business">
                 </div>
             </div>
         </div>
@@ -427,7 +427,7 @@ src="https://www.facebook.com/tr?id=190241726193585&ev=PageView&noscript=1"
                     </div>
                 </div>
                 <div class="d-none d-md-block col-md-6 p-5 d-flex text-center border">
-                    <img src="{{ asset('images/companies/group.svg') }}" width="80%" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="{{ asset('images/companies/group.svg') }}" alt="Integrations" width="80%" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
                 </div>
             </div>
         </div>
@@ -517,7 +517,7 @@ src="https://www.facebook.com/tr?id=190241726193585&ev=PageView&noscript=1"
         <div class="container py-5 mt-5 text-center overflow-hidden">
             <div class="row">
                 <div class="col-12 col-md-10 offset-md-1">
-                <img src="{{ asset('images/graphics/featured.jpg') }}" width="100%" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
+                <img src="{{ asset('images/graphics/featured.jpg') }}" alt="featured media" width="100%" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
                 </div>
             </div>
         </div>
@@ -525,7 +525,7 @@ src="https://www.facebook.com/tr?id=190241726193585&ev=PageView&noscript=1"
         <div class="container-fluid py-5 my-5 overflow-hidden">
             <div class="row">
                 <div class="d-none d-md-block col-md-6 text-center" data-aos="fade-right" data-aos-duration="1000">
-                    <img src="{{ asset('images/graphics/email-marketing.jpg') }}" alt="" class="img-fluid">
+                    <img src="{{ asset('images/graphics/email-marketing.jpg') }}" alt="Leadsopedia API" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-6 d-flex">
                     <div class="align-self-center">
@@ -585,7 +585,7 @@ src="https://www.facebook.com/tr?id=190241726193585&ev=PageView&noscript=1"
                         </div>
                     </div>
                     <div class="d-none d-md-block col-md-7 text-right" data-aos="fade-left" data-aos-duration="1000">
-                        <img src="{{ asset('images/graphics/search-data-leads.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('images/graphics/search-data-leads.png') }}" alt="Increase ROI" class="img-fluid">
                     </div>
                 </div>
             </div>
