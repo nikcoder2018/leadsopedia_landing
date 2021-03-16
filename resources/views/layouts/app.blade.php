@@ -2,12 +2,11 @@
 <html lang="en">
 
 <head>
-    <title>{{ env('APP_NAME', 'Leadsopedia | Grow your business with the right connections') }}</title>
+    <title>{{ App\SEO::GetValue(Request::path(),'title') }}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{App\Setting::GetValue('meta_tag_description')}}">
-    <meta name="keywords" content="{{App\Setting::GetValue('meta_tag_keywords')}}">
-    <meta name="author" content="{{App\Setting::GetValue('meta_tag_author')}}">
+    <meta name="description" content="{{App\SEO::GetValue(Request::path(),'description')}}">
+    <meta name="keywords" content="{{App\SEO::GetValue(Request::path(),'keywords')}}">
     <meta name="robots" content="index, follow">
 
     <!-- ========================= ICONS ========================= -->

@@ -11,7 +11,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class PagesController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
         return view('contents.home');
     }
@@ -69,7 +69,7 @@ class PagesController extends Controller
     {
         return view('contents.dont-sell');
     }
-    public function data()
+    public function data(Request $request)
     {
         $data['plans'] = Subscription::with('priviledges')->get();
         $data['settings'] = (object) array(

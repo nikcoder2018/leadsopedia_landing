@@ -63,7 +63,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-XL95ZV54FR');
 </script>
     <header id="hero" class="hero bg-blue-diagonal">
