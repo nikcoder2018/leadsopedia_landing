@@ -4,7 +4,7 @@
             <div class="col-md-4 col-12">
                 <div class="footer-widget first-of-footer-widget">
                     <a class="navbar-brand bg-white rounded py-2" href="{{ route('home') }}">
-                        <img src="{{ asset('images/logo-new-full.svg') }}" alt="Image" class="logo-md" style="max-height: 42px;">
+                        <img src="{{ asset('images/logo-new-full.svg') }}" alt="Leadsopedia logo" class="logo-md" style="max-height: 42px;">
                     </a>
                     <div style="width:70%; text-align:center; margin-left: 12px; margin-top: 15px;">
                     <ul class="social-list__inline mt-10 pt-3">
@@ -14,7 +14,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="twitter.com/leadsopedia  ">
+                            <a href="https://twitter.com/leadsopedia">
                                 <i class="icon ion-logo-twitter"></i>
                             </a>
                         </li>
@@ -24,7 +24,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="www.instagram.com/leadsopedia">
+                            <a href="https://www.instagram.com/leadsopedia">
                                 <i class="icon ion-logo-instagram"></i>
                             </a>
                         </li>

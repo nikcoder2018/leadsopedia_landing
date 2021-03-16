@@ -65,6 +65,36 @@
   gtag('js', new Date());
   gtag('config', 'G-XL95ZV54FR');
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189785222-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-189785222-1');
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '190241726193585');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=190241726193585&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
     <header id="hero" class="hero bg-blue-diagonal">
         <div class="container">
             <div class="row align-items-center overflow-hidden">
@@ -96,7 +126,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 d-none d-md-block" data-aos="zoom-in-left" data-aos-duration="1000">
-                    <img src="{{ asset('images/graphics/intro.png') }}" class=" img-fluid w-100" alt="">
+                    <img src="{{ asset('images/graphics/intro.png') }}" class=" img-fluid w-100" alt="Leadsopedia - Leads generating business">
                 </div>
             </div>
         </div>
@@ -396,7 +426,7 @@
                     </div>
                 </div>
                 <div class="d-none d-md-block col-md-6 p-5 d-flex text-center border">
-                    <img src="{{ asset('images/companies/group.svg') }}" width="80%" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="{{ asset('images/companies/group.svg') }}" alt="Integrations" width="80%" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
                 </div>
             </div>
         </div>
@@ -483,10 +513,18 @@
             </div>
         </div>
 
+        <div class="container py-5 mt-5 text-center overflow-hidden">
+            <div class="row">
+                <div class="col-12 col-md-10 offset-md-1">
+                <img src="{{ asset('images/graphics/featured.jpg') }}" alt="featured media" width="100%" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
+                </div>
+            </div>
+        </div>
+
         <div class="container-fluid py-5 my-5 overflow-hidden">
             <div class="row">
                 <div class="d-none d-md-block col-md-6 text-center" data-aos="fade-right" data-aos-duration="1000">
-                    <img src="{{ asset('images/graphics/email-marketing.jpg') }}" alt="" class="img-fluid">
+                    <img src="{{ asset('images/graphics/email-marketing.jpg') }}" alt="Leadsopedia API" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-6 d-flex">
                     <div class="align-self-center">
@@ -546,7 +584,7 @@
                         </div>
                     </div>
                     <div class="d-none d-md-block col-md-7 text-right" data-aos="fade-left" data-aos-duration="1000">
-                        <img src="{{ asset('images/graphics/search-data-leads.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('images/graphics/search-data-leads.png') }}" alt="Increase ROI" class="img-fluid">
                     </div>
                 </div>
             </div>
