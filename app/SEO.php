@@ -28,6 +28,6 @@ class SEO extends Model
             }
         }
 
-        return '';
+        return env('SEO_DEFAULT_'.ucwords($field),'');
     }
 }
