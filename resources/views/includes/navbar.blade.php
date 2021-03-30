@@ -15,7 +15,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-lg-auto pr-2">
-                <li class="nav-item mx-xl-4 dropdown">
+                <li class="nav-item mx-xl-3 dropdown">
                     <a class="nav-link dropdown-toggle shadow-hover" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Our Services
@@ -28,15 +28,18 @@
                         <a class="dropdown-item" href="{{ route('api') }}">API</a>
                     </div>
                 </li>
-                <li class="nav-item mx-xl-4">
+                <li class="nav-item mx-xl-3">
                     <a class="nav-link" href="{{ route('pricing') }}">Pricing Plans</a>
                 </li>
-                <li class="nav-item mx-xl-4">
+                <li class="nav-item mx-xl-3">
                     <a class="nav-link" href="{{ route('data') }}">Data Source</a>
                 </li>
-                <li class="nav-item mx-xl-4">
+                <li class="nav-item mx-xl-3">
                     <a class="nav-link shadow-hover" href="{{ route('aboutus') }}">About Us</a>
                 </li>
+                <a href="{{ route('request-data') }}"
+                class="btn btn-primary mx-auto align-self-center btn-pills shadow-hover">Request sample data</a>
+
             </ul>
             <div class="custom-menu__right d-flex">
                 <a href="{{ env('APP_AUTH_URL', 'https://app.leadsopedia.com') . '/login' }}"
