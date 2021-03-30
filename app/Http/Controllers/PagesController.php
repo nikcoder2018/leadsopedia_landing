@@ -69,6 +69,12 @@ class PagesController extends Controller
     {
         return view('contents.dont-sell');
     }
+
+    public function requestdata()
+    {
+        return view('contents.request-data');
+    }
+
     public function data(Request $request)
     {
         $data['plans'] = Subscription::with('priviledges')->get();

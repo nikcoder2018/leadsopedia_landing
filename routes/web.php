@@ -35,5 +35,7 @@ Route::get('/refund-and-cancellation-policy', 'PagesController@refund')->name('r
 Route::get('/disclaimer', 'PagesController@disclaimer')->name('disclaimer');
 Route::get('/ccpa-policy', 'PagesController@ccpapolicy')->name('ccpa-policy');
 Route::get('/dont-sell', 'PagesController@dontsell')->name('dont-sell');
+Route::get('/request-data', 'PagesController@requestdata')->name('request-data');
+Route::post('/request-data', 'RequestDataController@submit')->name('request-data');
 
 Route::post('send-message', 'MessageController@saveMessage')->name('message.send');
