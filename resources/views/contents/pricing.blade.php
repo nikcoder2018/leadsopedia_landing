@@ -123,14 +123,13 @@ ul li:before {
             Advance Search Filters
             </li>
             </ul>
-                    @endif
+
                     <div class="pricing-footer">
                         <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
                     </div>
                 </div>
                 </div>
-                @endforeach
-            @endif
+
             </div>
         </div>
         <div class="row justify-content-center">
@@ -175,14 +174,13 @@ ul li:before {
             No Contract - Cancel Anytime 
             </li>
             </ul>
-                    @endif
+
                     <div class="pricing-footer">
                         <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
                     </div>
                 </div>
                 </div>
-                @endforeach
-            @endif
+
             </div>
         </div>
         <div class="row justify-content-center">
@@ -233,14 +231,12 @@ ul li:before {
             No Contract - Cancel Anytime 
             </li>
             </ul>
-                    @endif
+
                     <div class="pricing-footer">
                         <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
                     </div>
                 </div>
                 </div>
-                @endforeach
-            @endif
             </div>
         </div>
         <div class="row justify-content-center">
@@ -291,14 +287,12 @@ ul li:before {
             No Contract - Cancel Anytime 
             </li>
             </ul>
-                    @endif
+
                     <div class="pricing-footer">
                         <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
                     </div>
                 </div>
                 </div>
-                @endforeach
-            @endif
             </div>
         </div>
     </div>
