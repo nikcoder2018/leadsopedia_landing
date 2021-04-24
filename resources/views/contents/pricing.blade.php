@@ -103,7 +103,7 @@ ul li:before {
                     <h4 class="pricing-title">FREE Plan</h4>
                     <p>FREE TRIAL!</p>
                     <div class="pricing-price">
-                        <div class="pricing-value" data-price="{{$plan->price}}"><h4>0</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
+                        <div class="pricing-value" ><h4>0</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
                     </div>
                     </div>
                     <ul>
@@ -139,7 +139,7 @@ ul li:before {
                     <h4 class="pricing-title">STARTER Plan</h4>
                     <p>For Business Starters</p>
                     <div class="pricing-price">
-                        <div class="pricing-value" data-price="{{$plan->price}}"><h4>79</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
+                        <div class="pricing-value"><h4>79</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
                     </div>
                     </div>
                     <ul>
@@ -190,7 +190,7 @@ ul li:before {
                     <h4 class="pricing-title">BUSINESS Plan</h4>
                     <p>For Business Growth</p>
                     <div class="pricing-price">
-                        <div class="pricing-value" data-price="{{$plan->price}}"><h4>149</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
+                        <div class="pricing-value"><h4>149</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
                     </div>
                     </div>
                     <ul>
@@ -246,7 +246,7 @@ ul li:before {
                     <h4 class="pricing-title">PROFESSIONAL Plan</h4>
                     <p>For Business Professionals</p>
                     <div class="pricing-price">
-                        <div class="pricing-value" data-price="{{$plan->price}}"><h4>229</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
+                        <div class="pricing-value"><h4>229</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
                     </div>
                     </div>
                     <ul>
