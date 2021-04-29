@@ -77,14 +77,6 @@
         .custom-switch {
             padding-left: 3.5rem;
         }
-
-        ul {
-  list-style: none;
-}
-
-ul li:before {
-  content: '✓';
-}
     </style>
 @endsection
 
@@ -94,205 +86,38 @@ ul li:before {
     <div class="container">
         <header class="section-header text-center">
             <h2 class="section-title">Pricing Plans</h2>
-
-        
+                </div>
+            </div>
+        </header>   
             <div class="row justify-content-center">
+            @if(count($subscription_plans) > 0)
+                @foreach($subscription_plans as $plan)
                 <div class="col-md-4">
                 <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
                     <div class="pricing-header">
-                    <h4 class="pricing-title">FREE Plan</h4>
-                    <p>FREE TRIAL!</p>
+                    <h4 class="pricing-title">{{$plan->title}}</h4>
+                    <p>{{$plan->description}}</p>
                     <div class="pricing-price">
-                        <div class="pricing-value" ><h4>0</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
+                        <div class="pricing-value" data-price="{{$plan->price}}"><span>{{$plan->price}}</span><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup></div>
+                        <h6 class="text-save text-warning"></h6>
                     </div>
                     </div>
-                    <ul>
-            <li>
-            Single User Account
-            </li>
-            <li>
-            No Setup Fee
-            </li>
-            <li>
-            5 Free Credits
-            </li>
-            <li>
-            Unlimited Searches
-            </li>            
-            <li>
-            Advance Search Filters
-            </li>
-            </ul>
-
+                    @if(count($plan->priviledges) > 0)
+                    <ul class="m-0 p-0 feature-list" style="list-style-type: none;">
+                        @foreach($plan->priviledges as $priviledge)
+                        <li class="" data-toggle="tooltip" data-replacement="right">
+                            {{$priviledge->description}}
+                        </li>
+                        @endforeach
+                    </ul>
+                    @endif
                     <div class="pricing-footer">
                         <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
                     </div>
                 </div>
                 </div>
-
-            </div>
-        </div>
-        <div class="row justify-content-center">
-                <div class="col-md-4">
-                <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
-                    <div class="pricing-header">
-                    <h4 class="pricing-title">STARTER Plan</h4>
-                    <p>For Business Starters</p>
-                    <div class="pricing-price">
-                        <div class="pricing-value"><h4>79</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
-                    </div>
-                    </div>
-                    <ul>
-            <li>
-            Single User Account
-            </li>
-            <li>
-            100 Credits / Month
-            </li>
-            <li>
-            1000 Contact Downloads
-            </li>
-            <li>
-            Unlimited Database Access
-            </li>            
-            <li>
-            Unused Credits Rollover
-            </li>
-            <li>
-            Advance Search Filters
-            </li>
-            <li>
-            100% Verified Emails 
-            </li>
-            <li>
-            Data Enhancement
-            </li>
-            <li>
-            CRM Integrations 
-            </li>
-            <li>
-            No Contract - Cancel Anytime 
-            </li>
-            </ul>
-
-                    <div class="pricing-footer">
-                        <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
-                    </div>
-                </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="row justify-content-center">
-                <div class="col-md-4">
-                <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
-                    <div class="pricing-header">
-                    <h4 class="pricing-title">BUSINESS Plan</h4>
-                    <p>For Business Growth</p>
-                    <div class="pricing-price">
-                        <div class="pricing-value"><h4>149</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
-                    </div>
-                    </div>
-                    <ul>
-            <li>
-            Single User Account
-            </li>
-            <li>
-            200 Credits / Month
-            </li>
-            <li>
-            2000 Contact Downloads
-            </li>
-            <li>
-            Unlimited Database Access
-            </li>            
-            <li>
-            Unused Credits Rollover
-            </li>
-            <li>
-            Advance Search Filters
-            </li>
-            <li>
-            100% Verified Emails 
-            </li>
-            <li>
-            Data Enhancement
-            </li>
-            <li>
-            Company Data Enrichment
-            </li>
-            <li>
-            Contact Enrichment
-            </li>
-            <li>
-            CRM Integrations 
-            </li>
-            <li>
-            No Contract - Cancel Anytime 
-            </li>
-            </ul>
-
-                    <div class="pricing-footer">
-                        <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-                <div class="col-md-4">
-                <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
-                    <div class="pricing-header">
-                    <h4 class="pricing-title">PROFESSIONAL Plan</h4>
-                    <p>For Business Professionals</p>
-                    <div class="pricing-price">
-                        <div class="pricing-value"><h4>229</h4><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup><h4>Per Month</h4></div>
-                    </div>
-                    </div>
-                    <ul>
-            <li>
-            Single User Account
-            </li>
-            <li>
-            300 Credits / Month
-            </li>
-            <li>
-            3000 Contact Downloads
-            </li>
-            <li>
-            Unlimited Database Access
-            </li>            
-            <li>
-            Unused Credits Rollover
-            </li>
-            <li>
-            Advance Search Filters
-            </li>
-            <li>
-            100% Verified Emails 
-            </li>
-            <li>
-            Data Enhancement
-            </li>
-            <li>
-            Company Data Enrichment
-            </li>
-            <li>
-            Contact Enrichment
-            </li>
-            <li>
-            CRM Integrations 
-            </li>
-            <li>
-            No Contract - Cancel Anytime 
-            </li>
-            </ul>
-
-                    <div class="pricing-footer">
-                        <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
-                    </div>
-                </div>
-                </div>
+                @endforeach
+            @endif
             </div>
         </div>
     </div>
@@ -370,29 +195,6 @@ ul li:before {
                         </div>
                     </div>
                 </div>
-                <div class="card-group">
-                    <div class="card m-2 border shadow rounded">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                What is Credits?
-                            </h5>
-                            <p>
-                            A credit is a lead that you unlock & export to your CRM or download to Excel. 
-                            One credit equals one contact.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card-group">
-                    <div class="card m-2 border shadow rounded">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Can I Buy More Credits?
-                            </h5>
-                            <p>
-                            Yes! Credits price are as follows: 100 CRD for $10, 150 CRD for $12.50, 1500 CRD for $15 and 2500 CRD for $25!
-                            </p>
-                        </div>
-                    </div>
                 <div class="card-group">
                     <div class="card m-2 border shadow rounded">
                         <div class="card-body">
