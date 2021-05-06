@@ -101,16 +101,16 @@
                         <div class="pricing-value" data-price="{{$plan->price}}"><span>{{$plan->price}}</span><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup></div>
                         <h6 class="text-save text-warning"></h6>
                     </div>
+                    <div class="col-md-4">
+                <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
+                    <div class="pricing-header">
+                    <h4 class="pricing-title">ENTERPRISE Package</h4>
+                    <p>For companies that needs the absolute best.</p>
                     </div>
-                    @if(count($plan->priviledges) > 0)
-                    <ul class="m-0 p-0 feature-list" style="list-style-type: none;">
-                        @foreach($plan->priviledges as $priviledge)
-                        <li class="" data-toggle="tooltip" data-replacement="right">
-                            {{$priviledge->description}}
-                        </li>
-                        @endforeach
-                    </ul>
-                    @endif
+                    </div>
+                    <p class="card-text text-center">
+                    For this special package, it's best to contact our Support Team for more information. support@leadsopedia.com!
+                    </p>
                     <div class="pricing-footer">
                         <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
                     </div>
