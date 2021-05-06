@@ -34,6 +34,14 @@
                             </a>
                         </li>
                     </ul>
+                    <div class="col-12 col-md-2 d-flex">
+                            
+                            
+                                <a href="mailto:support@leadsopedia.com"></a>
+                                <img src="{{ asset('images/emailsub.png') }}" alt="Subscribe to our Email">
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
