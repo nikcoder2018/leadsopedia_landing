@@ -86,9 +86,6 @@
     <div class="container">
         <header class="section-header text-center">
             <h2 class="section-title">Pricing Plans</h2>
-                </div>
-            </div>
-        </header>   
             <div class="row justify-content-center">
             @if(count($subscription_plans) > 0)
                 @foreach($subscription_plans as $plan)
@@ -99,28 +96,43 @@
                     <p>{{$plan->description}}</p>
                     <div class="pricing-price">
                         <div class="pricing-value" data-price="{{$plan->price}}"><span>{{$plan->price}}</span><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup></div>
+                        <small class="annual-pricing d-none text-muted" data-annual-price="{{$plan->price_annual}}" data-currency="{{$settings->currency_symbol}}"></small>
+                        <h5 class="text-discount text-muted" style="text-decoration:line-through"></h5>
                         <h6 class="text-save text-warning"></h6>
                     </div>
-                    <div class="col-md-4">
-                <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
-                    <div class="pricing-header">
-                    <h4 class="pricing-title">ENTERPRISE Package</h4>
-                    <p>For companies that needs the absolute best.</p>
                     </div>
-                    </div>
-                    <p class="card-text text-center">
-                    For this special package, it's best to contact our Support Team for more information. support@leadsopedia.com!
-                    </p>
+                    @if(count($plan->priviledges) > 0)
+                    <ul class="m-0 p-0 feature-list" style="list-style-type: none;">
+                        @foreach($plan->priviledges as $priviledge)
+                        <li class="" data-toggle="tooltip" data-replacement="right">
+                            {{$priviledge->description}}
+                        </li>
+                        @endforeach
+                    </ul>
+                    @endif
                     <div class="pricing-footer">
                         <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
-                    </div>
+                    </div>  
                 </div>
                 </div>
                 @endforeach
             @endif
             </div>
         </div>
+        <div class="row justify-content-center">
+        <div class="col-md-4">
+                <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
+                    <div class="pricing-header">
+                    <h3>ENTERPRISE PLAN</h3>
+                    <p><b>For companies that needs the absolute best.</p>
+                    <p>For this specific package, it's best to contact us first! support@leadsopedia.com</p></b>
+                    <div class="pricing-footer">
+                        <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Contact Us</a>
+                    </div>  
+                    </div>
+                    </div>
     </div>
+    
   </section>
 
     <!--=========================FAQs ========================= -->
