@@ -1,4 +1,34 @@
-<footer class="footer-section shadow" style="padding-top: 50px;">
+
+<div class="col d-flex justify-content-center">
+<div class="text-center">
+                <div class="card rounded shadow">
+                    <div class="card-body" style="width: 50rem;">
+                        <h3>Subscribe to our E-Mail</h3>
+                        <p class="card-text">
+                            Please enter your E-Mail address to get updated by our newsletter!
+                        </p>
+                        <form>
+                            <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control"  name="fullname" id="fullname" placeholder="Name"
+                                    class="form-control">
+                                    </div>
+                            <div class="col">
+                                <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail Address"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-sm">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <footer class="footer-section shadow" style="padding-top: 50px;">
     <div class="container-fluid">
         <div class="row flex-column-reverse flex-sm-row flex-lg-row px-md-3">
             <div class="col-md-4 col-12">
@@ -34,14 +64,6 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="col-12 col-md-2 d-flex">
-                            
-                            
-                                <a href="mailto:support@leadsopedia.com"></a>
-                                <img src="{{ asset('images/emailsub.png') }}" alt="Subscribe to our Email">
-                            </div>
-                            
-                        </div>
                     </div>
                 </div>
             </div>
