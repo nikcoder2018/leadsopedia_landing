@@ -15,7 +15,8 @@
                                     </div>
                             <div class="col">
                                 <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail Address"
-                                    class="form-control">
+                            <div class="form-group">
+                                <input type="text" name="fullname" id="fullname" placeholder="E-Mail Address"
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary btn-sm">
@@ -23,6 +24,7 @@
                                 </button>
                             </div>
                         </form>
+                    </div>
                     </div>
                     </div>
                     </div>
