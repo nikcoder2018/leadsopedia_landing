@@ -2,15 +2,21 @@
 <div class="col d-flex justify-content-center">
 <div class="text-center">
                 <div class="card rounded shadow">
-                    <div class="card-body">
+                    <div class="card-body" style="width: 50rem;">
                         <h3>Subscribe to our E-Mail</h3>
                         <p class="card-text">
                             Please enter your E-Mail address to get updated by our newsletter!
                         </p>
                         <form>
+                            <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control"  name="fullname" id="fullname" placeholder="Name"
+                                    class="form-control">
+                                    </div>
+                            <div class="col">
+                                <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail Address"
                             <div class="form-group">
                                 <input type="text" name="fullname" id="fullname" placeholder="E-Mail Address"
-                                    class="form-control">
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary btn-sm">
