@@ -119,16 +119,40 @@
             @endif
             </div>
         </div>
-        <div class="row justify-content-center">
-        <div class="col-md-4">
-                <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
-                    <div class="pricing-header">
-                    <h3>ENTERPRISE PLAN</h3>
-                    <p><b>For companies that needs the absolute best.</p>
-                    <p>For this specific package, it's best to contact us first! support@leadsopedia.com</p></b>
-                    <div class="pricing-footer">
-                        <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Contact Us</a>
-                    </div>  
+        <div class="col d-flex justify-content-center">
+<div class="text-center">
+                <div class="card rounded shadow">
+                    <div class="card-body" style="width: 50rem;">
+                        <h3>ENTERPRISE PLAN</h3>
+                        <p class="card-text">
+                        For companies that needs the absolute best.
+                        </p>
+                        <p class="card-text">
+                        For this specific package, it's best to contact us first! support@leadsopedia.com
+                        </p>
+                        <form>
+                            <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control"  name="fullname" id="fullname" placeholder="Name"
+                                    class="form-control">
+                                    </div>
+                            <div class="col">
+                                <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail Address"
+                                    class="form-control">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" name="company" id="company" placeholder="Company Name"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-sm">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                    </div>
                     </div>
                     </div>
     </div>
