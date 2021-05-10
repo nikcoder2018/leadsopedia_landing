@@ -130,7 +130,7 @@
                         For companies that needs the absolute best.
                         </p>
                         <p class="card-text">
-                        For this specific package, it's best to contact us first! support@leadsopedia.com
+                        For this specific package, kindly fill out the fields below!
                         </p>
                         <form>
                             <div class="form-row">
