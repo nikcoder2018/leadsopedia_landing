@@ -77,6 +77,8 @@
         .custom-switch {
             padding-left: 3.5rem;
         }
+        ul:nth-child(2) li.priv:before { content:"\2714\0020";color: blue; }
+
     </style>
 @endsection
 
@@ -104,7 +106,7 @@
                     @if(count($plan->priviledges) > 0)
                     <ul class="m-0 p-0 feature-list" style="list-style-type: none;">
                         @foreach($plan->priviledges as $priviledge)
-                        <li class="" data-toggle="tooltip" data-replacement="right">
+                        <li class="priv" data-toggle="tooltip" data-replacement="right">
                             {{$priviledge->description}}
                         </li>
                         @endforeach
