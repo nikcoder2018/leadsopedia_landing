@@ -1135,10 +1135,12 @@ PRICING TABLE
 */
 
 .pricing-section .tab-content {
+    border-bottom: 1px solid #eaeaea;
     margin-top: 40px;
 }
 
 .pricing-type-switch .nav-link {
+    
     background: transparent;
     border-bottom: 2px solid #dddddd;
     border-radius: 0;
@@ -1148,26 +1150,31 @@ PRICING TABLE
 }
 
 .pricing-type-switch .nav-link.active {
+    border-bottom: 1px solid #eaeaea;
     background: transparent;
     color: #1b2733;
     border-bottom-color: #2fe7b1;
 }
 
 .pricing-single {
+    border-bottom: 1px solid #eaeaea;
     border-radius: 2px;
     padding: 30px;
 }
 
 .pricing-single:hover {
+    border-bottom: 1px solid #eaeaea;
     -webkit-box-shadow: 0 0 20px rgba(27, 39, 51, 0.2);
     box-shadow: 0 0 20px rgba(27, 39, 51, 0.2);
 }
 
 .pricing-header {
+    border-bottom: 1px solid #eaeaea;
     margin-bottom: 10px;
 }
 
 .pricing-title {
+    border-bottom: 1px solid #eaeaea;
     text-align: center;
     display: block;
     margin-bottom: 20px;
@@ -1186,13 +1193,18 @@ PRICING TABLE
 }
 
 .pricing-value {
+    text-align: center;
+    display: inline-block;
     font-weight: bold;
     font-size: 56px;
-    line-height: 58px;
+    line-height: 50px;
     font-family: "Rubik", sans-serif;
 }
 
 .pricing-currency {
+    width: 0.5em;
+    text-align: center;
+    display: inline-block;
     font-size: 18px;
     top: -28px;
     left: -10px;
@@ -1228,8 +1240,7 @@ PRICING TABLE
 
 .pricing-footer {
     text-align: center;
-    margin-top: 40px;
-    padding-bottom: 20px;
+    margin-top: 20px;
 }
 
 .pricing-footer .assistive-text {
