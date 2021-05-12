@@ -7,6 +7,7 @@
             border: none;
             box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
             border-radius: 12px;
+
         }
         .custom-switch .custom-control-input:not(:checked) ~ .custom-control-label:before {
             background-color: #545A6A;
@@ -77,7 +78,14 @@
         .custom-switch {
             padding-left: 3.5rem;
         }
-        ul:nth-child(2) li.priv:before { content:"\2714\0020";color: blue; }
+        ul:nth-child(2) li.priv:before { 
+            content:"\2714\0020";
+            color: blue; 
+        }
+        li.priv {
+            border-bottom: 1px solid #eaeaea;
+            padding: 8px 14px 7px;
+        }
 
     </style>
 @endsection
@@ -85,19 +93,22 @@
 @section('content')
 	<!-- ========================= pricing TABLE ========================= -->
   <section id="pricing" class="section-spacer pricing-section bg-very__gray">
-    <div class="container-fluid">
+    <div class="container">
         <header class="section-header text-center">
             <h2 class="section-title">Pricing Plans</h2>
             <div class="row justify-content-center">
             @if(count($subscription_plans) > 0)
                 @foreach($subscription_plans as $plan)
-                <div class="col-md-3">
+                <div class="col-md-4">
                 <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
-                    <div class="pricing-header">
+                    <div class="pricing-header text">
                     <h4 class="pricing-title">{{$plan->title}}</h4>
                     <p>{{$plan->description}}</p>
                     <div class="pricing-price">
                         <div class="pricing-value" data-price="{{$plan->price}}"><span>{{$plan->price}}</span><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup></div>
+                        <div class="pricing-footer">
+                        <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
+                        </div>
                         <small class="annual-pricing d-none text-muted" data-annual-price="{{$plan->price_annual}}" data-currency="{{$settings->currency_symbol}}"></small>
                         <h5 class="text-discount text-muted" style="text-decoration:line-through"></h5>
                         <h6 class="text-save text-warning"></h6>
@@ -111,10 +122,8 @@
                         </li>
                         @endforeach
                     </ul>
-                    @endif
-                    <div class="pricing-footer">
-                        <a href="{{env('APP_FRONT_URL')}}/register" class="btn btn-primary">Select</a>
-                    </div>  
+                    @endif  
+
                 </div>
                 </div>
                 @endforeach
