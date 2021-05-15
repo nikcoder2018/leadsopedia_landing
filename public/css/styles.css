@@ -352,16 +352,18 @@ BUTTONS
 */
 
 .btn {
-    padding: 8px 20px;
+    padding: .7em 2.1em;
     border: 0;
     color: #1b2733;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     line-height: 24px;
     font-weight: 500;
-    border-radius: 2px;
+    border-radius: 4px;
     font-family: "Rubik", sans-serif;
 }
+
+
 
 .btn-default {
     background: #fff;
@@ -375,7 +377,17 @@ BUTTONS
 }
 
 .btn-primary {
-    background: linear-gradient(to right, #2f5be7, #007bff);
+    border-radius: 0rem;
+    border: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    padding: .7em 2.1em;
+    border-radius: 4px;
+    width: 100%;
+    background: linear-gradient(to right, #2f5be7, #4aa0fc);
     color: #fff;
 }
 
@@ -1239,6 +1251,8 @@ PRICING TABLE
 }
 
 .pricing-footer {
+    border-radius: 4rem;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 20%);
     text-align: center;
     margin-top: 20px;
 }
