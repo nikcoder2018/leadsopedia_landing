@@ -7,20 +7,26 @@
                         <p class="card-text">
                             Please enter your E-Mail address to get updated by our newsletter!
                         </p>
-                        <form>
+                        <form class="emailsubscribe-form" action="{{route('email.subscribe')}}" method="POST">
+                            @csrf
                             <div class="form-row">
-                            <div class="col">
-                                <input type="text" class="form-control"  name="fullname" id="fullname" placeholder="Name"
-                                    class="form-control">
-                                    </div>
-                            <div class="col">
-                                <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail Address"
-                                    class="form-control">
+                                <div class="col">
+                                    <input type="text" class="form-control"  name="name" id="fullname" placeholder="Name"
+                                        class="form-control" required>
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail Address"
+                                        class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary btn-sm">
+                                        Submit
+                                    </button>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-primary btn-sm">
-                                    Submit
-                                </button>
+                            <div class="row">
+                                <div class="col-md-12 message-container">
+                                </div>
                             </div>
                         </form>
                     </div>

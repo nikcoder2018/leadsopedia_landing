@@ -150,6 +150,41 @@
     </script>
     <!-- End Provely Conversions App Display Code -->
     @yield('js')
+
+    <script>
+        $(function(){
+            'use strict';
+
+            $('.emailsubscribe-form').on('submit', function(e){
+                e.preventDefault();
+                $('.emailsubscribe-form').find('button[type=submit]').prop('disabled', true);
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: 'POST',
+                    data: $(this).serialize(),
+                    success: function(resp){
+                        if(resp.success){
+                            $('.emailsubscribe-form').find('button[type=submit]').prop('disabled', false);
+                            $('.emailsubscribe-form').find('.message-container').html(`
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    <div class="alert-body">
+                                        ${resp.msg}
+                                    </div>
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                            `);
+
+                            setTimeout(function(){
+                                location.reload()
+                            }, 3000);
+                        }
+                    }
+                })
+            });
+        });
+    </script>
 </body>
 
 </html>

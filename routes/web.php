@@ -39,3 +39,5 @@ Route::get('/request-data', 'PagesController@requestdata')->name('request-data')
 Route::post('/request-data', 'RequestDataController@submit')->name('request-data');
 
 Route::post('send-message', 'MessageController@saveMessage')->name('message.send');
+Route::post('email-subscribe', 'EmailSubscribersController@store')->name('email.subscribe');
+Route::post('enterprise-request', 'EnterpriseRequestsController@store')->name('enterprise.request');
