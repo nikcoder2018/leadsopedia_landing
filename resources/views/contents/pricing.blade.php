@@ -141,10 +141,11 @@
                         <p class="card-text">
                         For this specific package, kindly fill out the fields below!
                         </p>
-                        <form>
+                        <form class="enterprise-form" action="{{route('enterprise.request')}}" method="POST">
+                            @csrf
                             <div class="form-row">
                             <div class="col">
-                                <input type="text" class="form-control"  name="fullname" id="fullname" placeholder="Name">
+                                <input type="text" class="form-control"  name="name" id="fullname" placeholder="Name">
                                     </div>
                             <div class="col">
                                 <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail Address">
@@ -155,12 +156,19 @@
                             <div class="col">
                                 <input type="text" class="form-control" name="company" id="company" placeholder="Company Name">
                             </div>
+
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary btn-sm">
                                     Submit
                                 </button>
                             </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 message-container">
+                                </div>
+                            </div>
                         </form>
+                        
                     </div>
                     </div>
                     </div>
@@ -363,5 +371,34 @@
               });
           }
         });
+
+        $('.enterprise-form').on('submit', function(e){
+                e.preventDefault();
+                $('.enterprise-form').find('button[type=submit]').prop('disabled', true);
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: 'POST',
+                    data: $(this).serialize(),
+                    success: function(resp){
+                        if(resp.success){
+                            $('.enterprise-form').find('button[type=submit]').prop('disabled', false);
+                            $('.enterprise-form').find('.message-container').html(`
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    <div class="alert-body">
+                                        ${resp.msg}
+                                    </div>
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                            `);
+
+                            setTimeout(function(){
+                                location.reload()
+                            }, 3000);
+                        }
+                    }
+                })
+            });
     </script>
 @endsection

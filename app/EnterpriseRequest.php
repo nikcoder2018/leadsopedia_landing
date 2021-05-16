@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class EnterpriseRequest extends Model
 {
-    protected $fillable = ['name', 'email', 'company'];
+    protected $fillable = ['name', 'email', 'company', 'contact'];
 }

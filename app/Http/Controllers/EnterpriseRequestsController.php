@@ -10,6 +10,7 @@ class EnterpriseRequestsController extends Controller
         $validated = $request->validate([
             'name' => 'required|string',
             'email' => 'required|email',
+            'contact' => 'required',
             'company' => 'required|string'
         ]);
 
