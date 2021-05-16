@@ -377,6 +377,18 @@ BUTTONS
 }
 
 .btn-primary {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    padding: .7em 2.1em;
+    border-radius: 4px;
+    background: linear-gradient(to right, #2f5be7, #4aa0fc);
+    color: #fff;
+}
+
+.btn-secondary {
     border-radius: 0rem;
     border: 0;
     -webkit-transition: all 0.5s ease-in-out;
@@ -400,10 +412,6 @@ BUTTONS
     color: #fff;
 }
 
-.btn-secondary {
-    background: linear-gradient(to right, #153bb5, #1b4beb);
-    color: #fff;
-}
 
 .btn-secondary:hover,
 .btn-secondary:focus,
