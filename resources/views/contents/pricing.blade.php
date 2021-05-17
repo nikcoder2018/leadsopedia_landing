@@ -107,7 +107,7 @@
                     <div class="pricing-price">
                         <div class="pricing-value" data-price="{{$plan->price}}"><span>{{$plan->price}}</span><sup class="pricing-currency pl-2">{{$settings->currency_symbol}}</sup></div>
                         <div class="pricing-footer">
-                        <a href="{{env('APP_FRONT_URL')}}/register" class=" btn btnnew btn-primary">Select</a>
+                        <a href="{{env('APP_FRONT_URL')}}/register" class=" btn btn-secondary">Select</a>
                         </div>
                         <small class="annual-pricing d-none text-muted" data-annual-price="{{$plan->price_annual}}" data-currency="{{$settings->currency_symbol}}"></small>
                         <h5 class="text-discount text-muted" style="text-decoration:line-through"></h5>
