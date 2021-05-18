@@ -93,14 +93,14 @@
 @section('content')
 	<!-- ========================= pricing TABLE ========================= -->
   <section id="pricing" class="section-spacer pricing-section bg-very__gray">
-    <div class="container">
+    <div class="container-fluid">
         <header class="section-header text-center">
             <h2 class="section-title">Pricing Plans</h2>
             <div class="row justify-content-center">
             @if(count($subscription_plans) > 0)
                 @foreach($subscription_plans as $plan)
-                <div class="col-md-4">
-                <div class="pricing-single shadow text-center" style="border-radius: 1rem;">
+                <div class="col-md-3">
+                <div class="pricing-single shadow text-center h-100" style="border-radius: 1rem;">
                     <div class="pricing-header text">
                     <h4 class="pricing-title">{{$plan->title}}</h4>
                     <p>{{$plan->description}}</p>
