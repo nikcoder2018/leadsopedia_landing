@@ -41,6 +41,8 @@
                 class="btn btn-primary mx-auto align-self-center btn-pills shadow-hover">Request sample data</a>
 
             </ul>
+            <a href="{{ env('APP_AUTH_URL', 'https://app.leadsopedia.com') . '/register' }}"
+                    class="btn btn-primary mx-auto align-self-center btn-pills shadow-hover">FREE TRIAL!</a>
             <div class="custom-menu__right d-flex">
                 <a href="{{ env('APP_AUTH_URL', 'https://app.leadsopedia.com') . '/login' }}"
                     class="btn btn-default mx-auto align-self-center shadow-hover">Login</a>
