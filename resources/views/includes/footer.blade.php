@@ -175,7 +175,7 @@
                     <hr>
                     <div class="footer mb-4 row">
                         <div class="col-12 col-md-10">
-                            <span class="mb-0 text-muted">Copyright Leadsopedia Limited. Registered in England. Number 13145058. Registered Office at Suite 9, 2 Bicycle Mews, London, SW4 6FE, United Kingdom </span>
+                            <span class="mb-0 text-muted">Copyright Leadsopedia Limited. Registered in England. Number 13145058. Registered Office at 15 Neptune Court, Vanguard Way, Cardiff Bay, CF24 5PJ, United Kingdom </span>
                             <p class="mb-0 text-muted">&#169 2021 Leadsopedia Limited. All Rights Reserved. </span><a href="{{ route('dont-sell') }}">| Do not sell my info</a></p>
                         </div>
                         <div class="col-12 col-md-2 d-flex">

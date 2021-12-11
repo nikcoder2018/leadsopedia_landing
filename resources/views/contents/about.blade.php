@@ -59,8 +59,8 @@
             </div>
             <div class="col-12 col-md-6" data-aos="fade-right" data-aos-duration="1000">
                 <h1 style="line-height: 3rem;">Collaborate with us! </h1>
-                <h6>Mailing Address</h6>
-                <p>Suite 9, 2 Bicycle Mews, London, SW4 6FE, United Kingdom</p>
+                <h6>Our Locations</h6>
+                <p>15 Neptune Court, Vanguard Way, Cardiff Bay, CF24 5PJ, United Kingdom</p>
                 <h6>Phone Number</h6>
                 <p>+44 20 7097 8642</p>
                 <h6>Email Address</h6>
